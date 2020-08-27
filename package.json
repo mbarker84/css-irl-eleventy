@@ -1,0 +1,40 @@
+{
+  "name": "eleventy-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-p watch:eleventy watch:parcel bs:start",
+    "watch:eleventy": "npx @11ty/eleventy --watch",
+    "watch:parcel": "run-p watch:css watch:js watch:images",
+    "watch:css": "parcel watch src/css/styles.scss",
+    "watch:js": "parcel watch src/js/index.js",
+    "watch:images": "parcel watch src/images/*",
+    "build": "run-s clean prod:*",
+    "svg": "svg-sprite-generate -d src/icons -o src/_includes/partials/sprite.svg",
+    "prod:eleventy": "npx @11ty/eleventy",
+    "prod:parcel": "run-p build:css build:js build:images",
+    "build:css": "parcel build src/css/styles.scss",
+    "build:js": "parcel build src/js/index.js",
+    "build:images": "parcel build src/images/*",
+    "bs:start": "browser-sync start --config bs-config.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-imagemin": "^4.0.1",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.8",
+    "stylelint": "^13.6.1",
+    "stylelint-prettier": "^1.1.2",
+    "svg-sprite-generator": "^0.0.7"
+  },
+  "dependencies": {}
+}

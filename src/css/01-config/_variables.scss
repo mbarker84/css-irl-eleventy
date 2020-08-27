@@ -1,0 +1,22 @@
+/* Breakpoints */
+
+$md: 45em;
+$lg: 70em;
+
+/* Colors */
+$white: #f7f7f7;
+$lightGrey: #cdced1;
+
+$bgDark: #112338;
+$accent: deeppink;
+$alt: darken($bgDark, 5%);
+
+/* CSS vars */
+
+:root {
+  --vr: 1rem;
+
+  @media (min-width: $md) {
+    --vr: 2rem;
+  }
+}

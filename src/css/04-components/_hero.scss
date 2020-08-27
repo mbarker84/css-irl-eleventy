@@ -1,0 +1,83 @@
+.c-hero {
+  min-height: 100vh;
+  text-align: center;
+  background: repeating-radial-gradient(
+      circle at 50%,
+      transparent 2rem,
+      $alt 2rem,
+      $alt 2.2rem,
+      transparent 2.2rem,
+      transparent 4rem
+    ),
+    radial-gradient(circle at 50%, $alt, transparent), $bgDark;
+  background-size: 10rem 10rem, 100% 100%;
+  background-repeat: repeat;
+  background-position: center;
+  color: $white;
+  padding: 4rem 0 5rem;
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $md) {
+    padding: 10rem 0;
+  }
+}
+
+.c-hero__heading {
+  color: $accent;
+
+  @media (min-width: $lg) {
+    font-size: 6rem;
+  }
+}
+
+.c-hero__desc {
+  max-width: 50ch;
+  margin: 0 auto;
+
+  @media (min-width: $md) {
+    font-size: 1.4rem;
+  }
+}
+
+.c-hero__link-wrapper {
+  max-width: 20rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: $md) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.c-hero__link {
+  color: $accent;
+  margin-top: var(--vr);
+
+  &:hover,
+  &:focus {
+    color: $lightGrey;
+  }
+}
+
+.c-hero__link--github {
+  display: inline-flex;
+  align-items: center;
+  font-size: 80%;
+  color: $lightGrey;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+  }
+}

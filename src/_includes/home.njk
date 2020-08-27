@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  {% set pathToLinkedFiles = '.' %}
+  {% include "./partials/siteHead.njk" %}
+
+  <body>
+    <div class="hidden">
+      {% include './partials/sprite.svg' %}
+    </div>
+
+    {% set showHomeLink = false %}
+    {% include "./partials/header.njk" %}
+
+    <div class="c-hero">
+      <div class="container">
+        <h1 class="c-hero__heading">{{ metadata.title }}</h1>
+        <div class="c-hero__desc">
+          <p>{{ metadata.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    {{ content | safe }}
+
+    <div>
+      <div class="container">
+        <ul>
+          {% for post in collections.post %}
+            <li>
+              <h3>
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+              </h3>
+              <time>{{ post.data.date }}</time>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% include "./partials/footer.njk" %}
+
+    <!--JS-->
+    <script src="./index.js"></script>
+  </body>
+</html>
