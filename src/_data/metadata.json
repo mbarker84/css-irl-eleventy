@@ -1,4 +1,5 @@
 {
   "title": "Blog scaffolding",
-  "description": "Scaffolding my new blog!"
+  "description": "Scaffolding my new blog!",
+  "maxPostsPerPage": 2
 }

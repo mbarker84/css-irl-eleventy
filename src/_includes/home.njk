@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  {% set pathToLinkedFiles = '.' %}
+  {% set pathToLinkedFiles = '..' %}
   {% include "./partials/siteHead.njk" %}
 
   <body>
@@ -22,10 +22,12 @@
 
     {{ content | safe }}
 
+    {{ pagination }}
+
     <div>
       <div class="container">
         <ul>
-          {% for post in collections.post %}
+          {% for post in pagination.items %}
             <li>
               <h3>
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
@@ -33,6 +35,14 @@
               <time>{{ post.data.date }}</time>
             </li>
           {% endfor %}
+          {# {% for post in collections.post %}
+            <li>
+              <h3>
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+              </h3>
+              <time>{{ post.data.date }}</time>
+            </li>
+          {% endfor %} #}
         </ul>
       </div>
     </div>
