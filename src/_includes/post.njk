@@ -22,12 +22,30 @@
           <time>{{ date }}</time>
         </div>
         {{ content | safe }}
+
+        <ol>
+          <li>
+            {% if pagination.href.previous %}
+              <a href="{{ pagination.href.previous }}">Previous</a>
+            {% endif %}
+          </li>
+          {% for pageEntry in pagination.pages %}
+            <li>
+              <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>Page
+                {{ loop.index }}</a>
+            </li>
+          {% endfor %}
+          <li>
+            {% if pagination.href.next %}
+              <a href="{{ pagination.href.next }}">Next</a>
+            {% endif %}
+          </li>
+        </ol>
       </div>
-    </div>
 
-    {% include "./partials/footer.njk" %}
+      {% include "./partials/footer.njk" %}
 
-    <!--JS-->
-    <script src="../index.js"></script>
-  </body>
-</html>
+      <!--JS-->
+      <script src="../index.js"></script>
+    </body>
+  </html>
