@@ -23,29 +23,27 @@
         </div>
         {{ content | safe }}
 
-        <ol>
-          <li>
-            {% if pagination.href.previous %}
-              <a href="{{ pagination.href.previous }}">Previous</a>
+        {% set slug = '/' + title|slug + '/' %}
+        {% for post in collections.post %}
+          {% if post.url == slug %}
+            {% set prevPost = collections.post[loop.index0 - 1] %}
+            {% if prevPost %}
+              <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
             {% endif %}
-          </li>
-          {% for pageEntry in pagination.pages %}
-            <li>
-              <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>Page
-                {{ loop.index }}</a>
-            </li>
-          {% endfor %}
-          <li>
-            {% if pagination.href.next %}
-              <a href="{{ pagination.href.next }}">Next</a>
+
+            {% set nextPost = collections.post[loop.index0 + 1] %}
+            {% if nextPost %}
+              <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
             {% endif %}
-          </li>
-        </ol>
+          {% endif %}
+        {% endfor %}
+
       </div>
+    </div>
 
-      {% include "./partials/footer.njk" %}
+    {% include "./partials/footer.njk" %}
 
-      <!--JS-->
-      <script src="../index.js"></script>
-    </body>
-  </html>
+    <!--JS-->
+    <script src="../index.js"></script>
+  </body>
+</html>
