@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  {% set pathToLinkedFiles = '../..' %}
+  {% include "./partials/siteHead.njk" %}
+
+  <body>
+    <div class="hidden">
+      {% include './partials/sprite.svg' %}
+    </div>
+
+    {% set showHomeLink = true %}
+    {% include "./partials/header.njk" %}
+
+    <div class="page-content">
+      <div class="container o-richtext">
+        <h1>{{ pageTitle }}</h1>
+        {{ content | safe }}
+      </div>
+    </div>
+
+    {% include "./partials/footer.njk" %}
+
+    <!--JS-->
+    <script src="../../index.js"></script>
+  </body>
+</html>
