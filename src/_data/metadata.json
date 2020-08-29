@@ -1,5 +1,8 @@
 {
   "title": "Blog scaffolding",
   "description": "Scaffolding my new blog!",
-  "maxPostsPerPage": 2
+  "maxPostsPerPage": 2,
+  "author": {
+    "name": "Michelle Barker"
+  }
 }
