@@ -19,7 +19,7 @@
         {% endif %}
         <h1>{{ title }}</h1>
         <div>
-          <time>{{ date }}</time>
+          <time>{{ page.date.toDateString() }}</time>
         </div>
         {{ content | safe }}
 
