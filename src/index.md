@@ -1,7 +1,6 @@
 ---
 pagination:
-  data: collections.post
+  data: collections.postPaginated
   size: 2
-  reverse: true
 layout: home.njk
 ---

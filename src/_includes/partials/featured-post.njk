@@ -1,0 +1,12 @@
+{% for post in collections.post|reverse %}
+  {% if pagination.pageNumber == 0 and loop.index == 1 %}
+    <article class="c-featured-post">
+      <span>Latest</span>
+      <h3>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+      </h3>
+      <time>{{ post.date.toDateString() }}</time>
+      <p>{% excerpt post %}</p>
+    </article>
+  {% endif %}
+{% endfor %}
