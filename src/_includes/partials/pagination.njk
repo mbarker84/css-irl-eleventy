@@ -8,3 +8,18 @@
     </li>
   {% endfor %}
 </ol>
+
+<nav aria-label="paginated posts">
+  <ol>
+    {% if pagination.href.previous %}
+      <li>
+        <a href="{{ pagination.href.previous }}">Previous</a>
+      </li>
+    {% endif %}
+    {% if pagination.href.next %}
+      <li>
+        <a href="{{ pagination.href.next }}">Next</a>
+      </li>
+    {% endif %}
+  </ol>
+</nav>
