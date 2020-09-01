@@ -8,17 +8,25 @@
       {% include './partials/sprite.svg' %}
     </div>
 
-    {% set showHomeLink = false %}
+    {% if page.url == '/' %}
+      {% set showHomeLink = false %}
+    {% else %}
+      {% set showHomeLink = true %}
+    {% endif %}
+
     {% include "./partials/header.njk" %}
 
-    <div class="c-hero">
-      <div class="container">
-        <h1 class="c-hero__heading">{{ metadata.title }}</h1>
-        <div class="c-hero__desc">
-          <p>{{ metadata.description }}</p>
+    {% if page.url == '/' %}
+      <div class="c-hero">
+        <div class="container">
+          <h1 class="c-hero__heading">{{ metadata.title }}</h1>
+          <div class="c-hero__desc">
+            <p>{{ metadata.description }}</p>
+          </div>
         </div>
       </div>
-    </div>
+    {% endif %}
+
 
     {{ content | safe }}
 
