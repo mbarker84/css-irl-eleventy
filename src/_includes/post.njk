@@ -2,17 +2,30 @@
 
 {% block content %}
   <div class="page-content">
-    <div class="container o-richtext">
-      <p>---“Post” layout---</p>
+    <div class="container">
       {% if featuredImage %}
         <img src="{{ featuredImage }}" alt="">
       {% endif %}
+      <ul>
+        {% for tag in tags %}
+          {% if tag != 'post' %}
+            {{ tag }}
+          {% endif %}
+        {% endfor %}
+      </ul>
       <h1>{{ title }}</h1>
       <div>
         <time>{{ page.date.toDateString() }}</time>
       </div>
-      {{ content | safe }}
+    </div>
 
+    <div class="container-sm">
+      <div class="o-richtext">
+        {{ content | safe }}
+      </div>
+    </div>
+
+    <div class="container-sm">
       {% set slug = '/' + title|slug + '/' %}
       {% for post in collections.post %}
         {% if post.url == slug %}
@@ -29,7 +42,8 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
     </div>
+
+
   </div>
 {% endblock %}
