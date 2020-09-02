@@ -1,3 +1,5 @@
+const pluginRss = require('@11ty/eleventy-plugin-rss')
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('postPaginated', function (collectionApi) {
     return collectionApi.getFilteredByTag('post').reverse().slice(1)
@@ -34,6 +36,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('excerpt', (article) => extractExcerpt(article))
+  eleventyConfig.addPlugin(pluginRss)
 
   return {
     dir: {
