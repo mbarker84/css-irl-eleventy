@@ -4,6 +4,9 @@
   {% if page.url == '/' %}
     <div class="c-hero">
       <div class="container">
+        <svg class="c-hero__svg" xmlns="http://www.w3.org/2000/svg" width="300" height="40">
+          <use href="#logo"/>
+        </svg>
         <h1 class="c-hero__heading">{{ metadata.title }}</h1>
         <div class="c-hero__desc">
           <p>{{ metadata.description }}</p>

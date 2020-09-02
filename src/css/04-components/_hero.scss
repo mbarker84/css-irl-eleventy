@@ -1,6 +1,5 @@
 .c-hero {
   min-height: 100vh;
-  text-align: center;
   background: repeating-radial-gradient(
       circle at 50%,
       transparent 2rem,
@@ -24,20 +23,25 @@
 }
 
 .c-hero__heading {
-  color: $accent;
-
-  @media (min-width: $lg) {
-    font-size: 6rem;
-  }
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .c-hero__desc {
   max-width: 50ch;
-  margin: 0 auto;
 
   @media (min-width: $md) {
     font-size: 1.4rem;
   }
+}
+
+.c-hero__svg {
+  max-width: 45rem;
 }
 
 .c-hero__link-wrapper {

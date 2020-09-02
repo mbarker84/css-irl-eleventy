@@ -102,16 +102,13 @@
   font-size: 1.4rem;
   line-height: 1;
   margin-bottom: 0.5rem;
+  display: block;
+  color: $white;
+  text-decoration: none;
 
-  a {
-    display: block;
+  &:hover,
+  &:focus {
     color: $accent;
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-      color: $white;
-    }
   }
 
   @media (min-width: $md) {
