@@ -1,9 +1,10 @@
 {
-  "title": "Blog scaffolding",
-  "description": "Scaffolding my new blog!",
+  "title": "CSS { In Real Life }",
+  "description": "Tips, tricks and tutorials on the web’s most beautiful language.",
   "maxPostsPerPage": 2,
   "author": {
     "name": "Michelle Barker"
   },
-  "url": "https://css-irl.info/"
+  "url": "https://css-irl.info/",
+  "img": "/social_1200x630.png"
 }
