@@ -1,6 +1,6 @@
 body {
-  background-color: $white;
-  color: $bgDark;
+  background-color: var(--bg);
+  color: var(--textColor);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -10,12 +10,31 @@ body {
 
 .container {
   width: 100%;
-  max-width: 60rem;
+  max-width: $wrapper;
   margin: 0 auto;
   padding: 0 1rem;
 
   @media (min-width: $md) {
     padding: 0 2rem;
+  }
+
+  @media (min-width: $lg) {
+    padding: 0 4rem;
+  }
+}
+
+.container-sm {
+  width: 100%;
+  max-width: $wrapper-sm;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @media (min-width: $md) {
+    padding: 0 2rem;
+  }
+
+  @media (min-width: $lg) {
+    padding: 0 4rem;
   }
 }
 
@@ -25,5 +44,69 @@ body {
 
   @media (min-width: $md) {
     padding: 10rem 0;
+  }
+}
+
+.b-main-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+}
+
+.b-page-content {
+  width: 100%;
+  max-width: $wrapper;
+  padding-left: rem(20px);
+  padding-right: rem(20px);
+  padding-top: rem(20px);
+  margin: 0 auto rem(40px) auto;
+
+  @media (min-width: $md) {
+    padding-top: rem(100px);
+    padding-left: rem(40px);
+    padding-right: rem(40px);
+    margin: 0 auto rem(80px) auto;
+  }
+
+  @media (min-width: $lg) {
+    padding-top: rem(150px);
+    padding-left: rem(80px);
+    padding-right: rem(80px);
+  }
+}
+
+.b-post-content {
+  max-width: $wrapper;
+  margin: 0 auto;
+}
+
+.b-article-body {
+  max-width: rem(900px);
+  margin: 0 auto;
+}
+
+.b-posts-grid {
+  list-style: none;
+  margin: rem(20px) auto;
+  padding: rem(20px) 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: rem(20px);
+
+  @supports (display: grid) {
+    margin: unset;
+    padding: unset;
+  }
+
+  @media (min-width: $sm) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: rem(20px);
+  }
+
+  @media (min-width: $lg) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: rem(60px) rem(40px);
   }
 }

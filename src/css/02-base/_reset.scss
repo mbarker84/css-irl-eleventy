@@ -3,7 +3,10 @@
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
+  background: var(--textColorInverse);
+  font-family: $body;
 }
 
 ul {

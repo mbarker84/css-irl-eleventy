@@ -1,7 +1,13 @@
-/* Breakpoints */
+// Breakpoints
+$sm: 42em;
+$md: 50em;
+$lg: 60em;
+$xl: 70em;
 
-$md: 45em;
-$lg: 70em;
+// Layout
+$wrapper-sm: rem(1100px);
+$wrapper: rem(1400px);
+$wrapper-large: rem(1600px);
 
 /* Colors */
 $white: #f7f7f7;
@@ -10,13 +16,42 @@ $lightGrey: #cdced1;
 $bgDark: #112338;
 $accent: deeppink;
 $alt: darken($bgDark, 5%);
-
-/* CSS vars */
+$primary: deepPink;
+$black: #0e0f0f;
+$bg-dark: #1d1d26;
+$bg-light: #e1f1f2;
+$white: #fcfdff;
+$light-grey: #e8eaed;
 
 :root {
+  --primary: deepPink;
+  --headerBg: #1d1d26;
+  --textColor: #0e0f0f;
+  --textColorInverse: #fcfdff;
+  --bg: #fcfdff;
+  --bgTint: #dfeded;
+  --bgGrey: #e6e8e8;
+  --white: #fcfdff;
+
   --vr: 1rem;
 
   @media (min-width: $md) {
     --vr: 2rem;
   }
+
+  @media (prefers-color-scheme: dark) {
+    --bg: #161618;
+    --bgTint: #27272c;
+    --textColor: #dbd7db;
+    --bgGrey: #27272c;
+    --textColorInverse: #0e0f0f;
+  }
 }
+
+// Typography
+$body: 'PT Serif', Helvetica, sans-serif;
+$heading: 'Exo 2', Helvetica, sans-serif;
+
+// Font weights (Exo)
+$std: 400;
+$bold: 800;
