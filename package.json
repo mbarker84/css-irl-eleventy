@@ -13,10 +13,11 @@
     "build": "run-s clean prod:*",
     "svg": "svg-sprite-generate -d src/icons -o src/_includes/partials/sprite.svg",
     "prod:eleventy": "npx @11ty/eleventy",
-    "prod:parcel": "run-p build:css build:js build:images",
+    "prod:parcel": "run-p build:css build:js build:images build:favicon",
     "build:css": "parcel build src/css/styles.scss",
     "build:js": "parcel build src/js/index.js",
     "build:images": "parcel build src/images/*",
+    "build:favicon": "parcel build src/favicon/*",
     "bs:start": "browser-sync start --config bs-config.js",
     "clean": "rm -rf dist"
   },
