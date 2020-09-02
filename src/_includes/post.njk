@@ -1,48 +1,35 @@
-<!DOCTYPE html>
-<html lang="en-GB">
-  {% set pathToLinkedFiles = '..' %}
-  {% include "./partials/siteHead.njk" %}
+{% extends "./layout.njk" %}
 
-  <body>
-    <div class="hidden">
-      {% include './partials/sprite.svg' %}
-    </div>
-
-    {% set showHomeLink = true %}
-    {% include "./partials/header.njk" %}
-
-    <div class="page-content">
-      <div class="container o-richtext">
-        <p>---“Post” layout---</p>
-        {% if featuredImage %}
-          <img src="{{ featuredImage }}" alt="">
-        {% endif %}
-        <h1>{{ title }}</h1>
-        <div>
-          <time>{{ page.date.toDateString() }}</time>
-        </div>
-        {{ content | safe }}
-
-        {% set slug = '/' + title|slug + '/' %}
-        {% for post in collections.post %}
-          {% if post.url == slug %}
-            {% set prevPost = collections.post[loop.index0 - 1] %}
-            {% if prevPost %}
-              <a href="{{ prevPost.url }}">Previous:
-                {{ prevPost.data.title }}</a>
-            {% endif %}
-
-            {% set nextPost = collections.post[loop.index0 + 1] %}
-            {% if nextPost %}
-              <a href="{{ nextPost.url }}">Next:
-                {{ nextPost.data.title }}</a>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-
+{% block content %}
+  <div class="page-content">
+    <div class="container o-richtext">
+      <p>---“Post” layout---</p>
+      {% if featuredImage %}
+        <img src="{{ featuredImage }}" alt="">
+      {% endif %}
+      <h1>{{ title }}</h1>
+      <div>
+        <time>{{ page.date.toDateString() }}</time>
       </div>
-    </div>
+      {{ content | safe }}
 
-    {% include "./partials/footer.njk" %}
-  </body>
-</html>
+      {% set slug = '/' + title|slug + '/' %}
+      {% for post in collections.post %}
+        {% if post.url == slug %}
+          {% set prevPost = collections.post[loop.index0 - 1] %}
+          {% if prevPost %}
+            <a href="{{ prevPost.url }}">Previous:
+              {{ prevPost.data.title }}</a>
+          {% endif %}
+
+          {% set nextPost = collections.post[loop.index0 + 1] %}
+          {% if nextPost %}
+            <a href="{{ nextPost.url }}">Next:
+              {{ nextPost.data.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+{% endblock %}
