@@ -85,28 +85,3 @@ body {
   max-width: rem(900px);
   margin: 0 auto;
 }
-
-.b-posts-grid {
-  list-style: none;
-  margin: rem(20px) auto;
-  padding: rem(20px) 0;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: rem(20px);
-
-  @supports (display: grid) {
-    margin: unset;
-    padding: unset;
-  }
-
-  @media (min-width: $sm) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: rem(20px);
-  }
-
-  @media (min-width: $lg) {
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: rem(60px) rem(40px);
-  }
-}

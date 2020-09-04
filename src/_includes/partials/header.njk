@@ -22,20 +22,22 @@
       </li>
     {% endfor %}
   </ul>
-  <button class="c-header__menu-btn" hidden="true" data-btn="menu" aria-haspopup="true">Menu</button>
-  <div data-menu-wrapper="data-menu-wrapper">
-    <nav class="c-header__nav">
-      <ul class="c-header__list">
-        <li class="c-header__item">
-          <a class="c-header__link" href="/" hidden="true" data-home-link="data-home-link">Home</a>
-        </li>
-
-        {% for page in collections.page %}
+  <div data-menu-container>
+    <button class="c-header__menu-btn" hidden="true" data-btn="menu" aria-haspopup="true">Menu</button>
+    <div data-menu-wrapper="data-menu-wrapper">
+      <nav class="c-header__nav">
+        <ul class="c-header__list">
           <li class="c-header__item">
-            <a class="c-header__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
+            <a class="c-header__link" href="/" hidden="true" data-home-link="data-home-link">Home</a>
           </li>
-        {% endfor %}
-      </ul>
-    </nav>
+
+          {% for page in collections.page %}
+            <li class="c-header__item">
+              <a class="c-header__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>

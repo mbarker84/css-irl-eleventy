@@ -1,6 +1,7 @@
 {% extends "./layout.njk" %}
 
 {% block content %}
+
   {% if page.url == '/' %}
     <div class="c-hero">
       <div class="container">
@@ -14,7 +15,9 @@
       </div>
     </div>
 
-    {% include "./partials/featured-post.njk" %}
+    <div class="container">
+      {% include "./partials/featured-post.njk" %}
+    </div>
   {% endif %}
 
 
@@ -22,7 +25,7 @@
 
   <div class="c-paginated-posts">
     <div class="container">
-      {% include "./partials/pagination.njk" %}
+      {% include "./partials/posts-grid.njk" %}
     </div>
   </div>
 {% endblock %}

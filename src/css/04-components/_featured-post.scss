@@ -1,0 +1,46 @@
+.c-featured-post__title {
+  margin-bottom: 0;
+  max-width: 35ch;
+
+  @media (min-width: $md) {
+    font-size: 2.8rem;
+  }
+
+  a {
+    color: var(--textColor);
+    text-decoration-color: var(--primary);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.2em;
+
+    &:hover,
+    &:focus {
+      color: var(--primary);
+    }
+
+    svg {
+      display: inline;
+      width: 1rem;
+      margin-left: 0.25rem;
+    }
+  }
+}
+
+.c-featured-post__date {
+  margin: rem(10px) 0 rem(20px);
+  display: block;
+  font-size: 0.8rem;
+  font-family: $heading;
+
+  @media (min-width: $md) {
+    font-size: rem(15px);
+    margin: rem(20px) 0 rem(20px);
+  }
+}
+
+.c-featured-post__series-title {
+  margin: 0 0 0.5rem 0;
+}
+
+.c-featured-post__excerpt {
+  max-width: 75ch;
+}
