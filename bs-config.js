@@ -12,7 +12,7 @@
  |
  */
 module.exports = {
-  files: ["dist/*"],
+  files: ['dist/*'],
   injectChanges: true,
-  server: "dist",
-};
+  server: 'dist',
+}
