@@ -3,16 +3,14 @@ import bodyScrollLock from './helpers/bodyScrollLock'
 
 const header = document.querySelector('[data-header]')
 const menuBtn = header.querySelector('[data-btn="menu"]')
+const menuContainer = header.querySelector('[data-menu-container]')
 const menuWrapper = header.querySelector('[data-menu-wrapper]')
 const homeLink = header.querySelector('[data-home-link]')
 
 const open = () => {
-  const firstMenuLink = visibleLinks(menuWrapper)[0]
-
   menuWrapper.hidden = false
   menuBtn.setAttribute('aria-expanded', true)
   menuBtn.innerText = 'Close'
-  firstMenuLink.focus()
   bodyScrollLock(true)
 
   setTimeout(() => {
@@ -40,7 +38,7 @@ const toggleMenu = (e) => {
 }
 
 const trapFocusInMenu = (e) => {
-  trapFocus(e, header)
+  trapFocus(e, menuContainer)
 
   /* if Esc key pressed */
   if (e.keyCode === 27) {
