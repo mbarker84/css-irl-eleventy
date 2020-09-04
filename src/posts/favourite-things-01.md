@@ -1,7 +1,7 @@
 ---
 title: 'Favourite Things 1: GSAP ScrollTrigger, Eleventy, and more'
 date: '2020-08-31'
-tags: ['css', 'javascript', 'eleventy', 'gsap', 'post']
+tags: ['post', 'css', 'javascript', 'eleventy', 'gsap', 'post']
 ---
 
 <figure>

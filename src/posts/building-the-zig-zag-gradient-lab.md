@@ -1,7 +1,8 @@
 ---
 title: 'Building the Zig-Zag Gradient Lab'
 date: '2020-08-13'
-tags: ['css', 'javascript', 'video', 'custom properties', 'events', 'post']
+tags:
+  ['post', 'css', 'javascript', 'video', 'custom properties', 'events', 'post']
 ---
 
 <figure>

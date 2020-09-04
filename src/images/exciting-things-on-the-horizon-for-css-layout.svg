@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
+  <path fill="#9BC0E0" d="M0 0h1366v768H0z"/>
+  <path fill="#6B99B5" stroke="#1D1D26" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M421.9 183.7h238.2v253.1H421.9z"/>
+  <path fill="#D9D9E2" stroke="#1D1D26" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M704.9 291.1h238.2V589H704.9z"/>
+  <path fill="#FF1493" stroke="#1D1D26" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M421.9 488.1h238.2V660H421.9z"/>
+  <path fill="#D9D9E2" stroke="#1D1D26" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M249.2 353.6h131.7v193.3H249.2z"/>
+  <path fill="#FF1493" stroke="#1D1D26" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M704.9 108h238.2v133.6H704.9zM985.2 421.8h131.7v193.3H985.2z"/>
+  <path fill="#FFF" d="M404 114.2c-34.7 3.5-37.6 6.4-41.2 41.2-3.5-34.7-6.4-37.6-41.2-41.2 34.7-3.5 37.6-6.4 41.2-41.2 3.6 34.7 6.5 37.6 41.2 41.2zM964.4 679.9c-34.7 3.5-37.6 6.4-41.2 41.2-3.5-34.7-6.4-37.6-41.2-41.2 34.7-3.5 37.6-6.4 41.2-41.2 3.5 34.7 6.4 37.6 41.2 41.2zM1044 238.6c-28.3 2.9-30.6 5.2-33.5 33.5-2.9-28.3-5.2-30.6-33.5-33.5 28.3-2.9 30.6-5.2 33.5-33.5 2.9 28.2 5.2 30.6 33.5 33.5zM282.7 614.9c-28.3 2.9-30.6 5.2-33.5 33.5-2.9-28.3-5.2-30.6-33.5-33.5 28.3-2.9 30.6-5.2 33.5-33.5 2.9 28.2 5.2 30.6 33.5 33.5zM1197.7 339.2c-21.8 2.2-23.6 4-25.8 25.8-2.2-21.8-4-23.6-25.8-25.8 21.8-2.2 23.6-4 25.8-25.8 2.2 21.8 4 23.6 25.8 25.8z"/>
+</svg>
