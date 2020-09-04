@@ -33,7 +33,7 @@ img {
 We can compare the effect of `box-shadow` versus `drop-shadow`:
 
 <figure>
-  <img src="drop-shadow-01.jpg" alt="A pink cat logo with box-shadow on the left and the same logo with drop-shadow on the right">
+  <img src="/drop-shadow-01.jpg" alt="A pink cat logo with box-shadow on the left and the same logo with drop-shadow on the right">
 </figure>
 
 Using `box-shadow` gives us a rectangular shadow, even though the element has no background, while `drop-shadow` creates a shadow of the non-transparent parts of the image.
@@ -64,7 +64,7 @@ But we can create a drop shadow on the clipped element by applying the `drop-sha
 ```
 
 <figure>
-  <img src="drop-shadow-02.jpg" alt="Pink chevron shape with blue drop-shadow">
+  <img src="/drop-shadow-02.jpg" alt="Pink chevron shape with blue drop-shadow">
   <figcaption>The drop-shadow filter is applied on the parent element of the clipped shape.</figcaption>
 </figure>
 
@@ -77,21 +77,21 @@ On occasion I’ve needed to build components made up of overlapping elements, w
 If we add a `box-shadow` to the whole component, we’ll be left with strange empty spaces:
 
 <figure>
-  <img src="drop-shadow-03.jpg" alt="Two call-to-action components with box-shadow">
+  <img src="/drop-shadow-03.jpg" alt="Two call-to-action components with box-shadow">
   <figcaption>Box-shadow applied to component</figcaption>
 </figure>
 
 If we add a `box-shadow` to each element individually, then each one will cast its own shadow, which might not be the desired effect. We’d need to employ some clever CSS to hide those shadows where elements overlap.
 
 <figure>
-  <img src="drop-shadow-04.jpg" alt="Two call-to-action components with box-shadow">
+  <img src="/drop-shadow-04.jpg" alt="Two call-to-action components with box-shadow">
   <figcaption>Box-shadow applied to columns</figcaption>
 </figure>
 
 But by using `drop-shadow` on the whole component, we get the shadow exactly where we want it, without resorting to hacks:
 
 <figure>
-  <img src="drop-shadow-05.jpg" alt="Two call-to-action components with drop-shadow">
+  <img src="/drop-shadow-05.jpg" alt="Two call-to-action components with drop-shadow">
   <figcaption>Drop-shadow applied to component</figcaption>
 </figure>
 

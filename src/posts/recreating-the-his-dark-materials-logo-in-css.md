@@ -7,7 +7,7 @@ tags: ['post', 'css', 'design']
 I love the new [BBC adaptation](https://www.bbc.co.uk/programmes/p071x4yx) of Philip Pullman’s _His Dark Materials_ trilogy of novels. There’s also some pretty nice graphic design to appreciate. I’m a sucker for a beautiful title sequence (I need to watch the opening credits of _Game of Thrones_ in full, every single time), and this one certainly fits the bill, as well as the striking logo. After watching a recent episode, I thought I’d have a go at re-creating this logo with CSS!
 
 <figure>
-  <img src="recreating-the-his-dark-materials-logo-01.jpg" alt="His Dark Materials logo as created in CSS">
+  <img src="/recreating-the-his-dark-materials-logo-01.jpg" alt="His Dark Materials logo as created in CSS">
   <figcaption>My version of the logo created with CSS</figcaption>
 </figure>
 

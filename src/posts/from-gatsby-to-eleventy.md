@@ -5,7 +5,7 @@ tags: ['post', 'gatsby', 'eleventy']
 ---
 
 <figure>
-  <img src="from-gatsby-to-eleventy-01.jpg" alt="Screenshot of Cassie Evans’ personal site">
+  <img src="/from-gatsby-to-eleventy-01.jpg" alt="Screenshot of Cassie Evans’ personal site">
   <figcaption><em>Fig 1</em> Cassie Evans’ personal site is resplendent with playful touches</figcaption>
 </figure>
 
@@ -14,7 +14,7 @@ There have been _so many_ great personal site redesigns recently. [Cassie’s](h
 [Sarah Drasner](https://sarahdrasnerdesign.com/) has written recently about [the case for “fussy” websites](https://css-tricks.com/in-defense-of-a-fussy-website/). [Max Bock](https://mxb.dev) has put together a collection of come of these exceptional creations under the guise of [The Whimsical Web](https://whimsical.club/) – websites that “spark joy” (complete with the most joyful of fonts, Lobster!). It feel like the perfect time to get creative on the web, and bring your personality to your personal site.
 
 <figure>
-  <img src="from-gatsby-to-eleventy-02.jpg" alt="Screenshot of The Whimsical Web">
+  <img src="/from-gatsby-to-eleventy-02.jpg" alt="Screenshot of The Whimsical Web">
   <figcaption><em>Fig 2</em> The Whimsical Web – a showcase of whimsical websites</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Eleventy is much more of a “roll-your-own” static site generator than Gatsby
 ### Eleventy-Parcel: A starter project
 
 <figure>
-  <img src="from-gatsby-to-eleventy-03.jpg" alt="Screenshot of Eleventy-Parcel, a starter project">
+  <img src="/from-gatsby-to-eleventy-03.jpg" alt="Screenshot of Eleventy-Parcel, a starter project">
 </figure>
 
 [Eleventy-Parcel](https://eleventy-parcel.netlify.app/) is the resulting starter project, which uses Parcel to compile assets. It’s a fairly minimal starter with a couple of simple templates and base styles. I’ll be using it as the base for my personal site redesign.

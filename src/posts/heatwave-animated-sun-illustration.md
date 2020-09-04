@@ -16,7 +16,7 @@ We’re right in the middle of a heatwave here in the UK, and things have been a
 Initially I started layering `div`s, but then I realised I could create the whole thing with just a single element, using background gradients! The first (static) version was quite simple – I didn’t even need any pseudo elements (_fig 01_).
 
 <figure>
-  <img src="heatwave-animated-sun-illustration.png" alt="Simple sun illustration">
+  <img src="/heatwave-animated-sun-illustration.png" alt="Simple sun illustration">
 	<figcaption><span>Fig 01</span> The first iteration</figcaption>
 </figure>
 

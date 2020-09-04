@@ -11,19 +11,19 @@ But what if our link hover effect needs to affect a number of child items, and t
 With CSS Grid, we can lay items out on a horizontal _and_ a vertical axis, in order to build visually interesting layouts, like this one:
 
 <figure>
-  <img src="irregular-shaped-links-with-subgrid-01b.jpg" alt="A web page with two block links consisting of overlapping images and text">
+  <img src="/irregular-shaped-links-with-subgrid-01b.jpg" alt="A web page with two block links consisting of overlapping images and text">
 </figure>
 
 By turning on the the Grid inspector in Firefox’s dev tools, we can see how the items of one of those components are laid out on the grid:
 
 <figure>
-  <img src="irregular-shaped-links-with-subgrid-04.jpg" alt="Component layout with the numbered grid lines shown">
+  <img src="/irregular-shaped-links-with-subgrid-04.jpg" alt="Component layout with the numbered grid lines shown">
 </figure>
 
 If, in our UI design, those grid items need to act as links, then it would make sense for a hover effect would be applied to _all_ the grid items whenever _one_ of them is hovered.
 
 <figure>
-  <img src="irregular-shaped-links-with-subgrid-05.jpg" alt="Hover effect applied to both grid items">
+  <img src="/irregular-shaped-links-with-subgrid-05.jpg" alt="Hover effect applied to both grid items">
   <figcaption>Hovering on one item triggers the hover effect on both</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ A better option might be to use an absolute-positioned link to cover the entire 
 <div class="grid">
   <a href="/" class="grid__link"></a>
   <div class="grid__img">
-    <img src="..." alt="" />
+    <img src="/..." alt="" />
   </div>
   <div class="grid__card">
     <h2>Eu scelerisque felis</h2>
@@ -98,7 +98,7 @@ By using `aria-labelledby` we can give our link an accessible label that corresp
 <div class="grid">
   <a href="/" class="link" aria-labelledby="title"></a>
   <div class="grid__img">
-    <img src="..." alt="" />
+    <img src="/..." alt="" />
   </div>
   <div class="grid__card">
     <h2 id="title" aria-hidden="true">Eu scelerisque felis</h2>
@@ -118,14 +118,14 @@ This works correctly when tested using VoiceOver in Safari.
 The problem here is that wherever we hover within the bounding box of our anchor link, the hover effect will be applied. But visually, if you’re hovering over whitespace, you probably _don’t_ want the component to behave as if it’s being hovered. It just doesn’t make a lot of sense.
 
 <figure>
-  <img src="irregular-shaped-links-with-subgrid-02a.jpg" alt="Illustrating the hover area of the link">
+  <img src="/irregular-shaped-links-with-subgrid-02a.jpg" alt="Illustrating the hover area of the link">
   <figcaption>When the user’s pointer is anywhere over the purple area, the link will be hovered</figcaption>
 </figure>
 
 What we actually want is for our link to behave as if it’s shaped like this:
 
 <figure>
-  <img src="irregular-shaped-links-with-subgrid-03a.jpg" alt="Illustrating the desired hover area of the link">
+  <img src="/irregular-shaped-links-with-subgrid-03a.jpg" alt="Illustrating the desired hover area of the link">
   <figcaption>For the user, it would be better if only the purple area shown here activated the link’s hover effect</figcaption>
 </figure>
 

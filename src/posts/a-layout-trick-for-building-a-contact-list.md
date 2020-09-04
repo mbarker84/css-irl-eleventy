@@ -7,7 +7,7 @@ tags: ['post', 'css', 'css grid', 'layout']
 I recently needed to build a design for a contact list that looks like this:
 
 <figure>
-  <img src="a-layout-trick-for-building-a-contact-list.png" alt="Email address and telephone number links with accompanying icons on the right">
+  <img src="/a-layout-trick-for-building-a-contact-list.png" alt="Email address and telephone number links with accompanying icons on the right">
 </figure>
 
 It consists of an email address and telephone number (with the potential to add more contact types), each with an icon on the right and text on the left. Each item needed to be a link (including the icon). The important thing was that the width of the items should be determined by the _longest_ item. In the case of the image above, the item with the longest content would be the email address, so the second item (the telephone number) would need to be the same width as this, even though its content is shorter.

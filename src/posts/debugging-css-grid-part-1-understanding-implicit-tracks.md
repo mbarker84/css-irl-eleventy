@@ -45,7 +45,7 @@ Implicit tracks are tracks that are only created by placing items. This behaviou
 ```
 
 <figure>
-  <img src="debugging-css-grid-1_03.png" alt="Seven grid items laid out over two rows">
+  <img src="/debugging-css-grid-1_03.png" alt="Seven grid items laid out over two rows">
 	<figcaption>Our grid has four columns. The items fill the first row, then a new one is created.</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ To place an item on the grid we’ve just created, we could do something like th
 We’re using start and end lines to place the grid item at the bottom left of our grid.
 
 <figure>
-  <img src="debugging-css-grid-1_06.png" alt="Orange grid item placed at the bottom left of the grid">
+  <img src="/debugging-css-grid-1_06.png" alt="Orange grid item placed at the bottom left of the grid">
 </figure>
 
 This is not going to cause any problems because we are explicitly placing items by grid line number. We know that our grid has four rows and four columns (therefore five grid lines in either direction), so we’re unlikely to accidentally to unintentionally use a higher line number and accidentally create implicit tracks.
@@ -95,7 +95,7 @@ I like using `span` for grid placement – it’s often helpful when you know an
 Here we’re using `span` in place of the `grid-row-end` line. If we change the _span_ value to 3 instead of 2, this would cause the item span more row tracks than there are available – and whoops! We’ve created an implicit track!
 
 <figure>
-  <img src="debugging-css-grid-1_04.png" alt="Orange grid item placed at the bottom left of the grid">
+  <img src="/debugging-css-grid-1_04.png" alt="Orange grid item placed at the bottom left of the grid">
 </figure>
 
 One place this problem sometimes occurs is when you want grid items to overlap each other. Items that aren’t explicitly placed are placed into the next available grid cell, and if there isn’t a grid cell available then implicit tracks will be created, rather than items being stacked on top of each other. This behaviour is very useful as it means we don’t always need to explicitly place items, but this is one case where it’s not particularly helpful to us!
@@ -103,7 +103,7 @@ One place this problem sometimes occurs is when you want grid items to overlap e
 A friend of mine was using Grid to position two elements, one on top of the other, but offset by one row:
 
 <figure>
-  <img src="debugging-css-grid-1_01.png" alt="A grid layout with two overlapping items">
+  <img src="/debugging-css-grid-1_01.png" alt="A grid layout with two overlapping items">
 </figure>
 
 This is the code that was used to create the layout:
@@ -129,7 +129,7 @@ This is the code that was used to create the layout:
 Instead of the desired layout, we get this:
 
 <figure>
-  <img src="debugging-css-grid-1_02.png" alt="A grid layout with the second item pushed to the right">
+  <img src="/debugging-css-grid-1_02.png" alt="A grid layout with the second item pushed to the right">
 </figure>
 
 What has happened to the second item? Can you spot the problem here? Both items are using the _span_ keyword for the `grid-column` value. The first item will be positioned correctly because it will be auto-placed in the first available cell with a span of 4. The second item doesn’t have a start or end line, so the browser needs to resolve this, which it does by generating implicit column tracks.

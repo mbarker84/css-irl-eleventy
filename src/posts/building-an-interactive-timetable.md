@@ -5,7 +5,7 @@ tags: ['post', 'css', 'design', 'javascript']
 ---
 
 <figure>
-  <img src="building-an-interactive-timetable-01a.jpg" alt="Screenshot of the interactive timetable demo">
+  <img src="/building-an-interactive-timetable-01a.jpg" alt="Screenshot of the interactive timetable demo">
 </figure>
 
 This week the UK joined many other parts of the world in imposing a lockdown to battle the coronavirus (AKA Covid-19), and so we find ourselves in a pretty weird situation, to say the least. I hope you’re all keeping safe and taking care of yourselves and your loved ones out there. My heart goes out to those who have been personally affected, and to the incredible NHS workers on the frontline, who are fighting daily battles and risking their own health to keep us safe.

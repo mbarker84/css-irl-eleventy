@@ -11,7 +11,7 @@ When juggling multiple branches in Git, it’s easy to accidentally start workin
 Stashing allows us to save a copy of our uncommitted changes on the current working branch.
 
 <figure>
-  <img src="how-git-stash-01.svg" alt="A stash entry added to the stash list">
+  <img src="/how-git-stash-01.svg" alt="A stash entry added to the stash list">
 </figure>
 
 In its simplest form, the `git stash` command creates a stash entry. To reapply our stashed changes at a later point, we can use `git stash apply`.
@@ -87,7 +87,7 @@ Subsequent stash entries are added to the beginning of the stash list. The most 
 The stash list can contain stash entries from different branches, which could each be applied to other branches in your project.
 
 <figure>
-  <img src="how-git-stash-02.svg" alt="Stashes created from multiple branches">
+  <img src="/how-git-stash-02.svg" alt="Stashes created from multiple branches">
 </figure>
 
 ## Applying vs. popping

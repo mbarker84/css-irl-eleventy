@@ -1,6 +1,6 @@
 ---
 pagination:
   data: collections.postPaginated
-  size: 2
+  size: 12
 layout: home.njk
 ---

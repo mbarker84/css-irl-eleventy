@@ -49,7 +49,7 @@ But what if you’ve already pushed your commit, or even if it’s a few commits
 Using Git is a bit like having access to our own time machine. We can move backwards and forwards on our timeline by checking out different commits. If we’re working in a team we might have lots of people working on their own separate timelines ([Git branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)), and sometimes their timelines might converge with our own ([merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge)), but time is basically linear. If you commit some bad code you can always go back in time to before it happened. With every commit you’re adding some more steps to the timeline – so if something goes wrong, you haven’t lost all that great work you did. Pretty cool!
 
 <figure>
-  <img src="amending-your-past-commits-with-git-01.png" alt="Illustration showing a git master branch in the centre with two other branches merging in a linear fashion">
+  <img src="/amending-your-past-commits-with-git-01.png" alt="Illustration showing a git master branch in the centre with two other branches merging in a linear fashion">
   <figcaption>A linear Git history</figcaption>
 </figure>
 
@@ -58,12 +58,12 @@ Using Git is a bit like having access to our own time machine. We can move backw
 Rebasing is the process of moving the base of your branch [upstream](https://www.atlassian.com/git/articles/git-forks-and-upstreams). If you’ve based your current feature branch off of the _master_ branch and the _master_ branch has since moved on because of other contributions, then you can perform a rebase to ensure you have the latest changes from _master_ on your current branch. You _could_ use `git pull` or `git merge`, but this would result in a single (potentially very large) commit being tacked onto your branch’s history at the point you pull those changes. With rebasing, we insert the extra commits from the _master_ branch into our timeline, so it looks like they were there all along.
 
 <figure>
-  <img src="amending-your-past-commits-with-git-02.png" alt="Illustration showing the master branch being merged into the feature branch">
+  <img src="/amending-your-past-commits-with-git-02.png" alt="Illustration showing the master branch being merged into the feature branch">
   <figcaption>Merging an upstream master branch into your feature branch results in a large commit in the feature branch</figcaption>
 </figure>
 
 <figure>
-  <img src="amending-your-past-commits-with-git-03.png" alt="Illustration showing the feature branch being rebased from master">
+  <img src="/amending-your-past-commits-with-git-03.png" alt="Illustration showing the feature branch being rebased from master">
   <figcaption>Rebasing moves the base of your feature branch along to include the new commits from the master branch</figcaption>
 </figure>
 

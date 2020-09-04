@@ -6,7 +6,7 @@ tags: ['post', 'workflow', 'css']
 ---
 
 <figure>
-  <img src="a-year-of-utilities-01.svg" alt="Utility classes surrounding a shapeless <div>">
+  <img src="/a-year-of-utilities-01.svg" alt="Utility classes surrounding a shapeless <div>">
 </figure>
 
 Last year at [Mud](https://ournameismud.co.uk) we adopted a utility-first approach to CSS (also known as atomic CSS). Specifically we decided to use [TailwindCSS](https://tailwindcss.com), a utility class framework, which provides a bunch of classes you can apply to your projects to rapidly build a UI.

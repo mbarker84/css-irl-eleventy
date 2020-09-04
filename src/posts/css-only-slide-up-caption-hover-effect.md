@@ -7,7 +7,7 @@ tags: ['post', 'css']
 Have you ever needed to build a UI where a caption needs to slide over an image on hover, revealing more content?
 
 <figure>
-  <img src="css-only-slide-up-caption-hover-effect-03.jpg" alt="A grid of 4 items, with content revealed on hover">
+  <img src="/css-only-slide-up-caption-hover-effect-03.jpg" alt="A grid of 4 items, with content revealed on hover">
 </figure>
 
 This is something I’ve been tasked with implementing in various ways throughout my career. It’s not too difficult to do: Use `position: absolute` to position the caption over the image, then transform it down, transitioning it back up on hover – not forgetting `overflow-y: hidden` on the containing element.
@@ -22,7 +22,7 @@ Here’s a simple implementation:
 The difficulty comes in when the part of the overlay that needs to “peek” out over the image _before_ hover is of indeterminate height. That could easily be the case if, say, you have a grid of team members, some of whom might have long names or job titles that wrap onto multiple lines.
 
 <figure>
-  <img src="css-only-slide-up-caption-hover-effect-01.jpg" alt="A grid of 4 items, with content revealed on hover">
+  <img src="/css-only-slide-up-caption-hover-effect-01.jpg" alt="A grid of 4 items, with content revealed on hover">
 </figure>
 
 Transforming the overlay a fixed length could result in some of the text being clipped. You might resort to Javascript to detect the height of the caption titles and set the `transform` property accordingly. But we can solve this quite satisfactorily with CSS alone.

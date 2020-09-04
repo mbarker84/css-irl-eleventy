@@ -11,7 +11,7 @@ This article is a case study on a particular component with a unique layout and 
 One such component looks like this:
 
 <figure>
-  <img src="solving-a-tricky-layout-problem_01.jpg" alt="A component with a large, centred heading, a block of text on the top right and a large image on the left">
+  <img src="/solving-a-tricky-layout-problem_01.jpg" alt="A component with a large, centred heading, a block of text on the top right and a large image on the left">
 </figure>
 
 It consists of an image or video, a large heading centered both horizontally and vertically and a block of text. The text block is aligned to the top of the image in this case, but could equally be aligned to the bottom of the image if chosen by the content author.
@@ -28,7 +28,7 @@ The design itself consisted of a 24-column grid, and multiple variants of the co
 I’ve created a simplified view of the same component, which allows us to more easily see the bounding box for each element. (Imagine the pink outline is the component’s bounding box.)
 
 <figure>
-  <img src="solving-a-tricky-layout-problem_02.png" alt="Simplified illustration of the component layout">
+  <img src="/solving-a-tricky-layout-problem_02.png" alt="Simplified illustration of the component layout">
 </figure>
 
 Let’s assume the following markup for the grid container and direct children (our grid items) – we’ll ignore everying inside those elements for the purpose of this article, so that we can just focus on the layout:
@@ -77,7 +77,7 @@ Now we need to define our grid rows. My initial thought was that we could define
 This gives us a central row with the value of `auto` for our heading (as we don’t know how long this will be, and we want the track to grow to fit the content), and two surrounding rows of `1fr`. These two outer rows will take up an equal proportion of the available space. If we set `row-gap: 40px` (using the shorthand `gap` here for `grid-row-gap` and `grid-column-gap`) then we’ll get a 40px gutter above and below the heading, to maintain space between it and the text block.
 
 <figure>
-  <img src="solving-a-tricky-layout-problem_03.png" alt="Component with row tracks highlighted">
+  <img src="/solving-a-tricky-layout-problem_03.png" alt="Component with row tracks highlighted">
 </figure>
 
 We can also use flex alignment properties with Grid, which are going to be really useful here. I’m using `align-items: center` to horizontally centre our grid items. It’s not yet obvious why we need to do that, but we’ll soon see that it becomes more useful if our text content is longer than the available space.
@@ -120,13 +120,13 @@ All of our items are currently centrally aligned in their grid boxes, but if I u
 So far so good. It looks like we’ve got this layout nailed. There’s just one problem: When the text block is longer than the space between the heading and the top of the image the component expands to accommodate it, pushing the image and heading downwards (which is what we want) – but unfortunately the bottom of the grid also expands, giving us extra space below the image:
 
 <figure>
-  <img src="solving-a-tricky-layout-problem_04.png" alt="Showing extra space created at the bottom of the grid">
+  <img src="/solving-a-tricky-layout-problem_04.png" alt="Showing extra space created at the bottom of the grid">
 </figure>
 
 If we have several components stacked on top of each other then the vertical space between them will be uneven. This isn’t ideal. What we want is for the component to grow vertically at the top (the side of our text block) but not the bottom.
 
 <figure>
-  <img src="solving-a-tricky-layout-problem_07.png" alt="The same grid with the height of the top row only increased">
+  <img src="/solving-a-tricky-layout-problem_07.png" alt="The same grid with the height of the top row only increased">
   <figcaption>The idea solution: the top row track size increases, but the bottom does not</figcaption>
 </figure>
 
@@ -155,7 +155,7 @@ Then we can add an extra row above our existing rows with a height of `1fr`. It�
 The row we’ve added is effectively a hidden row – it’s going to collapse to `0` unless we place content in it.
 
 <figure>
-  <img src="solving-a-tricky-layout-problem_05.png" alt="Hidden row at the top of the grid">
+  <img src="/solving-a-tricky-layout-problem_05.png" alt="Hidden row at the top of the grid">
 </figure>
 
 There are a couple more things we need to do to our grid container before we look at item placement. We’re going to set the `row-gap` to 0 and add tracks of 40px between the heading row and its adjacent rows. We can also remove `align-items: center`, as we won’t need it anymore.
@@ -197,7 +197,7 @@ Eagle-eyed readers might notice that our text block now spans two tracks (starti
 When we add a longer paragraph of text into the text block, it’s then that we can see the benefit of these changes. The hidden row that we added expands, while the image and heading remain centrally aligned with one another – crucially, _without_ extra space being added at the bottom of the grid!
 
 <figure>
-  <img src="solving-a-tricky-layout-problem_06.png" alt="Hidden row expanding when text block is longer">
+  <img src="/solving-a-tricky-layout-problem_06.png" alt="Hidden row expanding when text block is longer">
   <figcaption>The top row of the grid expands as the text content grows longer</figcaption>
 </figure>
 

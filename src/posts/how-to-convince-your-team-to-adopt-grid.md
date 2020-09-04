@@ -5,7 +5,7 @@ tags: ['post', 'css grid', 'workflow']
 ---
 
 <figure>
-  <img src="how-to-convince-your-team.svg" alt="A group of people talking and thinking about layouts">
+  <img src="/how-to-convince-your-team.svg" alt="A group of people talking and thinking about layouts">
 </figure>
 
 Are you keen to jump into CSS Grid Layout but having trouble convincing the rest of your team (whether your peers or your managers)? Someone asked me recently if I had any advice for convincing a skeptical team to adopt CSS Grid into their workflow. Although I haven’t faced any major barriers on this front myself, it’s a story I hear all too often. You’re ready to dive in and work with the latest modern layout techniques, only for the higher powers to put the brakes on.

@@ -6,7 +6,7 @@ tags: ['post', 'workflow', 'tooling', 'javascript']
 ---
 
 <figure>
-  <img src="a-modern-front-end-workflow-02_01.png" alt="Parcel logo on a purple gradient background">
+  <img src="/a-modern-front-end-workflow-02_01.png" alt="Parcel logo on a purple gradient background">
 </figure>
 
 [Parcel](https://parceljs.org) purports to be a “zero-config” alternative to [Webpack](https://webpack.js.org/), a popular Javascript module bundler. A module bundler takes separate, reusable JS files (or modules) and “bundles” them into a single file to be served to the browser, as well as minifying the output. This can improve website performance, as the browser doesn’t need to load a bunch of files individually. This in itself is very useful, but Parcel also takes care of other tasks for us out of the box, including:

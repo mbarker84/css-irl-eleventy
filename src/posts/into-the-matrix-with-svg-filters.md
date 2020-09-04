@@ -65,7 +65,7 @@ Here’s an example of an `feColorMatrix` filter:
 The syntax looks quite complicated at first glance, but it can be helpful to visualise it like this:
 
 <figure>
-  <img src="svg-filters_01b-01.png" alt="Colour matrix grid">
+  <img src="/svg-filters_01b-01.png" alt="Colour matrix grid">
 </figure>
 
 The _x_ axis represents the channels of our original image (red, green, blue and alpha), and the _y_ axis represent the colours we can add or remove from those channels. The final value on the _x_ axis is the multiplication factor, which we won’t worry too much about for now.
@@ -77,7 +77,7 @@ To colourize images we can introduce different amounts of red, green or blue int
 We can turn a colour image greyscale by removing red, green and blue from all channels except one:
 
 <figure>
-  <img src="svg-filter_02-01.png" alt="Colour matrix grid with values only in red channel">
+  <img src="/svg-filter_02-01.png" alt="Colour matrix grid with values only in red channel">
 </figure>
 
 This demo shows a number of different combinations we could use to get a greyscale image. Adjusting the values in the alpha channel can give us greater degrees of contrast, darkening or lightening the image.
@@ -88,7 +88,7 @@ This demo shows a number of different combinations we could use to get a greysca
 In the following matrix we’re setting all the values in the red channel to 100% (giving us a greyscale image), then adding blue into the blue channel – so the image has a blue-ish tinge:
 
 <figure>
-  <img src="svg-filters_03-01.png" alt="Colour matrix grid with all values in the red channel at 1, and the blue value in the blue channel at 1">
+  <img src="/svg-filters_03-01.png" alt="Colour matrix grid with all values in the red channel at 1, and the blue value in the blue channel at 1">
 </figure>
 
 To create a duotone effect (with better browser support than blend modes!) we need to apply values to the alpha channel. The alpha channel can darken and lighten the image. To darken parts of the image we can use negative values, while positive values will lighten it. (Setting all values in the alpha channel to `1` will make the image completely white.)
@@ -107,7 +107,7 @@ To create a duotone effect (with better browser support than blend modes!) we ne
 This gives us a duotone effect like this:
 
 <figure>
-  <img src="svg-filters_duotone.jpg" alt="Duotone image">
+  <img src="/svg-filters_duotone.jpg" alt="Duotone image">
 </figure>
 
 It can be a little trickier to find the perfect mix of colours using the alpha channel, but playing around with the values will give you a feel for it. Hopefully this introduction has given you a taste of what’s possible.

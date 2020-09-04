@@ -7,7 +7,7 @@ tags: ['post', 'css grid', 'design']
 My son was recently tasked with the responsibility of looking after his pre-school class teddy bear for the week, which comes with the obligation to take said teddy bear out on adventures and add your memories to a scrapbook. I quite enjoyed creating this scrapbook layout, and it got me thinking about how I would build something like this with CSS Grid!
 
 <figure>
-  <img src="building-a-scrapbook-layout_02.jpg" alt="Child’s preschool scrapbook spread titled ‘Hector’s Adventures with George’">
+  <img src="/building-a-scrapbook-layout_02.jpg" alt="Child’s preschool scrapbook spread titled ‘Hector’s Adventures with George’">
 </figure>
 
 ## Compound grids
@@ -19,12 +19,12 @@ Most of us are probably familiar with using grids in some way for web design and
 Compound grids, on the other hand, are created by layering two or more grids. Juxtapositions such as a 5-column grid superimposed onto a 4-column grid produce rhythmic patterns, and open up more dynamic layout possibilities than a regular grid.
 
 <figure>
-  <img src="building-a-scrapbook-layout_03a.png" alt="A 4-column grid over a 5-column grid">
+  <img src="/building-a-scrapbook-layout_03a.png" alt="A 4-column grid over a 5-column grid">
 	<figcaption><em>Fig 2</em> We start with a 4-column and a 5-column grid</figcaption>
 </figure>
 
 <figure>
-  <img src="building-a-scrapbook-layout_04a.png" alt="4-column and 5-column grids superimposed, with the result shown below">
+  <img src="/building-a-scrapbook-layout_04a.png" alt="4-column and 5-column grids superimposed, with the result shown below">
 	<figcaption><em>Fig 3</em> The grids are superimposed, one on top of the other. The result is a compound grid.</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ This applies from a psychological as well as a technical point-of-view – it’
 Compound grids translate really well to CSS Grid, as using _fr_ units makes them very simple to implement. I love the idea of using compound grids in web design, but I felt the process of calculating them (especially the more complex the grid) could be a hindrance. I wanted a way to generate compound grids on demand so, inspired by Andy’s talk, I rolled up my sleeves and built a little tool to generate and visualise compound grids. Enter the number of columns for two different grids (with 10 columns as a maximum for any one grid) and the generator combines them, spitting out a resulting value which can be used in the `grid-template-columns` property using CSS Grid. For example, a grid with four columns plus a grid with five columns will generate the value `4fr 1fr 3fr 2fr 2fr 3fr 1fr 4fr`.
 
 <figure>
-  <img src="building-a-scrapbook-layout_01.jpg" alt="Screenshot of the compound grid generator tool">
+  <img src="/building-a-scrapbook-layout_01.jpg" alt="Screenshot of the compound grid generator tool">
 </figure>
 
 This tool is [on Codepen](https://codepen.io/michellebarker/full/zYOMYWv), so feel free to use it or adapt it to suit your needs.
@@ -59,7 +59,7 @@ Defining the grid rows was trickier, and required a bit more trial-and-error. Ea
 To maintain a sense of vertical rhythm, I decided the photos should each overlap by the same amount. I assigned this amount to a custom property so that it could be used thoughout the page and updated if necessary (<em>Fig 4</em>).
 
 <figure>
-  <img src="building-a-scrapbook-layout_05a.png" alt="Grid with items overlapping vertically">
+  <img src="/building-a-scrapbook-layout_05a.png" alt="Grid with items overlapping vertically">
 	<figcaption><em>Fig 4</em> Images overlap vertically</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ To maintain a sense of vertical rhythm, I decided the photos should each overlap
 Each image also has an accompanying paragraph of text. This needs to have sufficient space above and below, so that it doesn’t overlap or crash into the previous photo. This meant adding a grid row above and below the caption, which I think of as a “padding” row. Now each image would need to span at least four grid rows – images that overlap at the top _and_ bottom would need to span five rows.
 
 <figure>
-  <img src="building-a-scrapbook-layout_06a.png" alt="Grid showing padding rows between images and text blocks">
+  <img src="/building-a-scrapbook-layout_06a.png" alt="Grid showing padding rows between images and text blocks">
 	<figcaption><em>Fig 5</em> “Padding” rows allow a minimum space to be maintained between the end of a text block and the start of the next image.</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ Using a mixture of positive and negative grid lines, and span values, it’s fai
 If we take a look at the grid we can see that we have quite a large number of rows to work with.
 
 <figure>
-  <img src="building-a-scrapbook-layout_08.jpg" alt="Screenshot of grid rows">
+  <img src="/building-a-scrapbook-layout_08.jpg" alt="Screenshot of grid rows">
 	<figcaption><em>Fig 7</em> Screenshot from the Firefox grid inspector in the dev tools layout panel, showing our grid columns and rows</figcaption>
 </figure>
 
@@ -128,7 +128,7 @@ The `grid-template-areas` property doesn’t allow us to define areas for overla
 If we name lines on both the row and the column axis, we get a grid area (_fig 8_):
 
 <figure>
-  <img src="building-a-scrapbook-layout_09.png" alt="Names grid area defined by grid lines">
+  <img src="/building-a-scrapbook-layout_09.png" alt="Names grid area defined by grid lines">
 	<figcaption><em>Fig 8</em> Suffixing line names with -start and -end creates a grid area</figcaption>
 </figure>
 
@@ -233,7 +233,7 @@ All that remains is to reference the area names on the row axis when placing our
 The finished result (_fig 10_) is available to explore on [Codepen](https://codepen.io/michellebarker/pen/gOYqmJQ).
 
 <figure>
-  <img src="building-a-scrapbook-layout_10.jpg" alt="Full page screenshot of the finished layout">
+  <img src="/building-a-scrapbook-layout_10.jpg" alt="Full page screenshot of the finished layout">
 	<figcaption><em>Fig 10</em></figcaption>
 </figure>
 

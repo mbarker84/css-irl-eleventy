@@ -97,7 +97,7 @@ Many modern CSS frameworks use some variation on this method for layouts. As a s
 So, which is the better choice here – Grid or flexbox? It would seem that Grid has some clear advantages here, but in order to answer this question we need to think about what should happen when we have more than nine items but fewer than 12 (the next multiple which would allow them to fill a row). Do we want the new items to simply sit at the start of the next row like the examples we’ve already seen? Or do we want them to behave differently? Perhaps if there is only one item on the next row we want it to take up all the available space in the row, like example A below. Or perhaps if there are two items then we want them to be centred, like the example B.
 
 <figure>
-  <img src="to-grid-or-to-flex-01.svg" alt="Two flexbox layout examples">
+  <img src="/to-grid-or-to-flex-01.svg" alt="Two flexbox layout examples">
 </figure>
 
 Using Grid Layout and auto-placement, we only have the option of the last item being placed in the cell on the left as in the earlier examples – assuming the value of the [direction](https://developer.mozilla.org/en-US/docs/Web/CSS/direction) property is not set to `rtl` (in which case the placement of item will flow right-to-left, and last item will be placed in the cell on the right). The following items will be placed in the next available grid cells. Flexbox allows items to, well, _flex_. That means we can control the behaviour of those items using a combination of flex and alignment properties.
@@ -114,7 +114,7 @@ So whether you choose Grid or flexbox for the layout above really comes down to 
 When I give talks I often get asked when I would use flexbox instead of Grid, and whether we even need flexbox anymore. As we’ve seen in the example above, Grid is not a replacement for flexbox. Both of them co-exist quite happily, and knowing when to use each of them gives even more power to your layouts!
 
 <figure>
-  <img src="to-grid-or-to-flex-02.jpg" alt="A component built using Grid">
+  <img src="/to-grid-or-to-flex-02.jpg" alt="A component built using Grid">
 </figure>
 
 In the component above, I needed to control the placement of the text, image and heading on the column _and_ row axis, and control how they would interact with each other to an extent. The only way to do this satisfactorily would be to use Grid.

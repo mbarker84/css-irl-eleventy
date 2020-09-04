@@ -11,7 +11,7 @@ But it stuck me recently, after writing [this article on relative positioning of
 If you place an grid item using a line number with a positive value, if that line doesn’t exist yet (because there aren’t enough tracks in your grid) then _implicit_ tracks will be created.
 
 <figure>
-  <img src="implicit-tracks.jpg" alt="Showing two implicit tracks created on the column axis">
+  <img src="/implicit-tracks.jpg" alt="Showing two implicit tracks created on the column axis">
   <figcaption>Implicit tracks created on the column axis by placing an item outside of the explicitly defined grid</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ I can place an item like this (using the `grid-column` shorthand property for `g
 Rather than being starting two grid lines _before_ grid line 1, the item is placed at the very last grid line.
 
 <figure>
-  <img src="negative-lines.jpg" alt="An item placed starting at grid line -1">
+  <img src="/negative-lines.jpg" alt="An item placed starting at grid line -1">
   <figcaption>Item placed starting at grid line -1, generating implicit tracks</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ This grid has four tracks, so five grid lines if we ignore any implicit tracks. 
 ```
 
 <figure>
-  <img src="negative-lines2.jpg" alt="An item placed starting at grid line -8">
+  <img src="/negative-lines2.jpg" alt="An item placed starting at grid line -8">
   <figcaption>Item placed starting at grid line -8, generating implicit tracks to the left</figcaption>
 </figure>
 

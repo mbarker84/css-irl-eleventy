@@ -5,7 +5,7 @@ tags: ['post', 'workflow']
 ---
 
 <figure>
-  <img src="in-search-of-simplicity.jpg" alt="A grayscale close-up of a circuitboard">
+  <img src="/in-search-of-simplicity.jpg" alt="A grayscale close-up of a circuitboard">
 </figure>
 
 During the past month or so at [Atomic Smash](https://www.atomicsmash.co.uk/) I’ve been working on building our new front end framework (recently christened ‘Snap’) – a repository that includes all the scripts, packages and starter files to enable anyone in the development team to get started on a new project quickly and painlessly. Uppermost in my mind is the elusive goal of simplicity, in a front end development landscape that is anything but.

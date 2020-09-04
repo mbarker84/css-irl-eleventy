@@ -5,7 +5,7 @@ tags: ['post', 'events']
 ---
 
 <figure>
-  <img src="sotb01.jpg" alt="Charlie Owen on stage with slide: You don’t work for Facebook">
+  <img src="/sotb01.jpg" alt="Charlie Owen on stage with slide: You don’t work for Facebook">
   <figcaption>Charlie Owen at State of the Browser</figcaption>
 </figure>
 

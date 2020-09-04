@@ -5,7 +5,7 @@ tags: ['post', 'css grid', 'layout']
 ---
 
 <figure>
-  <img src="subgrid-is-here.png" alt="An example grid layout with 4 large and 4 small items">
+  <img src="/subgrid-is-here.png" alt="An example grid layout with 4 large and 4 small items">
 </figure>
 
 Support for [subgrid](https://www.w3.org/TR/css-grid-2/#subgrids) (part of the CSS Grid Level 2 specification) has just landed in Firefox Nightly! To start experimenting with it you’ll need to enable the feature by going to [about:config](about:config) in the browser, then searching for _subgrid_. Toggle _layout.css.grid-template-subgrid-value.enabled_ and _subgrid_ to _true_.

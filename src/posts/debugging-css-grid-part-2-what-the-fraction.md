@@ -20,7 +20,7 @@ The _fr_ unit is a new unit, exclusive to Grid. It allows you to size your grid 
 ```
 
 <figure>
-  <img src="debugging-css-grid-2-03.png" alt="Three grid items of 200px and one grid item of 1fr">
+  <img src="/debugging-css-grid-2-03.png" alt="Three grid items of 200px and one grid item of 1fr">
 	<figcaption><em>Fig 01</em> Four equal width tracks (each sized at 1fr)</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ The grid takes into account the 20px gap between each column track and distribut
 ```
 
 <figure>
-  <img src="debugging-css-grid-2-02.png" alt="Three grid items of 200px and one grid item of 1fr">
+  <img src="/debugging-css-grid-2-02.png" alt="Three grid items of 200px and one grid item of 1fr">
 	<figcaption><em>Fig 02</em> The 1fr column on the right expands to fill all of the remaining space, once the fixed tracks are taken into account.</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ We can use multiples of the _fr_ unit to create tracks that are proportionally l
 ```
 
 <figure>
-  <img src="debugging-css-grid-2-01.png" alt="Four grid items of differing widths">
+  <img src="/debugging-css-grid-2-01.png" alt="Four grid items of differing widths">
   <figcaption><em>Fig 02</em></figcaption>
 </figure>
 

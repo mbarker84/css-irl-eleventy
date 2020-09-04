@@ -27,7 +27,7 @@ I’ve come across a number of cases where it would have been incredibly useful 
 This is a big one, and probably tricky to implement – but would undoubtedly be extremely useful. Suppose I have a layout like this:
 
 <figure>
-  <img src="my-css-grid-wishlist-01.png" alt="Alternating grid layout">
+  <img src="/my-css-grid-wishlist-01.png" alt="Alternating grid layout">
 </figure>
 
 On every even row, the two grid items are positioned in the cells on the right, and every odd row they are positioned on the left. I’m allowing Grid to create implicit tracks (which can be specified with the `grid-auto-rows` property) as I don’t know how many items my grid will contain (which may be the case when dealing with user-generated content).
@@ -35,7 +35,7 @@ On every even row, the two grid items are positioned in the cells on the right, 
 This is relatively simple to acheive using `nth-child` when our grid items only span a single row track. However, we run into problem if we want to position items in two dimensions. Now let’s suppose every other item needs to span two tracks, and subsequent items need to move down a row to accomodate:
 
 <figure>
-  <img src="my-css-grid-wishlist-02.png" alt="Layout with every other item spanning two rows">
+  <img src="/my-css-grid-wishlist-02.png" alt="Layout with every other item spanning two rows">
 </figure>
 
 Now we run into problems when we try to use `nth-child`, because there is no way to tell Grid to position the items on the row axis relative to the previous one, as evidenced in this Codepen example:

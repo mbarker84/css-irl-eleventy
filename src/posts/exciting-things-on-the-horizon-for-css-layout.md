@@ -5,7 +5,7 @@ tags: ['post', 'css grid', 'flexbox']
 ---
 
 <figure>
-  <img src="exciting-things-on-the-horizon-for-css-layout.svg" alt="a stylized grid illustration">
+  <img src="/exciting-things-on-the-horizon-for-css-layout.svg" alt="a stylized grid illustration">
 </figure>
 
 This past week has brought a few announcements from browser vendors of some exciting things that might have a big impact on CSS layout in the very near future.

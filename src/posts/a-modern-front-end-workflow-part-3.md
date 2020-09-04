@@ -6,7 +6,7 @@ tags: ['post', 'workflow', 'tooling', 'css', 'sass']
 ---
 
 <figure>
-  <img src="a-modern-front-end-workflow-03_01.png" alt="Sass logo on a pink gradient background">
+  <img src="/a-modern-front-end-workflow-03_01.png" alt="Sass logo on a pink gradient background">
 </figure>
 
 In the previous two articles we went through configuring a project starter repository using NPM scripts and [Parcel](https://parceljs.org/). I tend to employ more or less the same Sass architecture for every project, so I want my boilerplate to include the SCSS files and folders I need to get started writing code straight away. This is my preferred architecture, loosely based on [Harry Roberts’](https://csswizardry.com/) [ITCSS](https://www.hongkiat.com/blog/inverted-triangle-css-web-development/) (Inverted Triangle CSS), and our boilerplate at my previous agency, [Mud](https://ournameismud.co.uk/):

@@ -75,7 +75,7 @@ This is pretty cool, as it means we could change the layout significantly by onl
 We might be tempted to place every item explicitly using `grid-template-areas`. But there’s one drawback: You can’t define overlapping areas. Creating a layout like _Fig 01_ could not be done with `grid-template-areas` alone.
 
 <figure>
-  <img src="debugging-css-grid-3-01.png" alt="A grid with three items">
+  <img src="/debugging-css-grid-3-01.png" alt="A grid with three items">
 	<figcaption><em>Fig 01</em><span>Items 2 and 3 overlap, so only one can have its area defined by `grid-template-areas`.</span></figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ But we _could_ use `grid-template-areas` _in addition_ to placing items by line 
 If we don’t explicity place items on our grid, they will be auto-placed. By default each grid items have a span of 1 on both the row and the column axis, so they will each be placed into the next available grid cell. We can use this to our advantage: If we have something like a news feed, we don’t want to have to place each item explicitly, especially if we don’t know how many items there will be.
 
 <figure>
-  <img src="debugging-css-grid-3-02.png" alt="Auto placement">
+  <img src="/debugging-css-grid-3-02.png" alt="Auto placement">
 	<figcaption><em>Fig 02</em><span>No items are explicity placed, therefore they are all auto placed.</span></figcaption>
 </figure>
 
@@ -113,21 +113,21 @@ But if we have some items that are explicity placed, and others that are not, th
 If I place an item on my grid using `grid-column: 2 / span 2` I might expect that any auto placed items succeeding that one will be placed _after_ the one I’m placing (_Fig 03_):
 
 <figure>
-  <img src="debugging-css-grid-3-03.png" alt="Three grid items with a mixture of explicit and auto placement">
+  <img src="/debugging-css-grid-3-03.png" alt="Three grid items with a mixture of explicit and auto placement">
 	<figcaption><em>Fig 03</em><span>The blue item is explicitly placed on the row and column axis (using `grid-template-columns` and grid-template-columns`).</span></figcaption>
 </figure>
 
 What _actually_ happens with the above code is the succeeding items are placed _before_ the placed item. They are placed into the first available cells, which happen to be the first two in our grid.
 
 <figure>
-  <img src="debugging-css-grid-3-04.png" alt="Three grid items with a mixture of explicit and auto placement">
+  <img src="/debugging-css-grid-3-04.png" alt="Three grid items with a mixture of explicit and auto placement">
 	<figcaption><em>Fig 04</em><span>The blue item is explicitly placed only on the column axis (using grid-template-columns`).</span></figcaption>
 </figure>
 
 But if we place the blue item only on the column axis, the items _are_ placed after the first one:
 
 <figure>
-  <img src="debugging-css-grid-3-05.png" alt="Three grid items with a mixture of explicit and auto placement">
+  <img src="/debugging-css-grid-3-05.png" alt="Three grid items with a mixture of explicit and auto placement">
 	<figcaption><em>Fig 05</em><span>The blue item is placed on the column axis with `grid-column: 2 / 4`.</span></figcaption>
 </figure>
 
@@ -138,7 +138,7 @@ So why is the placement behaviour different? If we understand the rules of auto 
 A good way to think about this is to think of our grid as a flowing river. Any explicitly placed items are boats anchored in the river. Auto placed items flow around these, from left to right (_Fig 06_).
 
 <figure>
-  <img src="debugging-css-grid-3-06.png" alt="Grid items with a mixture of explicit and auto placement">
+  <img src="/debugging-css-grid-3-06.png" alt="Grid items with a mixture of explicit and auto placement">
 	<figcaption><em>Fig 06</em></figcaption>
 </figure>
 
@@ -147,14 +147,14 @@ Grid items that are only explicitly placed on one axis are more loosly anchored.
 Items placed using a span value alone will still flow like the others, but they’ll be restricted by their own explicit size. An item with a span of 2 will flow onto the next row if there are less than 2 grid columns available. We can think of these as being semi-auto placed (_Fig 07_).
 
 <figure>
-  <img src="debugging-css-grid-3-07a.png" alt="Grid items with a mixture of explicit and auto placement">
+  <img src="/debugging-css-grid-3-07a.png" alt="Grid items with a mixture of explicit and auto placement">
 	<figcaption><em>Fig 07</em> Item 2 has a column span of 3, so will wrap onto the next line.</figcaption>
 </figure>
 
 In _Fig 07_ we’re only placing the item on the column axis again (using `span`), so successive items are placed after it. We have enough items to fill the grid exactly – but rather than filling earlier grid cell, the sixth and seventh items create an implicit track. This _doesn’t_ happen if we only place it explicitly on the row axis (_Fig 08_).
 
 <figure>
-  <img src="debugging-css-grid-3-08a.png" alt="Auto placed items filling up the explicit grid">
+  <img src="/debugging-css-grid-3-08a.png" alt="Auto placed items filling up the explicit grid">
 	<figcaption><em>Fig 08</em><span>Item 2 has a row span of 3</span></figcaption>
 </figure>
 

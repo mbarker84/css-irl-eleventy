@@ -5,7 +5,7 @@ tags: ['post', 'careers', 'diversity']
 ---
 
 <figure>
-  <img src="mentoring-01.svg" alt="A simple illustration of two speech bubbles">
+  <img src="/mentoring-01.svg" alt="A simple illustration of two speech bubbles">
 </figure>
 
 This blog has been a little quiet over the past couple of weeks. With everything going on in the world right now, it doesn't feel like the right time to be sharing CSS tips, without acknowledging the real struggles of the people out protesting on the streets following the killing of George Floyd. Black people are literally fighting for the right to exist in a racist world.

@@ -5,7 +5,7 @@ tags: ['post', 'careers', 'diversity']
 ---
 
 <figure>
-  <img src="top-tips-for-hiring-diverse-teams-01.png" alt="A smiling pink heart">
+  <img src="/top-tips-for-hiring-diverse-teams-01.png" alt="A smiling pink heart">
 </figure>
 
 Like many women in tech, I sometimes get asked how companies can recruit a more diverse team. It’s no secret that the tech world is very male-dominated. While I don’t have a magic bullet, I have my own experience of seeking employment in the tech industry, and consequently I have a few opinions on what companies could be doing better in order to attract more diverse applicants. As in so many cases, making something better for a minority of people also has the bonus effect of making it better for _everyone_. So there’s really no excuse not to be proactive on this.
@@ -37,7 +37,7 @@ Too often, both starting salary and subsequent pay rises are opaque and bound up
 ## Hire juniors
 
 <figure>
-  <img src="top-tips-for-hiring-diverse-teams-02.png" alt="A seeding growing into a large flower">
+  <img src="/top-tips-for-hiring-diverse-teams-02.png" alt="A seeding growing into a large flower">
 </figure>
 
 More and more new developers are coming to the field via coding bootcamps, and the great news is they’re bringing more diversity to the industry. But the reality is, when they’re ready to unleash their skills on the world, the number of jobs out there for junior developers is relatively small. If you’re only looking to hire candidates with 5+ years of using the hottest Javascript frameworks, you are going to have a less diverse pool of candidates to draw from.

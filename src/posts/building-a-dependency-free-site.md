@@ -5,7 +5,7 @@ tags: ['post', 'workflow']
 ---
 
 <figure>
-  <img src="building-a-dependency-free-site.jpg" alt="My personal website screenshot">
+  <img src="/building-a-dependency-free-site.jpg" alt="My personal website screenshot">
   <figcaption>A screenshot of my new, improved personal website</figcaption>
 </figure>
 

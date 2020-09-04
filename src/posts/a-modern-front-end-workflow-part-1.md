@@ -6,7 +6,7 @@ tags: ['post', 'workflow', 'tooling', 'javascript']
 ---
 
 <figure>
-  <img src="a-modern-front-end-workflow-01_01.png" alt="NPM logo on blue gradient background">
+  <img src="/a-modern-front-end-workflow-01_01.png" alt="NPM logo on blue gradient background">
 </figure>
 
 When it comes to building a simple front-end project, how do you get started? What are the tools you need? I suspect everyone will have a different answer. Do you start with a (JS or CSS) framework, or off-the-shelf boilerplate? Perhaps you use a task runner (like [Gulp](https://gulpjs.com/) to orchestrate your project’s needs. Or do you start simple, with just HTML and a CSS file?

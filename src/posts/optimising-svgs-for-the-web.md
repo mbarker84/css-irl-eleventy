@@ -11,7 +11,7 @@ I’ll assume that you’re already sold on the benefits of SVG over, say icon f
 Many icon libraries supply SVG assets that are already well-optimised. But if you’re creating your own graphics, or they are supplied by another designer, you might want to run them through a few optimisation steps. I mainly use Adobe Illustrator for creating and editing my SVGs. Here’s a fairly simple icon created in Illustrator (_Fig 01_):
 
 <figure>
-  <img src="optimising-svgs-for-the-web_01.png" alt="Black and white CSS IRL logo as SVG">
+  <img src="/optimising-svgs-for-the-web_01.png" alt="Black and white CSS IRL logo as SVG">
   <figcaption><em>Fig 01</em></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Every graphics program will have its own way of saving SVGs, but regardless of w
 One way to quickly remove a lot of this extraneous data is to run it through [Jake Archibald](https://twitter.com/jaffathecake)’s tool, [SVGOMG](https://jakearchibald.github.io/svgomg/) (_Fig 02_). You can either upload the SVG file or paste in the code directly and, depending on the options selected, your SVG will be greatly slimmed-down, without adverse visual impact. You might need to play around with the different options to get your desired result, especially if your SVG is quite complex, but I generally find that for simple icons I can check most of the options without adversly affecting the result.
 
 <figure>
-  <img src="optimising-svgs-for-the-web_02.jpg" alt="">
+  <img src="/optimising-svgs-for-the-web_02.jpg" alt="">
   <figcaption><em>Fig 02</em>SVG icon in the <em>SVGOMG</em> interface</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ How much code you can strip away by editing your SVG depends on its complexity, 
 The first thing I do when optimising an SVG is remove any hidden layers, and expand groups where possible. This removes any `<g>` tags grouping paths in the SVG code. You might want to keep certain groups intact if you plan to style or animate them. You can expand a group in Illustrator using the shortcut <kbd>Shift</kbd> + <kbd>CMD</kbd> + <kbd>G</kbd> (_Fig 03_).
 
 <figure>
-  <img src="optimising-svgs-for-the-web_03.jpg" alt="">
+  <img src="/optimising-svgs-for-the-web_03.jpg" alt="">
   <figcaption><em>Fig 03</em> The layers panel in Illustrator, showing group with two objects</figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ The first thing I do when optimising an SVG is remove any hidden layers, and exp
 Next I convert any strokes to filled paths, where possible (_Fig 04_). In Illustrator we can do this using _Object > Expand_. There may be some exceptions: if you’re styling or animating `stroke-dasharray` or `stroke-dashoffset` you’ll need to leave these intact, and likewise if you want to retain the stroke width when scaling the SVG.
 
 <figure>
-  <img src="optimising-svgs-for-the-web_04.png" alt="Icons shown before stroke expanded and after">
+  <img src="/optimising-svgs-for-the-web_04.png" alt="Icons shown before stroke expanded and after">
   <figcaption><em>Fig 04</em> Icon shown before and after stroke expanded</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ To merge paths in Illustrator we select them and use the _merge_ option in the _
 The exception here is if we want to style or animate any paths individually – in that case we should avoid merging them.
 
 <figure>
-  <img src="optimising-svgs-for-the-web_05a.jpg" alt="Search icon shown before and after paths merged">
+  <img src="/optimising-svgs-for-the-web_05a.jpg" alt="Search icon shown before and after paths merged">
   <figcaption><em>Fig 05</em> Icon shown before and after paths merged</figcaption>
 </figure>
 
@@ -121,7 +121,7 @@ Once the paths are merged I like to do one final check over the layers and remov
 When I use the SVG icon in my HTML I don’t want to be left with extra space around it that I can’t get rid of. This would be the case if the SVG `viewBox` is larger than the contents. In Illustrator, I select _Object > Artboards > Fit to artwork bounds_ to make the `viewBox` dimensions fit the artwork (_Fig 06_).
 
 <figure>
-  <img src="optimising-svgs-for-the-web_06.jpg" alt="Search icon shown before and after “Fit to artwork bounds” is selected">
+  <img src="/optimising-svgs-for-the-web_06.jpg" alt="Search icon shown before and after “Fit to artwork bounds” is selected">
   <figcaption><em>Fig 06</em> The icon on the left has a larger viewBox than is necessary. After selecting “Fit to artwork bounds”, the icon sits snugly within the viewBox, with no extra space (right). </figcaption>
 </figure>
 

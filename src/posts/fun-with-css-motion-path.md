@@ -5,7 +5,7 @@ tags: ['post', 'animation', 'svg', 'css']
 ---
 
 <figure>
-  <img src="fun-with-css-motion-path-01.jpg" alt="screenshot of spiral motion path animation">
+  <img src="/fun-with-css-motion-path-01.jpg" alt="screenshot of spiral motion path animation">
 </figure>
 
 Animating an element along a path is something we as developers would normally reach for a big old JS library (like [GSAP](https://greensock.com/gsap/)) for. But with the new [CSS Motion Path](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Motion_Path) module, we can create fancy path animations using only CSS!

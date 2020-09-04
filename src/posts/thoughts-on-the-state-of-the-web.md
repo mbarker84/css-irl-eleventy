@@ -5,7 +5,7 @@ tags: ['post', 'opinion']
 ---
 
 <figure>
-  <img src="thoughts-on-the-state-of-the-web.jpg" alt="Laura Kalbag on stage with a slide that says “We can’t know from these data if Bootstrap introduced these errors, but there is a strong correspondence of increased errors when Bootstrap is present“">
+  <img src="/thoughts-on-the-state-of-the-web.jpg" alt="Laura Kalbag on stage with a slide that says “We can’t know from these data if Bootstrap introduced these errors, but there is a strong correspondence of increased errors when Bootstrap is present“">
   <figcaption>Laura Kalbag on stage at State of the Browser 2019</figcaption>
 </figure>
 

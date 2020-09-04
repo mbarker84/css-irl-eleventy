@@ -5,7 +5,7 @@ tags: ['post', 'opinion', 'writing']
 ---
 
 <figure>
-  <img src="tips-for-writing-for-the-web.svg" alt="Illustrations of a keyboard with pink floating hearts">
+  <img src="/tips-for-writing-for-the-web.svg" alt="Illustrations of a keyboard with pink floating hearts">
 </figure>
 
 Writing for the web is a skill, like any other, that can only be perfected through practice. I’ve been writing on this blog for two years now, and creating content for other sites before that, and I like to think I’m pretty okay at it – though there are always ways to improve! In this article I’ll share a few tidbits of wisdom that I’ve acquired over the years, which might help you if you’re starting to blog, or even making the switch from writing for print.

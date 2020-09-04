@@ -5,7 +5,7 @@ tags: ['post', 'css', 'javascript', 'eleventy', 'gsap', 'post']
 ---
 
 <figure>
-  <img src="/favourite-things.svg" alt="A flat-colour line illustration of a bookmarked stack of folders">
+  <img src="//favourite-things.svg" alt="A flat-colour line illustration of a bookmarked stack of folders">
 </figure>
 
 For a while I’ve been thinking about publishing a semi-regular round-up of all the things that have been interesting me in tech recently, partly with the aim of helping others discover new things. (Hey, that’s what this blog is for!) Kind of like a newsletter, without the newsletter part. Although maybe it’ll eventually become a newsletter too!
@@ -19,7 +19,7 @@ I’ve long been a fan of [Greensock Animation Platform](https://greensock.com/)
 I’d heard good things about the ScrollTrigger plugin, and seen some absolutely stunning demos that use it, like [this one](https://codepen.io/ste-vg/full/GRooLza) from [Steve Gardner](https://twitter.com/steeevg), which is quite simply mindblowing. [This lovely site](https://www.una-europa.eu/) built by [Louis Hoebregts](https://twitter.com/Mamboleoo) and the [Base Design](https://twitter.com/Base_Design) team is the one that finally prompted me to spend some time trying it out for myself.
 
 <figure>
-  <img src="/favourite-things-01.jpg" alt="Screenshot of Codepen demo with aeroplane wireframe in foreground">
+  <img src="//favourite-things-01.jpg" alt="Screenshot of Codepen demo with aeroplane wireframe in foreground">
   <figcaption>Steve Gardner’s awesome demo showcases the power of GSAP ScrollTrigger</figcaption>
 </figure>
 

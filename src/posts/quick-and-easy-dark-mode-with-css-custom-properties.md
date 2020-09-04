@@ -5,7 +5,7 @@ tags: ['post', 'css', 'custom properties']
 ---
 
 <figure>
-  <img src="quick-and-easy-dark-mode-with-css-custom-properties.svg" alt="Sun and moon illustration">
+  <img src="/quick-and-easy-dark-mode-with-css-custom-properties.svg" alt="Sun and moon illustration">
 </figure>
 
 Adding “dark mode” support to a website or app is becoming increasingly popular among developers, many of whom favour this setting themselves. Giving users a dark theme option can be beneficial for accessibility, as some people experience headaches or visual difficulties from excessively bright screens, or have trouble reading for long periods on a light background.

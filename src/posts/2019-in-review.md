@@ -5,7 +5,7 @@ tags: ['post', 'workflow', 'inspiration', 'careers']
 ---
 
 <figure>
-  <img src="2019-in-review.svg" alt="2019 text with fireworks">
+  <img src="/2019-in-review.svg" alt="2019 text with fireworks">
 </figure>
 
 I’m going to try to keep this 2019 retrospective brief, but like many people, I find it cathartic to look back at the year’s triumphs and disappointments (not dwelling for too long on the latter), and ready for myself for the year ahead.
