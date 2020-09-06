@@ -6,7 +6,7 @@ tags:
 ---
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-01.jpg" alt="Opening slide from the talk, titled Building the Zig-Zag Gradient Lab, with colourful zig-zag background">
+  <img src="/building-the-zig-zag-gradient-lab-01.jpg" alt="Opening slide from the talk, titled Building the Zig-Zag Gradient Lab, with colourful zig-zag background">
 </figure>
 
 Last month I had the priviledge of giving a talk at [Vienna Calling](https://webclerks.at/vienna-calling/), the online meetup organised by [CSS-In-Vienna](https://twitter.com/CssVienna) and [Webclerks](https://twitter.com/wearewebclerks). Alongside fantastic talks by [Cassie](https://www.youtube.com/watch?v=rGjh0EFxFuQ&list=PLSJe-hizqRL0qMDlLzBp1WZZXJFdmP6lz&index=2), [Andy](https://www.youtube.com/watch?v=8oMekThCB9k&list=PLSJe-hizqRL0qMDlLzBp1WZZXJFdmP6lz&index=6), [Ramón](https://www.youtube.com/watch?v=tux47Pwaar4&list=PLSJe-hizqRL0qMDlLzBp1WZZXJFdmP6lz&index=4) and [Carie](https://www.youtube.com/watch?v=4SOF7ARvoug&list=PLSJe-hizqRL0qMDlLzBp1WZZXJFdmP6lz&index=5), I spoke about how I built a recent Codepen demo, the Zig-Zag Gradient Lab:
@@ -35,7 +35,7 @@ You might already know that you can create clean lines with CSS gradients by usi
 ```
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-01a.jpg" alt="A 45 degree diagonal gradient">
+  <img src="/building-the-zig-zag-gradient-lab-01a.jpg" alt="A 45 degree diagonal gradient">
 	<figcaption><em>Fig 01</em> Gradient with consecutive colour stops</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ If we set the `background-size` to a fixed value, then that gradient pattern is 
 ```
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-02.jpg" alt="A two-tone repeating gradient which creates a triangle pattern">
+  <img src="/building-the-zig-zag-gradient-lab-02.jpg" alt="A two-tone repeating gradient which creates a triangle pattern">
 	<figcaption><em>Fig 02</em> Gradient with fixed background size</figcaption>
 </figure>
 
@@ -99,14 +99,14 @@ Or we could use `repeating-radial-gradient`, which gives us [these concentric ci
 Setting a fixed size again gives us some pretty cool effects – our stripes join together, and we get this interesting pattern. (Fig 03)
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-03.jpg" alt="Concentric circles fusing with one another in psychedelic colours">
+  <img src="/building-the-zig-zag-gradient-lab-03.jpg" alt="Concentric circles fusing with one another in psychedelic colours">
 	<figcaption><em>Fig 03</em> Repeating radial gradients with fixed background size</figcaption>
 </figure>
 
 And [different variations](https://codepen.io/michellebarker/pen/ExPdJqb) in the background size and the thickness of the stripes produce different patterns. (Fig 04)
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-04.jpg" alt="Different variations of the concentric circle pattern">
+  <img src="/building-the-zig-zag-gradient-lab-04.jpg" alt="Different variations of the concentric circle pattern">
 	<figcaption><em>Fig 04</em> Adjusting the different property values gives us very different results.</figcaption>
 </figure>
 
@@ -132,14 +132,14 @@ I started off creating a striped background with a 45 degree angle and a fixed b
 ```
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-05.jpg" alt="Repeating striped background">
+  <img src="/building-the-zig-zag-gradient-lab-05.jpg" alt="Repeating striped background">
 	<figcaption><em>Fig 05</em> Striped background with repeating linear gradient and fixed size</figcaption>
 </figure>
 
 Then I used an absolute-positioned pseudo-element with the same background at the opposite angle. (Fig 06)
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-06.jpg" alt="The previous gradient with the opposite angle (-45 degrees)">
+  <img src="/building-the-zig-zag-gradient-lab-06.jpg" alt="The previous gradient with the opposite angle (-45 degrees)">
 	<figcaption><em>Fig 06</em></figcaption>
 </figure>
 
@@ -158,14 +158,14 @@ Then I used the `mask-image` property with a repeating linear gradient to mask t
 ```
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-07.jpg" alt="Showing the areas revealed by the mask-image property">
+  <img src="/building-the-zig-zag-gradient-lab-07.jpg" alt="Showing the areas revealed by the mask-image property">
 	<figcaption><em>Fig 07</em> The two gradients overlaid. The semi-transparent areas show where the pattern below will be visible.</figcaption>
 </figure>
 
 This is the actual result. (Fig 08)
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-08.jpg" alt="Zig-zag striped gradient pattern">
+  <img src="/building-the-zig-zag-gradient-lab-08.jpg" alt="Zig-zag striped gradient pattern">
 	<figcaption><em>Fig 08</em> The resulting zig-zag pattern</figcaption>
 </figure>
 
@@ -205,7 +205,7 @@ I can just update that value to get different outcomes without changing anything
 ```
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-09.jpg" alt="Slide with a code example, showing a zig-zag background with thinner, wider stripes">
+  <img src="/building-the-zig-zag-gradient-lab-09.jpg" alt="Slide with a code example, showing a zig-zag background with thinner, wider stripes">
 	<figcaption><em>Fig 09</em> Changing the custom properties changes the appearance of the zig-zag stripes</figcaption>
 </figure>
 
@@ -277,7 +277,7 @@ The user can select the primary hue using the slider, and the two other hues are
 ```
 
 <figure>
-  <img src="//building-the-zig-zag-gradient-lab-10.jpg" alt="Colour wheel illustration showing how the hues are calculated">
+  <img src="/building-the-zig-zag-gradient-lab-10.jpg" alt="Colour wheel illustration showing how the hues are calculated">
 	<figcaption><em>Fig 10</em> Split complementary colour scheme with custom properties</figcaption>
 </figure>
 
