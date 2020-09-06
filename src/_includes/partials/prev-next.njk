@@ -5,18 +5,22 @@
     {% if post.url == slug %}
       {% set prevPost = collections.post[loop.index0 - 1] %}
       {% if prevPost %}
-        <a class="c-prev-next__link" href="{{ prevPost.url }}">
-          <span class="c-prev-next__link-desc">Previous:</span>
-          <h3 class="c-prev-next__link-title">
+        <div class="c-prev-next__item">
+          <span class="c-prev-next__link-desc">← Previous:</span>
+          <a class="c-prev-next__link heading-3" href="{{ prevPost.url }}">
             {{ prevPost.data.title }}
-          </h3>
-        </a>
+          </a>
+        </div>
       {% endif %}
 
       {% set nextPost = collections.post[loop.index0 + 1] %}
       {% if nextPost %}
-        <a href="{{ nextPost.url }}">Next:
-          {{ nextPost.data.title }}</a>
+        <div class="c-prev-next__item">
+          <span class="c-prev-next__link-desc">Next: →</span>
+          <a class="c-prev-next__link heading-3" href="{{ nextPost.url }}">
+            {{ nextPost.data.title }}
+          </a>
+        </div>
       {% endif %}
     {% endif %}
   {% endfor %}

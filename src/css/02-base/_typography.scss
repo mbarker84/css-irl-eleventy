@@ -11,7 +11,10 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.heading-1,
+.heading-2,
+.heading-3 {
   font-family: $heading;
   font-weight: $bold;
 }
@@ -49,12 +52,17 @@ blockquote {
 }
 
 code {
-  background: var(--bgTint);
+  background-color: var(--bgTint);
   padding: 0.125rem 0.25rem;
   border-radius: 0.2em;
 }
 
-h1 {
+pre code {
+  background-color: transparent;
+}
+
+h1,
+.heading-1 {
   margin-top: 0;
 
   @media (min-width: 50em) {
@@ -62,7 +70,8 @@ h1 {
   }
 }
 
-h2 {
+h2,
+.heading-2 {
   font-size: 1.2rem;
 
   @media (min-width: 42em) {
@@ -74,7 +83,8 @@ h2 {
   }
 }
 
-h3 {
+h3,
+.heading-3 {
   font-size: 1rem;
   line-height: 1.2;
 
