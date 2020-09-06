@@ -8,15 +8,6 @@
     margin-top: calc(2 * var(--vr));
   }
 
-  ul {
-    list-style-type: disc;
-    margin-left: 2rem;
-  }
-
-  li + li {
-    margin-top: calc(var(--vr) / 2);
-  }
-
   h2 + h3 {
     margin-top: var(--vr);
   }
@@ -26,6 +17,7 @@
     padding: 1rem;
     max-width: 60rem;
     font-size: 1rem;
+    margin: var(--vr) 0;
 
     * {
       margin-top: 0;
@@ -34,29 +26,109 @@
     @media (min-width: $md) {
       font-size: 1.1rem;
     }
+
+    @media (min-width: $md) {
+      font-size: 1.2rem;
+    }
   }
 
   code {
     border-radius: 0.25rem;
   }
 
-  h1 {
-    margin-bottom: calc(2 * var(--vr));
-    padding-bottom: var(--vr);
-    border-bottom: 0.2rem solid;
-  }
-
-  h1,
-  h2,
-  h3 {
-    color: lighten($bgDark, 12%);
-  }
-
   a {
     &:hover,
     &:focus {
-      background-color: $accent;
       transition: color 200ms, background-color 200ms;
+    }
+  }
+
+  figure {
+    margin: calc(var(--vr) * 2) 0;
+
+    img {
+      box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.18);
+    }
+  }
+
+  figcaption {
+    margin: calc(var(--vr) / 2) 0 0 0;
+  }
+
+  li + li {
+    margin-top: calc(var(--vr) / 2);
+  }
+
+  > * + h2 {
+    margin-top: calc(var(--vr) * 2);
+  }
+
+  > * + h3 {
+    margin-top: calc(var(--vr) * 2);
+  }
+
+  h2,
+  h3 {
+    margin-bottom: 0;
+  }
+
+  h3 + * {
+    margin-top: var(--vr);
+  }
+
+  iframe {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  blockquote {
+    border-left: 4px solid var(--primary);
+  }
+
+  aside {
+    padding: var(--vr);
+    font-size: 0.9rem;
+    background-color: var(--bgTint);
+
+    p:last-child {
+      margin: 0;
+    }
+
+    h4:first-child {
+      margin: 0 0 0.8rem;
+    }
+
+    a {
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        color: $black;
+      }
+    }
+
+    @media (min-width: $md) {
+      font-size: rem(18px);
+    }
+  }
+
+  ul {
+    padding-left: rem(20px);
+
+    li {
+      &::before {
+        content: '\2022';
+        position: relative;
+        left: rem(-10px);
+
+        @media (min-width: $md) {
+          left: rem(-20px);
+        }
+      }
+    }
+
+    @media (min-width: $md) {
+      padding-left: rem(40px);
     }
   }
 }

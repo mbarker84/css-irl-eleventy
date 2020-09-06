@@ -1,0 +1,25 @@
+<div class="c-post-header">
+
+  {% if featuredImage %}
+    <img class="c-post-header__image" src="{{ featuredImage }}" alt="">
+  {% endif %}
+
+  <ul class="c-post-header__tags-list">
+
+    {% for tag in tags %}
+      {% if tag != 'post' %}
+        <li class="c-post-header__tag">
+          <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+  </ul>
+  <h1 class="c-post-header__title">{{ title }}</h1>
+  <time datetime="{{ page.date }}" class="c-post-header__date">{{ page.date.toDateString() }}</time>
+
+  {% if source and srcUrl %}
+    <a href="{{ srcUrl }}" class="c-post-header__source">{{ source }}</a>
+  {% endif %}
+
+</div>

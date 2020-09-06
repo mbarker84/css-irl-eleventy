@@ -5,7 +5,7 @@ $lg: 60em;
 $xl: 70em;
 
 // Layout
-$wrapper-sm: rem(1100px);
+$wrapper-sm: rem(1024px);
 $wrapper: rem(1400px);
 $wrapper-large: rem(1600px);
 
@@ -36,7 +36,7 @@ $light-grey: #e8eaed;
   --vr: 1rem;
 
   @media (min-width: $md) {
-    --vr: 2rem;
+    --vr: 2.2rem;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -50,7 +50,7 @@ $light-grey: #e8eaed;
 
 // Typography
 $body: 'PT Serif', Helvetica, sans-serif;
-$heading: 'Exo 2', Helvetica, sans-serif;
+$heading: 'Exo', Helvetica, sans-serif;
 
 // Font weights (Exo)
 $std: 400;
