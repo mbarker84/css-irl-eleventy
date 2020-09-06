@@ -1,0 +1,23 @@
+{% set slug = '/' + title|slug + '/' %}
+
+<nav class="c-prev-next">
+  {% for post in collections.post %}
+    {% if post.url == slug %}
+      {% set prevPost = collections.post[loop.index0 - 1] %}
+      {% if prevPost %}
+        <a class="c-prev-next__link" href="{{ prevPost.url }}">
+          <span class="c-prev-next__link-desc">Previous:</span>
+          <h3 class="c-prev-next__link-title">
+            {{ prevPost.data.title }}
+          </h3>
+        </a>
+      {% endif %}
+
+      {% set nextPost = collections.post[loop.index0 + 1] %}
+      {% if nextPost %}
+        <a href="{{ nextPost.url }}">Next:
+          {{ nextPost.data.title }}</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</nav>

@@ -1,0 +1,37 @@
+.c-prev-next {
+  font-family: $heading;
+  margin-top: rem(20px);
+  padding-top: rem(20px);
+  border-top: 1px solid lighten($black, 50%);
+
+  @media (min-width: $sm) {
+    display: flex;
+  }
+
+  @media (min-width: $lg) {
+    margin-top: rem(60px);
+  }
+}
+
+.c-prev-next__link {
+  color: var(--textColor);
+
+  &:hover,
+  &:focus {
+    color: var(--primary);
+  }
+}
+
+.c-prev-next__link-desc {
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+
+  @media (min-width: $sm) {
+    font-size: 1rem;
+  }
+}
+
+.c-prev-next__link-title {
+  text-decoration-color: var(--primary);
+}
