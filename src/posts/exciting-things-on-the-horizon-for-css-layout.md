@@ -18,7 +18,7 @@ This week Chrome teased us with a sneak-preview of a brand new Grid inspector, w
 
 From Twitter:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s almost here: CSS grid tooling! 🤘<br><br>Over the last couple of months, we teamed up with <a href="https://twitter.com/EdgeDevTools?ref_src=twsrc%5Etfw">@EdgeDevTools</a> to work on this highly-requested feature. Here is a sneak preview.<br><br>We have many more ideas on how to make grids easier and more accessible in the future – stay tuned! <a href="https://t.co/b3u4XaEkzv">pic.twitter.com/b3u4XaEkzv</a></p>&mdash; Chrome DevTools (@ChromeDevTools) <a href="https://twitter.com/ChromeDevTools/status/1255481965995851782?ref_src=twsrc%5Etfw">April 29, 2020</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s almost here: CSS grid tooling! 🤘<br><br>Over the last couple of months, we teamed up with <a href="https://twitter.com/EdgeDevTools?ref_src=twsrc%5Etfw">@EdgeDevTools</a> to work on this highly-requested feature. Here is a sneak preview.<br><br>We have many more ideas on how to make grids easier and more accessible in the future – stay tuned! <a href="https://t.co/b3u4XaEkzv">pic.twitter.com/b3u4XaEkzv</a></p>&mdash; Chrome DevTools (@ChromeDevTools) <a href="https://twitter.com/ChromeDevTools/status/1255481965995851782?ref_src=twsrc%5Etfw">April 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ‘gap’ for flexbox supported in Chrome Canary
 
@@ -29,6 +29,7 @@ This is currently behind a flag in Chrome Canary – you’ll need to enable it.
 From [Adam Argyle](https://twitter.com/argyleink) on Twitter:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🎉 flex that gap in the latest release of Chrome Canary 🎉<br><br>```css<br>display: flex; 🦾<br>gap: 1ch; 🔥<br>```<br><br>early adopters:<br>help us test it out won&#39;t ya!? <br><br>note:<br>requires web experiments enabled, visit chrome://flags/<a href="https://twitter.com/hashtag/enable?src=hash&amp;ref_src=twsrc%5Etfw">#enable</a>-experimental-web-platform-features in Canary to enable <a href="https://t.co/lG3WusFA4X">pic.twitter.com/lG3WusFA4X</a></p>&mdash; Adam Argyle (@argyleink) <a href="https://twitter.com/argyleink/status/1254794309263491072?ref_src=twsrc%5Etfw">April 27, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Masonry in Firefox Nightly
 
@@ -37,6 +38,7 @@ This is a big one, and kind of blindsided me. [Masonry layouts](https://css-tric
 To be able to do this in CSS has always felt like a distant dream. But [Miriam Suzanne](https://twitter.com/MiriSuzanne) just announced that masonry grids are being tested in Firefox Nightly!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Masonry&quot; Grids are being tested in Firefox Nightly, behind a feature flag. <br><br>1. go to &quot;about:config&quot;<br>2. toggle &quot;layout.css.grid-template-masonry-value.enabled&quot;<br>3. try it out!<a href="https://t.co/65EW1jOMfi">https://t.co/65EW1jOMfi</a><a href="https://t.co/psOFPVLRk1">https://t.co/psOFPVLRk1</a></p>&mdash; [Mia | Miriam] Suzanne? (@MiriSuzanne) <a href="https://twitter.com/MiriSuzanne/status/1255567501359853570?ref_src=twsrc%5Etfw">April 29, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 It’s still likely to be a long road to widespread browser support – we’re still waiting on other browsers to follow Firefox’s lead and work on [subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid) support, six months down the line. But I really think this has the potential to be a game -changer – almost as much as subgrid. In fact, I would say that I need to build masonry layouts more often than I build layouts that would require subgrid, given that I can usually work around the lack of subgrid support with nested grids and a bit of maths (although it’s far from ideal).
 
