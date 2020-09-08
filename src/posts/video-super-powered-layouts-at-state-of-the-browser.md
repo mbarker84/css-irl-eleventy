@@ -8,4 +8,4 @@ Last year I spoke about CSS Grid at [State of the Browser](https://2018.stateoft
 
 The video of my talk, **Super-powered Layouts with CSS Grid and CSS Variables** has just been published. Enjoy!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hq3hDKD4H98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/hq3hDKD4H98

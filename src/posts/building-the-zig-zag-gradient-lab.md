@@ -18,7 +18,7 @@ Last month I had the priviledge of giving a talk at [Vienna Calling](https://web
 
 You can watch the full talk [here](https://www.youtube.com/watch?v=-7t1pg0ENLY&list=PLSJe-hizqRL0qMDlLzBp1WZZXJFdmP6lz&index=3), or read the transcript (including some slides and code examples) below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-7t1pg0ENLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/-7t1pg0ENLY
 
 ## Transcript
 

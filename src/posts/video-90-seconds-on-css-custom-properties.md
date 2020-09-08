@@ -8,7 +8,7 @@ Last year I spoke at [Future Sync](https://futuresync.co.uk/) conference, and th
 
 There’s also a transcript below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3QcXFk6JQf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/3QcXFk6JQf8
 
 ## Transcript
 
