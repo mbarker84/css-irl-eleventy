@@ -5,7 +5,6 @@
   {% endif %}
 
   <ul class="c-post-header__tags-list">
-
     {% for tag in tags %}
       {% if tag != 'post' %}
         <li class="c-post-header__tag">
@@ -13,9 +12,13 @@
         </li>
       {% endif %}
     {% endfor %}
-
   </ul>
-  <h1 class="c-post-header__title">{{ title }}</h1>
+
+  <h1 class="c-post-header__title">
+    {% if series %}
+      <span class="c-post-header__series">{{ series }}</span>
+    {% endif %}
+    {{ title }}</h1>
   <time datetime="{{ page.date }}" class="c-post-header__date">{{ page.date.toDateString() }}</time>
 
   {% if source and srcUrl %}

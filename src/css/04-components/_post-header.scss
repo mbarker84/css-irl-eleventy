@@ -62,3 +62,14 @@
     font-size: 1rem;
   }
 }
+
+.c-post-header__series {
+  display: block;
+  font-size: rem(16px);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+  @media (min-width: $md) {
+    font-size: rem(24px);
+  }
+}

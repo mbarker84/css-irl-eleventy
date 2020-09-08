@@ -1,3 +1,7 @@
+{% if series %}
+  {% set title = series + ': ' + title %}
+{% endif %}
+
 {% if title %}
   {% set title = metadata.title + ' | ' + title %}
 {% elseif pageTitle %}

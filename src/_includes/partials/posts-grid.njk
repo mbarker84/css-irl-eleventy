@@ -1,8 +1,8 @@
 <ul class="c-posts-grid">
   {% for post in pagination.items %}
     <li>
-      {% if post.data.seriesTitle %}
-        <h4 class="c-posts-grid__series-title">{{ post.data.seriesTitle }}</h4>
+      {% if post.data.series %}
+        <h4 class="c-posts-grid__series-title">{{ post.data.series }}</h4>
       {% endif %}
 
       <h3 class="c-posts-grid__post-heading">

@@ -24,7 +24,7 @@
 }
 
 .c-posts-grid__post-heading {
-  margin-bottom: 0;
+  margin: 0;
 
   a {
     color: var(--textColor);
@@ -65,4 +65,5 @@
 
 .c-posts-grid__series-title {
   margin: 0 0 0.5rem 0;
+  font-size: rem(16px);
 }
