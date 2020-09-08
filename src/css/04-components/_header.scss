@@ -10,10 +10,9 @@
 
   @media (min-width: $md) {
     padding-right: 1rem;
-    min-height: 4.5rem;
     display: flex;
     align-items: center;
-    padding: 0.5rem 1rem 0.5rem 2rem;
+    padding: 0 1rem 0 1.5rem;
   }
 }
 
@@ -103,8 +102,8 @@
   display: block;
   color: $white;
   text-decoration: none;
-  width: rem(300px);
-  height: rem(40px);
+  width: rem(320px);
+  height: rem(70px);
 
   &:hover,
   &:focus {
