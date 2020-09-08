@@ -1,8 +1,16 @@
+{% if title %}
+  {% set title = metadata.title + ' | ' + title %}
+{% elseif pageTitle %}
+  {% set title = metadata.title + ' | ' + pageTitle %}
+{% else %}
+  {% set title = metadata.title %}
+{% endif %}
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <title>{{ metadata.title }}</title>
+  <title>{{ title }}</title>
   <meta name="Description" content="{{ metadata.description }}">
   <link rel="stylesheet" href="/styles.css">
   <link
@@ -16,11 +24,12 @@
   rel="manifest" href="/site.webmanifest">
 
   {# Facebook and Twitter card #}
-  <meta property="og:title" content="{{ metadata.title }}"/>
+  <meta property="og:title" content="{{ title }}"/>
+  <meta property="og:title" content="{{ title }}"/>
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="{{ metadata.description }}"/>
   <meta property="og:image" content="{{ metadata.url }}{{ metadata.img }}"/>
   <meta property="og:url" content="{{ metadata.url }}"/>
-  <meta property="og:site_name" content="{{ metadata.title }}"/>
+  <meta property="og:site_name" content="{{ title }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
 </head>
