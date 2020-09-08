@@ -1,4 +1,4 @@
-{% set slug = '/' + title|slug + '/' %}
+{% set slug = '/' + page.fileSlug + '/' %}
 
 <nav class="c-prev-next">
   {% for post in collections.post %}
