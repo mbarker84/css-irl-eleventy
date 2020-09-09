@@ -12,6 +12,12 @@
   @media (min-width: $md) {
     margin-bottom: calc(var(--vr) * 2);
   }
+
+  @media (min-width: $lg) {
+    @supports (display: grid) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .c-post-header__tags-list {

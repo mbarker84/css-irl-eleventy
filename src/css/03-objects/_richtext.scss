@@ -43,8 +43,12 @@
     }
   }
 
-  figure {
-    margin: calc(var(--vr) * 2) 0;
+  figure + * {
+    margin-top: calc(var(--vr) * 2);
+  }
+
+  * + figure {
+    margin-top: calc(var(--vr) * 2);
 
     img {
       box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.18);
