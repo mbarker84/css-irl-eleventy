@@ -1,5 +1,4 @@
 .c-hero {
-  min-height: 100vh;
   background: repeating-radial-gradient(
       circle at 50%,
       transparent 2rem,
@@ -8,7 +7,7 @@
       transparent 2.2rem,
       transparent 4rem
     ),
-    radial-gradient(circle at 50%, $alt, transparent), $bgDark;
+    radial-gradient(circle at 0%, $alt, transparent), var(--headerBg);
   background-size: 10rem 10rem, 100% 100%;
   background-repeat: repeat;
   background-position: center;
