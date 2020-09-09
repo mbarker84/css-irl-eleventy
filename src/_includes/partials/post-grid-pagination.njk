@@ -1,0 +1,14 @@
+<nav class="c-post-grid-pagination" aria-label="paginated posts">
+  <ol class="c-post-grid-pagination__items">
+    {% if pagination.href.previous %}
+      <li class="c-post-grid-pagination__item c-post-grid-pagination__item--prev">
+        <a href="{{ pagination.href.previous }}">← Previous</a>
+      </li>
+    {% endif %}
+    {% if pagination.href.next %}
+      <li class="c-post-grid-pagination__item c-post-grid-pagination__item--next">
+        <a href="{{ pagination.href.next }}">Next →</a>
+      </li>
+    {% endif %}
+  </ol>
+</nav>
