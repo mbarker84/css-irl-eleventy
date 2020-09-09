@@ -11,7 +11,10 @@ const open = () => {
   menuWrapper.hidden = false
   menuBtn.setAttribute('aria-expanded', true)
   menuBtn.innerText = 'Close'
-  bodyScrollLock(true)
+
+  if (window.innerWidth < 1024) {
+    bodyScrollLock(true)
+  }
 
   setTimeout(() => {
     menuWrapper.classList.add('is-visible')
