@@ -3,18 +3,22 @@
 {% block content %}
   <div class="page-content">
     <div class="container">
-      {% include "./partials/post-header.njk" %}
+      <article class="post-grid">
+        <div class="post-grid__header">
+          {% include "./partials/post-header.njk" %}
+        </div>
+        <div class="post-grid__main">
+          <div class="o-richtext">
+            {{ content | safe }}
+          </div>
+        </div>
+        <div class="post-grid__sidebar">
+          <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D62J7&placement=css-irlinfo" id="_carbonads_js"></script>
+        </div>
+        <div class="post-grid__prev-next">
+          {% include "./partials/prev-next.njk" %}
+        </div>
+      </article>
     </div>
-
-    <div class="container-sm">
-      <div class="o-richtext">
-        {{ content | safe }}
-      </div>
-    </div>
-
-    <div class="container-sm">
-      {% include "./partials/prev-next.njk" %}
-    </div>
-
   </div>
 {% endblock %}
