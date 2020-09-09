@@ -63,10 +63,12 @@ pre code {
 
 h1,
 .heading-1 {
+  font-size: 1.65rem;
   margin-top: 0;
+  line-height: 1.2;
 
   @media (min-width: 50em) {
-    font-size: 2.6em;
+    font-size: 2.6rem;
   }
 }
 
@@ -106,6 +108,10 @@ figcaption {
   font-size: rem(16px);
   font-family: $heading;
   margin-top: 0.5rem;
+}
+
+small {
+  font-size: 0.9rem;
 }
 
 .truncate-3 {

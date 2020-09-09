@@ -13,8 +13,8 @@
   <ul class="c-header__social-links">
     {% for item in menudata %}
       <li class="c-header__item">
-        <a class="c-header__link" href="{{ item.url }}">
-          {{ item.title }}
+        <a class="c-header__link c-header__link--social" href="{{ item.url }}">
+          <span class="c-header__social-link-text">{{ item.title }}</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
             <use href="#{{ item.icon }}"/>
           </svg>
