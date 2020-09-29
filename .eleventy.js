@@ -2,6 +2,30 @@ const pluginRss = require('@11ty/eleventy-plugin-rss')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const embedYouTube = require('eleventy-plugin-youtube-embed')
 
+const getPostCount = (tag, posts) => {
+  return posts.filter((post) => post.data.tags.includes(tag)).length
+}
+
+const arrayIncludesTag = (tag, arr) => {
+  return arr.some((item) => item.title === tag.title)
+}
+
+const getTags = (item) => {
+  return item.data.tags.filter(function (item) {
+    switch (item) {
+      // this list should match the `filter` list in tags.njk
+      case 'all':
+      case 'nav':
+      case 'post':
+      case 'posts':
+      case 'page':
+        return false
+    }
+
+    return true
+  })
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('postPaginated', function (collectionApi) {
     return collectionApi.getFilteredByTag('post').reverse().slice(1)
@@ -11,21 +35,7 @@ module.exports = function (eleventyConfig) {
     let tagSet = new Set()
     collection.getAll().forEach(function (item) {
       if ('tags' in item.data) {
-        let tags = item.data.tags
-
-        tags = tags.filter(function (item) {
-          switch (item) {
-            // this list should match the `filter` list in tags.njk
-            case 'all':
-            case 'nav':
-            case 'post':
-            case 'posts':
-            case 'page':
-              return false
-          }
-
-          return true
-        })
+        const tags = getTags(item)
 
         for (const tag of tags) {
           tagSet.add(tag)
@@ -35,6 +45,36 @@ module.exports = function (eleventyConfig) {
 
     // returning an array in addCollection works in Eleventy 0.5.3
     return [...tagSet]
+  })
+
+  eleventyConfig.addCollection('homepageTags', function (collection) {
+    let tagSet = new Set()
+
+    collection.getAll().forEach(function (item) {
+      if ('tags' in item.data) {
+        const tags = getTags(item)
+
+        for (const tag of tags) {
+          tagSet.add({
+            title: tag,
+            postCount: getPostCount(tag, collection.getFilteredByTag('post')),
+          })
+        }
+      }
+    })
+
+    // returning an array in addCollection works in Eleventy 0.5.3
+    const arr = []
+    const sortedTags = [...tagSet]
+      .sort((a, b) => a.postCount - b.postCount)
+      .reverse()
+
+    sortedTags.forEach((tag) => {
+      if (arrayIncludesTag(tag, arr)) return
+      arr.push(tag)
+    })
+
+    return arr.slice(0, 15)
   })
 
   eleventyConfig.addShortcode('excerpt', (article) => extractExcerpt(article))

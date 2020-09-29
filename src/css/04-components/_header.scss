@@ -129,6 +129,13 @@
   @media (min-width: $md) {
     margin: 0 1rem;
   }
+
+  &:hover,
+  &:focus {
+    svg {
+      color: var(--primary);
+    }
+  }
 }
 
 .c-header__title {
@@ -168,7 +175,7 @@
     height: 100vh;
     padding: 5rem 1rem 2rem 1rem;
     overflow-y: scroll;
-    background-color: darken($bgDark, 5%);
+    background-color: $alt;
     transform: translate3d(100%, 0, 0);
     transition: transform 250ms;
     box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.25);

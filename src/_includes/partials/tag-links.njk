@@ -1,0 +1,18 @@
+{% if home %}
+  {% set componentClass = 'c-tag-links--home' %}
+{% endif %}
+
+<ul class="c-tag-links {{ componentClass }}">
+  {% if home %}
+    <li class="c-tag-links__tag">
+      <a href="/tags">All</a>
+    </li>
+  {% endif %}
+  {% for tag in tags %}
+    {% if tag.title != 'post' %}
+      <li class="c-tag-links__tag">
+        <a href="/tags/{{ tag.title | slug }}">{{ tag.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

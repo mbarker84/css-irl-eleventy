@@ -20,43 +20,6 @@
   }
 }
 
-.c-post-header__tags-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.c-post-header__tag {
-  font-family: $heading;
-  font-weight: 400;
-  font-size: 0.9rem;
-  margin-right: 0.75rem;
-  margin-bottom: 0.2rem;
-
-  @media (min-width: $md) {
-    margin-right: 1rem;
-  }
-
-  a {
-    display: block;
-    background-color: var(--primary);
-    color: var(--textColorInverse);
-    transition: background-color 200ms, color 200ms;
-    padding: 0 rem(6px);
-    text-decoration: none;
-    border-radius: 0.1rem;
-
-    &:hover,
-    &:focus {
-      color: var(--primary);
-      background-color: var(--textColor);
-    }
-  }
-
-  @media (min-width: $md) {
-    font-size: 1rem;
-  }
-}
-
 .c-post-header__date,
 .c-post-header__source {
   display: block;

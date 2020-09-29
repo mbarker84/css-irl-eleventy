@@ -14,8 +14,16 @@
       </div>
     </div>
 
-    <div class="container">
-      {% include "./partials/featured-post.njk" %}
+    <div class="container grid">
+      <div class="grid__tags">
+        <h4 class="c-tags-block__title">Search by topic...</h4>
+        {% set tags = collections.homepageTags %}
+        {% set home = true %}
+        {% include "./partials/tag-links.njk" %}
+      </div>
+      <div class="grid__featured-post">
+        {% include "./partials/featured-post.njk" %}
+      </div>
     </div>
   {% endif %}
 

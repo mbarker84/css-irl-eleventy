@@ -1,3 +1,17 @@
+.c-featured-post {
+  position: relative;
+
+  @media (min-width: $md) {
+    background-color: var(--bgTint);
+    border: 3px solid var(--primary);
+    padding: 1rem;
+  }
+
+  @media (min-width: $lg) {
+    padding: 2rem;
+  }
+}
+
 .c-featured-post__title {
   margin-bottom: 0;
   max-width: 35ch;
@@ -43,4 +57,21 @@
 
 .c-featured-post__excerpt {
   max-width: 75ch;
+}
+
+.c-featured-post__latest {
+  font-family: $heading;
+  font-weight: $bold;
+  color: var(--bgTint);
+  background-color: var(--primary);
+  padding: 0.25rem 0.5rem;
+
+  @media (min-width: $md) {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+  }
 }

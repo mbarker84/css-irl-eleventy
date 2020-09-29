@@ -4,15 +4,7 @@
     <img class="c-post-header__image" src="{{ featuredImage }}" alt="">
   {% endif %}
 
-  <ul class="c-post-header__tags-list">
-    {% for tag in tags %}
-      {% if tag != 'post' %}
-        <li class="c-post-header__tag">
-          <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  {% include "./tag-links.njk" %}
 
   <h1 class="c-post-header__title">
     {% if series %}
