@@ -1,14 +1,20 @@
 .c-featured-post {
   position: relative;
+  background-color: var(--bgTint);
+  width: 100vw;
+  margin-left: -1rem;
+  padding: 2rem 1rem 1rem;
 
   @media (min-width: $md) {
-    background-color: var(--bgTint);
-    border: 3px solid var(--primary);
-    padding: 1rem;
+    margin-left: -2rem;
+    padding: 2rem;
   }
 
   @media (min-width: $lg) {
-    padding: 2rem;
+    padding: 2.5rem;
+    border: 3px solid var(--primary);
+    width: 100%;
+    margin-left: 0;
   }
 }
 
@@ -60,6 +66,10 @@
 }
 
 .c-featured-post__latest {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   font-family: $heading;
   font-weight: $bold;
   color: var(--bgTint);
@@ -67,10 +77,6 @@
   padding: 0.25rem 0.5rem;
 
   @media (min-width: $md) {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     padding: 0.5rem 1rem;
     font-size: 1.8rem;
   }

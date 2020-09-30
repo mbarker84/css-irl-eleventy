@@ -12,9 +12,12 @@ h1,
 h2,
 h3,
 h4,
+h5,
 .heading-1,
 .heading-2,
-.heading-3 {
+.heading-3,
+.heading-4,
+.heading-5 {
   font-family: $heading;
   font-weight: $bold;
 }
@@ -91,7 +94,7 @@ h2,
 
 h3,
 .heading-3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.2;
 
   @media (min-width: 42em) {
