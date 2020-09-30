@@ -5,6 +5,6 @@ pageTitle: 'Search by topic'
 ---
 
 {% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag.title }} {{ tag.postCount }}</a>
 {% endfor %}
