@@ -65,11 +65,13 @@ In the first of the two examples shown I’m targeting the last child item if it
 
 ```css
 /* Target the second item on the last row, as long as it is the last item in the grid */
+
 li:last-child:nth-child(3n - 1) {
   grid-column: span 2;
 }
 
 /* Target the first item on the last row, if it is the last item */
+
 li:last-child:nth-child(3n - 2) {
   grid-column: span 3;
 }
@@ -109,6 +111,7 @@ Then we can target the last and last-but-one grid items as before, but instead a
 
 ```css
 /* Dealing with 2 orphan items */
+
 li:last-child:nth-child(3n - 1) {
   grid-column-end: -2;
 }
@@ -118,6 +121,7 @@ li:nth-last-child(2):nth-child(3n + 1) {
 }
 
 /* Dealing with single orphan */
+
 li:last-child:nth-child(3n - 2) {
   grid-column-end: 5;
 }
