@@ -4,8 +4,6 @@ layout: page.njk
 pageTitle: 'Blogroll'
 ---
 
-<h1>Blogroll</h1>
-
 <ul>
 {% for item in blogroll %}
   <li><a href="{{ item.url | url }}">{{ item.name }}</a></li>
