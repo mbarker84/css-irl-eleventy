@@ -1,0 +1,25 @@
+.c-all-tags__list {
+  @media (min-width: $md) {
+    columns: 20rem;
+    column-gap: 2rem;
+  }
+}
+
+.c-all-tags__link {
+  color: var(--textColor);
+
+  &:hover,
+  &:focus {
+    color: var(--primary);
+  }
+}
+
+.c-all-tags__post-count {
+  font-family: $heading;
+  color: var(--primary);
+  font-size: 0.9rem;
+
+  @media (min-width: $md) {
+    font-size: 1rem;
+  }
+}

@@ -4,7 +4,15 @@ layout: tag-page.njk
 pageTitle: 'Search by topic'
 ---
 
-{% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }} {{ tag }}</a>
-{% endfor %}
+<ul class="c-all-tags__list">
+  {% for tag in collections.allTags %}
+    {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
+    {% if tag.title != 'collections.homepageTags' %}
+
+    <li class="c-all-tags__item">
+      <a href="{{ tagUrl | url }}" class="c-all-tags__link heading-4">{{ tag.title }}</a>
+      <span class="c-all-tags__post-count">{{ tag.postCount }} posts</span>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

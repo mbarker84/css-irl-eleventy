@@ -46,6 +46,35 @@ module.exports = function (eleventyConfig) {
     return [...tagSet]
   })
 
+  eleventyConfig.addCollection('allTags', function (collection) {
+    let tagSet = new Set()
+
+    collection.getAll().forEach(function (item) {
+      if ('tags' in item.data) {
+        const tags = getTags(item)
+
+        for (const tag of tags) {
+          tagSet.add({
+            title: tag,
+            postCount: getPostCount(tag, collection.getFilteredByTag('post')),
+          })
+        }
+      }
+    })
+
+    const arr = []
+    const sortedTags = [...tagSet]
+      .sort((a, b) => a.postCount - b.postCount)
+      .reverse()
+
+    sortedTags.forEach((tag) => {
+      if (arrayIncludesTag(tag, arr)) return
+      arr.push(tag)
+    })
+
+    return arr
+  })
+
   eleventyConfig.addCollection('homepageTags', function (collection) {
     let tagSet = new Set()
 
