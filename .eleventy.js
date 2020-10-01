@@ -38,26 +38,12 @@ module.exports = function (eleventyConfig) {
         const tags = getTags(item)
 
         for (const tag of tags) {
-          tagSet.add({
-            title: tag,
-            postCount: getPostCount(tag, collection.getFilteredByTag('post')),
-          })
+          tagSet.add(tag)
         }
       }
     })
 
-    const arr = []
-    const sortedTags = [...tagSet]
-      .sort((a, b) => a.postCount - b.postCount)
-      .reverse()
-
-    sortedTags.forEach((tag) => {
-      if (arrayIncludesTag(tag, arr)) return
-      arr.push(tag)
-    })
-
-    // returning an array in addCollection works in Eleventy 0.5.3
-    return [...arr]
+    return [...tagSet]
   })
 
   eleventyConfig.addCollection('homepageTags', function (collection) {

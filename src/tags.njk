@@ -3,11 +3,11 @@ pagination:
   data: collections
   size: 1
   alias: tag
-permalink: /tags/{{ tag.title|replace(' ', '-') }}/
+permalink: /tags/{{ tag|replace(' ', '-') }}/
 layout: tag-page.njk
 ---
 
-<h1>Tagged “{{ tag.title }}”</h1>
+<h1>Tagged “{{ tag }}”</h1>
 
 <ul class="c-posts-grid">
   {% set taglist = collections[ tag ] %}
