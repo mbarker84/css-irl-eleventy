@@ -23,6 +23,15 @@
   }
 }
 
+.c-posts-grid--tags {
+  border-top: 1px solid lighten($black, 50%);
+  padding-top: 1rem;
+
+  @media (min-width: $md) {
+    padding-top: 2rem;
+  }
+}
+
 .c-posts-grid__post-heading {
   margin: 0;
 
