@@ -1,11 +1,30 @@
 ---
 permalink: /blogroll/
-layout: page.njk
+layout: blogroll.njk
 pageTitle: 'Blogroll'
 ---
 
-<ul>
+<ul class="c-blogroll__list">
 {% for item in blogroll %}
-  <li><a href="{{ item.url | url }}">{{ item.name }}</a></li>
+  <li class="c-blogroll__item">
+    <img src="{{ item.avatar }}" alt="Profile picture of {{ item.name }}" width="100" height="100">
+    <div class="c-blogroll__item-content">
+      <h3 class="c-blogroll__heading">{{ item.name }}</h3>
+      <dl>
+        <div>
+          <dt>Website</dt>
+          <dd class="c-blogroll__dd">
+            <a class="c-blogroll__link" href="{{ item.url | url }}">{{ item.url | url }}</a>
+          </dd>
+        </div>
+        <div>
+          <dt>Twitter</dt>
+          <dd class="c-blogroll__dd">
+            <a class="c-blogroll__link" href="https://twitter.com/{{ item.twitter | url }}">@{{ item.twitter | url }}</a>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </li>
 {% endfor %}
 </ul>

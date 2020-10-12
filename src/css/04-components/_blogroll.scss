@@ -1,0 +1,25 @@
+.c-blogroll__item {
+  display: flex;
+  font-size: 0.9rem;
+  font-family: $heading;
+
+  &:not(:last-child) {
+    margin-bottom: var(--vr);
+  }
+
+  @media (min-width: $md) {
+    font-size: 1rem;
+  }
+}
+
+.c-blogroll__heading {
+  margin: 0 0 0.5rem 0;
+}
+
+.c-blogroll__item-content {
+  padding-left: 1rem;
+}
+
+.c-blogroll__dd {
+  margin-left: 0;
+}
