@@ -9,6 +9,7 @@
   width: 100%;
   z-index: 1;
   color: var(--white);
+  transition: background-color 200ms;
 
   @media (min-width: $md) {
     position: fixed;
@@ -18,6 +19,10 @@
 
 .c-header--bg {
   background-color: var(--headerBg);
+
+  .c-header__title {
+    visibility: visible;
+  }
 }
 
 .c-header__menu-btn {
@@ -147,6 +152,7 @@
   color: $white;
   text-decoration: none;
   margin-right: 1rem;
+  visibility: hidden;
 
   &:hover,
   &:focus {

@@ -3,13 +3,11 @@
 {% endif %}
 
 <header class="c-header {{ headerClass }}" data-header="data-header">
-  {% if showHomeLink == true %}
-    <a class="c-header__title" href="/" aria-label="CSS In Real Life">
-      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="40">
-        <use href="#logo"/>
-      </svg>
-    </a>
-  {% endif %}
+  <a class="c-header__title" href="/" aria-label="CSS In Real Life">
+    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="40">
+      <use href="#logo"/>
+    </svg>
+  </a>
   <ul class="c-header__social-links">
     {% for item in menudata %}
       <li class="c-header__item">
