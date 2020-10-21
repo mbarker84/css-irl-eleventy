@@ -1,14 +1,33 @@
+.c-blogroll__list {
+  padding: rem(20px) 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: rem(20px);
+
+  @media (min-width: $sm) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: rem(20px);
+  }
+
+  @media (min-width: $lg) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: rem(40px);
+    margin-top: rem(40px);
+  }
+}
+
 .c-blogroll__item {
-  display: flex;
   font-size: 0.9rem;
   font-family: $heading;
-
-  &:not(:last-child) {
-    margin-bottom: var(--vr);
-  }
+  padding: 1rem;
+  background-color: var(--bgTint);
+  border: 3px solid var(--primary);
+  box-shadow: 0.5rem 0.5rem 0 var(--primary);
 
   @media (min-width: $md) {
     font-size: 1rem;
+    margin-bottom: 0;
   }
 }
 
@@ -16,8 +35,10 @@
   margin: 0 0 0.5rem 0;
 }
 
-.c-blogroll__item-content {
-  padding-left: 1rem;
+.c-blogroll__dl {
+  > * + * {
+    margin-top: 0.5rem;
+  }
 }
 
 .c-blogroll__dd {

@@ -3,8 +3,32 @@
 {% block content %}
   <div class="page-content">
     <div class="container">
-      <h1>{{ pageTitle }}</h1>
-      {{ content | safe }}
+      <div class="o-richtext">
+        <h1>{{ pageTitle }}</h1>
+        {{ content | safe }}
+      </div>
+
+      <ul class="c-blogroll__list">
+        {% for item in blogroll %}
+          <li class="c-blogroll__item">
+            <h3 class="c-blogroll__heading">{{ item.name }}</h3>
+            <dl class="c-blogroll__dl">
+              <div>
+                <dt>Website</dt>
+                <dd class="c-blogroll__dd">
+                  <a class="c-blogroll__link" href="{{ item.url | url }}">{{ item.url | url }}</a>
+                </dd>
+              </div>
+              <div>
+                <dt>Twitter</dt>
+                <dd class="c-blogroll__dd">
+                  <a class="c-blogroll__link" href="https://twitter.com/{{ item.twitter | url }}">@{{ item.twitter | url }}</a>
+                </dd>
+              </div>
+            </dl>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 {% endblock %}
