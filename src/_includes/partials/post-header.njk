@@ -1,25 +1,33 @@
-<div class="c-post-header">
+{% if headerStyle == 'simple' %}
+  {% set componentClass = 'c-post-header--simple' %}
+{% endif %}
+
+<div class="c-post-header {{ componentClass }}">
 
   {% if featuredImage %}
     <img class="c-post-header__image" src="{{ featuredImage }}" alt="">
   {% endif %}
 
-  <ul class="c-tag-links">
-    {% for tag in tags %}
-      {% if tag != 'post' %}
-        <li class="c-tag-links__tag">
-          <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  {% if tags and headerStyle != 'simple' %}
+    <ul class="c-tag-links">
+      {% for tag in tags %}
+        {% if tag != 'post' %}
+          <li class="c-tag-links__tag">
+            <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
 
   <h1 class="c-post-header__title">
     {% if series %}
       <span class="c-post-header__series">{{ series }}</span>
     {% endif %}
     {{ title }}</h1>
-  <time datetime="{{ page.date }}" class="c-post-header__date">{{ page.date.toDateString() }}</time>
+  {% if headerStyle != 'simple' %}
+    <time datetime="{{ page.date }}" class="c-post-header__date">{{ page.date.toDateString() }}</time>
+  {% endif %}
 
   {% if source and srcUrl %}
     <a href="{{ srcUrl }}" class="c-post-header__source">{{ source }}</a>

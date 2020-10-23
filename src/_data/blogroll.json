@@ -26,7 +26,7 @@
   {
     "name": "Eric Bailey",
     "avatar": "https://pbs.twimg.com/profile_images/1250230152883326976/ZahqBXN0_400x400.jpg",
-    "url": "https://ericwbailey.design/writing.html",
+    "url": "https://ericwbailey.design",
     "twitter": "ericwbailey"
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "Hidde de Vries",
     "avatar": "https://pbs.twimg.com/profile_images/1232603114219458560/Zmx3NA7n_400x400.jpg",
-    "url": "https://hiddedevries.nl/en/blog/",
+    "url": "https://hiddedevries.nl",
     "twitter": "hdv"
   },
   {
@@ -86,19 +86,19 @@
   {
     "name": "Brad Frost",
     "avatar": "",
-    "url": "",
-    "twitter": ""
+    "url": "https://bradfrost.com/",
+    "twitter": "brad_frost"
   },
   {
     "name": "Stu Robson",
     "avatar": "",
-    "url": "",
-    "twitter": ""
+    "url": "https://www.alwaystwisted.com/",
+    "twitter": "StuRobson"
   },
   {
     "name": "Lea Verou",
     "avatar": "",
-    "url": "",
-    "twitter": ""
+    "url": "https://lea.verou.me/",
+    "twitter": "LeaVerou"
   }
 ]
