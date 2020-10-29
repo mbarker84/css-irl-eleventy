@@ -3,6 +3,7 @@ pageTitle: 'About'
 displayTitle: 'About this blog'
 layout: about.njk
 headerStyle: 'simple'
+authorInfo: '<p>This blog by <a href="https://michellebarker.co.uk">Michelle Barker</a>.</p>'
 ---
 
 ## The web’s most beautiful language
