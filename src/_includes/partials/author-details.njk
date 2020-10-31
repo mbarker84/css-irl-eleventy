@@ -1,6 +1,11 @@
 {% if authorInfo %}
-  <div>
-    <h3>About the author</h3>
-    {{ authorInfo | safe }}
+  <div class="c-author-info">
+    <div class="c-author-info__image">
+      <img src="/headshot.jpg" alt="Michelle Barker profile picture">
+    </div>
+    <div>
+      <h3 class="c-author-info__heading">About the author</h3>
+      {{ authorInfo | safe }}
+    </div>
   </div>
 {% endif %}

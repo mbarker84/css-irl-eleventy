@@ -9,10 +9,10 @@
           {% include "./partials/post-header.njk" %}
         </div>
         <div class="post-grid__main">
-          {% include "./partials/author-details.njk" %}
           <div class="o-richtext">
             {{ content | safe }}
           </div>
+          {% include "./partials/author-details.njk" %}
         </div>
         <div class="post-grid__sidebar">
           <div class="c-ad c-ad--vertical">

@@ -3,7 +3,7 @@ pageTitle: 'About'
 displayTitle: 'About this blog'
 layout: about.njk
 headerStyle: 'simple'
-authorInfo: '<p>This blog by <a href="https://michellebarker.co.uk">Michelle Barker</a>.</p>'
+authorInfo: '<p>CSS { IRL } is designed, written and developed by <a href="https://michellebarker.co.uk">Michelle Barker</a>, Lead Front End Developer at Atomic Smash, occasional speaker on web technologies, and CSS superfan.</p>'
 ---
 
 ## The web’s most beautiful language
@@ -20,10 +20,10 @@ I’ve always loved writing, and I started this blog in 2018 in order to carve o
 
 It’s also a place to jot down my thoughts (sometimes half-formed) and reactions to web tech topics, which can sometimes go beyond code. Although I aim for this site to be primarily a place for practical learning, I won’t apologise for occasionally venting my opinions. It’s my blog, after all 😄
 
-What I love about working in this industry (and especially with CSS) is the community’s willingness to share knowledge and help and support each other. To this end, CSS { In Real Life } now has a [blogroll](/blogroll), listing some of the blogs that have helped and influenced me, and which I love reading. I hope you’ll discover some hidden gems on there too.
+What I love about working in this industry (and especially with CSS) is the community’s willingness to share knowledge and help and support each other. To this end, CSS { IRL } now has a [blogroll](/blogroll), listing some of the blogs that have helped and influenced me, and which I love reading. I hope you’ll discover some hidden gems on there too.
 
 ## Why “in real life”?
 
-Real life is sometimes messy. It doesn’t always follow “best practices”, or clear road maps. It often involves compromises and trade-offs. Web development is similar. There often isn’t a single “right” way to do things, and the choices we make are born of pragmatism. I endeavour to write honestly about my experiences and explain the decisions I make, while acknowledging other to whom I am indebted.
+Real life is sometimes messy. It doesn’t always follow “best practices”, or clear road maps. It often involves compromises and trade-offs. Web development is similar. There often isn’t a single “right” way to do things, and the choices we make are born of pragmatism. I endeavour to write honestly about my experiences and explain the decisions I make, while acknowledging others to whom I am indebted.
 
 Plenty of deference is given to individuals working for large companies or travelling the world writing and speaking about web technologies (and usually deservedly so). But it’s important to remember that those of us working for smaller agencies, producing websites for small-to-medium-sized clients with finite resources actually make up a large proportion of developers. We have a different set of contraints to work with, which sometimes means choosing not to use the latest, hottest technology, even when we want to, but being informed enough to make those choices nonetheless. Because our users are just as important. These are the people I serve. This is real life.

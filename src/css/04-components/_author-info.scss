@@ -1,0 +1,34 @@
+.c-author-info {
+  display: flex;
+  padding: var(--vr);
+  background-color: var(--bgTint);
+  margin-top: calc(var(--vr) * 2);
+
+  p {
+    @media (min-width: $md) {
+      font-size: 1.2rem;
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.c-author-info__image {
+  align-self: flex-start;
+  margin-right: rem(10px);
+  max-width: rem(100px);
+  border-radius: 50%;
+  overflow: hidden;
+  filter: grayscale(100%);
+
+  @media (min-width: $md) {
+    max-width: rem(150px);
+    margin-right: rem(20px);
+  }
+}
+
+.c-author-info__heading {
+  margin: 0 0 rem(10px) 0;
+}

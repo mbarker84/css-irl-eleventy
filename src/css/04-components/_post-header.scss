@@ -43,10 +43,12 @@
   }
 }
 
-.c-post-header--simple {
-  .c-post-header__title {
-    margin-bottom: 0;
-    padding-bottom: 0.7em;
-    border-bottom: 0.075em solid var(--primary);
-  }
+.c-post-header__title {
+  margin-bottom: 0;
+}
+
+.c-post-header {
+  margin-bottom: 0;
+  padding-bottom: var(--vr);
+  border-bottom: 0.2em solid var(--primary);
 }
