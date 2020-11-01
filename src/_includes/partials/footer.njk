@@ -1,3 +1,9 @@
+{% if cacheBusting %}
+  {% set version = cacheBusting %}
+{% else %}
+  {% set version = '' %}
+{% endif %}
+
 <footer class="c-footer">
   <small>&copy;
     {{ metadata.author.name }}
@@ -6,4 +12,4 @@
 </footer>
 
 <!--JS-->
-<script src="/index.js"></script>
+<script src="/index{{ version }}.js"></script>
