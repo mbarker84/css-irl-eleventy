@@ -27,3 +27,7 @@ What I love about working in this industry (and especially with CSS) is the comm
 Real life is sometimes messy. It doesn’t always follow “best practices”, or clear road maps. It often involves compromises and trade-offs. Web development is similar. There often isn’t a single “right” way to do things, and the choices we make are born of pragmatism. I endeavour to write honestly about my experiences and explain the decisions I make, while acknowledging others to whom I am indebted.
 
 Plenty of deference is given to individuals working for large companies or travelling the world writing and speaking about web technologies (and usually deservedly so). But it’s important to remember that those of us working for smaller agencies, producing websites for small-to-medium-sized clients with finite resources actually make up a large proportion of developers. We have a different set of contraints to work with, which sometimes means choosing not to use the latest, hottest technology, even when we want to, but being informed enough to make those choices nonetheless. Because our users are just as important. These are the people I serve. This is real life.
+
+## Tools
+
+This site is built with static site generator [11ty](https://www.11ty.dev), with [Parcel JS](https://parceljs.org/) for module bundling and compiling assets.
