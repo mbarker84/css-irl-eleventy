@@ -49,15 +49,15 @@
       margin-right: 0.5rem;
     }
 
-    &:first-child {
+    &:last-child {
       a {
-        background-color: var(--textColor);
+        background-color: var(--bg);
         color: var(--primary);
+        text-decoration: underline;
 
         &:hover,
         &:focus {
           color: var(--textColor);
-          background-color: var(--primary);
         }
       }
     }

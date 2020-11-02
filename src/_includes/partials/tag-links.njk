@@ -3,11 +3,6 @@
 {% endif %}
 
 <ul class="c-tag-links {{ componentClass }}">
-  {% if home %}
-    <li class="c-tag-links__tag">
-      <a href="/tags">All</a>
-    </li>
-  {% endif %}
   {% for tag in tags %}
     {% if tag.title != 'post' %}
       <li class="c-tag-links__tag">
@@ -15,4 +10,9 @@
       </li>
     {% endif %}
   {% endfor %}
+  {% if home %}
+    <li class="c-tag-links__tag">
+      <a href="/tags">All topics</a>
+    </li>
+  {% endif %}
 </ul>
