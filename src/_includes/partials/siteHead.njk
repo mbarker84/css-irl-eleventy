@@ -10,9 +10,7 @@
   {% set title = metadata.title %}
 {% endif %}
 
-{% if cacheBusting %}
-  {% set version = cacheBusting %}
-{% else %}
+{% if not version|length %}
   {% set version = '' %}
 {% endif %}
 
