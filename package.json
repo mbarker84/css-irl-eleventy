@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "run-s start:remove start:watch",
-    "start:remove": "rm src/_data/cacheBusting.json",
+    "start:remove": "node onStart.js",
     "start:watch": "run-p watch:eleventy watch:parcel bs:start",
     "watch:eleventy": "npx @11ty/eleventy --watch",
     "watch:parcel": "run-p watch:css watch:js watch:images",
@@ -22,7 +22,7 @@
     "build:favicon": "parcel build src/favicon/*",
     "bs:start": "browser-sync start --config bs-config.js",
     "clean": "rm -rf dist",
-    "hash": "node index.js"
+    "hash": "node onBuild.js"
   },
   "keywords": [],
   "author": "",

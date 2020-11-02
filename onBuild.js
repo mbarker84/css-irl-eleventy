@@ -3,14 +3,9 @@ const fs = require('fs');
 let hash = Date.now()
 hash = hash.toString()
 
-fs.writeFile('hash.txt', hash, function (err) {
+fs.writeFile('src/_data/version.json', hash, function (err) {
   if (err) return console.log(err);
-  console.log(`${hash} > hash.txt`);
-});
-
-fs.writeFile('src/_data/cacheBusting.json', hash, function (err) {
-  if (err) return console.log(err);
-  console.log(`${hash} > src/_data/cacheBusting.json`);
+  console.log(`${hash} > src/_data/version.json`);
 });
 
 fs.rename('dist/styles.css', `dist/styles${hash}.css`, function(err) {
