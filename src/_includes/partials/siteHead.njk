@@ -10,6 +10,10 @@
   {% set title = metadata.title %}
 {% endif %}
 
+{% if version|length == 0 %}
+  {% set version = '' %}
+{% endif %}
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +21,9 @@
   <meta http-equiv="Cache-Control" content="no-store, no-store, must-revalidate"/>
   <meta http-equiv="Pragma" content="no-cache"/>
   <meta http-equiv="Expires" content="0"/>
-  <title>{{ title }}</title>
   <meta name="Description" content="{{ metadata.description }}">
+  <meta name="keywords" content="css, front end, web development, web design">
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="/styles{{ version }}.css">
   <link
   href="https://fonts.googleapis.com/css2?family=Exo:wght@400;800&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
