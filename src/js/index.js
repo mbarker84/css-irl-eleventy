@@ -11,10 +11,15 @@ if ('serviceWorker' in navigator) {
     }, function(err) {
       console.log('ServiceWorker registration failed: ', err);
     });
+    // navigator.serviceWorker.getRegistrations().then( function(registrations) {
+    //   for(let registration of registrations) {
+    //     registration.unregister();
+    //   }
+    // });
   });
 }
 
-
+document.body.classList.remove('no-js')
 menu()
 headerChange()
 
