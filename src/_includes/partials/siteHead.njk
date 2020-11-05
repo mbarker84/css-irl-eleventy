@@ -39,7 +39,9 @@
   <meta property="og:title" content="{{ title }}"/>
   <meta property="og:title" content="{{ title }}"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:description" content="{{ metadata.description }}"/>
+  {% if page.url == '/' %}
+    <meta property="og:description" content="{{ metadata.description }}"/>
+  {% endif %}
   <meta property="og:image" content="{{ metadata.url }}{{ metadata.img }}"/>
   <meta property="og:url" content="{{ metadata.url }}"/>
   <meta property="og:site_name" content="{{ title }}"/>

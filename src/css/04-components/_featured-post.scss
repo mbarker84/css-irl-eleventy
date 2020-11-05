@@ -11,8 +11,8 @@
   }
 
   @media (min-width: $lg) {
-    padding: 2.5rem;
-    border: 3px solid var(--primary);
+    padding: 3rem;
+    border: 0.25rem solid var(--primary);
     box-shadow: 0.5rem 0.5rem 0 var(--primary);
     width: 100%;
     margin-left: 0;
@@ -21,7 +21,7 @@
 
 .c-featured-post__title {
   margin-bottom: 0;
-  max-width: 35ch;
+  max-width: 25ch;
 
   @media (min-width: $md) {
     font-size: 2.8rem;
