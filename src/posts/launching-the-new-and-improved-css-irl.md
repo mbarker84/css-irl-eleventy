@@ -4,7 +4,7 @@ date: '2020-11-04'
 tags: ['post', 'workflow', 'eleventy']
 ---
 
-After a few months of on-and-off work, this week I’m pleased to finally launch the new and improved version of this site! It’s not a major redesign, and if you’re just reading articles you might notice very little difference. But there are a few new features I hope users might enjoy. No doubt there are a few bugs to fix too! Please be patient while I iron those out over the coming weeks. :wink:
+After a few months of on-and-off work, this week I’m pleased to finally launch the new and improved version of this site! It’s not a major redesign, and if you’re just reading articles you might notice very little difference. But there are a few new features I hope users might enjoy. No doubt there are a few bugs to fix too! Please be patient while I iron those out over the coming weeks. 😉
 
 ## New features
 
