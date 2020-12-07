@@ -132,3 +132,44 @@ Replacing them in our utility classes makes our code considerably shorter:
 ### Browser support
 
 At the time of writing `inset` is only supported in Chrome and Firefox, so if you want to use it in production you’ll need to provide a fallback for non-supporting browsers. But it looks like browsers are getting behind logical properties on the whole, with many of them implementing [at least part of the Logical Properties specification](https://caniuse.com/?search=logical%20properties) – so I’d like to think we can expect to be able to use it pretty soon!
+
+## An alternative with Grid
+
+As [Šime Vidas](https://twitter.com/simevidas) pointed out, something I neglected to mention is you might not need absolute positioning at all: we can also use CSS Grid to cover one element with another! Browser support isn’t as good, but if you don’t need to support older browsers then it’s the most concise solution, at only two lines. The code looks like this:
+
+```css
+.element {
+  display: grid;
+}
+
+.overlay {
+  grid-area: 1 / 1 / -1 / -1;
+}
+```
+
+If our overlay is the only child element we don’t even need to set the grid area, but it might be a good idea to cover our backs in case we end up adding other child elements – otherwise we could end up with some undesireable side effects when our items are auto-placed on the grid.
+
+```css
+.overlay-child,
+.overlay-before,
+.overlay-after {
+  display: grid;
+}
+
+.overlay,
+.overlay-child > *,
+.overlay-before::before,
+.overlay-after::after {
+  content: '';
+  grid-area: 1 / 1 / -1 / -1;
+}
+```
+
+Here’s a demo with the adapted utility:
+
+<p class="codepen" data-height="456" data-theme-id="dark" data-default-tab="css,result" data-user="michellebarker" data-slug-hash="NWRrgxX" style="height: 456px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Overlay utility classes with Grid">
+  <span>See the Pen <a href="https://codepen.io/michellebarker/pen/NWRrgxX">
+  Overlay utility classes with Grid</a> by Michelle Barker (<a href="https://codepen.io/michellebarker">@michellebarker</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
