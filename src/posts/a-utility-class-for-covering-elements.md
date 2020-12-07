@@ -17,15 +17,12 @@ Here’s something I find myself needing to do again and again in CSS: completel
 
 .covering-element {
   position: absolute;
-  display: block;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
 ```
-
-(We only need `display: block` if it’s not a block-level element that we’re covering it with.)
 
 Often it’s a heading or caption that needs to cover an image, sometimes with a translucent background colour or gradient. (I’d refer to this as an overlay.) Usually it’s a direct child of the first element which is being overlaid, but not always. Sometimes I want to overlay a pseudo element, maybe even transition or animate it for a hover state. Either way, I do it so often that it makes sense to create a utility class that covers it, rather than writing out the CSS properties longhand every time.
 
@@ -41,7 +38,6 @@ We can create a utility we’ll call `.overlay` to cover an element:
 .overlay {
   position: absolute;
   content: '';
-  display: block;
   top: 0;
   right: 0;
   bottom: 0;
@@ -65,7 +61,6 @@ In most cases the element I want to use as an overlay is a direct child, or a ps
 .overlay-after::after {
   position: absolute;
   content: '';
-  display: block;
   top: 0;
   right: 0;
   bottom: 0;
@@ -130,7 +125,6 @@ Replacing them in our utility classes makes our code considerably shorter:
 .overlay-after::after {
   position: absolute;
   content: '';
-  display: block;
   inset: 0;
 }
 ```
