@@ -110,6 +110,7 @@
     .carbon-text {
       display: block;
       margin-bottom: 8px;
+      padding: 10px 0;
     }
 
     .carbon-poweredby {
@@ -118,6 +119,10 @@
       letter-spacing: 1px;
       font-size: 10px;
       line-height: 1;
+    }
+
+    .carbon-wrap {
+      flex-wrap: wrap;
     }
   }
 }
