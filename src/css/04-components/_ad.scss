@@ -72,12 +72,15 @@
 }
 
 .c-ad--vertical {
+  margin-top: calc(2 * var(--vr));
+
   @media (min-width: $lg) {
+    margin-top: 0;
+
     #carbonads {
       display: block;
       overflow: hidden;
       padding: 1em;
-      max-width: 130px;
       background: #fff;
       text-align: center;
       font-size: 14px;
@@ -85,7 +88,7 @@
     }
 
     #carbonads a {
-      color: inherit;
+      color: $black;
       text-decoration: none;
     }
 

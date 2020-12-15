@@ -1,4 +1,6 @@
 .o-richtext {
+  padding-top: var(--vr);
+
   * + * {
     margin-top: var(--vr);
   }
