@@ -1,7 +1,7 @@
 ---
 title: 'Tailwind Thoughts'
 date: '2020-10-22'
-tags: ['post', 'css', 'workflow', 'opinion']
+tags: ['post', 'css', 'workflow', 'opinion', 'tailwind']
 ---
 
 Although I use utility class framework [Tailwind CSS](https://tailwindcss.com/) for work, in some ways I am a reluctant user. I actively advocated for us to adopt it as a team, but there’s still something about it that doesn’t feel quite as good (for me) as writing “real” CSS. It has its limitations which, I believe, are worth considering before wholesale adoption. (I wrote about [my feelings towards it](https://css-irl.info/a-year-of-utility-classes/) some time ago.) Nevertheless, its many advantages – the speed which it allows for building components, the consistency it brings to projects that might have several different team members working on the front end, the clear documentation – make it a worthwhile choice for us at [Atomic Smash](https://www.atomicsmash.co.uk/).
