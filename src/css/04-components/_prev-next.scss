@@ -18,9 +18,14 @@
   transition: color 200ms;
   line-height: 1.5;
 
+  &:first-child {
+    margin-bottom: rem(20px);
+  }
+
   @media (min-width: $sm) {
     &:first-child {
       padding-right: rem(20px);
+      margin-bottom: 0;
     }
 
     &:nth-child(2) {
