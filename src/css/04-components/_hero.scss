@@ -23,7 +23,7 @@
 
   @media (min-width: $lg) {
     min-height: rem(600px);
-    padding: 10rem 0 11rem;
+    padding: 10rem 0 13rem;
 
     &::after {
       position: absolute;
@@ -49,10 +49,15 @@
 }
 
 .c-hero__desc {
-  max-width: 50ch;
+  // font-weight: 700;
 
   @media (min-width: $md) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+
+  @media (min-width: $lg) {
+    margin-left: 9rem;
+    margin-top: -1.5rem;
   }
 }
 
