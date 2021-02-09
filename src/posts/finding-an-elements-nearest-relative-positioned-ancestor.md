@@ -20,7 +20,7 @@ In the above image, the absolute-positioned element is positioned with the same 
 }
 ```
 
-But it ends up in a different place in each example. This is because in the first example its parent (the purple element) has `position: relative`, whereas in the second it’s another ancestor that has relative positioning (the grey element).
+But it ends up in a different place in each example. This is because in the first example its parent (the pink element) has `position: relative`, whereas in the second it’s another ancestor that has relative positioning (the grey element).
 
 <p class="codepen" data-height="461" data-theme-id="dark" data-default-tab="css,result" data-user="michellebarker" data-slug-hash="ZEBOZdj" style="height: 461px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Relative and absolute positioning">
   <span>See the Pen <a href="https://codepen.io/michellebarker/pen/ZEBOZdj">
