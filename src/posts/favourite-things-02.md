@@ -1,5 +1,5 @@
 ---
-title: 'Favourite Things 2: News CSS Features, JS Libraries and More'
+title: 'Favourite Things 2: New CSS Features, JS Libraries and More'
 date: '2021-02-15'
 tags: ['post', 'css', 'javascript', 'animation']
 ---
