@@ -71,7 +71,7 @@ body {
     grid-template-columns:
       minmax(0, 1fr) [main-start] minmax(0, 58rem)
       [main-end] minmax(rem(150px), 1fr);
-    gap: var(--vr) rem(40px);
+    gap: calc(2 * var(--vr)) var(--vr);
   }
 }
 

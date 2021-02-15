@@ -26,10 +26,6 @@
     }
 
     @media (min-width: $md) {
-      font-size: 1.1rem;
-    }
-
-    @media (min-width: $md) {
       font-size: 1.2rem;
     }
   }
@@ -144,5 +140,9 @@
     @media (min-width: $md) {
       padding-left: rem(40px);
     }
+  }
+
+  @media (min-width: $lg) {
+    padding-top: 0;
   }
 }

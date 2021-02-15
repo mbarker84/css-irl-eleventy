@@ -9,6 +9,10 @@ body {
   font-family: $body;
 }
 
+p {
+  margin: 0;
+}
+
 ul {
   display: block;
   list-style: none;
