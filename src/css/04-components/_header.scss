@@ -31,11 +31,21 @@
   width: rem(100px);
   cursor: pointer;
   margin-right: -0.5rem;
+  text-underline-offset: 0;
+  transition: color 200ms, text-underline-offset 200ms,
+    text-decoration-color 200ms;
+
+  @supports (text-decoration-color: transparent) {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0;
+  }
 
   &:hover,
   &:focus {
     text-decoration: underline;
-    color: var(--white);
+    text-underline-offset: 0.4em;
+    color: var(--primary);
   }
 
   @media (min-width: $md) {
@@ -89,6 +99,14 @@
   align-items: center;
   height: 100%;
   text-decoration: none;
+  transition: color 200ms, text-underline-offset 200ms,
+    text-decoration-color 200ms;
+
+  @supports (text-decoration-color: transparent) {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0;
+  }
 
   svg {
     margin-left: 0.5rem;
@@ -99,7 +117,9 @@
   &:hover,
   &:focus {
     text-decoration: underline;
-    color: var(--white);
+    text-underline-offset: 0.4em;
+    color: var(--primary);
+    text-decoration-color: var(--primary);
   }
 
   @media (min-width: $md) {

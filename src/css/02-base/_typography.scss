@@ -30,11 +30,25 @@ ol {
 
 a {
   color: var(--primary);
-  transition: color 200ms;
+  transition: color 200ms, text-underline-offset 200ms,
+    text-decoration-color 200ms;
+
+  @supports (text-decoration-color: transparent) {
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 0.1em;
+  }
 
   &:hover,
   &:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
     color: var(--textColor);
+    text-decoration-color: var(--primary);
+    text-decoration-thickness: 0.1em;
+    transition: color 200ms, text-underline-offset 200ms,
+      text-decoration-color 200ms;
   }
 }
 

@@ -34,13 +34,6 @@
     border-radius: 0.25rem;
   }
 
-  a {
-    &:hover,
-    &:focus {
-      transition: color 200ms, background-color 200ms;
-    }
-  }
-
   figure + * {
     margin-top: calc(var(--vr) * 2);
   }
@@ -110,7 +103,7 @@
       &:hover,
       &:focus {
         cursor: pointer;
-        color: $black;
+        color: var(--textColor);
       }
     }
 
