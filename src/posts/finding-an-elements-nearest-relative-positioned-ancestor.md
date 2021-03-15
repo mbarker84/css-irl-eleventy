@@ -4,7 +4,9 @@ date: '2021-02-09'
 tags: ['post', 'debugging', 'css', 'js']
 ---
 
-Have you ever been faced with a CSS positioning dilemma where an element with `position: absolute` isn’t being positioned as you’d expect? Setting absolute positioning on an element will position it in relation to its nearest ancestor that has its position set to `relative`.
+**This article was updated on 15 March 2021.**
+
+Have you ever been faced with a CSS positioning dilemma where an element with `position: absolute` isn’t being positioned as you’d expect? Setting absolute positioning on an element will position it in relation to its nearest ancestor that has its position set to something other than `static` (the default).
 
 <figure>
   <img src="/finding-an-elements-nearest-relative-positioned-ancestor-01.jpg" alt="Two examples showing position of a purple element when the parent has relative positioning versus when another ancestor has it">
@@ -29,19 +31,19 @@ But it ends up in a different place in each example. This is because in the firs
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-It’s worth noting that if no ancestor has relative positioning, an element with `position: absolute` will be placed in relation to the `<body>`.
+It’s worth noting that if no ancestor is positioned, an element with `position: absolute` will be placed in relation to the `<body>`.
 
 In a relatively simple example like this one, a quick examination of the CSS makes it easy to determine which ancestor has relative positioning, and we can adjust our styles accordingly if they’re not having the desired effect. But sometimes, in more complex codebases (especially with a lot of nested elements), finding which ancestor of an element has relative positioning can be a little trickier. This most commonly happens to me when building complex headers with full-width dropdown submenus: I generally need to position them in relation to the entire header, but somewhere I’ve inadvertently set `position: relative` on some other element, which breaks the desired behaviour.
 
 Trawling through all that code can be time-consuming, but happily there is an easier way to find the nearest positioned parent in Javascript — which we can do right in the browser console.
 
-In Chrome and Firefox, if we open the Console tab in the developer tools, we can get the currently selected element by typing `$0`. Then we can use the `offsetParent` object property to find the closest ancestor to that element that has its position set to something other than the default (`static`). Try selecting an element and typing this into the console:
+In Chrome and Firefox, if we open the Console tab in the developer tools, we can get the currently selected element by typing `$0`. Then we can use the `offsetParent` object property to find the closest ancestor to that element that has its position set to something other than `static`. Try selecting an element and typing this into the console:
 
 ```js
 $0.offsetParent
 ```
 
-This won’t actually tell us if the element has _relative_ positioning. But we can use `getComputedStyle` to find out the value of the element’s `position` property:
+This won’t actually tell us the position value (whether it’s `relative`, `fixed` or something else). But we can use `getComputedStyle` to find out the value of the element’s `position` property:
 
 ```js
 getComputedStyle($0.offsetParent).position
@@ -61,4 +63,6 @@ getComputedStyle($_).position
 
 retrieves its position value.
 
-If that element’s position is something other than `relative`, we can do the same thing again and keep going up the DOM tree until we find our relative-positioned ancestor. If we’re feeling particularly clever (I’m not), perhaps we could even write a function to recursively search through the DOM for us! There are a couple of caveats: `offsetParent` will return null if the element has its postion set to `fixed` or itself or its parent has `display: none`. [See MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetParent) for details.
+There are a couple of caveats: `offsetParent` will return null if the element has its postion set to `fixed` or itself or its parent has `display: none`. ([See MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetParent) for details.)
+
+In my experience `position: relative` is most commonly used for offsetting a descendent (as in the example I’ve used), but it’s worth bearing in mind that `fixed` or `sticky` values will also permit the behaviour — but perhaps those elements are a little easier to spot in the browser!
