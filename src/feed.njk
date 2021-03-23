@@ -1,0 +1,15 @@
+---
+permalink: '/feed.json'
+---
+
+{
+  "posts": [
+    {% for item in collections.postPaginated %}
+      {
+        "title": "{{ item.data.title }}",
+        "url": "{{ item.url }}",
+        "date": "{{ item.date }}"
+      }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
