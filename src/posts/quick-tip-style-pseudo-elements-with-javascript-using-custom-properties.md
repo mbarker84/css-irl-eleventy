@@ -7,7 +7,7 @@ tags: ['post', 'css', 'custom properties', 'javascript']
 In Javascript we have a few ways of selecting elements, but we can’t directly target [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements). Something like this, for instance, won’t work, and will return `null`:
 
 ```js
-document.querySelector('.my-class::after')
+document.querySelector('.my-element::after')
 ```
 
 That can make it tricky to apply styles to pseudo-elements with JS. If we want to dynamically calculate the height of an element and apply it with JS, we can do it like so:
