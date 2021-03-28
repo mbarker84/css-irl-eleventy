@@ -76,6 +76,10 @@
 
   @media (min-width: $lg) {
     margin-top: 0;
+    margin-left: auto;
+    position: sticky;
+    top: 6rem;
+    max-width: rem(180px);
 
     #carbonads {
       display: block;
@@ -105,6 +109,7 @@
       display: block;
       margin: 0 auto 8px;
       line-height: 1;
+      max-width: 100%;
     }
 
     .carbon-text {

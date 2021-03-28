@@ -46,6 +46,10 @@
 .c-post-header__title {
   margin-bottom: 0;
   max-width: 25ch;
+
+  @media (min-width: $lg) {
+    margin-bottom: var(--vr);
+  }
 }
 
 .c-post-header {
