@@ -44,8 +44,8 @@
   {% if page.url == '/' %}
     <meta property="og:description" content="{{ metadata.description }}"/>
   {% endif %}
-  <meta property="og:image" content="{{ metadata.url }}{{ metadata.img }}"/>
-  <meta property="og:url" content="{{ metadata.url }}"/>
+  <meta property="og:image" content="{{ metadata.url }}/{{ metadata.img }}"/>
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}"/>
   <meta property="og:site_name" content="{{ title }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
 </head>
