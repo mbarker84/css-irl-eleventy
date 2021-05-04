@@ -11,7 +11,7 @@ tags: ['post', 'events']
 
 I recently had the pleasure of speaking at [State of the Browser](https://2018.stateofthebrowser.com/), a community-run web conference in London. I gave my first technical talk on a large stage, speaking about CSS Grid and CSS Variables – some of which I’ve covered in my blog posts over the past few months. My slides can be found [here](https://noti.st/mbarker84/GzviRt/super-powered-layouts-with-css-grid-and-css-variables).
 
-[![Super-powered Layouts with CSS Grid and CSS Variables](state-of-the-browser.jpg)](https://noti.st/mbarker84/GzviRt/super-powered-layouts-with-css-grid-and-css-variables)
+[![Super-powered Layouts with CSS Grid and CSS Variables](/state-of-the-browser.jpg)](https://noti.st/mbarker84/GzviRt/super-powered-layouts-with-css-grid-and-css-variables)
 
 The event featured some fantastic talks – some of my favourites included [Ruth John](https://2018.stateofthebrowser.com/speakers/ruth-john/)’s audio-visual exploration of web-workers and [Chris Mills](https://2018.stateofthebrowser.com/speakers/chris-mills/) showcasing Firefox’s latest developer tools. Indeed, Firefox got a lot of love from several speakers throughout the day (myself included – it’s Grid inspector makes working with CSS Grid even better!), and it might just become the developer’s primary browser of choice in the not-too-distant future.
 

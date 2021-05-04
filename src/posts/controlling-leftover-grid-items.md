@@ -7,7 +7,7 @@ tags: ['post', 'css grid']
 I recently wrote about [some of the cases where you might want to use Grid instead of flexbox](/to-grid-or-to-flex), and vice-versa. One of the scenarios I pointed out _might_ be a better case for using flexbox is when you want to control the behaviour of any leftover grid items that don’t fill an entire row.
 
 <figure>
-  <img src="controlling-leftover-grid-items-01.svg" alt="10 items on a 4x4 grid">
+  <img src="/controlling-leftover-grid-items-01.svg" alt="10 items on a 4x4 grid">
 	<figcaption>As there are only 10 items in this grid rather than 12, we may want to control how those last two items are displayed.</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ In this case, our Grid items don’t require us to place them explicitly. They w
 The problem arises if we want to control the behaviour of any leftover items. If there is just one widow, perhaps we want it to fill the entire row, or maybe we’d prefer to align it to the right instead of the left. Or if there are two items, maybe we want to center them:
 
 <figure>
-  <img src="to-grid-or-to-flex-01.svg" alt="Two flexbox layout examples">
+  <img src="/to-grid-or-to-flex-01.svg" alt="Two flexbox layout examples">
 </figure>
 
 We can’t achieve this by relying solely on auto-placement, but we _can_ still get the behaviours we want using with only a little bit of extra code.
@@ -82,7 +82,7 @@ li:last-child:nth-child(3n - 2) {
 Using flexbox for this layout would allow us to center our items easily by using `justify-content: center` on the container, which would allow the one or two remaining grid items to be centered instead of spanning multiple columns:
 
 <figure>
-  <img src="controlling-leftover-grid-items-01.svg" alt="A grid with the two leftover items centred">
+  <img src="/controlling-leftover-grid-items-02.svg" alt="A grid with the two leftover items centred">
 </figure>
 
 This might be a nicer option in some cases, as making a grid item wider can draw more attention to it and make it seem more important, when perhaps this is not the intention.
