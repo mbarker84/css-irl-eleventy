@@ -16,6 +16,10 @@ George also has a [brand new website](https://georgefrancis.dev), which includes
 
 Recently I helped my 5-year-old son with a craft project to create some character cards. He’s not particularly keen on drawing, so getting him engaged in creative activities requires a bit of thought. We had a selection of coloured card (a palette of five or six colours). I drew shapes (circles, squares or triangles), and he would cut them out and stick them on a background, for the head and body of each character. Then he would draw on the eyes, mouth and limbs with a felt-tip pen.
 
+<figure>
+  <img src="/creating-generative-svg-characters-01.jpg" alt="A grid of six multicoloured paper people">
+</figure>
+
 The premise was simple, and lends itself perfectly to generative art. Take some fixed parameters (a limited colour palette, a fixed background size, a small set of shapes), and add in a few random elements — in this case the cutting, sticking and drawing skills of a 5-year-old! It resulted in a lovely set of artworks, which I thought would be really fun to try and produce generatively.
 
 ## The generative version
