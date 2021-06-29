@@ -54,7 +54,7 @@ I&rsquo;ve shortened the values of the last two here for brevity and readability
 
 Another option is to set the `style` attribute in JS, but I prefer the CSS way, as it feels cleaner to me. `clip-path` requires a prefix in some browsers, so setting this in CSS seems more maintainable — but it&rsquo;s a matter of personal preference.
 
-While there&rsquo;s nothing _wrong_ with these approaches, let&rsquo;s see what the alternative looks like with custom properties.
+While there&rsquo;s nothing wrong with these approaches, let&rsquo;s see what the alternative looks like with custom properties.
 
 ## Toggling the custom property
 
