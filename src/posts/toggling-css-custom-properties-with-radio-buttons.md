@@ -4,7 +4,7 @@ date: '2021-05-04'
 tags: ['post', 'custom properties', 'css', 'javascript']
 ---
 
-As part of a [recent article published on Codrops](https://tympanus.net/codrops/2021/05/04/dynamic-css-masks-with-custom-properties-and-gsap/), I made some demos that allowed the user to toggle between three different values for a clip path using radio buttons. As with so many things these days, I found myself reaching for custom properties! Let&rsquo;s take a look at why custom properties are great for this.
+As part of a [recent article published on Codrops](https://tympanus.net/codrops/2021/05/04/dynamic-css-masks-with-custom-properties-and-gsap/), I made some demos that allowed the user to toggle between three different values for a clip path using radio buttons. As with so many things these days, I found myself reaching for [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)! Let&rsquo;s take a look at why custom properties are great for this.
 
 ## Common approaches
 
