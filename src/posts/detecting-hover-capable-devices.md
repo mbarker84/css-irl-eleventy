@@ -49,7 +49,7 @@ This works well in most browsers, but some versions of Android have a feature wh
 
 ### Pointer
 
-The `pointer` feature tests whether the device has a pointer and the accuracy of the pointing device. Possible values are `course` (for a pointer such as a finger used on a touch screen), `fine` (a mouse, for example) or `none` (a device with no pointer).
+The `pointer` feature tests whether the device has a pointer and the accuracy of the pointing device. Possible values are `coarse` (for a pointer such as a finger used on a touch screen), `fine` (a mouse, for example) or `none` (a device with no pointer).
 
 Adding this to our media query successfully detects touch input on Android devices:
 
