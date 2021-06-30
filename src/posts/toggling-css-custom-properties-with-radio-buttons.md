@@ -4,11 +4,11 @@ date: '2021-05-04'
 tags: ['post', 'custom properties', 'css', 'javascript']
 ---
 
-As part of a [recent article published on Codrops](https://tympanus.net/codrops/2021/05/04/dynamic-css-masks-with-custom-properties-and-gsap/), I made some demos that allowed the user to toggle between three different values for a clip path using radio buttons. As with so many things these days, I found myself reaching for [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)! Let&rsquo;s take a look at why custom properties are great for this.
+As part of a [recent article published on Codrops](https://tympanus.net/codrops/2021/05/04/dynamic-css-masks-with-custom-properties-and-gsap/), I made some demos that allowed the user to toggle between three different values for a clip path using radio buttons. As with so many things these days, I found myself reaching for [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)! Let’s take a look at why custom properties are great for this.
 
 ## Common approaches
 
-Let&rsquo;s look at one way we could approach this _without_ custom properties. We could use Javascript to detect when a user interacts with a radio button and append a class to the `<figure>` accordingly:
+Let’s look at one way we could approach this _without_ custom properties. We could use Javascript to detect when a user interacts with a radio button and append a class to the `<figure>` accordingly:
 
 ```js
 const clippedElement = document.querySelector('.clipped-element')
@@ -31,7 +31,7 @@ const onChange = (e) => {
 controls.addEventListener('change', onChange)
 ```
 
-Then it&rsquo;s a matter of defining our clip-path values for each class within our CSS:
+Then it’s a matter of defining our clip-path values for each class within our CSS:
 
 ```css
 .clipped-element {
@@ -50,11 +50,11 @@ Then it&rsquo;s a matter of defining our clip-path values for each class within 
 }
 ```
 
-I&rsquo;ve shortened the values of the last two here for brevity and readability, but [this demo](https://codepen.io/michellebarker/pen/mdRZjdR) has the full code.
+I’ve shortened the values of the last two here for brevity and readability, but [this demo](https://codepen.io/michellebarker/pen/mdRZjdR) has the full code.
 
-Another option is to set the `style` attribute in JS, but I prefer the CSS way, as it feels cleaner to me. `clip-path` requires a prefix in some browsers, so setting this in CSS seems more maintainable — but it&rsquo;s a matter of personal preference.
+Another option is to set the `style` attribute in JS, but I prefer the CSS way, as it feels cleaner to me. `clip-path` requires a prefix in some browsers, so setting this in CSS seems more maintainable — but it’s a matter of personal preference.
 
-While there's nothing _wrong_ with these approaches, let&rsquo;s see what the alternative looks like with custom properties.
+While there’s nothing _wrong_ with these approaches, let’s see what the alternative looks like with custom properties.
 
 ## Toggling the custom property
 
@@ -92,9 +92,9 @@ We can assign a custom property for each value in CSS (again, the SVG path and p
 }
 ```
 
-Additionally, we can assign a custom property of `--clip` a value for our clip path. That means that every time we change the `--clip` value, both the prefixed property value _and_ the regular property value will be updated. (I&rsquo;ve written about this in a previous article, [7 Uses For Custom Properties](/7-uses-for-css-custom-properties/).)
+Additionally, we can assign a custom property of `--clip` a value for our clip path. That means that every time we change the `--clip` value, both the prefixed property value _and_ the regular property value will be updated. (I’ve written about this in a previous article, [7 Uses For Custom Properties](/7-uses-for-css-custom-properties/).)
 
-We&rsquo;ll give it an initial value corresponding to our first radio button option, using the `--circle` custom property:
+We’ll give it an initial value corresponding to our first radio button option, using the `--circle` custom property:
 
 ```css
 .clipped-element {
