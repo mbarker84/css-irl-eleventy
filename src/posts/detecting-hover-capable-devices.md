@@ -38,6 +38,10 @@ The [CSS Level 5 Media Queries specification](https://drafts.csswg.org/mediaquer
 }
 ```
 
+<aside>
+  <p><strong>Update:</strong> The <code>hover</code> and <code>pointer</code> features are actually part of the Level 4 Media Queries spec! It’s only recently that browser support has become near-universal.</p>
+</aside>
+
 <p class="codepen" data-height="360" data-default-tab="html,result" data-slug-hash="jOmNbgW" data-user="michellebarker" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/michellebarker/pen/jOmNbgW">
   Hover media query</a> by Michelle Barker (<a href="https://codepen.io/michellebarker">@michellebarker</a>)
@@ -49,7 +53,7 @@ This works well in most browsers, but some versions of Android have a feature wh
 
 ### Pointer
 
-The `pointer` feature tests whether the device has a pointer and the accuracy of the pointing device. Possible values are `course` (for a pointer such as a finger used on a touch screen), `fine` (a mouse, for example) or `none` (a device with no pointer).
+The `pointer` feature tests whether the device has a pointer and the accuracy of the pointing device. Possible values are `coarse` (for a pointer such as a finger used on a touch screen), `fine` (a mouse, for example) or `none` (a device with no pointer).
 
 Adding this to our media query successfully detects touch input on Android devices:
 
