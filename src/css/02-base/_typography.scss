@@ -73,10 +73,7 @@ code {
   color: var(--bg);
   padding: 0.125rem 0.25rem;
   border-radius: 0.2em;
-
-  @media (min-width: $lg) {
-    font-size: 1.1rem;
-  }
+  font-size: 80%;
 }
 
 pre code {
