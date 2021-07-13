@@ -28,7 +28,7 @@ Until I ready George’s tutorial, I had the vague idea that I would use SVG to 
 
 ### SVG.js
 
-[SVG.js](https://svgjs.com) is a useful JS library for creating and positioning SVG elements, such as circles, rectangles, lines and polygons. It saves tons of time compared to creating an element and appending it to the DOM manually. I’ll definitely be reaching for this again in the future.
+[SVG.js](https://svgjs.dev) is a useful JS library for creating and positioning SVG elements, such as circles, rectangles, lines and polygons. It saves tons of time compared to creating an element and appending it to the DOM manually. I’ll definitely be reaching for this again in the future.
 
 ### A handy random function
 
