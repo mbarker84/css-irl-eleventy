@@ -22,3 +22,7 @@ Speaking personally, font size is probably where I need this most frequently, so
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The new Font Editor Experiment in DevTools is great. Tweak typography dynamically with sliders (font size, line-height, spacing &amp; weight)<br><br>Thx <a href="https://twitter.com/EdgeDevTools?ref_src=twsrc%5Etfw">@EdgeDevTools</a> for bringing it to Chromium &amp; <a href="https://twitter.com/ChromeDevTools?ref_src=twsrc%5Etfw">@ChromeDevTools</a> <a href="https://t.co/Ukko2yQlHh">pic.twitter.com/Ukko2yQlHh</a></p>&mdash; Addy Osmani (@addyosmani) <a href="https://twitter.com/addyosmani/status/1340755991743238146?ref_src=twsrc%5Etfw">December 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Still, it looks pretty interesting, and it’s great to see browser dev tools getting better and better at solving the needs of developers.
+
+## Update!
+
+The Dev Tools Tips website has a little write up on how to [enable the font inspector in Chrome](https://devtoolstips.org/tips/en/convert-font-units/). It’s an experiemental feature, so you need to enable it in the dev tools settings.
