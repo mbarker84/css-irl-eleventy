@@ -112,27 +112,14 @@
   margin-left: auto;
 }
 
-.c-header__social-links {
+.c-header__right-content {
   margin-left: auto;
   display: flex;
+  align-items: center;
 }
 
-.c-header__social-link-text {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-
-  @media (min-width: $lg) {
-    clip: initial;
-    clip-path: initial;
-    height: auto;
-    position: relative;
-    width: auto;
-  }
+.c-header__social-links {
+  display: flex;
 }
 
 .c-header__list {

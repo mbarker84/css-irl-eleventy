@@ -41,9 +41,27 @@ $light-grey: #e8eaed;
   @media (prefers-color-scheme: dark) {
     --bg: #161618;
     --bgTint: #27272c;
-    --textColor: #dbd7db;
+    --textColor: #fcfdff;
     --bgGrey: #27272c;
     --textColorInverse: #0e0f0f;
+  }
+}
+
+.th-dark {
+  --bg: #161618;
+  --bgTint: #27272c;
+  --textColor: #fcfdff;
+  --bgGrey: #27272c;
+  --textColorInverse: #0e0f0f;
+}
+
+.th-light {
+  @media (prefers-color-scheme: dark) {
+    --textColor: #0e0f0f;
+    --textColorInverse: #fcfdff;
+    --bg: #eeeeee;
+    --bgTint: #dfeded;
+    --bgGrey: #e6e8e8;
   }
 }
 
