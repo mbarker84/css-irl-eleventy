@@ -295,6 +295,10 @@
   .c-header {
     position: static;
     background-color: var(--headerBg);
+
+    @media (min-width: $lg) {
+      position: fixed;
+    }
   }
 
   .c-header__menu-btn {
@@ -303,6 +307,10 @@
 
   .c-header__right-content {
     align-items: flex-start;
+
+    @media (min-width: $lg) {
+      align-items: center;
+    }
   }
 
   .c-header__social-links {
