@@ -1,7 +1,6 @@
 class DarkModeToggle {
   constructor(el) {
     this.button = el
-    this.text = el.querySelector('[data-text]')
     this.theme = localStorage.getItem('theme')
     this.init()
   }
@@ -28,8 +27,6 @@ class DarkModeToggle {
   setTheme(theme) {
     const oppositeTheme = theme === 'dark' ? 'light' : 'dark'
     const classToRemove = `th-${oppositeTheme}`
-
-    this.text.innerText = `Activate ${oppositeTheme} theme`
 
     if (document.body.classList.contains(classToRemove)) {
       document.body.classList.remove(classToRemove)
