@@ -290,3 +290,26 @@
     }
   }
 }
+
+.no-js {
+  .c-header {
+    position: static;
+    background-color: var(--headerBg);
+  }
+
+  .c-header__menu-btn {
+    display: none;
+  }
+
+  .c-header__right-content {
+    align-items: flex-start;
+  }
+
+  .c-header__social-links {
+    margin-right: 2rem;
+  }
+
+  .c-header__list {
+    justify-content: flex-end;
+  }
+}
