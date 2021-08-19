@@ -76,7 +76,7 @@ Installing Node also installs [NPM](https://www.npmjs.com/) (Node Package Manage
 
 First, let’s create a new project folder, which we’ll (imaginitively) call _new-project_. Open the terminal, and inside that folder run:
 
-```
+```bash
 npm init
 ```
 
@@ -104,9 +104,9 @@ Any packages that we install from NPM will be automatically listed in the _packa
 
 We’ll start with a folder structure that looks like this:
 
-```
+```bash
 new-project
-	index.html
+  index.html
   src
     icons
     images
@@ -122,7 +122,7 @@ We’ve already generated the `node_modules` directory and _package.json_ in the
 
 You could create the above folder structure manually, either in your text editor of choice or in your computer’s file system. But if you want to save time, you could do it from the terminal instead. In the root of the project, you could run:
 
-```
+```bash
 touch index.html
 mkdir src && cd src
 mkdir js scss images icons
@@ -164,7 +164,7 @@ Now that we have our basic folder structure, we can start to install some packag
 
 Let’s install the [node-sass](https://www.npmjs.com/package/node-sass) package from NPM, which compiles _.scss_ files to CSS. In the terminal run:
 
-```
+```bash
 npm install node-sass --save-dev
 ```
 
@@ -183,7 +183,7 @@ Once this command has finished running, you should see a couple of new things:
 
 The `node_modules` directory is where the code for all of our project dependencies will live. The contents of this folder should _not_ be committed to Github (or your favourite repository host), as installing just a few dependencies could result in hundreds of thousands of files! So the next thing we should do is add a _.gitignore_ file in the project root:
 
-```
+```bash
 touch .gitignore && echo "node_modules" >> .gitignore
 ```
 
@@ -197,7 +197,7 @@ When we installed _node-sass_ we ran the `install` command with the `--save-dev`
 
 Now we’ll also install [Browsersync](https://www.npmjs.com/package/browser-sync) as a dev dependency. Browsersync will run a local server and reload the browser when our files change.
 
-```
+```bash
 npm install browser-sync --save-dev
 ```
 
@@ -217,13 +217,13 @@ NPM scripts consist of a key (the name of the script, which is what we would typ
 
 The _node-sass_ package contains some [options](https://github.com/sass/node-sass), some of which we’re defining here. We’re specifying the output style (“compressed”), the output directory (_dist/css_) and the source directory (_src/scss_), which is currently empty. Let’s create a source _.scss_ file from the terminal:
 
-```
+```bash
 touch src/scss/styles.scss
 ```
 
 Add a few styles to the newly-created file, then go back to the terminal and run:
 
-```
+```bash
 npm run scss
 ```
 
@@ -254,7 +254,7 @@ Currently we still need to run our **scss** script when we want to compile our S
 
 First we need to install an NPM package called _onchange_, to watch for changes to the source files:
 
-```
+```bash
 npm install onchange --save-dev
 ```
 
@@ -285,7 +285,7 @@ However, this won’t achieve what we want, as the script will wait until _after
 
 To enable us to run commands in parallel, we need to install another package. NPM has several options to choose from. The one I’ve picked is [npm-run-all](https://www.npmjs.com/package/npm-run-all):
 
-```
+```bash
 npm install npm-run-all --save-dev
 ```
 
