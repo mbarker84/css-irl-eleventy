@@ -31,6 +31,7 @@ $light-grey: #e8eaed;
   --bgTint: #dfeded;
   --bgGrey: #e6e8e8;
   --white: #fcfdff;
+  --borderStyle: none;
 
   --vr: 1rem;
 
@@ -44,6 +45,7 @@ $light-grey: #e8eaed;
     --textColor: #fcfdff;
     --bgGrey: #27272c;
     --textColorInverse: #0e0f0f;
+    --borderStyle: 1px solid var(--primary);
   }
 }
 
@@ -53,6 +55,7 @@ $light-grey: #e8eaed;
   --textColor: #fcfdff;
   --bgGrey: #27272c;
   --textColorInverse: #0e0f0f;
+  --borderStyle: 1px solid var(--primary);
 }
 
 .th-light {
@@ -62,6 +65,7 @@ $light-grey: #e8eaed;
     --bg: #eeeeee;
     --bgTint: #dfeded;
     --bgGrey: #e6e8e8;
+    --borderStyle: 1px solid var(--primary);
   }
 }
 

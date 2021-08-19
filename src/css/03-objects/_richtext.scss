@@ -90,6 +90,8 @@
     padding: var(--vr);
     font-size: 0.9rem;
     background-color: var(--bgTint);
+    border-radius: 0.3rem;
+    border: var(--borderStyle);
 
     p:last-child {
       margin: 0;
