@@ -168,6 +168,11 @@ Let’s install the [node-sass](https://www.npmjs.com/package/node-sass) package
 npm install node-sass --save-dev
 ```
 
+<aside>
+  <h4>Update</h4>
+  <p>Since this post was written, Node Sass has been deprecated in favour of Dart Sass. I recommend using that instead, using <code>npm install sass --save-dev</code>. (<a href="https://sass-lang.com/install">See the docs for details</a>) 🙂</p>
+</aside>
+
 Once this command has finished running, you should see a couple of new things:
 
 1. A directory called `node_modules` has been created
