@@ -47,8 +47,12 @@
     text-underline-offset: 0.4em;
   }
 
-  &:focus {
+  &:focus-visible {
     outline: 1px dotted var(--primary);
+  }
+
+  &:focus:not(:focus-visible) {
+    text-decoration-color: var(--primary);
   }
 
   @media (min-width: $md) {
