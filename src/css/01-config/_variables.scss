@@ -32,6 +32,7 @@ $light-grey: #e8eaed;
   --bgGrey: #e6e8e8;
   --white: #fcfdff;
   --borderStyle: none;
+  --code: #dcc8e6;
 
   --vr: 1rem;
 
@@ -46,6 +47,8 @@ $light-grey: #e8eaed;
     --bgGrey: #27272c;
     --textColorInverse: #0e0f0f;
     --borderStyle: 1px solid var(--primary);
+    --code: var(--bgTint);
+    --codeText: var(--primary);
   }
 }
 
@@ -56,6 +59,8 @@ $light-grey: #e8eaed;
   --bgGrey: #27272c;
   --textColorInverse: #0e0f0f;
   --borderStyle: 1px solid var(--primary);
+  --code: var(--bgTint);
+  --codeText: var(--primary);
 }
 
 .th-light {
