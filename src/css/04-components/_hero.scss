@@ -1,16 +1,18 @@
 .c-hero {
-  background: repeating-radial-gradient(
-      circle at 50%,
-      transparent 2rem,
-      $alt 2rem,
-      $alt 2.2rem,
-      transparent 2.2rem,
-      transparent 4rem
-    ),
+  --dark: #0e0f0f;
+  --grad: radial-gradient(
+    circle at center,
+    transparent 69%,
+    var(--dark) 0,
+    var(--dark) calc(69% + 2px),
+    transparent 0
+  );
+  --size: max(5rem, 10vw);
+  background: var(--grad), var(--grad),
     radial-gradient(circle at 0%, $alt, transparent), var(--headerBg);
-  background-size: 10rem 10rem, 100% 100%;
+  background-size: var(--size) var(--size), var(--size) var(--size), 100% 100%;
   background-repeat: repeat;
-  background-position: center;
+  background-position: 0px 0px, calc(var(--size) / 2) calc(var(--size) / 2);
   color: $white;
   padding: 6rem 0 3rem;
   display: flex;
@@ -23,7 +25,7 @@
 
   @media (min-width: $lg) {
     min-height: rem(600px);
-    padding: 10rem 0 13rem;
+    padding: 13rem 0 18rem;
 
     &::after {
       position: absolute;
@@ -49,12 +51,29 @@
 }
 
 .c-hero__desc {
+  --p: 1rem;
+  font-size: 1.3rem;
+  margin-top: var(--p);
+
+  &::before {
+    content: '';
+    display: block;
+    width: 5rem;
+    margin-bottom: var(--p);
+    border-top: 0.1rem solid darken($lightGrey, 50%);
+
+    @media (min-width: $lg) {
+      width: 10rem;
+    }
+  }
+
   @media (min-width: $md) {
-    font-size: 1.3rem;
+    --p: 1.5rem;
+    font-size: 1.65rem;
   }
 
   @media (min-width: $lg) {
-    margin-left: 9rem;
+    --p: 1.8rem;
   }
 }
 
