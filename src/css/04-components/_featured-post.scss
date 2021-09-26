@@ -1,21 +1,42 @@
 .c-featured-post {
   position: relative;
-  background-color: var(--bgTint);
   width: 100vw;
   margin-left: -1rem;
-  padding: 2rem 1rem 1rem;
 
   @media (min-width: $md) {
     margin-left: -2rem;
+  }
+
+  @media (min-width: $lg) {
+    border: 0.25rem solid var(--primary);
+    border-image: linear-gradient(to right, darkorchid, var(--primary)) 30;
+    width: 100%;
+    margin-left: 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0.75rem;
+      left: 0.75rem;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, darkorchid, var(--primary));
+    }
+  }
+}
+
+.c-featured-post__inner {
+  position: relative;
+  background-color: var(--bgTint);
+  z-index: 1;
+  padding: 2rem 1rem 1rem;
+
+  @media (min-width: $md) {
     padding: 2rem;
   }
 
   @media (min-width: $lg) {
     padding: 3rem;
-    border: 0.25rem solid var(--primary);
-    box-shadow: 0.5rem 0.5rem 0 var(--primary);
-    width: 100%;
-    margin-left: 0;
   }
 }
 
@@ -28,11 +49,16 @@
     font-size: 2.8rem;
   }
 
+  @media (min-width: $lg) {
+    margin-top: 1.5rem;
+    font-size: 3.2rem;
+  }
+
   a {
     color: var(--textColor);
     text-decoration-color: var(--primary);
-    text-decoration-thickness: 0.08em;
-    text-underline-offset: 0.2em;
+    text-underline-offset: auto;
+    text-decoration-thickness: 0.3rem;
 
     &:hover,
     &:focus {
@@ -70,12 +96,19 @@
   font-family: $heading;
   font-weight: $bold;
   color: var(--bgTint);
-  background-color: var(--primary);
+  background: linear-gradient(to right, darkorchid, var(--primary));
   padding: 0.25rem 0.5rem;
+  z-index: 2;
 
   @media (min-width: $md) {
     padding: 0.5rem 1rem;
     font-size: 1.8rem;
+  }
+
+  @media (min-width: $lg) {
+    top: -0.68rem;
+    left: -0.68rem;
+    border-radius: 0.25rem;
   }
 }
 
