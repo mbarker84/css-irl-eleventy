@@ -12,7 +12,7 @@ tags: ['post', 'css', 'layout', 'opinion']
 }
 ```
 
-After some investigation, Ahmad discovered that this line of CSS was, in fact, a “toggle” — where under some conditions (namely, when the card was less than the full width of the viewport), the toggle would be “flipped”, and the computed value evaluating to `0px`. (Read the full article for details of how this works.)
+After some investigation, Ahmad discovered that this line of CSS was, in fact, a “toggle” — where under some conditions (namely, when the card was less than the full width of the viewport), the toggle would be “flipped”, and the computed value evaluating to `0px`. ([Read the full article](https://www.ishadeed.com/article/conditional-border-radius/) for details of how this works.)
 
 ## Toggles in CSS
 
