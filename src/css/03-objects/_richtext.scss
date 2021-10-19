@@ -33,8 +33,7 @@
   code {
     border-radius: 0.25rem;
     background: var(--code);
-    color: var(--codeText, inherit);
-    font-weight: 600;
+    color: inherit;
   }
 
   pre code {
@@ -95,6 +94,8 @@
 
   blockquote {
     border-left: 4px solid var(--primary);
+    background-color: var(--bgTint);
+    padding: var(--vr);
   }
 
   aside {
