@@ -1,6 +1,7 @@
 class DarkModeToggle {
   constructor(el) {
     this.button = el
+    this.buttonText = el.querySelector('[data-btn-text]')
     this.theme = localStorage.getItem('theme')
     this.init()
   }
@@ -35,34 +36,22 @@ class DarkModeToggle {
     document.body.classList.add(`th-${theme}`)
   }
 
-  setCurrentThemeState() {
-    if (this.theme === 'dark') {
-      this.setTheme('dark')
-    }
-
-    if (this.theme === 'light') {
-      this.setTheme('light')
-    }
-  }
-
   init() {
     this.button.addEventListener('click', this.onClick.bind(this))
 
     if (this.theme) {
-      return this.setCurrentThemeState()
+      return this.setTheme(this.theme)
     }
+
+    this.button.setAttribute('aria-checked', !this.shouldSetToDark)
   }
 
   onClick() {
-    if (this.shouldSetToDark) {
-      localStorage.setItem('theme', 'dark')
-      this.setTheme('dark')
-      this.theme = 'dark'
-    } else {
-      localStorage.setItem('theme', 'light')
-      this.setTheme('light')
-      this.theme = 'light'
-    }
+    this.theme = this.shouldSetToDark ? 'dark' : 'light'
+
+    this.setTheme(this.theme)
+    localStorage.setItem('theme', this.theme)
+    this.button.setAttribute('aria-checked', !this.shouldSetToDark)
   }
 }
 
