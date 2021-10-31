@@ -33,7 +33,5 @@ headerChange()
 components.forEach(({ name, component }) => {
   const elements = [...document.querySelectorAll(`[data-behaviour="${name}"]`)]
 
-  console.log(elements)
-
   elements.forEach((el) => new component(el))
 })
