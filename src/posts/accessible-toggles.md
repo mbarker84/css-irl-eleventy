@@ -4,7 +4,7 @@ date: '2021-11-01'
 tags: ['post', 'accessibility', 'html', 'javascript']
 ---
 
-I recently received some great advice from [Scott O’Hara](https://www.scottohara.me/) on improving the accessibility of a [demo](https://codepen.io/michellebarker/pen/bGrNjgB) featuring a reduced-motion toggle (for [this article](https://www.smashingmagazine.com/2021/10/respecting-users-motion-preferences/)). The demo sets the play-state of the animation depending on the user’s motion preferences (using the `prefers-reduced-motion` media query). Users could also click the button to toggle motion on and off, which also changes the text of the button to “Turn on motion” or “Turn on motion”. Here’s the original version:
+I recently received some great advice from [Scott O’Hara](https://www.scottohara.me/) on improving the accessibility of a [demo](https://codepen.io/michellebarker/pen/bGrNjgB) featuring a reduced-motion toggle (for [this article](https://www.smashingmagazine.com/2021/10/respecting-users-motion-preferences/)). The demo sets the play-state of the animation depending on the user’s motion preferences (using the `prefers-reduced-motion` media query). Users could also click the button to toggle motion on and off, which also changes the text of the button to “Turn on motion” or “Turn off motion”. Here’s the original version:
 
 <p class="codepen" data-height="529" data-default-tab="result" data-slug-hash="JjyNXQZ" data-user="michellebarker" style="height: 529px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/michellebarker/pen/JjyNXQZ">
