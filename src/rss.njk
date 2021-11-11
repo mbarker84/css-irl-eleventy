@@ -26,7 +26,7 @@
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {% for post in collections.post %}
+  {% for post in collections.post | reverse %}
   {% if not post.externalLink %}
 
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
