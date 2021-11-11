@@ -62,4 +62,3 @@ public
 yarn-error.log
 dist
 .DS_Store
-.nvmrc
