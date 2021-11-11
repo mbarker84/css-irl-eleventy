@@ -64,7 +64,7 @@ In the project, Parcel compiles Sass to CSS and handles module bundling and imag
 
 ### Learning Eleventy
 
-One are where I would say Eleventy is a little lacking is the documentation. It feels slightly harder to navigate than Gatsby’s docs, in that you kind of need to have an idea of what you’re looking for. The [Getting Started](https://www.11ty.dev/docs/getting-started/) tutorial assumes a certain level of knowledge, and in that regard it’s not quite as beginner-friendly for someone who might not already be familiar with static site generators.
+One area where I would say Eleventy is a little lacking is the documentation. It feels slightly harder to navigate than Gatsby’s docs, in that you kind of need to have an idea of what you’re looking for. The [Getting Started](https://www.11ty.dev/docs/getting-started/) tutorial assumes a certain level of knowledge, and in that regard it’s not quite as beginner-friendly for someone who might not already be familiar with static site generators.
 
 However, there are a plenty of tutorials around to help you get started:
 
