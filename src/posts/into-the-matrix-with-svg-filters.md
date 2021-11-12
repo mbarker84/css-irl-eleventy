@@ -107,7 +107,7 @@ To create a duotone effect (with better browser support than blend modes!) we ne
 This gives us a duotone effect like this:
 
 <figure>
-  <img src="/svg-filters_duotone.jpg" alt="Duotone image">
+  <img src="/svg-filters_duotone.png" alt="Duotone image">
 </figure>
 
 It can be a little trickier to find the perfect mix of colours using the alpha channel, but playing around with the values will give you a feel for it. Hopefully this introduction has given you a taste of what’s possible.

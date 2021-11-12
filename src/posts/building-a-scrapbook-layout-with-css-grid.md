@@ -35,7 +35,7 @@ This applies from a psychological as well as a technical point-of-view – it’
 Compound grids translate really well to CSS Grid, as using _fr_ units makes them very simple to implement. I love the idea of using compound grids in web design, but I felt the process of calculating them (especially the more complex the grid) could be a hindrance. I wanted a way to generate compound grids on demand so, inspired by Andy’s talk, I rolled up my sleeves and built a little tool to generate and visualise compound grids. Enter the number of columns for two different grids (with 10 columns as a maximum for any one grid) and the generator combines them, spitting out a resulting value which can be used in the `grid-template-columns` property using CSS Grid. For example, a grid with four columns plus a grid with five columns will generate the value `4fr 1fr 3fr 2fr 2fr 3fr 1fr 4fr`.
 
 <figure>
-  <img src="/building-a-scrapbook-layout_01.jpg" alt="Screenshot of the compound grid generator tool">
+  <img src="/building-a-scrapbook-layout_01.png" alt="Screenshot of the compound grid generator tool">
 </figure>
 
 This tool is [on Codepen](https://codepen.io/michellebarker/full/zYOMYWv), so feel free to use it or adapt it to suit your needs.

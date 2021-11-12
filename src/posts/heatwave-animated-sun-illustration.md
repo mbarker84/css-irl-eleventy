@@ -6,7 +6,7 @@ tags: ['post', 'css', 'animation']
 
 <figure>
   <video width="100%" controls playsinline>
-    <source src="/heatwave-animated-sun-illustration.mp4" type="video/mp4">
+    <source src="/media/heatwave-animated-sun-illustration.mp4" type="video/mp4">
   </video>
   <figcaption>Animated sun illustration</figcaption>
 </figure>

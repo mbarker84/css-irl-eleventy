@@ -16,7 +16,7 @@ Consider the following component, consisting of a heading, an image and paragrap
 
 <figure>
   <video width="100%" controls playsinline>
-    <source src="/is-it-time-to-ditch-the-design-grid.mp4" type="video/mp4">
+    <source src="/media/is-it-time-to-ditch-the-design-grid.mp4" type="video/mp4">
   </video>
   <figcaption>Resizing the two layouts produces different result, depending on whether we force them to align to a grid</figcaption>
 </figure>
