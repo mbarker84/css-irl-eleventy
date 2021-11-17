@@ -1,13 +1,13 @@
 {
-  "name": "eleventy-parcel",
+  "name": "css-irl-eleventy",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "run-s start:remove build:assets start:watch",
-    "start:remove": "node onStart.js",
+    "start": "run-s start:remove build:images build:assets start:watch",
+    "start:remove": "node onStart.mjs",
     "start:watch": "run-p watch:eleventy watch:parcel bs:start",
     "watch:eleventy": "npx @11ty/eleventy --watch",
-    "watch:parcel": "run-p watch:css watch:js watch:images",
+    "watch:parcel": "run-p watch:css watch:js",
     "watch:css": "parcel watch src/css/styles.scss",
     "watch:js": "parcel watch src/js/index.js src/js/service-worker.js",
     "watch:images": "parcel watch src/images/*",
@@ -18,10 +18,10 @@
     "build:css": "parcel build src/css/styles.scss",
     "build:js": "parcel build src/js/index.js src/js/service-worker.js",
     "build:images": "parcel build src/images/*",
-    "build:assets": "node copyAssets.js",
+    "build:assets": "node copyAssets.mjs",
     "bs:start": "browser-sync start --config bs-config.js",
     "clean": "rm -rf dist",
-    "hash": "node onBuild.js"
+    "hash": "node onBuild.mjs"
   },
   "keywords": [],
   "author": "",

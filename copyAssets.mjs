@@ -1,5 +1,5 @@
-const { copyFile, mkdir, readdir } = require('fs/promises')
-const path = require('path')
+import { copyFile, mkdir, readdir } from 'fs/promises'
+import path from 'path'
 
 async function copyDir(src, dest) {
   await mkdir(dest, { recursive: true })
