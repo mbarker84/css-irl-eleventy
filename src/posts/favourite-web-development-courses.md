@@ -9,7 +9,7 @@ I’m not one for taking loads of courses. It’s hard to find the time, and whe
 ## Three.js Journey
 
 <figure>
-  <img src="/favourite-web-development-courses-01.jpg" alt="Screenshot of the Three.js Journey website">
+  <img src="/favourite-web-development-courses-01.jpg" alt="Screenshot of the Three.js Journey website" loading="lazy" width="1200" height="800">
 </figure>
 
 As someone who’s very comfortable in the DOM but not accustomed to writing spectacularly creative JS, I’ve always found WebGL a little intimidating. If you too have hesitated to take the plunge, I can’t recommend this course highly enough. [Three.js Journey](https://threejs-journey.com/) by Bruno Simon ticks **all** of my boxes: Every lesson is available in both video and written format, with multi-speed video playback options, and downloadable project files. All concepts are superbly well explained, with no prior assumptions about the user’s level of knowledge (an all too common problem). Bruno’s conversational style makes it easy to imagine how you might apply the ideas to projects of your own. And the course platform itself is beautifully designed and a pleasure to use.
@@ -29,7 +29,7 @@ There’s also the option to “try before you buy” — the first few videos a
 ## CSS For Javascript Developers
 
 <figure>
-  <img src="/favourite-web-development-courses-02.jpg" alt="Screenshot of the CSS For Javascript Developers website with the text 'Stop wrestling with CSS'">
+  <img src="/favourite-web-development-courses-02.jpg" alt="Screenshot of the CSS For Javascript Developers website with the text 'Stop wrestling with CSS'" loading="lazy" width="1200" height="800">
 </figure>
 
 Confession: I haven’t actually taken this course, [CSS For Javascript Developers](https://css-for-js.dev/) by Josh W Comeau, but I’ve had a sneak peek. Knowing the quality of the articles Josh writes on [his website](https://www.joshwcomeau.com/), this course will be an absolute goldmine of CSS knowledge — it’s already attracting rave reviews. Josh is a great teacher, and doesn’t skimp on the design and real code examples either.
