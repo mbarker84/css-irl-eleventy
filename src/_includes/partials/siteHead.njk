@@ -12,6 +12,8 @@
 
 {% if version|length == 0 %}
   {% set version = '' %}
+{% else %}
+  {% set version = version.css %}
 {% endif %}
 
 <head>
