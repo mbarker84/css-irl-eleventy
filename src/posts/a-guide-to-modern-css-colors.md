@@ -3,7 +3,7 @@ title: 'A Guide To Modern CSS Colors With RGB, HSL, HWB, LAB And LCH'
 date: '2021-11-18'
 source: 'Smashing Magazine'
 srcUrl: 'https://www.smashingmagazine.com'
-externalLink: 'https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/#comments-guide-modern-css-colors'
+externalLink: 'https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/'
 tags: ['post', 'css']
 ---
 
