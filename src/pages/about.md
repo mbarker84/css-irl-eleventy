@@ -3,7 +3,7 @@ pageTitle: 'About'
 displayTitle: 'About this blog'
 layout: about.njk
 headerStyle: 'simple'
-authorInfo: '<p>CSS { IRL } is designed, written and developed by <a href="https://michellebarker.co.uk">Michelle Barker</a>, Lead Front End Developer at <a href="https://www.atomicsmash.co.uk/">Atomic Smash</a>, occasional speaker on web technologies, and CSS superfan.</p><p>Get in touch: <a href="mailto:contact@michellebarker.co.uk">contact@michellebarker.co.uk</a></p>'
+authorInfo: '<p>CSS { IRL } is designed, written and developed by <a href="https://michellebarker.co.uk">Michelle Barker</a>, Senior Front End Developer at <a href="https://www.ada-mode.com/">Ada Mode</a>, working on web apps for the renewable energy industry. She is a prolific writer, creative coder and occasional speaker on web technologies, as well as being a CSS superfan.</p><p>Visit her personal site <a href="https://michellebarker.co.uk">michellebarker.co.uk</a> or get in touch: <a href="mailto:contact@michellebarker.co.uk">contact@michellebarker.co.uk</a></p>'
 ---
 
 ## The web’s most beautiful language
