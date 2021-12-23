@@ -30,6 +30,10 @@ When many people pool their resources towards a shared goal, it becomes a moveme
 
 > In any society, individuals drive social norms that make up the collective culture. For instance, cultural revolutions don’t happen because of systems change; they happen when a group of people voice a compelling story that propagates across society and becomes a social norm.
 
+Another great quote comes from the article _[The carbon footprint of the Internet: making the invisible visible](https://heylow.world/notes/the-carbon-footprint-of-the-internet-making-the-invisible-visible)_ by low-carbon web agency [Hey Low](https://heylow.world):
+
+> A website's overall impact is minor, as is the effect of a single plastic bag. It makes no difference if there are one or two more. Isn't it simply a plastic bag? We all know now that it's not about just one plastic bag (or one website) - it's the impact of millions of plastic bags, millions of websites. However restrictions are starting to appear for plastic, a tangible and visible material, which the bulk of the internet stays hidden (with no restrictions).
+
 ### There’s always more that can be done
 
 I’m not _just_ talking about optimising a blog that attracts a few hundred visitors (although that itself is still worth doing). Taking Netflix as an example — as several people mentioned streaming a Netflix video as an activity that would arguably have a worse impact than a 2MB website: Netflix, is in fact, a website. According to Netflix’s own [sustainability report](https://s22.q4cdn.com/959853165/files/doc_downloads/2021/03/2020-SASB-Report_FINAL.pdf), the company uses 100% renewable energy for its internet services. That’s great, but I’d be willing to bet there’s much more they could do too. What about the energy used by users’ devices? By optimising their content they could have an impact here too. Of course, we should always be mindful of corporate greenwashing, and take every claim with a pinch of salt.
