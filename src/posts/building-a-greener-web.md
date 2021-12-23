@@ -26,6 +26,10 @@ The fact that we’re talking about this is a good thing. It’s one way of appl
 
 When many people pool their resources towards a shared goal, it becomes a movement. Communities like [ClimateAction.tech](https://climateaction.tech/) are growing and becoming stronger through their members sharing knowledge and spurring each other on. To use a climate-adjacent analogy, I recycle, not because I believe that me individually sorting my tins and plastics makes a big difference, but because it can _only_ work if we do it collectively.
 
+[This article](https://hotorcool.org/hc-posts/debunking-the-false-choice-between-individual-behavior-change-and-systems-change/) from the think tank [Hot or Cool](https://hotorcool.org) raises many good points about how individual action _and_ systematic change are both important:
+
+> In any society, individuals drive social norms that make up the collective culture. For instance, cultural revolutions don’t happen because of systems change; they happen when a group of people voice a compelling story that propagates across society and becomes a social norm.
+
 ### There’s always more that can be done
 
 I’m not _just_ talking about optimising a blog that attracts a few hundred visitors (although that itself is still worth doing). Taking Netflix as an example — as several people mentioned streaming a Netflix video as an activity that would arguably have a worse impact than a 2MB website: Netflix, is in fact, a website. According to Netflix’s own [sustainability report](https://s22.q4cdn.com/959853165/files/doc_downloads/2021/03/2020-SASB-Report_FINAL.pdf), the company uses 100% renewable energy for its internet services. That’s great, but I’d be willing to bet there’s much more they could do too. What about the energy used by users’ devices? By optimising their content they could have an impact here too. Of course, we should always be mindful of corporate greenwashing, and take every claim with a pinch of salt.
@@ -39,6 +43,10 @@ Sustainability is a huge topic that impacts every area of our lives. But most of
 [This case study](https://dannyvankooten.com/website-carbon-emissions/) by Danny van Kooten details the amount of C02 he saved by optimising his WordPress plugins. Used by over 2 million websites, the savings soon add up, as he explains:
 
 > Shaving off a single kilobyte in a file that is being loaded on 2 million websites reduces CO2 emissions by an estimated 2950 kg per month.
+
+### Reducing the carbon footprint of your sites might even have tangible benefits right now
+
+More and more governments and organisations are requiring environmental impact reports and/or setting sustainability as a criteria for winning contracts. For example, in the UK any new digital services commissioned by the government above a certain threshold need to meet the outcomes defined in the Greening [Government ICT and Digital Services Strategy](https://www.gov.uk/government/publications/greening-government-ict-and-digital-services-strategy-2020-2025). Even if you don’t care about reducing the carbon footprint of your web projects, it might be in your financial interest to do it anyway.
 
 ### Inaction achieves nothing
 
@@ -62,6 +70,12 @@ A community of tech workers using their skills to take action against climate ch
 
 [Join the community ⟶](https://climateaction.tech)
 
+### The Green Web Foundation
+
+The Green Web Foundation produces tools and collects data with aim of aiding the transition towards an internet run entirely on renewable energy.
+
+[Visit the website ⟶](https://www.thegreenwebfoundation.org/)
+
 ### The Green Software Foundation
 
 A non-profit dedicated to reducing emissions in the software industry. Consisting of four working groups, their mission is to:
@@ -76,7 +90,15 @@ Developer resources for building more sustainable websites, and a hiring directo
 
 [Visit the-sustainable.dev ⟶](https://the-sustainable.dev/)
 
+### Podcast: How to Save a Planet
+
+I’ve been recommended [this particular episode](https://gimletmedia.com/shows/howtosaveaplanet/llh8gxg/is-your-carbon-footprint-bs) breaking down the argument of systematic change versus personal responsibility. (Disclaimer: I haven’t had the chance to listen yet).
+
+[Check out the podcast ⟶](https://gimletmedia.com/shows/howtosaveaplanet)
+
 ### Tools for measuring your website’s environmental impact
 
 - [Ecoping](https://ecoping.earth/)
 - [Website Carbon Calculator](https://www.websitecarbon.com/)
+
+<aside><p>This article was updated on 23rd December 2021 to include additional resources. Thank you to the members of <a href="https://climateaction.tech">CimateAction.tech</a> for their contributions.</p></aside>
