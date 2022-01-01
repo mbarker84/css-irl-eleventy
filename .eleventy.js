@@ -106,6 +106,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('excerpt', (article) => extractExcerpt(article))
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(embedYouTube)
