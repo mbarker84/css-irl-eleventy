@@ -23,8 +23,7 @@
 .c-post-header__date,
 .c-post-header__source {
   display: block;
-  font-family: $heading;
-  font-weight: 400;
+  font-family: $heading-light;
   font-size: 0.9rem;
 
   @media (min-width: $md) {

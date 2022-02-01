@@ -73,7 +73,7 @@
   margin: rem(10px) 0 rem(20px);
   display: block;
   font-size: 0.8rem;
-  font-family: $heading;
+  font-family: $heading-light;
 
   @media (min-width: $md) {
     font-size: rem(15px);
@@ -96,7 +96,6 @@
   top: 0;
   left: 0;
   font-family: $heading;
-  font-weight: $bold;
   color: var(--white);
   background: linear-gradient(to right, darkorchid, var(--primary));
   padding: 0.25rem 0.5rem;

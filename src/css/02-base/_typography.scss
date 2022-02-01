@@ -1,4 +1,34 @@
+@font-face {
+  font-family: 'Exo ExtraBold';
+  src: url('../fonts/Exo-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Exo-ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo Regular';
+  src: url('../fonts/Exo-Regular.woff2') format('woff2'),
+    url('../fonts/Exo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  src: url('../fonts/sourceserifpro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/sourceserifpro-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   @media (min-width: $md) {
     font-size: 1.2rem;
   }
@@ -19,7 +49,7 @@ h5,
 .heading-4,
 .heading-5 {
   font-family: $heading;
-  font-weight: $bold;
+  font-weight: normal;
 }
 
 p,
@@ -117,9 +147,8 @@ li > h3 {
 }
 
 figcaption {
-  font-weight: 200;
   font-size: rem(16px);
-  font-family: $heading;
+  font-family: $heading-light;
   margin-top: 0.5rem;
 }
 
