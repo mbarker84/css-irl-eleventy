@@ -1,7 +1,7 @@
 ---
 title: 'Building a Greener Web'
 date: '2021-12-21'
-tags: ['post', 'opinion']
+tags: ['post', 'opinion', 'environment']
 ---
 
 <figure>
