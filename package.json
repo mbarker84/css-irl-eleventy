@@ -45,5 +45,5 @@
     "stylelint-config-prettier": "^9.0.3",
     "svg-sprite-generator": "^0.0.7"
   },
-  "dependencies": {}
+  "packageManager": "yarn@3.2.0"
 }
