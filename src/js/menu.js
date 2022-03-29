@@ -1,5 +1,5 @@
-import { trapFocus, visibleLinks } from './helpers/trapFocus'
-import bodyScrollLock from './helpers/bodyScrollLock'
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock'
+import * as focusTrap from 'focus-trap'
 
 const header = document.querySelector('[data-header]')
 const menuButtonText = header.querySelector('[data-menu-button-text]')
@@ -12,10 +12,7 @@ const open = () => {
   menuWrapper.hidden = false
   menuBtn.setAttribute('aria-expanded', true)
   menuButtonText.innerText = 'Close'
-
-  if (window.innerWidth < 1024) {
-    bodyScrollLock(true)
-  }
+  disableBodyScroll(menuWrapper)
 
   setTimeout(() => {
     menuWrapper.classList.add('is-visible')
@@ -31,25 +28,19 @@ const close = () => {
     menuWrapper.hidden = true
     menuBtn.setAttribute('aria-expanded', false)
     menuButtonText.innerText = 'Menu'
-    bodyScrollLock(false)
+    enableBodyScroll(menuWrapper)
   }, 250)
 }
 
+const trap = focusTrap.createFocusTrap(menuContainer, {
+  escapeDeactivates: true,
+  onActivate: open,
+  onDeactivate: close,
+})
+
 const toggleMenu = (e) => {
-  if (menuWrapper.hidden) {
-    open()
-  } else {
-    close()
-  }
-}
-
-const trapFocusInMenu = (e) => {
-  trapFocus(e, menuContainer)
-
-  /* if Esc key pressed */
-  if (e.keyCode === 27) {
-    close()
-  }
+  if (menuWrapper.hidden) return trap.activate()
+  return trap.deactivate()
 }
 
 const menu = () => {
@@ -58,7 +49,6 @@ const menu = () => {
   homeLink.hidden = false
   menuWrapper.classList.add('js-menu')
   menuBtn.addEventListener('click', toggleMenu)
-  menuWrapper.addEventListener('keydown', trapFocusInMenu)
 }
 
 export default menu
