@@ -4,7 +4,7 @@ date: '2022-03-31'
 tags: ['post', 'css', 'javascript', 'browsers']
 ---
 
-Last month I wrote about some of the exciting [new CSS features](https://www.smashingmagazine.com/2022/03/new-css-features-2022/) you can expect to see coming to a browser near you in 2022 for Smashing Magazine. It’s certainly an exciting time to be working on the web right now, with browser support for new features moving along at lightning-fast pace! This month saw Safari drop a new release that includes support for a _tonne_ of new stuff, including `:has()` (A.K.A. the “parent selector”), `accent-color`, and [Cascade Layers](https://css-tricks.com/css-cascade-layers/) (all of which are covered in my Smashing article), as well as some additional gems:
+Last month I wrote about some of the exciting [new CSS features](https://www.smashingmagazine.com/2022/03/new-css-features-2022/) you can expect to see coming to a browser near you in 2022 for Smashing Magazine. It’s certainly an exciting time to be working on the web right now, with browser support for new features moving along at lightning-fast pace! This month saw Safari drop a [new release](https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/) that includes support for a _tonne_ of new stuff, including `:has()` (A.K.A. the “parent selector”), `accent-color`, and [Cascade Layers](https://css-tricks.com/css-cascade-layers/) (all of which are covered in my Smashing article), as well as some additional gems:
 
 ## Trigonometric functions
 
