@@ -12,7 +12,7 @@ const components = [
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
     if (process.env.NODE_ENV === 'production') {
-      const base = 'https://css-irl'
+      const base = 'https://css-irl.info'
       const url = new URL('/service-worker.js', base)
 
       navigator.serviceWorker.register(url, {
