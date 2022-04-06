@@ -43,7 +43,7 @@ The ability to animate grid tracks (`grid-template-rows` and `grid-template-colu
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-But perhaps one of the reasons why we didn’t see more people playing around with animated grid tracks at the time (aside from the limited browser support) was because one of the more obvious use cases is expanding a grid track when hovering on an item **within** the grid. Until `:has()` arrive, we didn’t have a way to style the grid based on the hover state of a child — we would have to use Javascript.
+But perhaps one of the reasons why we didn’t see more people playing around with animated grid tracks at the time (aside from the limited browser support) was because one of the more obvious use cases is expanding a grid track when hovering on an item **within** the grid. Until `:has()` arrived, we didn’t have a way to style the grid based on the hover state of a child — we would have to use Javascript.
 
 This demo combines animated grid tracks with the `:has()` selector. When you hover over a grid item, the item’s grid tracks expand to take up a greater proportion of the space, and the labels of the sibling items fade out. You’ll need to view it in Safari to see this in action — in other browsers you’ll still see a hover effect on the item you’re hovering, just not on the grid and the item’s siblings.
 
