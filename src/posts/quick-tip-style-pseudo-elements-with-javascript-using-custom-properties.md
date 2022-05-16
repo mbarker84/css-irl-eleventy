@@ -1,7 +1,7 @@
 ---
 title: 'Quick Tip: Style Pseudo-elements with Javascript Using Custom Properties'
 date: '2021-03-28'
-tags: ['post', 'css', 'custom properties', 'javascript']
+tags: ['post', 'css', 'custom properties', 'javascript', 'quick tip']
 ---
 
 In Javascript we have a few ways of selecting elements, but we can’t directly target [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements). Something like this, for instance, won’t work, and will return `null`:
