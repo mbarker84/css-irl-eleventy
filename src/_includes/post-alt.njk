@@ -1,0 +1,44 @@
+{% extends "./layout.njk" %}
+
+{% set style = '' %}
+
+{% if headerColors %}
+  {% set style = '--color1:' + headerColors[0] + ';' %}
+{% endif %}
+
+{% if headerColors|length > 1 %}
+  {% set style = style + '--color2:' + headerColors[1] + ';' %}
+{% endif %}
+
+{% if textColor %}
+  {% set style = style + '--headerTextColor:' + textColor + ';' %}
+{% endif %}
+
+{% block content %}
+  <div class="page-content page-content--alt">
+    <div class="c-alt-header" style="{{ style }}">
+      <div class="container">
+        {% include "./partials/post-header-content.njk" %}
+      </div>
+    </div>
+
+    <div class="container-sm">
+      <article class="post-grid">
+
+        <div class="post-grid__main">
+          <div class="o-richtext">
+            {{ content | safe }}
+          </div>
+        </div>
+        <div class="post-grid__sidebar">
+          <div class="c-ad c-ad--vertical">
+            {% include "./partials/ad.njk" %}
+          </div>
+        </div>
+        <div class="post-grid__prev-next">
+          {% include "./partials/prev-next.njk" %}
+        </div>
+      </article>
+    </div>
+  </div>
+{% endblock %}

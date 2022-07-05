@@ -1,0 +1,18 @@
+.c-alt-header {
+  --py: clamp(3rem, 10vw, 20rem);
+  background: linear-gradient(
+    -45deg,
+    var(--color2, deeppink),
+    var(--color1, darkorchid)
+  );
+  background-attachment: fixed;
+  padding: var(--py) 0 var(--vr) 0;
+  margin-bottom: calc(var(--vr));
+  color: var(--headerTextColor, var(--white));
+
+  .c-tag-links__tag a {
+    // background-color: var(--black);
+    font-family: $heading;
+    color: var(--white);
+  }
+}

@@ -3,17 +3,18 @@
   align-items: center;
   font-family: $heading-light;
   padding: 0.5rem 0.5rem 0.5rem 1rem;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
   color: var(--white);
+  background-color: var(--headerBg);
   transition: background-color 200ms;
 
   @media (min-width: $md) {
     position: fixed;
     padding: 0 1rem 0 1.5rem;
+    background-color: rgb(0 0 0 / 0);
   }
 }
 

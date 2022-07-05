@@ -43,11 +43,11 @@ body {
 }
 
 .page-content {
-  padding: 6rem 0 2rem 0;
+  padding: 0 0 2rem 0;
   flex-grow: 1;
 
   @media (min-width: $md) {
-    padding: 10rem 0 6rem 0;
+    padding: 0 0 6rem 0;
   }
 }
 

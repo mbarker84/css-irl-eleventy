@@ -1,4 +1,5 @@
 .c-post-header {
+  padding-top: var(--vr);
   margin-bottom: calc(var(--vr) * 2);
 
   > * + * {
