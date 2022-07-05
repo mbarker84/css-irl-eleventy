@@ -1,6 +1,11 @@
 import { writeFile } from 'fs'
 
-writeFile('src/_data/version.json', '', function (err) {
-  if (err) return console.log(err)
-  console.log(`${''} > src/_data/version.json`)
+const versionObject = {
+  css: '',
+  js: '',
+}
+
+writeFile('src/_data/version.json', JSON.stringify(versionObject), (err) => {
+  if (err) throw err
+  console.log(`${versionObject} > src/_data/version.json`)
 })
