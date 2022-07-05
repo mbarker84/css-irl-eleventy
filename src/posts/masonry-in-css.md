@@ -33,7 +33,9 @@ Currently we can build a kind of faux-masonry (or “fakesonry”, if you will) 
 
 This will create a layout that **looks** like masonry, but the items are ordered by column, not by row. If you were using this layout for an entire page, for the user to browse the items in order they would need to work their way down each column, right to the end before scrolling back up to the top of the page again. Perhaps this might be an OK visual experience if the order doesn’t matter, but users navigating via a keyboard or screenreader would still have to browse by column. When we think of a masonry layout, we normally expect that items are ordered horizontally (or along the inline axis).
 
-We can also build a grid that kind of looks like masonry, but it would require manual placement of grid items, and the height of each item wouldn’t truly be determined by the content. To build a true masonry layout currently requires Javascript, such as the [Masonry](https://masonry.desandro.com/) library created for precisely this purpose.
+We can also build a grid that kind of looks like masonry, but it would require manual placement of grid items, and the height of each item wouldn’t truly be determined by the content. In fact, there are a number of ways we can kind of, **almost** do masonry in CSS, and some of them might serve us well in some situations — check out [this CSS Tricks article from 2019](https://css-tricks.com/piecing-together-approaches-for-a-css-masonry-layout/) that collates a few of them. (Beware of re-ordering with CSS though. It’s not recommended for accessibility reasons.)
+
+But building a **true** masonry layout currently requires Javascript, such as the [Masonry](https://masonry.desandro.com/) library created for precisely this purpose.
 
 ## What’s next for masonry?
 
