@@ -77,6 +77,10 @@ body {
 
 .post-grid__header {
   grid-column: 1 / -1;
+
+  @media (min-width: $md) {
+    margin-top: 6rem;
+  }
 }
 
 .post-grid__main,
