@@ -116,3 +116,21 @@ body {
     margin-top: calc(var(--vr) * -6);
   }
 }
+
+.paginated-posts {
+  margin-top: var(--vr);
+
+  @media (min-width: $md) {
+    margin-top: calc(var(--vr) * 4);
+  }
+}
+
+.home {
+  .paginated-posts {
+    margin-top: 0;
+
+    @media (min-width: $md) {
+      margin-top: 0;
+    }
+  }
+}
