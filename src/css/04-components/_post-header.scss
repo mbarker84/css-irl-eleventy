@@ -72,3 +72,11 @@
     );
   }
 }
+
+.page-content--about {
+  .c-post-header__title {
+    @media (min-width: $lg) {
+      margin-bottom: 0;
+    }
+  }
+}
