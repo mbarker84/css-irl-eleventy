@@ -7,6 +7,8 @@ headerColors: ['lightblue', 'darkviolet']
 textColor: 'var(--black)'
 ---
 
+**This article was updated on 28 July 2022 to include the section covering older browsers.**
+
 Something I like about logical properties is the ability to set margins or padding on just a single axis on an element, while leaving the other alone. Say we have an element on which we’ve set some padding using the `padding` shorthand:
 
 ```css
@@ -66,3 +68,7 @@ So instead we could write:
 The same applies to margins, borders and a bunch of others. And check out the [`inset`](/a-utility-class-for-covering-elements/) property for a great positioning shorthand!
 
 Logical properties are [very well supported](https://caniuse.com/?search=logical%20properties) in browsers now, so it’s a good time to start using them.
+
+## Update
+
+While logical property support is very good in modern browsers, as [Šime pointed out](https://twitter.com/simevidas/status/1549441864255807490?s=20&t=zaJb-OTH8_sLNzPSPuiw9Q), it’s a good idea to polyfill or provide fallbacks for older browsers, otherwise users of older browsers will experience layout bugs. If you use PostCSS then the [PostCSS logical properties plugin](https://github.com/csstools/postcss-logical) should have you covered, otherwise you should consider testing for support using a [feature query](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Conditional_Rules/Using_Feature_Queries).
