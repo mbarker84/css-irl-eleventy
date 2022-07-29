@@ -56,7 +56,7 @@ span {
   <figcaption>With a negative delay, all the characters are animating straight away.</figcaption>
 </figure>
 
-Try commenting out the `--delay` custom property in this demo to see the difference.
+Try commenting out the `--stagger` custom property in this demo to see the difference.
 
 <p class="codepen" data-height="483" data-default-tab="result" data-slug-hash="dymZMgo" data-user="michellebarker" style="height: 483px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/michellebarker/pen/dymZMgo">
