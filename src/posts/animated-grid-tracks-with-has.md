@@ -57,3 +57,8 @@ This demo combines animated grid tracks with the `:has()` selector. When you hov
 ## Polyfilling
 
 Unfortunately, although `:has()` is supported in Safari, animated grid tracks are not. To get around this in the above demo, I’m using the [Greensock](https://greensock.com/) library to animate custom properties for the grid tracks. It’s not perfect — to be honest, I’ve gone for a minimal-code outcome — but hopefully illustrates what’s possible while we cross our fingers for wider support!
+
+<aside>
+<h3>Update</h3>
+<p>Safari Technology Preview and Chrome Canary have now shipped support for animated grid tracks! Here’s a <a href="https://codepen.io/michellebarker/pen/vYRVbQX">revised demo</a>, with an improved fallback for browsers that don’t support <code>:has()</code>. (Detecting support for animated grid tracks is not easily possible.)</p>
+</aside>
