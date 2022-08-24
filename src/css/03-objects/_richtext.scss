@@ -99,6 +99,7 @@
   }
 
   aside {
+    font-family: $heading-light;
     padding: var(--vr);
     font-size: 0.9rem;
     background-color: var(--bgTint);
@@ -109,7 +110,8 @@
       margin: 0;
     }
 
-    h4:first-child {
+    h3,
+    h4 {
       margin: 0 0 0.8rem;
     }
 

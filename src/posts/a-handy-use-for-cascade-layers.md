@@ -106,6 +106,10 @@ I was surprised by how widespread [browser support](https://caniuse.com/?search=
 
 The one drawback to using Cascade Layers here is that it seems to result in the [container queries polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill) no longer working. It’s not a big deal for me in this instance as I’ll be using Chrome, but running the demo in Firefox means you won’t see the container queries in action. I’ve filed [an issue](https://github.com/GoogleChromeLabs/container-query-polyfill/issues/46).
 
+<aside>
+<h3>Update</h3><p>The issue has been fixed and the polyfill is now working! 🎉</p>
+</aside>
+
 ## Resources
 
 Find out more about Cascade Layers but reading this [comprehensive guide](https://css-tricks.com/css-cascade-layers/) by [Miriam Suzanne](https://twitter.com/TerribleMia), or watch [Bramus’s video from CSS Day](https://www.youtube.com/watch?v=zEPXyqj7pEA).
