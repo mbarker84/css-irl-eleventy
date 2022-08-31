@@ -1,7 +1,7 @@
 ---
 title: 'Creative CSS Layout (and the Flexible Web)'
 date: '2022-08-31'
-tags: ['post', 'events', 'css', 'layout' 'video']
+tags: ['post', 'events', 'css', 'layout', 'video']
 ---
 
 Hi friends! Way back in June (which already feels like such a long time ago in CSS land!) I had the pleasure of speaking about CSS layout at [CSS Day conference](https://cssday.nl/2022). I’m pleased to say the video has now been published! Take a look to learn about a whole bunch of modern CSS layout techniques, with a few little tricks thrown in.
