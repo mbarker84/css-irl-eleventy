@@ -107,13 +107,8 @@
     border: var(--borderStyle);
     line-height: 1.6;
 
-    p:last-child {
-      margin: 0;
-    }
-
-    h3,
-    h4 {
-      margin: 0 0 0.8rem;
+    > * + * {
+      margin: 0.8rem 0 0 0;
     }
 
     a {

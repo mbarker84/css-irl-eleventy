@@ -5,7 +5,7 @@
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: rem(20px);
+  gap: rem(30px);
 
   @supports (display: grid) {
     margin: unset;
@@ -14,12 +14,11 @@
 
   @media (min-width: $sm) {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: rem(20px);
   }
 
   @media (min-width: $lg) {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: rem(60px) rem(40px);
+    gap: rem(60px) rem(40px);
   }
 }
 
@@ -55,13 +54,14 @@
 }
 
 .c-posts-grid__date {
-  margin: rem(10px) 0 rem(20px);
+  margin: rem(5px) 0;
   display: block;
   font-size: 0.8rem;
   font-family: $heading-light;
 
   @media (min-width: $md) {
     font-size: rem(15px);
+    margin: rem(10px) 0 rem(20px);
   }
 }
 
@@ -75,4 +75,14 @@
 .c-posts-grid__series-title {
   margin: 0 0 0.5rem 0;
   font-size: rem(16px);
+}
+
+.c-post-listing {
+  border-bottom: 0.1rem solid var(--bgGrey);
+  padding-bottom: rem(25px);
+
+  @media (min-width: $md) {
+    border: none;
+    padding-bottom: 0;
+  }
 }
