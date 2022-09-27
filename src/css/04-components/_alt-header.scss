@@ -11,8 +11,11 @@
   color: var(--headerTextColor, var(--white));
 
   .c-tag-links__tag a {
-    // background-color: var(--black);
     font-family: $heading;
     color: var(--white);
   }
+}
+
+.c-sotb-banner + .c-alt-header {
+  --py: var(--vr);
 }

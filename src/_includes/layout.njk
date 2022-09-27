@@ -7,17 +7,17 @@
 
 <!DOCTYPE html>
 <html lang="en-GB">
-  {% include "./partials/siteHead.njk" %}
+  {% include './partials/siteHead.njk' %}
 
   <body class="no-js {{ bodyClass }}">
     <div class="hidden">
       {% include './partials/sprite.svg' %}
     </div>
 
-    {% include "./partials/header.njk" %}
+    {% include './partials/header.njk' %}
 
     {% block content %}{% endblock %}
 
-    {% include "./partials/footer.njk" %}
+    {% include './partials/footer.njk' %}
   </body>
 </html>

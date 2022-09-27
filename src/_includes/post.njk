@@ -2,9 +2,12 @@
 
 {% block content %}
   <div class="page-content">
+
     <div class="container-sm">
       <article class="post-grid">
         <div class="post-grid__header">
+          {% set class = 'c-sotb-banner--article' %}
+          {% include "./partials/sotb-banner-ad.njk" %}
           {% include "./partials/post-header.njk" %}
         </div>
         <div class="post-grid__main">
