@@ -5,11 +5,6 @@
     margin-top: var(--vr);
   }
 
-  * + h2,
-  * + h3 {
-    margin-top: calc(2 * var(--vr));
-  }
-
   h2 + h3 {
     margin-top: var(--vr);
   }
@@ -18,14 +13,14 @@
     display: block;
     padding: 1rem;
     max-width: 60rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: var(--vr) 0;
 
     * {
       margin-top: 0;
     }
 
-    @media (min-width: $md) {
+    @media (min-width: $lg) {
       font-size: 1.2rem;
     }
   }
@@ -34,6 +29,11 @@
     border-radius: 0.25rem;
     background: var(--code);
     color: inherit;
+    font-size: inherit;
+
+    @media (min-width: $md) {
+      font-size: 1.1rem;
+    }
   }
 
   pre code {
@@ -44,16 +44,16 @@
     font-weight: 400;
   }
 
-  figure + * {
-    margin-top: calc(var(--vr) * 2);
-  }
-
   * + figure {
     margin-top: calc(var(--vr) * 2);
 
     img {
       box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.18);
     }
+  }
+
+  figure + * {
+    margin-top: calc(var(--vr) * 2);
   }
 
   figcaption {
@@ -74,10 +74,7 @@
     margin-top: 0;
   }
 
-  > * + h2 {
-    margin-top: calc(var(--vr) * 2);
-  }
-
+  > * + h2,
   > * + h3 {
     margin-top: calc(var(--vr) * 2);
   }
