@@ -17,5 +17,5 @@
 }
 
 .c-sotb-banner + .c-alt-header {
-  --py: var(--vr);
+  --py: calc(var(--vr) * 2);
 }
