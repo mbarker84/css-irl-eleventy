@@ -1,6 +1,6 @@
 ---
 title: 'CSS Halftone Patterns'
-date: '2022-10-04'
+date: '2022-10-07'
 tags: ['post', 'css', 'inspiration']
 layout: 'post-alt.njk'
 headerColors: ['coral', 'darkviolet']
