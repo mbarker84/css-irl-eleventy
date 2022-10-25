@@ -135,6 +135,10 @@ body {
   @media (min-width: $md) {
     margin-top: calc(var(--vr) * 4);
   }
+
+  @media (min-width: $lg) {
+    margin-top: calc(var(--vr) * 6);
+  }
 }
 
 .home {

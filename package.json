@@ -5,7 +5,7 @@
   "scripts": {
     "start": "run-s start:remove build:images build:assets start:watch",
     "start:remove": "node onStart.mjs",
-    "start:watch": "run-p watch:eleventy watch:parcel bs:start",
+    "start:watch": "run-p watch:eleventy watch:parcel start:browsersync",
     "watch:eleventy": "npx @11ty/eleventy --watch",
     "watch:parcel": "run-p watch:css watch:js",
     "watch:css": "parcel watch src/css/styles.scss",
@@ -19,7 +19,7 @@
     "build:js": "parcel build src/js/index.js src/js/service-worker.js",
     "build:images": "parcel build src/images/*",
     "build:assets": "node copyAssets.mjs",
-    "bs:start": "browser-sync start --config bs-config.js",
+    "start:browsersync": "browser-sync start --config bs-config.js",
     "clean": "rm -rf dist",
     "hash": "node onBuild.mjs"
   },
