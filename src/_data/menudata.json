@@ -8,5 +8,10 @@
     "title": "Twitter",
     "icon": "twitter",
     "url": "https://twitter.com/CSSInRealLife"
+  },
+  {
+    "title": "Mastodon",
+    "icon": "mastodon",
+    "url": "https://front-end.social/@michelle"
   }
 ]
