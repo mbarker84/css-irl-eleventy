@@ -40,6 +40,31 @@
 }
 
 .c-tag-links--home {
+  @media (max-width: $md) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: center;
+
+    a {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 1.2;
+      padding: 0.5rem;
+    }
+
+    .c-tag-links__tag {
+      &:last-child a {
+        border: 1px solid;
+      }
+
+      &:nth-child(n + 7):not(:last-child) {
+        display: none;
+      }
+    }
+  }
+
   .c-tag-links__tag {
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
