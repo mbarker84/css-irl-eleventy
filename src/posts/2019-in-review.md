@@ -1,7 +1,7 @@
 ---
 title: '2019 in Review'
 date: '2019-12-30'
-tags: ['post', 'workflow', 'inspiration', 'careers']
+tags: ['post', 'workflow', 'inspiration', 'careers', 'review']
 ---
 
 <figure>

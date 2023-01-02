@@ -1,7 +1,7 @@
 ---
 title: '2021 in Review'
 date: '2021-12-31'
-tags: ['post', 'workflow', 'inspiration', 'careers', 'css']
+tags: ['post', 'workflow', 'inspiration', 'careers', 'css', 'review']
 ---
 
 Another year gone by, and it’s time to reflect on the highlights and look ahead to some goals for next year. Like [Hidde](https://hiddedevries.nl/en/blog/), I prefer not to dwell too much on the negatives for these end-of-year posts. Suffice to say, in another pandemic year, there have been plenty of lows as well as highs.
