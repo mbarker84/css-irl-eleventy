@@ -4,7 +4,7 @@ date: '2020-08-09'
 tags: ['post', 'javascript', 'accessibility']
 ---
 
-**This article was updated on 13 August 2020 to include performance considerations with the Javascript solution.**
+**Update (January 2023): This article was written before `:focus-visible` was widely supported. Browsers have since implemented `:focus-visible` as the default for displaying the focus outline. I no longer recommend the solution detailed in this article.**
 
 By default, browsers provide styling for elements when they receive focus. This varies from browser to browser, but is typically an outline around an element. In Chrome, the focus style manifests as a blue glowing outline. In Firefox it’s a thin dotted outline that inherits the element’s colour.
 
@@ -64,11 +64,6 @@ document.addEventListener('keyup', function (event) {
 This solution seems to be simple, elegant, and satisfies the client’s requests, while maintaining accessibility. I’m almost annoyed I never thought of it! It can be coupled with custom CSS styling for your focus states too, so that everyone gets a good experience that’s in keeping with the brand. There may be other issues I haven’t considered, so if you’ve come across any pitfalls with this method I’d love to hear about them. Otherwise, I can see no reason not to use it in production.
 
 [Read the original blog post here.](https://jmperezperez.com/outline-focus-ring-a11y/)
-
-<aside>
-  <h4>Update</h4>
-  <p>You may want to read <a href="https://twitter.com/sigismundf/status/1292785813907025920?s=20">this Twitter thread</a>, which discusses the potential performance impact of ongoing event listening, particularly on mobile devices. If you do need to use the above solution, it might be worth modifying the code to exclude mobile or touch devices.</p>
-</aside>
 
 ## Future styling with `:focus-visible`
 

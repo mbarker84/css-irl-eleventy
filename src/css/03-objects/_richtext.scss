@@ -45,14 +45,12 @@
   }
 
   * + figure {
-    margin-top: calc(var(--vr) * 2);
-
     img {
       box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.18);
     }
   }
 
-  figure + * {
+  :is(figure, aside) + * {
     margin-top: calc(var(--vr) * 2);
   }
 
@@ -74,8 +72,7 @@
     margin-top: 0;
   }
 
-  > * + h2,
-  > * + h3 {
+  > * + :is(h2, h3, aside, figure) {
     margin-top: calc(var(--vr) * 2);
   }
 
@@ -103,6 +100,7 @@
     border-radius: 0.3rem;
     border: var(--borderStyle);
     line-height: 1.6;
+    position: relative;
 
     > * + * {
       margin: 0.8rem 0 0 0;
@@ -114,6 +112,28 @@
         cursor: pointer;
         color: var(--textColor);
       }
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      background-color: var(--primary);
+      color: $black;
+      border-radius: 0.1rem;
+      padding: 0 0.5rem;
+      font-size: 0.9em;
+    }
+
+    &::before {
+      content: '<aside>';
+      top: -1rem;
+      left: 1rem;
+    }
+
+    &::after {
+      content: '</aside>';
+      bottom: -1rem;
+      right: 1rem;
     }
 
     @media (min-width: $md) {
