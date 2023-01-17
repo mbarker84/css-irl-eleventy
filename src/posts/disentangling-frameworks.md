@@ -74,4 +74,4 @@ My point is that when evaluating the use of a dependency that has such a large r
 
 Sometimes we can’t avoid a large dependency: many projects built with React or Vue or similar frameworks would be unfathomably complicated to manage without. But these frameworks have relatively quick release cycles, and require maintenance to keep up to date.
 
-By comparison, web standards evolve comparatively slowly, but they evolve slowly for a reason: features that are added now need to be supported **forever**. They are not designed to become obsolete. So whenever possible, the safest, and most future-proof bet is to use the native features of the web platform.
+By comparison, web standards evolve relatively slowly. But they evolve slowly for a reason: features that are added now need to be supported **forever**. They are not designed to become obsolete. So whenever possible, the safest, and most future-proof bet is to use the native features of the web platform.
