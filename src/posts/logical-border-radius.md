@@ -109,7 +109,7 @@ div {
   <img src="/logical-border-radius-01.webp" alt="Rounded rectangle showing equivalent logical and physical border-radius properties" width="1400" height="700">
 </figure>
 
-Getting used to writing `border-start-start-radius` is certainly a bit of a mental leap for me! It’s written like that because it’s the start of the inline axis and the start of the block axis, while `border-start-end-radius` refers to the start of the inline axis and the end of the block axis, and so on.
+Getting used to writing `border-start-start-radius` is certainly a bit of a mental leap for me! It’s written like that because it’s the start of the block axis and the start of the inline axis, while `border-start-end-radius` refers to the start of the block axis and the end of the inline axis, and so on.
 
 As you can see in the following demo, when the direction of the text is switched from left-to-right to right-to-left, as well as the order of items being reverse, the border radii are switched for the elements that use logical properties, whereas the ones using directional properties remain the same.
 
