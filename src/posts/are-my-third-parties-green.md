@@ -1,7 +1,7 @@
 ---
 title: 'Are My Third Parties Green?'
 date: '2022-03-01'
-tags: ['post', 'opinion', 'tooling', 'workflow', 'environment']
+tags: ['note', 'post', 'opinion', 'tooling', 'workflow', 'environment']
 ---
 
 <figure>

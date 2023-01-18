@@ -28,7 +28,7 @@ $light-grey: #e8eaed;
   --headerBg: #1d1d26;
   --textColor: #0e0f0f;
   --textColorInverse: #fcfdff;
-  --bg: #eeeeee;
+  --bg: #fbfbfb;
   --bgTint: #f0e5ea;
   --bgGrey: #e6e8e8;
   --white: #fcfdff;
@@ -68,7 +68,7 @@ $light-grey: #e8eaed;
   @media (prefers-color-scheme: dark) {
     --textColor: #0e0f0f;
     --textColorInverse: #fcfdff;
-    --bg: #eeeeee;
+    --bg: #fbfbfb;
     --bgTint: #f0e5ea;
     --bgGrey: #e6e8e8;
     --borderStyle: 1px solid var(--primary);

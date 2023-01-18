@@ -87,3 +87,8 @@
     }
   }
 }
+
+.c-tag-links__tag--note a {
+  font-family: $heading;
+  background-color: var(--note, royalblue);
+}

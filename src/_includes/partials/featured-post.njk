@@ -1,7 +1,16 @@
 {% for post in collections.post|reverse %}
   {% if pagination.pageNumber == 0 and loop.index == 1 %}
-    <article class="c-featured-post">
-      <span class="c-featured-post__latest">Latest</span>
+    {% if post.data.tags[1] === 'note' %}
+      {% set featuredPostClass = 'c-featured-post--note' %}
+    {% endif %}
+    <article class="c-featured-post {{ featuredPostClass }}">
+      <span class="c-featured-post__latest">
+        {% if post.data.tags[1] === 'note' %}
+          Latest note
+        {% else %}
+          Latest post
+        {% endif %}
+      </span>
         <div class="c-featured-post__inner">
 
         {% if post.data.seriesTitle %}

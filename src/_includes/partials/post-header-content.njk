@@ -6,9 +6,15 @@
   <ul class="c-tag-links">
     {% for tag in tags %}
       {% if tag != 'post' %}
-        <li class="c-tag-links__tag">
-          <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
-        </li>
+        {% if tag === 'note' %}
+          <li class="c-tag-links__tag c-tag-links__tag--note">
+            <a href="/tags/{{ tag | slug }}">Quick note</a>
+          </li>
+        {% else %}
+          <li class="c-tag-links__tag">
+            <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+          </li>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </ul>
