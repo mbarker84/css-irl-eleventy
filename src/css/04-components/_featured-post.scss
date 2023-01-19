@@ -134,10 +134,22 @@
   --color1: royalblue;
   --color2: royalblue;
   --bgTint: #eff3ff;
+
+  @media (prefers-color-scheme: dark) {
+    --bgTint: #27272c;
+  }
 }
 
 .th-dark {
   .c-featured-post--note {
     --bgTint: #27272c;
+  }
+}
+
+.th-light {
+  @media (prefers-color-scheme: dark) {
+    .c-featured-post--note {
+      --bgTint: #eff3ff;
+    }
   }
 }
