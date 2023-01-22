@@ -17,6 +17,7 @@
     position: fixed;
     padding: 0 1rem 0 1.5rem;
     background-color: rgb(0 0 0 / 0);
+    height: rem(70px);
   }
 
   .th-light & {
@@ -244,8 +245,8 @@
   @media (min-width: $md) {
     font-size: 2rem;
     margin-bottom: 0;
-    width: rem(320px);
-    height: rem(70px);
+    width: rem(280px);
+    height: auto;
 
     svg {
       height: 100%;
@@ -255,6 +256,7 @@
 
 .c-header__logo {
   display: none;
+  height: auto;
 }
 
 .js-menu {
@@ -300,7 +302,6 @@
 }
 
 .c-header--bg {
-  // --bg-headerLink: var(--white);
   background-color: var(--headerBg);
 
   .c-header__title {

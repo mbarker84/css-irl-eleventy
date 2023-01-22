@@ -146,6 +146,15 @@ body {
   margin: 0 0 calc(var(--vr)) 0;
 }
 
+.home-layout__bg-logo {
+  max-width: 10rem;
+  width: 20vw;
+  position: absolute;
+  top: -1%;
+  left: -1%;
+  height: auto;
+}
+
 .page-content {
   padding-bottom: calc(var(--vr) * 2);
 }

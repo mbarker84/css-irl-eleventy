@@ -2,11 +2,15 @@
 
 {% block content %}
 <div class="home-layout">
+  {# <svg class="home-layout__bg-logo" xmlns="http://www.w3.org/2000/svg" width="35" height="35" aria-hidden="true" focusable="false">
+    <use href="#logo-icon"/>
+  </svg> #}
+
   {% if page.url == '/' %}
     <div class="c-hero" data-trigger="header-change">
       <div class="container">
-        <svg class="c-hero__svg" xmlns="http://www.w3.org/2000/svg" width="300" height="40">
-          <use href="#logo"/>
+        <svg class="c-hero__svg" xmlns="http://www.w3.org/2000/svg" width="1127" height="160">
+          <use href="#logo-horizontal"/>
         </svg>
         <h1 class="c-hero__heading visually-hidden">{{ metadata.title }}</h1>
         <div class="c-hero__desc">
