@@ -1,13 +1,13 @@
 .c-dark-mode-toggle {
-  color: #ba68e3;
   transition: color 200ms;
   background: none;
   border: none;
   padding: 0.25rem;
   cursor: pointer;
+  color: var(--bg-headerLink);
 
   &:hover,
-  &:focus {
+  &:focus-visible {
     color: var(--primary);
   }
 }

@@ -1,5 +1,18 @@
-<li class="c-post-listing">
+{% set isNote = post.data.tags[1] === 'note' %}
+{% if isNote %}
+  {% set componentClass = 'c-post-listing--note' %}
+{% else %}
+  {% set componentClass = '' %}
+{% endif %}
+
+
+<li class="c-post-listing {{ componentClass }}">
+  {% if isNote %}
+    <span class="c-posts-grid__tag c-posts-grid__tag--note">Quick note</span>
+  {% endif %}
+
   {% if post.data.series %}
+
     <h4 class="c-posts-grid__series-title">{{ post.data.series }}</h4>
   {% endif %}
 
@@ -18,4 +31,10 @@
   </h3>
   <time class="c-posts-grid__date" datetime="{{ post.date }}">{{ post.date.toDateString() }}</time>
   <p class="c-posts-grid__excerpt truncate-3">{% excerpt post %}</p>
+
+  {% if post.data.source %}
+    <p class="c-posts-grid__read-more" aria-hidden>Read it on {{ post.data.source }}</p>
+  {% else %}
+    <p class="c-posts-grid__read-more" aria-hidden>Read more</p>
+  {% endif %}
 </li>

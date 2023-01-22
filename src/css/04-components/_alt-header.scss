@@ -7,15 +7,15 @@
   );
   background-attachment: fixed;
   padding: var(--py) 0 var(--vr) 0;
-  margin-bottom: calc(var(--vr));
   color: var(--headerTextColor, var(--white));
 
   .c-tag-links__tag a {
     font-family: $heading;
     color: var(--white);
+    background-color: var(--headerBg);
   }
-}
 
-.c-sotb-banner + .c-alt-header {
-  --py: calc(var(--vr) * 2);
+  @media (min-width: $lg) {
+    margin-bottom: calc(var(--vr) * 2);
+  }
 }

@@ -16,16 +16,9 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Source Serif';
-  src: url('../fonts/sourceserifpro-regular-webfont.woff2') format('woff2'),
-    url('../fonts/sourceserifpro-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
+  font-family: $body;
+
   @media (min-width: $md) {
     font-size: 1.2rem;
   }
@@ -46,7 +39,7 @@ h5,
 .heading-4,
 .heading-5 {
   font-family: $heading;
-  font-weight: normal;
+  font-weight: 800;
 }
 
 p,
@@ -103,7 +96,7 @@ code {
 
 h1,
 .heading-1 {
-  font-size: 1.65rem;
+  font-size: 1.8rem;
   margin-top: 0;
   line-height: 1.2;
 
@@ -131,11 +124,21 @@ h2,
 
 h3,
 .heading-3 {
+  font-size: 1.6rem;
+  line-height: 1.3;
+
+  @media (min-width: 50em) {
+    font-size: 2.8rem;
+  }
+}
+
+h4,
+.heading-4 {
   font-size: 1.2rem;
   line-height: 1.3;
 
   @media (min-width: 50em) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -145,7 +148,6 @@ li > h3 {
 
 figcaption {
   font-size: rem(16px);
-  font-family: $heading-light;
   margin-top: 0.5rem;
 }
 

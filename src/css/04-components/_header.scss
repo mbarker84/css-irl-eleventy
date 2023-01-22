@@ -1,4 +1,6 @@
 .c-header {
+  --bg-headerLink: var(--black);
+  --headerBg: var(--white);
   display: flex;
   align-items: center;
   font-family: $heading-light;
@@ -7,7 +9,7 @@
   left: 0;
   width: 100%;
   z-index: 3;
-  color: var(--white);
+  color: $black;
   background-color: var(--headerBg);
   transition: background-color 200ms;
 
@@ -15,6 +17,25 @@
     position: fixed;
     padding: 0 1rem 0 1.5rem;
     background-color: rgb(0 0 0 / 0);
+  }
+
+  .th-light & {
+    --bg-headerLink: var(--black);
+  }
+
+  .th-dark & {
+    --bg-headerLink: var(--white);
+    --headerBg: #1d1d26;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    --bg-headerLink: var(--white);
+    --headerBg: #1d1d26;
+
+    .th-light & {
+      --bg-headerLink: var(--black);
+      --headerBg: var(--white);
+    }
   }
 }
 
@@ -24,7 +45,6 @@
   appearance: none;
   border: none;
   background-color: transparent;
-  color: var(--white);
   text-decoration-style: none;
   font-family: inherit;
   padding: 0.5rem 1rem;
@@ -35,6 +55,7 @@
   margin-right: -0.5rem;
   text-underline-offset: 0;
   transition: text-underline-offset 200ms, text-decoration-color 200ms;
+  color: var(--bg-headerLink);
 
   @supports (text-decoration-color: transparent) {
     text-decoration: underline;
@@ -60,6 +81,10 @@
     font-size: 1.1rem;
     margin-left: 2rem;
   }
+
+  &[aria-expanded='true'] {
+    --bg-headerLink: var(--white);
+  }
 }
 
 .c-header__menu-icon {
@@ -79,7 +104,7 @@
     left: 0;
     transition: opacity 95ms;
     transform-origin: center;
-    background-color: var(--white);
+    background-color: var(--bg-headerLink, var(--black));
   }
 
   &::before,
@@ -140,7 +165,7 @@
 
 .c-header__link {
   padding: 0.5rem 1rem;
-  color: var(--white);
+  color: var(--bg-headerLink);
   display: flex;
   align-items: center;
   height: 100%;
@@ -207,7 +232,7 @@
   line-height: 1;
   display: flex;
   align-items: center;
-  color: $white;
+  color: var(--bg-headerLink);
   text-decoration: none;
   margin-right: 1rem;
 
@@ -275,6 +300,7 @@
 }
 
 .c-header--bg {
+  // --bg-headerLink: var(--white);
   background-color: var(--headerBg);
 
   .c-header__title {
@@ -325,4 +351,8 @@
   .c-header__list {
     justify-content: flex-end;
   }
+}
+
+.c-header__list {
+  --bg-headerLink: var(--white);
 }

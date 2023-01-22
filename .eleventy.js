@@ -28,7 +28,7 @@ const getTags = (item) => {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('postPaginated', function (collectionApi) {
-    return collectionApi.getFilteredByTag('post').reverse().slice(1)
+    return collectionApi.getFilteredByTag('post').reverse()
   })
 
   eleventyConfig.addCollection('tagList', function (collection) {

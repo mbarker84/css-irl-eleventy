@@ -4,14 +4,21 @@
   margin: rem(20px) 0;
   font-family: $heading;
   padding: rem(20px) 0 0;
-  border-top: 1px solid lighten($black, 50%);
+  border-top: 0.1rem solid var(--textColor);
 
   @media (min-width: $lg) {
     margin-top: rem(60px);
   }
 
   a {
+    color: inherit;
+    font-weight: 700;
     text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: var(--primary);
+    }
   }
 }
 

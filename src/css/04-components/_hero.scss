@@ -1,124 +1,25 @@
 .c-hero {
-  --dark: #0e0f0f;
-  --grad: radial-gradient(
-    circle at center,
-    transparent 69%,
-    var(--dark) 0,
-    var(--dark) calc(69% + 2px),
-    transparent 0
-  );
-  --size: max(5rem, 10vw);
-  background: var(--grad), var(--grad),
-    radial-gradient(circle at 0%, $alt, transparent), var(--headerBg);
-  background-size: var(--size) var(--size), var(--size) var(--size), 100% 100%;
-  background-repeat: repeat;
-  background-position: 0px 0px, calc(var(--size) / 2) calc(var(--size) / 2);
-  color: $white;
-  padding: 6rem 0 3rem;
+  padding: 3rem 0 var(--vr);
   display: flex;
   align-items: center;
   position: relative;
 
   @media (min-width: $md) {
-    padding: 10rem 0;
+    padding: 6rem 0 var(--vr);
   }
-
-  @media (min-width: $lg) {
-    min-height: rem(600px);
-    padding: 13rem 0 16rem;
-
-    &::after {
-      position: absolute;
-      content: '';
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 7rem;
-      background-color: var(--bg);
-      clip-path: polygon(100% 0, 100% 100%, 0 100%);
-    }
-  }
-}
-
-.c-hero__heading {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
 }
 
 .c-hero__desc {
-  --p: 1rem;
+  font-family: $heading;
+  font-weight: 400;
   font-size: 1.3rem;
-  margin-top: var(--p);
-
-  &::before {
-    content: '';
-    display: block;
-    width: 5rem;
-    margin-bottom: var(--p);
-    border-top: 0.1rem solid darken($lightGrey, 50%);
-
-    @media (min-width: $lg) {
-      width: 10rem;
-    }
-  }
+  max-width: 45rem;
 
   @media (min-width: $md) {
-    --p: 1.5rem;
-    font-size: 1.65rem;
-  }
-
-  @media (min-width: $lg) {
-    --p: 1.8rem;
+    font-size: 1.8rem;
   }
 }
 
 .c-hero__svg {
-  max-width: 45rem;
-}
-
-.c-hero__link-wrapper {
-  max-width: 20rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-
-  @media (min-width: $md) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-.c-hero__link {
-  color: $accent;
-  margin-top: var(--vr);
-
-  &:hover,
-  &:focus {
-    color: $lightGrey;
-  }
-}
-
-.c-hero__link--github {
-  display: inline-flex;
-  align-items: center;
-  font-size: 80%;
-  color: $lightGrey;
-
-  &:hover,
-  &:focus {
-    color: $white;
-  }
-
-  svg {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-left: 0.5rem;
-  }
+  max-width: 33rem;
 }

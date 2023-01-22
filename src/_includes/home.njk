@@ -1,50 +1,46 @@
 {% extends "./layout.njk" %}
 
 {% block content %}
+<div class="home-layout">
   {% if page.url == '/' %}
     <div class="c-hero" data-trigger="header-change">
       <div class="container">
         <svg class="c-hero__svg" xmlns="http://www.w3.org/2000/svg" width="300" height="40">
           <use href="#logo"/>
         </svg>
-        <h1 class="c-hero__heading">{{ metadata.title }}</h1>
+        <h1 class="c-hero__heading visually-hidden">{{ metadata.title }}</h1>
         <div class="c-hero__desc">
           <p>{{ metadata.description }}</p>
         </div>
       </div>
     </div>
+  {% endif %}
 
-    <div class="container grid">
-      <div class="grid__tags">
-        <h4 class="c-tags-block__title">Search by topic...</h4>
+  <div class="container">
+    {{ content | safe }}
+
+    <div class="home-layout__posts">
+      <div class="home-layout__tags">
+        <div class="home-layout__tags-wrapper">
+        <h4 class="home-layout__tags-title">Search by topic...</h4>
         {% set tags = collections.homepageTags %}
         {% set home = true %}
         {% include "./partials/tag-links.njk" %}
+        </div>
       </div>
-      <div class="grid__featured-post">
-        <h5 class="c-posts-total">{{ collections.post|length }}
-          posts</h5>
-        {% include "./partials/featured-post.njk" %}
-      </div>
-    </div>
-  {% endif %}
 
-  <div class="page-content">
-    {{ content | safe }}
-
-    <div class="paginated-posts">
-      <div class="container-sm">
-        {% include "./partials/posts-grid.njk" %}
-      </div>
+      <ul class="c-posts-grid">
+        {% for post in pagination.items %}
+          {% include "./partials/post-listing.njk" %}
+        {% endfor %}
+      </ul>
     </div>
+
+    {% include "./partials/post-grid-pagination.njk" %}
 
     <div class="container">
       {% include "./partials/ad-horizontal.njk" %}
     </div>
   </div>
-  <div class="c-banner">
-    <div class="container">
-      <p>Do you have a question about this blog? Head on over to the brand new <a href="/faqs">FAQs page →</a></p>
-    </div>
-  </div>
+</div>
 {% endblock %}
