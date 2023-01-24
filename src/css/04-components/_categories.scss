@@ -1,0 +1,37 @@
+.c-categories__item {
+  font-family: $heading-light;
+
+  a {
+    color: var(--text-color);
+    text-decoration-color: transparent;
+    display: inline-flex;
+    align-items: baseline;
+
+    &::after {
+      content: '➞';
+      margin-left: 0.2rem;
+      text-decoration-color: transparent;
+      opacity: 0;
+      transform: translate3d(0, 0, 0);
+      transition: opacity 150ms, transform 150ms;
+    }
+
+    span {
+      text-decoration: underline;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration-color: transparent;
+
+      &::after {
+        opacity: 1;
+        transform: translate3d(0.5rem, 0, 0);
+      }
+    }
+  }
+}
+
+.c-categories__title {
+  margin-bottom: calc(var(--vr) / 2);
+}

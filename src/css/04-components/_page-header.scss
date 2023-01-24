@@ -1,3 +1,9 @@
+.c-page-header {
+  padding-bottom: var(--vr);
+  margin-bottom: var(--vr);
+  border-bottom: 0.1rem solid var(--textColor);
+}
+
 .c-page-header__post-count {
   font-family: $heading;
   display: block;

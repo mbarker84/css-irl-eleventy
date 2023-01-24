@@ -1,0 +1,29 @@
+{% set categories = [
+  {
+    title: 'All',
+    url: '/'
+  },
+  {
+    title: 'Articles',
+    url: '/tags/post'
+  },
+  {
+    title: 'Quick tips',
+    url: '/tags/quick-tip'
+  },
+  {
+    title: 'Notes',
+    url: '/tags/note'
+  }
+] %}
+
+<div class="c-categories">
+  <h3 class="c-categories__title heading-4">Categories</h3>
+  <ul class="c-categories__list">
+  {% for category in categories %}
+    <li class="c-categories__item">
+      <a href="{{ category.url }}"><span>{{ category.title }}</span></a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

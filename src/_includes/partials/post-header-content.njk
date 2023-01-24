@@ -10,6 +10,10 @@
           <li class="c-tag-links__tag c-tag-links__tag--note">
             <a href="/tags/{{ tag | slug }}">Quick note</a>
           </li>
+        {% if tag === 'quick-tip' %}
+          <li class="c-tag-links__tag c-tag-links__tag--quick-tip">
+            <a href="/tags/{{ tag | slug }}">Quick tip</a>
+          </li>
         {% else %}
           <li class="c-tag-links__tag">
             <a href="/tags/{{ tag | slug }}">{{ tag }}</a>

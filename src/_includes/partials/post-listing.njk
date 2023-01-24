@@ -1,14 +1,26 @@
+{% set isQuickTip = false %}
+{% for item in post.data.tags %}
+  {% if item === 'quick tip' %}
+    {% set isQuickTip = true %}
+  {% endif %}
+{% endfor %}
+
 {% set isNote = post.data.tags[1] === 'note' %}
 {% if isNote %}
   {% set componentClass = 'c-post-listing--note' %}
+{% elseif isQuickTip %}
+  {% set componentClass = 'c-post-listing--quick-tip' %}
 {% else %}
   {% set componentClass = '' %}
 {% endif %}
 
-
 <li class="c-post-listing {{ componentClass }}">
   {% if isNote %}
     <span class="c-posts-grid__tag c-posts-grid__tag--note">Quick note</span>
+  {% endif %}
+
+  {% if isQuickTip %}
+    <span class="c-posts-grid__tag c-posts-grid__tag--quick-tip">Quick tip</span>
   {% endif %}
 
   {% if post.data.series %}
@@ -18,7 +30,7 @@
 
   <h3 class="c-posts-grid__post-heading">
     {% if post.data.externalLink %}
-      <a href="{{ post.data.externalLink }}">{{ post.data.title }}
+      <a href="{{ post.data.externalLink }}" class="c-posts-grid__link c-posts-grid__link--external">{{ post.data.title }}
         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12.2 12.2">
           <path d="M5.7 0v1.5h4L4.5 6.7l1 1.1 5.3-5.2v3.9h1.4V0z"/>
           <path fill="none" d="M3.4 6.7l3-2.9H1.5v7h7V5.9l-3 2.9z"/>
@@ -26,7 +38,7 @@
         </svg>
       </a>
     {% else %}
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
+      <a href="{{ post.url }}" class="c-posts-grid__link">{{ post.data.title }}</a>
     {% endif %}
   </h3>
   <time class="c-posts-grid__date" datetime="{{ post.date }}">{{ post.date.toDateString() }}</time>
