@@ -1,11 +1,16 @@
 import menu from './menu'
 import headerChange from './header'
 import DarkModeToggle from './darkModeToggle'
+import Expander from './expander'
 
 const components = [
   {
     name: 'dark-mode-toggle',
     component: DarkModeToggle,
+  },
+  {
+    name: 'expander',
+    component: Expander,
   },
 ]
 
