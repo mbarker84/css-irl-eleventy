@@ -1,0 +1,47 @@
+{% extends "./layout.njk" %}
+
+{% if page.url != '/' %}
+  {% set pageClass = 'home-layout--no-hero' %}
+{% endif %}
+
+{% block content %}
+<div class="home-layout {{ pageClass }}">
+
+  {% if page.url == '/' %}
+    {% include "./partials/hero.njk" %}
+  {% endif %}
+
+  <div class="container">
+    {# {{ content | safe }} #}
+
+    <div class="home-layout__posts">
+      <div class="home-layout__tags" data-behaviour="expander">
+        <button data-btn class="home-layout__expander-button">Search topics and categories <span>+</span></button>
+        <div class="home-layout__tags-wrapper" data-content>
+          <h3 class="home-layout__tags-title heading-4">Search by topic...</h3>
+          {% set tags = collections.homepageTags %}
+          {% set home = true %}
+          {% include "./partials/tag-links.njk" %}
+
+          {% include "./partials/categories.njk" %}
+        </div>
+      </div>
+
+      <div class="c-posts-grid">
+        {{ content | safe }}
+        <ul class="c-posts-grid__list">
+          {% for post in items %}
+            {% include "./partials/post-listing.njk" %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% include "./partials/post-grid-pagination.njk" %}
+
+    <div class="container">
+      {% include "./partials/ad-horizontal.njk" %}
+    </div>
+  </div>
+</div>
+{% endblock %}

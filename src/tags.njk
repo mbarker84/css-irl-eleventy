@@ -4,40 +4,47 @@ pagination:
   size: 1
   alias: tag
 permalink: /tags/{{ tag|replace(' ', '-') }}/
-layout: tag-page.njk
+layout: posts-layout.njk
+displayTitle: {{ tag }}
 ---
 
-{% set taglist = collections[ tag ] %}
+{# {% block headerContent %}
+  <div class="c-page-header">
+    <h1 class="heading-2">Tagged “{{ tag }}”</h1>
+    <span class="c-page-header__post-count">{{ taglist | length }} posts</span>
+  </div>
+{% endblock %} #}
 
-<div class="c-page-header">
-  <h1>Tagged “{{ tag }}”</h1>
-  <span class="c-page-header__post-count">{{ taglist | length }} posts</span>
-</div>
+{% block content %}
+  <div class="c-posts-grid__header">
+    <h1 class="heading-2">Tagged “{{ tag }}”</h1>
+    <span class="c-page-header__post-count">{{ taglist | length }} posts</span>
+  </div>
 
-<ul class="c-posts-grid c-posts-grid--tags">
-  {% for post in taglist | reverse %}
-    <li>
-    {% if post.data.series %}
-      <h4 class="c-posts-grid__series-title">{{ post.data.series }}</h4>
-    {% endif %}
+  {% set taglist = collections[ tag ] %}
+  <ul class="c-posts-grid__list">
+    {% for post in taglist | reverse %}
+      <li class="c-post-listing">
+        {% if post.data.series %}
+          <h4 class="c-posts-grid__series-title">{{ post.data.series }}</h4>
+        {% endif %}
 
-    <h3 class="c-posts-grid__post-heading">
-      {% if post.data.externalLink %}
-        <a href="{{ post.data.externalLink }}">{{ post.data.title }}
-          <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12.2 12.2">
-            <path d="M5.7 0v1.5h4L4.5 6.7l1 1.1 5.3-5.2v3.9h1.4V0z"/>
-            <path fill="none" d="M3.4 6.7l3-2.9H1.5v7h7V5.9l-3 2.9z"/>
-            <path d="M8.5 5.9v4.9h-7v-7h4.9l1.5-1.6H0v10h10V4.4z"/>
-          </svg>
-        </a>
-      {% else %}
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
-      {% endif %}
-    </h3>
-    {# <time class="c-posts-grid__date" datetime="{{ post.data.date }}">{{ post.data.date.toDateString() }}</time> #}
-    <time class="c-posts-grid__date" datetime="{{ post.data.date }}">{{ post.data.date }}</time>
-    {# <p class="c-posts-grid__excerpt truncate-3">{% excerpt post %}</p> #}
-  </li>
+        <h3 class="c-posts-grid__post-heading">
+          {% if post.data.externalLink %}
+            <a href="{{ post.data.externalLink }}">{{ post.data.title }}
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12.2 12.2">
+                <path d="M5.7 0v1.5h4L4.5 6.7l1 1.1 5.3-5.2v3.9h1.4V0z"/>
+                <path fill="none" d="M3.4 6.7l3-2.9H1.5v7h7V5.9l-3 2.9z"/>
+                <path d="M8.5 5.9v4.9h-7v-7h4.9l1.5-1.6H0v10h10V4.4z"/>
+              </svg>
+            </a>
+          {% else %}
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+          {% endif %}
+        </h3>
+        <time class="c-posts-grid__date" datetime="{{ post.data.date }}">{{ post.data.date }}</time>
+      </li>
+    {% endfor %}
+  </ul>
 
-  {% endfor %}
-</ul>
+{% endblock %}

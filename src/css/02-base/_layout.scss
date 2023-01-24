@@ -158,3 +158,35 @@ body {
 .page-content {
   padding-bottom: calc(var(--vr) * 2);
 }
+
+.home-layout--no-hero {
+  @media (min-width: $md) {
+    padding-top: 6rem;
+  }
+}
+
+.home-layout__expander-button {
+  font-family: $heading-light;
+  appearance: none;
+  border: none;
+  font-size: inherit;
+  background: none;
+  padding: 0.75rem 1rem;
+  display: flex;
+  cursor: pointer;
+  background-color: var(--bgGrey);
+  border-radius: 0.3rem;
+  margin-bottom: var(--vr);
+
+  span {
+    margin-left: 0.5rem;
+    pointer-events: none;
+    transition: transform 200ms;
+  }
+
+  &[aria-expanded='true'] {
+    span {
+      transform: rotate(45deg);
+    }
+  }
+}
