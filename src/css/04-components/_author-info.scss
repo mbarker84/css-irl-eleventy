@@ -1,5 +1,4 @@
 .c-author-info {
-  display: flex;
   padding: var(--vr);
   background-color: var(--bgTint);
   margin-top: calc(var(--vr) * 2);
@@ -17,22 +16,30 @@
   p + p {
     margin-top: var(--vr);
   }
+
+  @media (min-width: $md) {
+    display: flex;
+  }
+
+  @media (min-width: $md) {
+    padding: calc(var(--vr) * 2);
+  }
 }
 
 .c-author-info__image {
-  align-self: flex-start;
-  margin-right: rem(10px);
+  margin: 0 auto var(--vr) auto;
   max-width: rem(100px);
   border-radius: 50%;
   overflow: hidden;
   filter: grayscale(100%);
 
   @media (min-width: $md) {
+    margin: 0 var(--vr) var(--vr) auto;
+    align-self: flex-start;
     max-width: rem(150px);
-    margin-right: rem(20px);
   }
 }
 
 .c-author-info__heading {
-  margin: 0 0 rem(10px) 0;
+  margin: 0 0 var(--vr) 0;
 }
