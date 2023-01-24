@@ -6,6 +6,7 @@
     text-decoration-color: transparent;
     display: inline-flex;
     align-items: baseline;
+    padding: 0.5rem 0;
 
     &::after {
       content: '➞';
@@ -28,6 +29,10 @@
         opacity: 1;
         transform: translate3d(0.5rem, 0, 0);
       }
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+      padding: 0.1rem 0;
     }
   }
 }

@@ -20,7 +20,7 @@ class Expander {
       this.btn.addEventListener('click', this.onToggle)
     }
 
-    this.btn.hidden = this.isDesktop.matches
+    this.btn.hidden = mq.matches
   }
 
   close() {

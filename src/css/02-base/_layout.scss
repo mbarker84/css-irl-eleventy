@@ -189,4 +189,12 @@ body {
       transform: rotate(45deg);
     }
   }
+
+  &[hidden] {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
 }
