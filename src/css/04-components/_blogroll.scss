@@ -3,26 +3,25 @@
   font-family: $heading-light;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: rem(20px);
+  gap: var(--vr);
 
   @media (min-width: $sm) {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: rem(20px);
   }
 
   @media (min-width: $lg) {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: rem(40px);
-    margin-top: rem(40px);
+    gap: calc(var(--vr) * 2);
+    margin-top: calc(var(--vr) * 2);
   }
 }
 
 .c-blogroll__item {
   font-size: 0.9rem;
-  padding: 1rem;
+  padding: var(--vr);
   background-color: var(--bgTint);
-  border: 3px solid var(--primary);
-  box-shadow: 0.5rem 0.5rem 0 var(--primary);
+  border-radius: 0.3rem;
+  position: relative;
 
   @media (min-width: $md) {
     font-size: 1rem;
@@ -31,15 +30,5 @@
 }
 
 .c-blogroll__heading {
-  margin: 0 0 0.5rem 0;
-}
-
-.c-blogroll__dl {
-  > * + * {
-    margin-top: 0.5rem;
-  }
-}
-
-.c-blogroll__dd {
-  margin-left: 0;
+  margin: 0 0 calc(var(--vr) / 4) 0;
 }
