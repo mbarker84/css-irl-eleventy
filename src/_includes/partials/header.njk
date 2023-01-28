@@ -18,21 +18,12 @@
     <ul class="c-header__social-links">
       {% for item in menudata %}
         <li class="c-header__item">
-          {% if item.title == "Mastodon" %}
-            <a class="c-header__link c-header__link--social" href="{{ item.url }}" rel="me">
+          <a class="c-header__link c-header__link--social" href="{{ item.url }}" rel="me">
               <span class="visually-hidden">{{ item.title }}</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" aria-hidden="true" focusable="false">
                 <use href="#{{ item.icon }}"/>
               </svg>
             </a>
-          {% else %}
-            <a class="c-header__link c-header__link--social" href="{{ item.url }}">
-              <span class="visually-hidden">{{ item.title }}</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" aria-hidden="true" focusable="false">
-                <use href="#{{ item.icon }}"/>
-              </svg>
-            </a>
-          {% endif %}
         </li>
       {% endfor %}
     </ul>
