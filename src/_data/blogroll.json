@@ -1,42 +1,34 @@
 [
   {
     "name": "Ana Rodrigues",
-    "avatar": "https://pbs.twimg.com/profile_images/1126838936519815168/F4HZ_Fmu_400x400.jpg",
     "url": "https://ohhelloana.blog/"
   },
   {
     "name": "Sara Soueidan",
-    "avatar": "/blogroll_sara-soueidan.jpg",
     "url": "https://www.sarasoueidan.com/"
   },
   {
     "name": "Max Böck",
-    "avatar": "https://pbs.twimg.com/profile_images/1174257719135678464/vY_M-Jbh_400x400.jpg",
     "url": "https://mxb.dev/"
   },
   {
     "name": "Manuel Matuzović",
-    "avatar": "https://pbs.twimg.com/profile_images/707504523678523392/Uasvv2C4_400x400.jpg",
     "url": "https://www.matuzo.at/"
   },
   {
     "name": "Eric Bailey",
-    "avatar": "https://pbs.twimg.com/profile_images/1250230152883326976/ZahqBXN0_400x400.jpg",
     "url": "https://ericwbailey.design"
   },
   {
     "name": "Chen Hui-Jing",
-    "avatar": "https://pbs.twimg.com/profile_images/1138414735500595200/MfOU2-0K_400x400.png",
     "url": "https://chenhuijing.com"
   },
   {
     "name": "Miriam Suzanne",
-    "avatar": "https://pbs.twimg.com/profile_images/1279953772236599297/aQDK6C9m_400x400.jpg",
     "url": "https://www.miriamsuzanne.com/"
   },
   {
     "name": "Andy Bell",
-    "avatar": "https://pbs.twimg.com/profile_images/1292805356796739584/efZHsNGx_400x400.jpg",
     "url": "https://piccalil.li/"
   },
   {
@@ -46,97 +38,78 @@
   },
   {
     "name": "Cassie Evans",
-    "avatar": "https://pbs.twimg.com/profile_images/1288895665901273089/vWNzTvc0_400x400.jpg",
     "url": "https://www.cassie.codes/"
   },
   {
     "name": "Heydon Pickering",
-    "avatar": "https://pbs.twimg.com/profile_images/1212321573849436160/cs4PP_ds_400x400.jpg",
     "url": "https://heydonworks.com/"
   },
   {
     "name": "Hidde de Vries",
-    "avatar": "https://pbs.twimg.com/profile_images/1232603114219458560/Zmx3NA7n_400x400.jpg",
     "url": "https://hiddedevries.nl"
   },
   {
     "name": "Adrian Roselli",
-    "avatar": "https://pbs.twimg.com/profile_images/477441054895919104/OB69-tiw_400x400.jpeg",
     "url": "https://adrianroselli.com/"
   },
   {
     "name": "Arit Amana",
-    "avatar": "",
     "url": "https://arit.dev/"
   },
   {
     "name": "Brad Frost",
-    "avatar": "",
     "url": "https://bradfrost.com/"
   },
   {
     "name": "Stu Robson",
-    "avatar": "",
     "url": "https://www.alwaystwisted.com/"
   },
   {
     "name": "Lea Verou",
-    "avatar": "",
     "url": "https://lea.verou.me/"
   },
   {
     "name": "Josh W Comeau",
-    "avatar": "",
     "url": "https://joshwcomeau.com"
   },
   {
     "name": "Sophie Koonin",
-    "avatar": "",
     "url": "https://localghost.dev/"
   },
   {
     "name": "Rach Smith",
-    "avatar": "",
     "url": "https://rachsmith.com/"
   },
   {
     "name": "Robb Owen",
-    "avatar": "",
     "url": "https://robbowen.digital/"
   },
   {
     "name": "Sara Joy",
-    "avatar": "",
     "url": "https://sarajoy.dev/"
   },
   {
     "name": "Adam Argyle",
-    "avatar": "",
     "url": "https://nerdy.dev/"
   },
   {
     "name": "David Darnes",
-    "avatar": "",
     "url": "https://darn.es/"
   },
   {
     "name": "Ahmad Shadeed",
-    "avatar": "",
     "url": "https://ishadeed.com/"
   },
   {
     "name": "Chris Coyier",
-    "avatar": "",
     "url": "https://chriscoyier.net/"
   },
   {
     "name": "Bramus Van Damme",
-    "avatar": "",
     "url": "https://www.bram.us/"
   },
   {
     "name": "Una Kravets",
-    "avatar": "",
     "url": "https://una.im/"
   }
 ]
