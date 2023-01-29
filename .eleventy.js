@@ -1,6 +1,8 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const embedYouTube = require('eleventy-plugin-youtube-embed')
+const Webmentions = require('eleventy-plugin-webmentions')
+const dotenv = require('dotenv')
 
 const getPostCount = (tag, posts) => {
   return posts.filter((post) => post.data.tags.includes(tag)).length
@@ -110,6 +112,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(embedYouTube)
+
+  dotenv.config()
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: 'css-irl.info',
+    token: process.env.WEBMENTIONS_TOKEN,
+  })
 
   return {
     dir: {

@@ -1,0 +1,2762 @@
+{
+  "lastFetched": "2023-01-29T15:03:04.907Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "cienfuegos",
+        "photo": "https://webmention.io/avatar/front-end.social/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://lile.cl/@100fuegos"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109742663588683793",
+      "published": null,
+      "wm-received": "2023-01-29T05:29:00Z",
+      "wm-id": 1609827,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109742663588683793",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/",
+      "published": null,
+      "wm-received": "2023-01-28T21:13:54Z",
+      "wm-id": 1609559,
+      "wm-source": "http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/",
+      "wm-target": "https://css-irl.info/quick-tip-negative-animation-delay/",
+      "name": "Chris’ Corner: Relatively Recent Great CSS Writing",
+      "content": {
+        "html": "<p></p>\n<h3>Chen Hui Jing, <a href=\"https://chenhuijing.com/blog/so-your-designer-wants-stuff-to-overlap/#%F0%9F%87%B2%F0%9F%87%BE\"><strong>So your designer wants stuff to overlap</strong></a></h3>\n<p>Love that title. Elements in HTML don’t just overlap each other by default. In fact, they intentionally push other elements around so that they don’t. You’ll need CSS to force elements to overlap if you need them to. The traditional ways:</p>\n<ul><li>negative margins</li>\n<li>transform translate</li>\n<li>absolute positioning</li>\n</ul><p>But Chen Hui Jing makes sure we don’t forget about grid! It might not come to mind immediately as we mostly think about making a grid and placing individual elements in individual grid cells. But grid cells don’t care! You can put as many elements as you want in a grid cell (or multiple grid cells). They are really just placement coordinates, not slots that only take one element.</p>\n<a href=\"https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1673647137/Screenshot-2023-01-13-at-1.57.49-PM/Screenshot-2023-01-13-at-1.57.49-PM.png?_i=AA\"><img width=\"1200\" height=\"1040\" src=\"http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTQ4IiBoZWlnaHQ9IjEwNDAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImZpbGwiIHZhbHVlcz0icmdiYSgxNTMsMTUzLDE1MywwLjUpO3JnYmEoMTUzLDE1MywxNTMsMC4xKTtyZ2JhKDE1MywxNTMsMTUzLDAuNSkiIGR1cj0iMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPjwvcmVjdD48L3N2Zz4=\" alt=\"\" /></a><h3>Michelle Barker, <a href=\"https://css-irl.info/quick-tip-negative-animation-delay/\">Quick Tip: Negative Animation Delay</a></h3>\n<p>This is one of my favorite classic CSS tricks because it’s so obvious… but only after you’ve learned it. The point is mainly <strong>staggered</strong> animations. If you want animations to all be at different points along the same animation when they start animating, you can use <code><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay\">animation-delay</a></code>. But if you use a positive time value, the animation won’t start for the first time until that delay (duh). So instead, you use a <em>negative</em> value. The animation starts immediately, but backed up to where it needs to be to have the beginning of the animation hit once the negative delay elapses.</p>\n<a href=\"https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1673796545/quick-tip-negative-animation-delay/quick-tip-negative-animation-delay.webp?_i=AA\"><img width=\"758\" height=\"383\" src=\"http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NTgiIGhlaWdodD0iMzgzIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJmaWxsIiB2YWx1ZXM9InJnYmEoMTUzLDE1MywxNTMsMC41KTtyZ2JhKDE1MywxNTMsMTUzLDAuMSk7cmdiYSgxNTMsMTUzLDE1MywwLjUpIiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz48L3JlY3Q+PC9zdmc+\" alt=\"\" /></a><h3>Charlotte Dann, <a href=\"https://charlottedann-4mjqyxw5t-pouretrebelle.vercel.app/article/fancy-frames-with-css\">Fancy Frames with CSS</a></h3>\n<p>Awesome research from Charlotte, covering lots of ways to make interesting “framed” shapes like these:</p>\n<a href=\"https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1673796899/Screenshot-2023-01-15-at-7.29.25-AM/Screenshot-2023-01-15-at-7.29.25-AM.png?_i=AA\"><img width=\"1200\" height=\"736\" src=\"http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjIyIiBoZWlnaHQ9IjczNiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iZmlsbCIgdmFsdWVzPSJyZ2JhKDE1MywxNTMsMTUzLDAuNSk7cmdiYSgxNTMsMTUzLDE1MywwLjEpO3JnYmEoMTUzLDE1MywxNTMsMC41KSIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+PC9yZWN0Pjwvc3ZnPg==\" alt=\"\" /></a><p>So is there one obvious clear best path forward to do this in CSS (and friends)? No — haha. Charlotte explores using 1️⃣ multiple gradient backgrounds (very complicated to construct, limitations with transparency), 2️⃣ <code>border-image</code> (one of the weirder CSS properties, but does help with placing gradients, or SVGs), 3️⃣ <code>mask-border</code> which I’m not sure I’ve ever even looked at in my life (no Firefox support), and finally, 4️⃣ Houdini which has no Firefox or Safari support, but does bring interesting JavaScript-powered opportunities into the mix.</p>\n<p>Just to throw another one in the mix here… I happened to be playing with <a href=\"https://open-props.style/#:~:text=)%3B%0A%7D-,Mask%20Corner%20Cuts,-/*%20NPM%20*/%0A%40import\">Open Props the other day and it has a “Mask Corner Cuts” section</a>. It just uses <code>mask</code> (or <code>-webkit-mask</code>, as apparently the vendor-prefixed version alone gets the best support). </p>\n\n<a href=\"https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1673884937/open-props-masks/open-props-masks.png?_i=AA\"><img width=\"318\" height=\"363\" src=\"http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMTgiIGhlaWdodD0iMzYzIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJmaWxsIiB2YWx1ZXM9InJnYmEoMTUzLDE1MywxNTMsMC41KTtyZ2JhKDE1MywxNTMsMTUzLDAuMSk7cmdiYSgxNTMsMTUzLDE1MywwLjUpIiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz48L3JlY3Q+PC9zdmc+\" alt=\"\" /></a>\n<h3>Scott Vandehey, <a href=\"https://cloudfour.com/thinks/the-power-of-css-blend-modes/\">The Power of CSS Blend Modes</a></h3>\n<p>Scott is inspired by <a href=\"https://codepen.io/scottkellum/pen/gOvXodv\">other-Scott’s Pen</a> (which happens to be #91 on the <a href=\"https://codepen.io/2022/popular/pens\">Top Pens of 2022 list</a>) and breaks down exactly how it works. It’s a combination of filtering and blending layers. that’s just cool as heck. </p>\n<a href=\"https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1673885095/css-filters-layers-rainbow@2x/css-filters-layers-rainbow@2x.jpg?_i=AA\"><img width=\"1200\" height=\"900\" src=\"http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjkwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iZmlsbCIgdmFsdWVzPSJyZ2JhKDE1MywxNTMsMTUzLDAuNSk7cmdiYSgxNTMsMTUzLDE1MywwLjEpO3JnYmEoMTUzLDE1MywxNTMsMC41KSIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+PC9yZWN0Pjwvc3ZnPg==\" alt=\"\" /></a><p><a href=\"https://cloudfour.com/thinks/the-power-of-css-blend-modes/\">You gotta go check out the article</a> to see how Scott was able to stretch the idea to other effects, like a halftone filter. </p>\n<h3>Kate Rose Morley, <a href=\"https://iamkate.com/code/tree-views/\">Tree views in CSS</a></h3>\n<p>This is entirely doable in just semantic HTML and CSS alone:</p>\n<a href=\"https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1673886023/CleanShot-2023-01-16-at-08.19.42/CleanShot-2023-01-16-at-08.19.42.gif?_i=AA\"><img width=\"355\" height=\"350\" src=\"http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzUwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJmaWxsIiB2YWx1ZXM9InJnYmEoMTUzLDE1MywxNTMsMC41KTtyZ2JhKDE1MywxNTMsMTUzLDAuMSk7cmdiYSgxNTMsMTUzLDE1MywwLjUpIiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz48L3JlY3Q+PC9zdmc+\" alt=\"\" /></a><p>The trick is putting all the list items that have a sub-list with a <code>&lt;details&gt;</code> element. The text of that <code>&lt;li&gt;</code> becomes whatever the <code>&lt;summary&gt;</code> is. Then you can style the <code>::marker</code> of the details elements to have the plus-and-minus look rather than the default triangle. I appreciated Kate’s usage of <code>:focus-visible</code> too which keeps the focus styles away from mouse clicks. </p>\n<p>The post Chris’ Corner: Relatively Recent Great CSS Writing appeared first on CodePen Blog.</p>",
+        "text": "Chen Hui Jing, So your designer wants stuff to overlap\nLove that title. Elements in HTML don’t just overlap each other by default. In fact, they intentionally push other elements around so that they don’t. You’ll need CSS to force elements to overlap if you need them to. The traditional ways:\nnegative margins\ntransform translate\nabsolute positioning\nBut Chen Hui Jing makes sure we don’t forget about grid! It might not come to mind immediately as we mostly think about making a grid and placing individual elements in individual grid cells. But grid cells don’t care! You can put as many elements as you want in a grid cell (or multiple grid cells). They are really just placement coordinates, not slots that only take one element.\nMichelle Barker, Quick Tip: Negative Animation Delay\nThis is one of my favorite classic CSS tricks because it’s so obvious… but only after you’ve learned it. The point is mainly staggered animations. If you want animations to all be at different points along the same animation when they start animating, you can use animation-delay. But if you use a positive time value, the animation won’t start for the first time until that delay (duh). So instead, you use a negative value. The animation starts immediately, but backed up to where it needs to be to have the beginning of the animation hit once the negative delay elapses.\nCharlotte Dann, Fancy Frames with CSS\nAwesome research from Charlotte, covering lots of ways to make interesting “framed” shapes like these:\nSo is there one obvious clear best path forward to do this in CSS (and friends)? No — haha. Charlotte explores using 1️⃣ multiple gradient backgrounds (very complicated to construct, limitations with transparency), 2️⃣ border-image (one of the weirder CSS properties, but does help with placing gradients, or SVGs), 3️⃣ mask-border which I’m not sure I’ve ever even looked at in my life (no Firefox support), and finally, 4️⃣ Houdini which has no Firefox or Safari support, but does bring interesting JavaScript-powered opportunities into the mix.\nJust to throw another one in the mix here… I happened to be playing with Open Props the other day and it has a “Mask Corner Cuts” section. It just uses mask (or -webkit-mask, as apparently the vendor-prefixed version alone gets the best support). \n\n\nScott Vandehey, The Power of CSS Blend Modes\nScott is inspired by other-Scott’s Pen (which happens to be #91 on the Top Pens of 2022 list) and breaks down exactly how it works. It’s a combination of filtering and blending layers. that’s just cool as heck. \nYou gotta go check out the article to see how Scott was able to stretch the idea to other effects, like a halftone filter. \nKate Rose Morley, Tree views in CSS\nThis is entirely doable in just semantic HTML and CSS alone:\nThe trick is putting all the list items that have a sub-list with a <details> element. The text of that <li> becomes whatever the <summary> is. Then you can style the ::marker of the details elements to have the plus-and-minus look rather than the default triangle. I appreciated Kate’s usage of :focus-visible too which keeps the focus styles away from mouse clicks. \nThe post Chris’ Corner: Relatively Recent Great CSS Writing appeared first on CodePen Blog."
+      },
+      "mention-of": "https://css-irl.info/quick-tip-negative-animation-delay/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "http://cheapnewhost.com/chris-corner-relatively-recent-great-css-writing/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "by Anderson Robin",
+        "photo": "",
+        "url": "https://brandiscrafts.com/author/brandiscrafts/"
+      },
+      "url": "https://brandiscrafts.com/animated-underline-the-15-new-answer/",
+      "published": "2023-01-29T02:27:33+07:00",
+      "wm-received": "2023-01-28T19:28:27Z",
+      "wm-id": 1609477,
+      "wm-source": "https://brandiscrafts.com/animated-underline-the-15-new-answer/",
+      "wm-target": "https://css-irl.info/animating-underlines/",
+      "name": "Animated Underline? The 15 New Answer",
+      "content": {
+        "html": "<p>Are you looking for an answer to the topic “<a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer\">animated underline</a>“? We answer all your questions at the website <a href=\"https://brandiscrafts.com\">Brandiscrafts.com</a> in category: <a href=\"https://brandiscrafts.com/technology\">Latest technology and computer news updates</a>. You will find the answer right below.</p>\n<p>Keep Reading</p>\n<img src=\"https://i.ytimg.com/vi/aswRKAjjWuE/maxresdefault.jpg\" alt=\"Animated Underline\" />Animated Underline\n\n<p>Table of Contents</p>\n<span><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#\"><span style=\"width:35px;height:30px;\"></span></a></span>\n<ul><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_underline_an_animated_text\" title=\"How do you underline an animated text?\">How do you underline an animated text?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_hover_underline_in_HTML\" title=\"How do you hover underline in HTML?\">How do you hover underline in HTML?</a><ul><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Draw_Underline_Link_Hover_Effect_CSS_Menu_Hover_Effect\" title=\"Draw Underline Link Hover Effect | CSS Menu Hover Effect\">Draw Underline Link Hover Effect | CSS Menu Hover Effect</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Images_related_to_the_topicDraw_Underline_Link_Hover_Effect_CSS_Menu_Hover_Effect\" title=\"Images related to the topicDraw Underline Link Hover Effect | CSS Menu Hover Effect\">Images related to the topicDraw Underline Link Hover Effect | CSS Menu Hover Effect</a></li></ul></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Can_you_animate_text-decoration\" title=\"Can you animate text-decoration?\">Can you animate text-decoration?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_create_an_underline_in_CSS\" title=\"How do you create an underline in CSS?\">How do you create an underline in CSS?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_underline_text_in_after_effects\" title=\"How do you underline text in after effects?\">How do you underline text in after effects?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_make_text_not_underlined_in_a_link\" title=\"How do you make text not underlined in a link?\">How do you make text not underlined in a link?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_I_remove_the_underline_from_a_hyperlink_in_CSS\" title=\"How do I remove the underline from a hyperlink in CSS?\">How do I remove the underline from a hyperlink in CSS?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#See_some_more_details_on_the_topic_animated_underline_here\" title=\"See some more details on the topic animated underline here:\">See some more details on the topic animated underline here:</a><ul><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#CSS_In_Real_Life_Animating_Underlines\" title=\"CSS { In Real Life } | Animating Underlines\">CSS { In Real Life } | Animating Underlines</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Hover_underline_animation_-_30_seconds_of_code\" title=\"Hover underline animation – 30 seconds of code\">Hover underline animation – 30 seconds of code</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Animating_Link_Underlines_Tobias_Ahlin\" title=\"Animating Link Underlines | Tobias Ahlin\">Animating Link Underlines | Tobias Ahlin</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#HTML-CSS_Hover_underline_animation_-_w3resource\" title=\"HTML-CSS: Hover underline animation – w3resource\">HTML-CSS: Hover underline animation – w3resource</a></li></ul></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_animate_lines_in_CSS\" title=\"How do you animate lines in CSS?\">How do you animate lines in CSS?</a><ul><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Create_Underline_Button_Hover_Effects_Pure_CSS\" title=\"Create Underline Button Hover Effects | Pure CSS\">Create Underline Button Hover Effects | Pure CSS</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Images_related_to_the_topicCreate_Underline_Button_Hover_Effects_Pure_CSS\" title=\"Images related to the topicCreate Underline Button Hover Effects | Pure CSS\">Images related to the topicCreate Underline Button Hover Effects | Pure CSS</a></li></ul></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_animate_a_strikethrough_in_Powerpoint\" title=\"How do you animate a strikethrough in Powerpoint?\">How do you animate a strikethrough in Powerpoint?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_create_an_underline_in_HTML\" title=\"How do you create an underline in HTML?\">How do you create an underline in HTML?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_I_make_a_small_underline_in_HTML\" title=\"How do I make a small underline in HTML?\">How do I make a small underline in HTML?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_underline_an_image_in_HTML\" title=\"How do you underline an image in HTML?\">How do you underline an image in HTML?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_add_an_underline_in_Adobe\" title=\"How do you add an underline in Adobe?\">How do you add an underline in Adobe?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_underline_in_Illustrator\" title=\"How do you underline in Illustrator?\">How do you underline in Illustrator?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Do_hyperlinks_not_show_underlined\" title=\"Do hyperlinks not show underlined?\">Do hyperlinks not show underlined?</a><ul><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Animated_Underline_Hover_Effect_HTML_CSS\" title=\"Animated Underline Hover Effect (HTML  CSS)\">Animated Underline Hover Effect (HTML CSS)</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Images_related_to_the_topicAnimated_Underline_Hover_Effect_HTML_CSS\" title=\"Images related to the topicAnimated Underline Hover Effect (HTML  CSS)\">Images related to the topicAnimated Underline Hover Effect (HTML CSS)</a></li></ul></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_I_make_a_link_not_blue_or_underlined\" title=\"How do I make a link not blue or underlined?\">How do I make a link not blue or underlined?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#How_do_you_not_underline_a_link_in_PowerPoint\" title=\"How do you not underline a link in PowerPoint?\">How do you not underline a link in PowerPoint?</a></li><li><a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#Information_related_to_the_topic_animated_underline\" title=\"Information related to the topic animated underline\">Information related to the topic animated underline</a></li></ul>\n<h2><span></span>How do you underline an animated text?<span></span></h2>\n\n\n<b>Hover underline animation</b>\n\n<ol><li>Use display: inline-block to make the underline span just the width of the text content.</li>\n<li>Use the :after pseudo-element with width: 100% and position: absolute to place it below the content.</li>\n<li>Use transform: scaleX(0) to initially hide the pseudo-element.</li>\n</ol>\n\n\n<h2><span></span>How do you hover underline in HTML?<span></span></h2>\n\n\n<b>“underline on hover html” Code Answer’s</b>\n\n<ol><li>a:hover {</li>\n<li>text-decoration: underline;</li>\n<li>}</li>\n</ol>\n\n\n<h3><span></span>Draw Underline Link Hover Effect | CSS Menu Hover Effect<span></span></h3>\n<a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#\" style=\"background-color:#4CAF50;border:none;color:#FFFFFF;padding:15px 32px;text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;\">Watch The Video Below</a>\n<p></p>\n\nDraw Underline Link Hover Effect | CSS Menu Hover Effect\nDraw Underline Link Hover Effect | CSS Menu Hover Effect\n\n<h3><span></span>Images related to the topicDraw Underline Link Hover Effect | CSS Menu Hover Effect<span></span></h3>\n<img src=\"https://i.ytimg.com/vi/aswRKAjjWuE/maxresdefault.jpg\" alt=\"Draw Underline Link Hover Effect | Css Menu Hover Effect\" />Draw Underline Link Hover Effect | Css Menu Hover Effect<h2><span></span>Can you animate text-decoration?<span></span></h2>\n<p><span>As it turns out, <b>text-decoration is not one of the properties that can be animated at all</b>, including transitions. So, I went another route. By applying a bottom border instead, I can simulate an underline, and I can animate it.</span></p>\n<a href=\"https://brandiscrafts.com/android-studio-attributes-missing-all-answers/\"><span>See also</span>  <span>Android Studio Attributes Missing? All Answers</span></a><h2><span></span>How do you create an underline in CSS?<span></span></h2>\n<p><span><b>The property text-decoration-line is used to underline the text</b>. This property has three values that are overline, underline, or line-through. So, the value underline is used to underline the text in CSS. This value draws the underline beneath the inline text.</span></p>\n<h2><span></span>How do you underline text in after effects?<span></span></h2>\n<p><span>The After Effects text engine does not have an underline feature. But, as with most things in After Effects, there are a million ways to do things. You can simply <b>add a solid layer, draw a path under the text, and apply the stroke effect</b>. You can draw a shape layer as a line under your text.</span></p>\n<h2><span></span>How do you make text not underlined in a link?<span></span></h2>\n\n\n<b>Here’s where you will need to add a bit of HTML code to force the link to not underline.</b>\n\n<ol><li>First, you’ll add a style attribute inside the a tag, like this &lt;a style=. … </li>\n<li>Next, you’ll add “text-decoration:none;” after the style tag which tells the link we don’t want it to be underlined.</li>\n</ol>\n\n\n<h2><span></span>How do I remove the underline from a hyperlink in CSS?<span></span></h2>\n\n\n<b>How to Remove the Underline from Links in CSS</b>\n\n<ol><li>Add your HTML to the section of your webpage.</li>\n<li>Define the four pseudo-classes of links with the text-decoration property in the section.</li>\n<li>Make sure that a:link and a:visited come before a:hover, and a:active comes last. … </li>\n<li>Set each property value to “none.”</li>\n</ol>\n\n\n<h2><span></span>See some more details on the topic animated underline here:<span></span></h2>\n<h3><span></span>CSS { In Real Life } | Animating Underlines<span></span></h3>\n<p>We can animate an underline on multi-line text with clever use of linear gradients, along with background-size and background-position . Here’s …</p>\n<p><a href=\"https://css-irl.info/animating-underlines/\" style=\"background-color:#008CBA;border:none;color:#FFFFFF;padding:15px 32px;text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;\"> + Read More Here</a></p>\n<h3><span></span>Hover underline animation – 30 seconds of code<span></span></h3>\n<p>Creates an animated underline effect when the user hovers over the text. Use display: inline-block to make the underline span just the width …</p>\n<p><a href=\"https://www.30secondsofcode.org/css/s/hover-underline-animation\" style=\"background-color:#008CBA;border:none;color:#FFFFFF;padding:15px 32px;text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;\"> + View Here</a></p>\n<h3><span></span>Animating Link Underlines | Tobias Ahlin<span></span></h3>\n<p>A quick trick: add a pseudo-element and animate it with CSS transitions on hover. … the link’s underline is revealed by animating it out from the center.</p>\n<a href=\"https://brandiscrafts.com/php-sql-syntax-the-16-correct-answer/\"><span>See also</span>  <span>Php Sql Syntax? The 16 Correct Answer</span></a><p><a href=\"https://tobiasahlin.com/blog/css-trick-animating-link-underlines/\" style=\"background-color:#008CBA;border:none;color:#FFFFFF;padding:15px 32px;text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;\"> + Read More Here</a></p>\n<h3><span></span>HTML-CSS: Hover underline animation – w3resource<span></span></h3>\n<p>CSS Exercises, Practice and Solution: Using HTML, CSS create an animated underline effect when the user hovers over the text.</p>\n<p><a href=\"https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/html-css-practical-exercise-15.php\" style=\"background-color:#008CBA;border:none;color:#FFFFFF;padding:15px 32px;text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;\"> + View Here</a></p>\n<h2><span></span>How do you animate lines in CSS?<span></span></h2>\n<p><span>In CSS, it is not possible to animate text-decoration: line-through width. However, you can <b>use a pseudo-element instead (such as ::before or ::after ) to create a strikethrough line that grows in width</b>, for example, from 0 to 100% on hover.</span></p>\n<h3><span></span>Create Underline Button Hover Effects | Pure CSS<span></span></h3>\n<a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#\" style=\"background-color:#4CAF50;border:none;color:#FFFFFF;padding:15px 32px;text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;\">Watch The Video Below</a>\n<p></p>\n\nCreate Underline Button Hover Effects | Pure CSS\nCreate Underline Button Hover Effects | Pure CSS\n\n<h3><span></span>Images related to the topicCreate Underline Button Hover Effects | Pure CSS<span></span></h3>\n<img src=\"https://i.ytimg.com/vi/R033rKs6sgA/maxresdefault.jpg\" alt=\"Create Underline Button Hover Effects | Pure Css\" />Create Underline Button Hover Effects | Pure Css<h2><span></span>How do you animate a strikethrough in Powerpoint?<span></span></h2>\n\n\n<b>To apply strikethrough:</b>\n\n<ol><li>Select the text you want to strikethrough.</li>\n<li>Click the Home tab in the Ribbon.</li>\n<li>Click the dialog box launcher on the bottom right of the Font group (corner button). A dialog box appears.</li>\n<li>Select or check Strikethrough. You can also select Double Strikethrough.</li>\n<li>Click OK or press Enter.</li>\n</ol>\n\n\n<h2><span></span>How do you create an underline in HTML?<span></span></h2>\n<p><span>To underline a text in HTML, <b>use the &lt;u&gt; tag</b>. The &lt;u&gt; tag deprecated in HTML, but then re-introduced in HTML5. Now it represents a text different from another text stylistically, such as a misspelled word.</span></p>\n<h2><span></span>How do I make a small underline in HTML?<span></span></h2>\n\n\n<b>CSS</b>\n\n<ol><li>.underline-small{</li>\n<li>color:green;</li>\n<li>display:inline-block;</li>\n<li>}</li>\n<li>.underline-small::after{</li>\n</ol>\n\n\n<h2><span></span>How do you underline an image in HTML?<span></span></h2>\n<p><span>You’ll first need to ID your image in your HTML file, then <b>go to your CSS file, call your ID, and in the brackets, say ‘text-decoration: underline;’</b> .</span></p>\n<h2><span></span>How do you add an underline in Adobe?<span></span></h2>\n\n\n<b>Highlight, strikethrough, or underline text</b>\n\n<ol><li>Choose Tools &gt; Comment, and select the Highlight Text tool , the Strikethrough Text tool , or the Underline Text tool . Note: … </li>\n<li>Drag from the beginning of the text you want to mark up. … </li>\n<li>(Optional) To add a note, double-click the markup and add text in a pop-up note.</li>\n</ol>\n\n\n<h2><span></span>How do you underline in Illustrator?<span></span></h2>\n<p><span>Use the keyboard shortcut “T” to equip the Type tool. Click &amp; drag on the artboard to draw a text box. Click &amp; drag over the text you want to underline. Finally, open the Character menu at the top of your screen and click the Underline button.</span></p>\n<a href=\"https://brandiscrafts.com/powershell-goto-command-top-6-best-answers/\"><span>See also</span>  <span>Powershell Goto Command? Top 6 Best Answers</span></a><h2><span></span>Do hyperlinks not show underlined?<span></span></h2>\n\n\n<b>Remove the underline from hyperlink text</b>\n\n<ol><li>Right-click the hyperlink text, and then click Remove Hyperlink.</li>\n<li>On the Insert tab, in the Illustrations group, click Shapes, and then under Rectangles, click Rectangle.</li>\n<li>Drag to draw the rectangle so that it covers the hyperlink text that you want to hide.</li>\n</ol>\n\n\n<h3><span></span>Animated Underline Hover Effect (HTML CSS)<span></span></h3>\n<a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer/#\" style=\"background-color:#4CAF50;border:none;color:#FFFFFF;padding:15px 32px;text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;\">Watch The Video Below</a>\n<p></p>\n\nAnimated Underline Hover Effect (HTML CSS)\nAnimated Underline Hover Effect (HTML CSS)\n\n<h3><span></span>Images related to the topicAnimated Underline Hover Effect (HTML CSS)<span></span></h3>\n<img src=\"https://i.ytimg.com/vi/Kz96odltLQI/maxresdefault.jpg\" alt=\"Animated Underline Hover Effect (Html  Css)\" />Animated Underline Hover Effect (Html Css)<h2><span></span>How do I make a link not blue or underlined?<span></span></h2>\n\n\n<b>Remove Blue Underline From Link in CSS</b>\n\n<ol><li>Set the text-decoration Property to none to Remove Blue Underline From a Link in CSS.</li>\n<li>Use Pseudo-Classes for Selection to Remove Blue Underline From a Link in CSS.</li>\n<li>Remove the box-shadow Property to Remove the Underline and Color From a Link in CSS.</li>\n</ol>\n\n\n<h2><span></span>How do you not underline a link in PowerPoint?<span></span></h2>\n<p><span>While PowerPoint doesn’t have a specific option for removing the underline from hyperlink text, there’s a very simple workaround. What we’re going to do is <b>remove the link from the text, place an invisible shape over that text, and then add the link to that shape</b>.</span></p>\n<p>Related searches to animated underline</p>\n<ul><li>css underline animation left to right</li>\n<li>divi animated underline</li>\n<li>css tricks animated underline</li>\n<li>animated text underline</li>\n<li>hover animated underline html</li>\n<li>text decoration underline animation</li>\n<li>animated text underline css</li>\n<li>animated underline on hover</li>\n<li>react underline animation</li>\n<li>animated underline effect css</li>\n<li>css animated underline left to right</li>\n<li>animated underline hover codepen</li>\n<li>text-decoration: underline animation</li>\n<li>css animated underline on hover</li>\n<li>animated underline css html</li>\n<li>tailwind underline animation</li>\n<li>underline animation css codepen</li>\n<li>tab animated underline</li>\n<li>html animated underline</li>\n<li>animated underline hover</li>\n<li>css animated underline text effects</li>\n<li>animated underline on mouseover</li>\n<li>elementor animated underline</li>\n<li>navbar with animated underline</li>\n<li>animated underline webflow</li>\n<li>animated underline css</li>\n<li>how to make a animated underline</li>\n<li>animated menu underline</li>\n<li>animated underline css hover</li>\n<li>animated wavy underline css</li>\n</ul><h2><span></span>Information related to the topic animated underline<span></span></h2>\n<p>Here are the search results of the thread <strong>animated underline</strong> from Bing. You can read more if you want.</p>\n<p></p>\n<p>You have just come across an article on the topic <a href=\"https://brandiscrafts.com/animated-underline-the-15-new-answer\">animated underline</a>. If you found this article useful, please share it. Thank you very much.</p>",
+        "text": "Are you looking for an answer to the topic “animated underline“? We answer all your questions at the website Brandiscrafts.com in category: Latest technology and computer news updates. You will find the answer right below.\nKeep Reading\nAnimated Underline\n\nTable of Contents\n\nHow do you underline an animated text?How do you hover underline in HTML?Draw Underline Link Hover Effect | CSS Menu Hover EffectImages related to the topicDraw Underline Link Hover Effect | CSS Menu Hover EffectCan you animate text-decoration?How do you create an underline in CSS?How do you underline text in after effects?How do you make text not underlined in a link?How do I remove the underline from a hyperlink in CSS?See some more details on the topic animated underline here:CSS { In Real Life } | Animating UnderlinesHover underline animation – 30 seconds of codeAnimating Link Underlines | Tobias AhlinHTML-CSS: Hover underline animation – w3resourceHow do you animate lines in CSS?Create Underline Button Hover Effects | Pure CSSImages related to the topicCreate Underline Button Hover Effects | Pure CSSHow do you animate a strikethrough in Powerpoint?How do you create an underline in HTML?How do I make a small underline in HTML?How do you underline an image in HTML?How do you add an underline in Adobe?How do you underline in Illustrator?Do hyperlinks not show underlined?Animated Underline Hover Effect (HTML CSS)Images related to the topicAnimated Underline Hover Effect (HTML CSS)How do I make a link not blue or underlined?How do you not underline a link in PowerPoint?Information related to the topic animated underlineHow do you underline an animated text?\n\n\nHover underline animation\n\nUse display: inline-block to make the underline span just the width of the text content.\nUse the :after pseudo-element with width: 100% and position: absolute to place it below the content.\nUse transform: scaleX(0) to initially hide the pseudo-element.\nHow do you hover underline in HTML?\n\n\n“underline on hover html” Code Answer’s\n\na:hover {\ntext-decoration: underline;\n}\nDraw Underline Link Hover Effect | CSS Menu Hover Effect\nWatch The Video Below\n\n\nDraw Underline Link Hover Effect | CSS Menu Hover Effect\nDraw Underline Link Hover Effect | CSS Menu Hover Effect\n\nImages related to the topicDraw Underline Link Hover Effect | CSS Menu Hover Effect\nDraw Underline Link Hover Effect | Css Menu Hover EffectCan you animate text-decoration?\nAs it turns out, text-decoration is not one of the properties that can be animated at all, including transitions. So, I went another route. By applying a bottom border instead, I can simulate an underline, and I can animate it.\nSee also  Android Studio Attributes Missing? All AnswersHow do you create an underline in CSS?\nThe property text-decoration-line is used to underline the text. This property has three values that are overline, underline, or line-through. So, the value underline is used to underline the text in CSS. This value draws the underline beneath the inline text.\nHow do you underline text in after effects?\nThe After Effects text engine does not have an underline feature. But, as with most things in After Effects, there are a million ways to do things. You can simply add a solid layer, draw a path under the text, and apply the stroke effect. You can draw a shape layer as a line under your text.\nHow do you make text not underlined in a link?\n\n\nHere’s where you will need to add a bit of HTML code to force the link to not underline.\n\nFirst, you’ll add a style attribute inside the a tag, like this <a style=. … \nNext, you’ll add “text-decoration:none;” after the style tag which tells the link we don’t want it to be underlined.\nHow do I remove the underline from a hyperlink in CSS?\n\n\nHow to Remove the Underline from Links in CSS\n\nAdd your HTML to the section of your webpage.\nDefine the four pseudo-classes of links with the text-decoration property in the section.\nMake sure that a:link and a:visited come before a:hover, and a:active comes last. … \nSet each property value to “none.”\nSee some more details on the topic animated underline here:\nCSS { In Real Life } | Animating Underlines\nWe can animate an underline on multi-line text with clever use of linear gradients, along with background-size and background-position . Here’s …\n + Read More Here\nHover underline animation – 30 seconds of code\nCreates an animated underline effect when the user hovers over the text. Use display: inline-block to make the underline span just the width …\n + View Here\nAnimating Link Underlines | Tobias Ahlin\nA quick trick: add a pseudo-element and animate it with CSS transitions on hover. … the link’s underline is revealed by animating it out from the center.\nSee also  Php Sql Syntax? The 16 Correct Answer + Read More Here\nHTML-CSS: Hover underline animation – w3resource\nCSS Exercises, Practice and Solution: Using HTML, CSS create an animated underline effect when the user hovers over the text.\n + View Here\nHow do you animate lines in CSS?\nIn CSS, it is not possible to animate text-decoration: line-through width. However, you can use a pseudo-element instead (such as ::before or ::after ) to create a strikethrough line that grows in width, for example, from 0 to 100% on hover.\nCreate Underline Button Hover Effects | Pure CSS\nWatch The Video Below\n\n\nCreate Underline Button Hover Effects | Pure CSS\nCreate Underline Button Hover Effects | Pure CSS\n\nImages related to the topicCreate Underline Button Hover Effects | Pure CSS\nCreate Underline Button Hover Effects | Pure CssHow do you animate a strikethrough in Powerpoint?\n\n\nTo apply strikethrough:\n\nSelect the text you want to strikethrough.\nClick the Home tab in the Ribbon.\nClick the dialog box launcher on the bottom right of the Font group (corner button). A dialog box appears.\nSelect or check Strikethrough. You can also select Double Strikethrough.\nClick OK or press Enter.\nHow do you create an underline in HTML?\nTo underline a text in HTML, use the <u> tag. The <u> tag deprecated in HTML, but then re-introduced in HTML5. Now it represents a text different from another text stylistically, such as a misspelled word.\nHow do I make a small underline in HTML?\n\n\nCSS\n\n.underline-small{\ncolor:green;\ndisplay:inline-block;\n}\n.underline-small::after{\nHow do you underline an image in HTML?\nYou’ll first need to ID your image in your HTML file, then go to your CSS file, call your ID, and in the brackets, say ‘text-decoration: underline;’ .\nHow do you add an underline in Adobe?\n\n\nHighlight, strikethrough, or underline text\n\nChoose Tools > Comment, and select the Highlight Text tool , the Strikethrough Text tool , or the Underline Text tool . Note: … \nDrag from the beginning of the text you want to mark up. … \n(Optional) To add a note, double-click the markup and add text in a pop-up note.\nHow do you underline in Illustrator?\nUse the keyboard shortcut “T” to equip the Type tool. Click & drag on the artboard to draw a text box. Click & drag over the text you want to underline. Finally, open the Character menu at the top of your screen and click the Underline button.\nSee also  Powershell Goto Command? Top 6 Best AnswersDo hyperlinks not show underlined?\n\n\nRemove the underline from hyperlink text\n\nRight-click the hyperlink text, and then click Remove Hyperlink.\nOn the Insert tab, in the Illustrations group, click Shapes, and then under Rectangles, click Rectangle.\nDrag to draw the rectangle so that it covers the hyperlink text that you want to hide.\nAnimated Underline Hover Effect (HTML CSS)\nWatch The Video Below\n\n\nAnimated Underline Hover Effect (HTML CSS)\nAnimated Underline Hover Effect (HTML CSS)\n\nImages related to the topicAnimated Underline Hover Effect (HTML CSS)\nAnimated Underline Hover Effect (Html Css)How do I make a link not blue or underlined?\n\n\nRemove Blue Underline From Link in CSS\n\nSet the text-decoration Property to none to Remove Blue Underline From a Link in CSS.\nUse Pseudo-Classes for Selection to Remove Blue Underline From a Link in CSS.\nRemove the box-shadow Property to Remove the Underline and Color From a Link in CSS.\nHow do you not underline a link in PowerPoint?\nWhile PowerPoint doesn’t have a specific option for removing the underline from hyperlink text, there’s a very simple workaround. What we’re going to do is remove the link from the text, place an invisible shape over that text, and then add the link to that shape.\nRelated searches to animated underline\ncss underline animation left to right\ndivi animated underline\ncss tricks animated underline\nanimated text underline\nhover animated underline html\ntext decoration underline animation\nanimated text underline css\nanimated underline on hover\nreact underline animation\nanimated underline effect css\ncss animated underline left to right\nanimated underline hover codepen\ntext-decoration: underline animation\ncss animated underline on hover\nanimated underline css html\ntailwind underline animation\nunderline animation css codepen\ntab animated underline\nhtml animated underline\nanimated underline hover\ncss animated underline text effects\nanimated underline on mouseover\nelementor animated underline\nnavbar with animated underline\nanimated underline webflow\nanimated underline css\nhow to make a animated underline\nanimated menu underline\nanimated underline css hover\nanimated wavy underline css\nInformation related to the topic animated underline\nHere are the search results of the thread animated underline from Bing. You can read more if you want.\n\nYou have just come across an article on the topic animated underline. If you found this article useful, please share it. Thank you very much."
+      },
+      "mention-of": "https://css-irl.info/animating-underlines/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://brandiscrafts.com/animated-underline-the-15-new-answer/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Bell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cea017ea6e66e1ee7d2f97f7278d83b1aa6a13ccb195c71c06a3e7b04d9bdfa0.jpg",
+        "url": "https://bell.bz/@andy"
+      },
+      "url": "https://bell.bz/@andy/109761155094154502",
+      "published": "2023-01-27T12:25:12",
+      "wm-received": "2023-01-28T11:38:29Z",
+      "wm-id": 1609077,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761155115146399",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> Haha that has retired forever</p>",
+        "text": "@michelle Haha that has retired forever"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Ott",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9b43cf4597a9f2b93cd61be3728cd124f5684dee709abdbd2633121ff273ba00.png",
+        "url": "https://mastodon.social/@matthiasott"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#reblogged-by-109287752283181975",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:26Z",
+      "wm-id": 1609076,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109751167434895120/109287752283181975",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "repost-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julian Elve",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8362caad27953de83537d838ffabf46edcd08b5b94f6ba899840260e1e0f6c7c.jpg",
+        "url": "https://social.synesthesia.co.uk/@julian"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#reblogged-by-109308319679944986",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:24Z",
+      "wm-id": 1609075,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109751167434895120/109308319679944986",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "repost-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "beyond tellerrand",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8a13412dae04039ee7c7c8fdeeeb8604e37b1366223bad664b82624fa9453c41.png",
+        "url": "https://mastodon.social/@btconf"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#reblogged-by-109292227369717823",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:22Z",
+      "wm-id": 1609074,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109751167434895120/109292227369717823",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "repost-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Thiele",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/eefe30418a42256174a41d0018e46f20578c2d53ebdcc000fbb0cac84032823d.png",
+        "url": "https://mastodon.social/@marcthiele"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#reblogged-by-109288508687778195",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:20Z",
+      "wm-id": 1609073,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109751167434895120/109288508687778195",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "repost-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jan Andrle",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/d306d11f354fa3828235b55d2bb700cce9f1279c65e6d4ae641a0a801f38ef2e.jpg",
+        "url": "https://fosstodon.org/@jaandrle"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#reblogged-by-109288676183143223",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:18Z",
+      "wm-id": 1609072,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109751167434895120/109288676183143223",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "repost-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christopher Mackay 🇨🇦",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/4c4fb2fa89fff86a47bc272c6f788aed423cdfd3439f614895af660d96dfbee2.jpg",
+        "url": "https://nojack.easydns.ca/@tantramar"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109383028214196740",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:16Z",
+      "wm-id": 1609071,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109383028214196740",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mx Autumn :blobcatpumpkin:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a749a94774da2f0f98d008c2f21b0c204847ab784dd500b2dca6b80013a6e053.png",
+        "url": "https://notacult.social/@carbontwelve"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109292409924327253",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:13Z",
+      "wm-id": 1609070,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109292409924327253",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Ott",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9b43cf4597a9f2b93cd61be3728cd124f5684dee709abdbd2633121ff273ba00.png",
+        "url": "https://mastodon.social/@matthiasott"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109287752283181975",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:12Z",
+      "wm-id": 1609069,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109287752283181975",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ricard Torres",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/09c8a1a907c5e066ef015b7b7d9935f0763138c96edbbfc19b6f7edc054d3eb9.jpg",
+        "url": "https://ricard.social/@ricard"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109292285914630557",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:10Z",
+      "wm-id": 1609068,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109292285914630557",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ecfc5765a49387efd278a21fc94a9266e787e0e8a755ea8f58ee9778d9361b3c.png",
+        "url": "https://mastodon.social/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109288800682422989",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:08Z",
+      "wm-id": 1609067,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109288800682422989",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lachlan Campbell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8ed0195e4d3e58e56f0b3a1d3a1dec361d46a445939073c3a4b2bf0dee738a42.png",
+        "url": "https://mastodon.social/@lachlanjc"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109288537153472532",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:04Z",
+      "wm-id": 1609066,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109288537153472532",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ilkka Janatuinen",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/65bc91f643bf687f5a2c5511cf5ae9d2f173e5d2a5cf7cc4ca14062dec7ed236.png",
+        "url": "https://typo.social/@ilkkajii"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109374825740111530",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:02Z",
+      "wm-id": 1609064,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109374825740111530",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jens Comiotto-Mayer :verified:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/eca913fbee960fc08c27bfd5130b31444215b85d69f042918ea1dabeb9471efc.jpg",
+        "url": "https://coma.social/@jens"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109390227500347128",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:02Z",
+      "wm-id": 1609065,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109390227500347128",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julian Elve",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8362caad27953de83537d838ffabf46edcd08b5b94f6ba899840260e1e0f6c7c.jpg",
+        "url": "https://social.synesthesia.co.uk/@julian"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109308319679944986",
+      "published": null,
+      "wm-received": "2023-01-28T11:38:00Z",
+      "wm-id": 1609063,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109308319679944986",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Phil Hawksworth",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/1c0df49d4293d2885810cbdc4ff4a7677cad6552ce77e297570262f2ea70caba.jpg",
+        "url": "https://indieweb.social/@philhawksworth"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109326362272658489",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:59Z",
+      "wm-id": 1609062,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109326362272658489",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Thiele",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/eefe30418a42256174a41d0018e46f20578c2d53ebdcc000fbb0cac84032823d.png",
+        "url": "https://mastodon.social/@marcthiele"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109288508687778195",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:58Z",
+      "wm-id": 1609061,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109288508687778195",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "beyond tellerrand",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8a13412dae04039ee7c7c8fdeeeb8604e37b1366223bad664b82624fa9453c41.png",
+        "url": "https://mastodon.social/@btconf"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109292227369717823",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:56Z",
+      "wm-id": 1609060,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109292227369717823",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Elly Loel ✨🌱",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2906f05fbc1fff47b76e9bd51804d1618a81be8f3062fc8c5a2e0f18d02f8559.png",
+        "url": "https://front-end.social/@elly"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109426807254697808",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:55Z",
+      "wm-id": 1609059,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109426807254697808",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Davies",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/599598bae9fa499a2df16095b45ab4b114e55eeb42dd7a3b5643d5a4fa020127.jpg",
+        "url": "https://webperf.social/@andydavies"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109364018502017758",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:54Z",
+      "wm-id": 1609058,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109364018502017758",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rodney Pruitt",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/0c9ccb79fd2ee0f554e4778eb70ed5c755e4050964805416dffdad78e00183ee.png",
+        "url": "https://mastodon.social/@thepru"
+      },
+      "url": "https://front-end.social/@michelle/109751167434895120#favorited-by-109689372886025941",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:52Z",
+      "wm-id": 1609056,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109751167434895120/109689372886025941",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "like-of": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "vandys",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2a646079e15eacef6a0c55c460c9f237dfcdda9163bccab9a67ba37d8e1174be.jpg",
+        "url": "https://goto.vsta.org/@vandys"
+      },
+      "url": "https://goto.vsta.org/@vandys/statuses/01GQNAQ543G4WMQ7G6CR4G43GT",
+      "published": "2023-01-25T20:43:11",
+      "wm-received": "2023-01-28T11:37:52Z",
+      "wm-id": 1609057,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109751167434895120/109751785649408645",
+      "wm-target": "https://css-irl.info/a-quick-website-redesign/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> I like your dark theme!  One typo: \"without to many unnecessary flourishes\" -&gt; \"too many...\"</p>",
+        "text": "@michelle I like your dark theme!  One typo: \"without to many unnecessary flourishes\" -> \"too many...\""
+      },
+      "in-reply-to": "https://css-irl.info/a-quick-website-redesign/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lene Saile",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7b11bce21a15d560ac99e575696be482d744f10237abefd30f3e7f6b0861f476.png",
+        "url": "https://front-end.social/@lene"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#reblogged-by-109292536543732634",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:38Z",
+      "wm-id": 1609055,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109760852872723801/109292536543732634",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "repost-of": "https://css-irl.info/blogroll/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Thiele",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/eefe30418a42256174a41d0018e46f20578c2d53ebdcc000fbb0cac84032823d.png",
+        "url": "https://mastodon.social/@marcthiele"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#reblogged-by-109288508687778195",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:36Z",
+      "wm-id": 1609053,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109760852872723801/109288508687778195",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "repost-of": "https://css-irl.info/blogroll/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lea Rosema",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a93ee54890e5a096db0dd0231d0167f222cdfd794435a660a6b2d1573d053321.png",
+        "url": "https://chaos.social/@learosema"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#reblogged-by-109301598525794955",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:36Z",
+      "wm-id": 1609054,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109760852872723801/109301598525794955",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "repost-of": "https://css-irl.info/blogroll/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "beyond tellerrand",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8a13412dae04039ee7c7c8fdeeeb8604e37b1366223bad664b82624fa9453c41.png",
+        "url": "https://mastodon.social/@btconf"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#reblogged-by-109292227369717823",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:35Z",
+      "wm-id": 1609052,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109760852872723801/109292227369717823",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "repost-of": "https://css-irl.info/blogroll/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "James Finley",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ff7645680012cabea03564718bbab76543d4330278bbfeebf886e9a2b70a9a1d.png",
+        "url": "https://bibly.com/@thefinley"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109694164764815351",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:33Z",
+      "wm-id": 1609049,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109694164764815351",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lea Rosema",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a93ee54890e5a096db0dd0231d0167f222cdfd794435a660a6b2d1573d053321.png",
+        "url": "https://chaos.social/@learosema"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109301598525794955",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:33Z",
+      "wm-id": 1609050,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109301598525794955",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Beaird",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/dee7f864e4b213906fc5e9421cf9efa5a2402cced4373465048f8614c831b324.png",
+        "url": "https://mastodon.social/@jasongraphix"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109593101404637746",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:33Z",
+      "wm-id": 1609051,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109593101404637746",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Bell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cea017ea6e66e1ee7d2f97f7278d83b1aa6a13ccb195c71c06a3e7b04d9bdfa0.jpg",
+        "url": "https://bell.bz/@andy"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109365877639274809",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:31Z",
+      "wm-id": 1609047,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109365877639274809",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stefan Judis",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/bb5791a0572e41f77a85b82983a009f4870d7d496047b50c0078b6223db31146.jpg",
+        "url": "https://front-end.social/@stefan"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109292179443349306",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:31Z",
+      "wm-id": 1609048,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109292179443349306",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David McCormick",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/802f7f58e29e6d0e8f5b20f005b1a05c2a80eb7a0ec752819e95f6dcaa1b7c2a.png",
+        "url": "https://indieweb.social/@dmc"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109320874404166858",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:29Z",
+      "wm-id": 1609046,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109320874404166858",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave 🧱",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/54c31064cbea0c571492352447c7f29a6460d81d990c20f2ab620efadfe40649.jpg",
+        "url": "https://mastodon.design/@DavidDarnes"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109288507275702082",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:28Z",
+      "wm-id": 1609045,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109288507275702082",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Elly Loel ✨🌱",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2906f05fbc1fff47b76e9bd51804d1618a81be8f3062fc8c5a2e0f18d02f8559.png",
+        "url": "https://front-end.social/@elly"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109426807254697808",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:27Z",
+      "wm-id": 1609044,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109426807254697808",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Riley",
+        "photo": "https://webmention.io/avatar/front-end.social/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://mastodon.nz/@riley"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109440013317777172",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:26Z",
+      "wm-id": 1609042,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109440013317777172",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hidde",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2e6c5e8c5e746448a4a3172abb9584ffb9c5e46eae7f85d5122decc14d2c3fa2.jpg",
+        "url": "https://front-end.social/@hdv"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109292541621018376",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:26Z",
+      "wm-id": 1609043,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109292541621018376",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Thiele",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/eefe30418a42256174a41d0018e46f20578c2d53ebdcc000fbb0cac84032823d.png",
+        "url": "https://mastodon.social/@marcthiele"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109288508687778195",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:25Z",
+      "wm-id": 1609041,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109288508687778195",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max Böck",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9106ed0ced6012e33cc0c4dffa224225fdf1bd29d370bf3e91ad36959024d5e2.jpg",
+        "url": "https://front-end.social/@mxbck"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109352980294525814",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:23Z",
+      "wm-id": 1609040,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109352980294525814",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "beyond tellerrand",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8a13412dae04039ee7c7c8fdeeeb8604e37b1366223bad664b82624fa9453c41.png",
+        "url": "https://mastodon.social/@btconf"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109292227369717823",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:22Z",
+      "wm-id": 1609039,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109292227369717823",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Ott",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9b43cf4597a9f2b93cd61be3728cd124f5684dee709abdbd2633121ff273ba00.png",
+        "url": "https://mastodon.social/@matthiasott"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109287752283181975",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:19Z",
+      "wm-id": 1609037,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109287752283181975",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sara Joy ✨",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/310919176cdbb7aa00e5b77553f3f7f63c5d1cd25960dc0aef87c24727e2f5fd.jpg",
+        "url": "https://front-end.social/@sarajw"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109295906487756020",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:19Z",
+      "wm-id": 1609038,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109295906487756020",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fernando Mateus",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8b9e6c3330eec2f350eebb5e974202b7395f077f2ad86223e37fabfddf15cf61.jpg",
+        "url": "https://mastodon.social/@fernandomateus"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109305598564136053",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:18Z",
+      "wm-id": 1609036,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109305598564136053",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Miriam Suzanne",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/28109e840cb957b8aee92cbc11fe79e4f3be77cd77ac098c6f050ba76061f70b.jpg",
+        "url": "https://front-end.social/@mia"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109287575127245522",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:17Z",
+      "wm-id": 1609034,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109287575127245522",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Rupert",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/df90600eac314bfae461e88ce4a64f1853a8f914c25802ed58d55307a0525a72.jpg",
+        "url": "https://mastodon.social/@davatron5000"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109287751678680224",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:17Z",
+      "wm-id": 1609035,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109287751678680224",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ecfc5765a49387efd278a21fc94a9266e787e0e8a755ea8f58ee9778d9361b3c.png",
+        "url": "https://mastodon.social/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109288800682422989",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:16Z",
+      "wm-id": 1609033,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109288800682422989",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alistair Shepherd",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8f911a0013ec407e4ff84660dea4c1ffa449d75ffc8316eb71736c148e27d15b.jpg",
+        "url": "https://mastodon.scot/@accudio"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109288775697156751",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:14Z",
+      "wm-id": 1609032,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109288775697156751",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Robert Katzki",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8aeeb458eb0bcdea762fa68e3731b3198c1796a3a9b006816f6f4439bf1a26a2.jpg",
+        "url": "https://norden.social/@roka"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109320610942105308",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:13Z",
+      "wm-id": 1609031,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109320610942105308",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pete Lambert",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cbe197fe029c5079de211e28532f75ac609f3cb817674d263efd75f78e00ff60.jpg",
+        "url": "https://mas.to/@petelambert"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109398662928277755",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:12Z",
+      "wm-id": 1609030,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109398662928277755",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "larowlan",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/3a8a7f9125a724e726de323df119e9ed5a95fb8908c1a5f3bcd3fa6899ee65a4.jpg",
+        "url": "https://drupal.community/@larowlan"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109471375844439204",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:11Z",
+      "wm-id": 1609029,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109471375844439204",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Eggert",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/346ebe327028db28f4735f8e9a0ec54c61506ba122edcffea515ce9999f2d4e7.jpg",
+        "url": "https://toot.cafe/@yatil"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109288483503173291",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:10Z",
+      "wm-id": 1609028,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109288483503173291",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sara Joy ✨",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/310919176cdbb7aa00e5b77553f3f7f63c5d1cd25960dc0aef87c24727e2f5fd.jpg",
+        "url": "https://front-end.social/@sarajw"
+      },
+      "url": "https://front-end.social/@sarajw/109761684767036087",
+      "published": "2023-01-27T14:39:55",
+      "wm-received": "2023-01-28T11:37:08Z",
+      "wm-id": 1609026,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761684767036087",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> omg! I'm honoured 🥰</p>",
+        "text": "@michelle omg! I'm honoured 🥰"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Toastdev",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/114456712b2c9d3e48b4c69f6c114d9677c8c2900a09555c0b29559f7a6979e9.jpg",
+        "url": "https://social.linux.pizza/@toastdev"
+      },
+      "url": "https://front-end.social/@michelle/109760852872723801#favorited-by-109295745111021704",
+      "published": null,
+      "wm-received": "2023-01-28T11:37:08Z",
+      "wm-id": 1609027,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109760852872723801/109295745111021704",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "like-of": "https://css-irl.info/blogroll/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hidde",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2e6c5e8c5e746448a4a3172abb9584ffb9c5e46eae7f85d5122decc14d2c3fa2.jpg",
+        "url": "https://front-end.social/@hdv"
+      },
+      "url": "https://front-end.social/@hdv/109761488818425489",
+      "published": "2023-01-27T13:50:05",
+      "wm-received": "2023-01-28T11:37:04Z",
+      "wm-id": 1609025,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761488818425489",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> such a cool list! I have a new and shorter URL, it's hidde dot blog</p>",
+        "text": "@michelle such a cool list! I have a new and shorter URL, it's hidde dot blog"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave 🧱",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/54c31064cbea0c571492352447c7f29a6460d81d990c20f2ab620efadfe40649.jpg",
+        "url": "https://mastodon.design/@DavidDarnes"
+      },
+      "url": "https://mastodon.design/@DavidDarnes/109761152554073176",
+      "published": "2023-01-27T12:24:34",
+      "wm-received": "2023-01-28T11:37:03Z",
+      "wm-id": 1609024,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761152593812670",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> 😮😍</p>",
+        "text": "@michelle 😮😍"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Barker",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7430075ff637e892dcde4c2b240222eff41209111509d14b8f3fffc26ac3909c.jpg",
+        "url": "https://front-end.social/@michelle"
+      },
+      "url": "https://front-end.social/@michelle/109761065458391773",
+      "published": "2023-01-27T12:02:25",
+      "wm-received": "2023-01-28T11:36:59Z",
+      "wm-id": 1609023,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761065458391773",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://bell.bz/@andy\" class=\"u-url\">@<span>andy</span></a></span> Just realised your link is wrong LOL 🙈</p>",
+        "text": "@andy Just realised your link is wrong LOL 🙈"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Barker",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7430075ff637e892dcde4c2b240222eff41209111509d14b8f3fffc26ac3909c.jpg",
+        "url": "https://front-end.social/@michelle"
+      },
+      "url": "https://front-end.social/@michelle/109761090078005359",
+      "published": "2023-01-27T12:08:40",
+      "wm-received": "2023-01-28T11:36:57Z",
+      "wm-id": 1609021,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761090078005359",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://bell.bz/@andy\" class=\"u-url\">@<span>andy</span></a></span> Bring back Hank Chizljaw, I reckon</p>",
+        "text": "@andy Bring back Hank Chizljaw, I reckon"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Bell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cea017ea6e66e1ee7d2f97f7278d83b1aa6a13ccb195c71c06a3e7b04d9bdfa0.jpg",
+        "url": "https://bell.bz/@andy"
+      },
+      "url": "https://bell.bz/@andy/109761006919823117",
+      "published": "2023-01-27T11:47:31",
+      "wm-received": "2023-01-28T11:36:57Z",
+      "wm-id": 1609022,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761006939344478",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> I need to add one of these to my site</p>",
+        "text": "@michelle I need to add one of these to my site"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Bell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cea017ea6e66e1ee7d2f97f7278d83b1aa6a13ccb195c71c06a3e7b04d9bdfa0.jpg",
+        "url": "https://bell.bz/@andy"
+      },
+      "url": "https://bell.bz/@andy/109761086488506332",
+      "published": "2023-01-27T12:07:46",
+      "wm-received": "2023-01-28T11:36:55Z",
+      "wm-id": 1609020,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761086513320086",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> Haha I need to move all those posts to my site but frankly, can't be arsed</p>",
+        "text": "@michelle Haha I need to move all those posts to my site but frankly, can't be arsed"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Kuhn",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/dc62cf6f18f8e88a2158c9e02d8a7a1103cfb2f4bdf999529783f9f18f208cfc.jpg",
+        "url": "https://front-end.social/@cobra_winfrey"
+      },
+      "url": "https://front-end.social/@cobra_winfrey/109761295652498813",
+      "published": "2023-01-27T13:00:57",
+      "wm-received": "2023-01-28T11:36:54Z",
+      "wm-id": 1609019,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761295652498813",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://bell.bz/@andy\" class=\"u-url\">@<span>andy</span></a></span> <span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> RIP Hank</p>",
+        "text": "@andy @michelle RIP Hank"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Barker",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7430075ff637e892dcde4c2b240222eff41209111509d14b8f3fffc26ac3909c.jpg",
+        "url": "https://front-end.social/@michelle"
+      },
+      "url": "https://front-end.social/@michelle/109761187948590813",
+      "published": "2023-01-27T12:33:34",
+      "wm-received": "2023-01-28T11:36:47Z",
+      "wm-id": 1609018,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109760852872723801/109761187948590813",
+      "wm-target": "https://css-irl.info/blogroll/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://bell.bz/@andy\" class=\"u-url\">@<span>andy</span></a></span> Gone, but not forgotten</p>",
+        "text": "@andy Gone, but not forgotten"
+      },
+      "in-reply-to": "https://css-irl.info/blogroll/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://itmozg.ru/bystryj-sovet-otricatelnaja-zaderzhka-animacii/",
+      "published": null,
+      "wm-received": "2023-01-28T11:33:48Z",
+      "wm-id": 1609017,
+      "wm-source": "https://itmozg.ru/bystryj-sovet-otricatelnaja-zaderzhka-animacii/",
+      "wm-target": "https://css-irl.info/variable-font-animation-with-css-and-splitting-js/",
+      "mention-of": "https://css-irl.info/variable-font-animation-with-css-and-splitting-js/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Argyle",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ecb57ab7c7fc113262d8bdbe1e11c6aa95146a7184ae4e596b9eefe48e5558a8.jpg",
+        "url": "https://twitter.com/argyleink"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-129940111",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:46Z",
+      "wm-id": 1608986,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/129940111",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Batbayar B.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5231241ed3eb5997a5fd927a67998f98119aa69c8fbb87ac5dc4378be8257d9a.jpg",
+        "url": "https://twitter.com/batbayar3113"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-39935068",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:45Z",
+      "wm-id": 1608985,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/39935068",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nikita",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/37522d75263644f205869b2cb930da842ccd47490de0a7f52531b790c76e330d.jpg",
+        "url": "https://twitter.com/nikitavoloboev"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-1469451499",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:44Z",
+      "wm-id": 1608984,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/1469451499",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Peterson Cordeiro",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1f680408bdaba90e65facea7547d56ff2916dd3091212b5510ef8cdbd22f0f6e.jpg",
+        "url": "https://twitter.com/petecordeiro"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-1095580838",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:43Z",
+      "wm-id": 1608983,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/1095580838",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "SmashingConf",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7176d4c4788eeee6befcd3181dd0c9a71568903e19eff53f13e108833cddf85d.jpg",
+        "url": "https://twitter.com/smashingconf"
+      },
+      "url": "https://twitter.com/smashingconf/status/1571958847626952704",
+      "published": "2022-09-19T20:26:09+00:00",
+      "wm-received": "2023-01-28T11:00:42Z",
+      "wm-id": 1608982,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1571933749079687169/1571958847626952704",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "content": {
+        "text": "Inspired by some great sessions at @smashingconf, a few thoughts on web performance and digital sustainability css-irl.info/web-sustainabi…"
+      },
+      "repost-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jens Grochtdreis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/76c59a44803d2fe0e2760190e87623c4e62786dae9dc1637cc0ab25b98fde15b.png",
+        "url": "https://twitter.com/Flocke"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1571933749079687169#favorited-by-7015572",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:41Z",
+      "wm-id": 1608981,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1571933749079687169/7015572",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "like-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Amit Sheen",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2f39d0a4d736a7babb359438c786e329ce3bc8f7112399ce0d35800bf12a132f.jpg",
+        "url": "https://twitter.com/amit_sheen"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1571933749079687169#favorited-by-1020412387541831680",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:40Z",
+      "wm-id": 1608980,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1571933749079687169/1020412387541831680",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "like-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "christianT",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e5d66ff7731a3ee180ec6de5b79412371d031c710acba0f960a0f4a2b750ec84.jpg",
+        "url": "https://twitter.com/chryztianT"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1571933749079687169#favorited-by-330844863",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:39Z",
+      "wm-id": 1608979,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1571933749079687169/330844863",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "like-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bart Veneman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/02d38c44f37fca10d7ea20a566111a9221eebabef4a6551abac93fa50b3816e9.jpg",
+        "url": "https://twitter.com/bartveneman"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1571933749079687169#favorited-by-203873587",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:38Z",
+      "wm-id": 1608978,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1571933749079687169/203873587",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "like-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "@andy@bell.bz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fff5a9335e30fcd0e9def7bb0cc71d108fc5ae0c5638c3f3357f14da610cb171.jpg",
+        "url": "https://twitter.com/piccalilli_"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1571933749079687169#favorited-by-98734097",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:37Z",
+      "wm-id": 1608977,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1571933749079687169/98734097",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "like-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sam Hastings",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e8863f4836578d29cfaa406785805d4624fc8d3e27b1f9186aebdc430386af3b.jpg",
+        "url": "https://twitter.com/samhastings"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1571933749079687169#favorited-by-17686012",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:36Z",
+      "wm-id": 1608975,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1571933749079687169/17686012",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "like-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michael R. Lorek",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5f0f644907fe0a67ce627ebb1697a35ed8b6f0f119252c262d23a5f4c8f27f20.jpg",
+        "url": "https://twitter.com/m_lorek"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1571933749079687169#favorited-by-60179704",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:36Z",
+      "wm-id": 1608976,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1571933749079687169/60179704",
+      "wm-target": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "like-of": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "🆂🅿🅰🅲🅴🅰🅿🅴",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4ebd3b6d993ded957caa4ad14348ecfe325e3503b67831ab3859d505b848974b.jpg",
+        "url": "https://twitter.com/_sinewave_"
+      },
+      "url": "https://twitter.com/_sinewave_/status/1579406358063218688",
+      "published": "2022-10-10T09:39:54+00:00",
+      "wm-received": "2023-01-28T11:00:35Z",
+      "wm-id": 1608974,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1579404759693680640/1579406358063218688",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "content": {
+        "text": "✏️CSS Halftone Patterns css-irl.info/css-halftone-p…"
+      },
+      "repost-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fatih Hayrioğlu",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/166b7d0568c42ab788f9402df85f2de8a48f42ae63af7cff290fbe60aa243bcb.jpg",
+        "url": "https://twitter.com/fatihhayri"
+      },
+      "url": "https://twitter.com/fatihhayri/status/1579432662120681472",
+      "published": "2022-10-10T11:24:25+00:00",
+      "wm-received": "2023-01-28T11:00:34Z",
+      "wm-id": 1608972,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1579404759693680640/1579432662120681472",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "content": {
+        "text": "✏️CSS Halftone Patterns css-irl.info/css-halftone-p…"
+      },
+      "repost-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shalanah Dawson",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/89f59a2852ff58f4c4164a8b42eeec2b0f8a8ecd60c7dc75c08606ca384790b2.jpg",
+        "url": "https://twitter.com/shalanahfaith"
+      },
+      "url": "https://twitter.com/shalanahfaith/status/1579430535147163648",
+      "published": "2022-10-10T11:15:58+00:00",
+      "wm-received": "2023-01-28T11:00:34Z",
+      "wm-id": 1608973,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1579404759693680640/1579430535147163648",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "content": {
+        "text": "✏️CSS Halftone Patterns css-irl.info/css-halftone-p…"
+      },
+      "repost-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aldo Mendez",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/eacbc6c216029142cbc64258d528393b65f80063ec57ba826947c6d822efb4d1.jpg",
+        "url": "https://twitter.com/aldomendez86"
+      },
+      "url": "https://twitter.com/aldomendez86/status/1579454383221510145",
+      "published": "2022-10-10T12:50:44+00:00",
+      "wm-received": "2023-01-28T11:00:32Z",
+      "wm-id": 1608971,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1579404759693680640/1579454383221510145",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "content": {
+        "text": "✏️CSS Halftone Patterns css-irl.info/css-halftone-p…"
+      },
+      "repost-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "fffuel.co",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/212f42b12da84daa2c50494b792c24470d31d1cf00a4b59cef636275ac3d150c.jpg",
+        "url": "https://twitter.com/ffffffuel"
+      },
+      "url": "https://twitter.com/ffffffuel/status/1585469502711627776",
+      "published": "2022-10-27T03:12:40+00:00",
+      "wm-received": "2023-01-28T11:00:31Z",
+      "wm-id": 1608970,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1579404759693680640/1585469502711627776",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "content": {
+        "text": "✏️CSS Halftone Patterns css-irl.info/css-halftone-p…"
+      },
+      "repost-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "iou90",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2fa63df6f407f3245f51f74ba23f210e8f6c760153803f9baef78a485bfa1044.jpg",
+        "url": "https://twitter.com/iou90ldk"
+      },
+      "url": "https://twitter.com/iou90ldk/status/1579514698302717953",
+      "published": "2022-10-10T16:50:24+00:00",
+      "wm-received": "2023-01-28T11:00:30Z",
+      "wm-id": 1608969,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1579404759693680640/1579514698302717953",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "content": {
+        "text": "✏️CSS Halftone Patterns css-irl.info/css-halftone-p…"
+      },
+      "repost-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dr. Adrian D. Alvarez 🛡️𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/55e1328db304a28858247c4bcb3a3f10d30839cab10354ac4672277893973c97.jpg",
+        "url": "https://twitter.com/06b"
+      },
+      "url": "https://twitter.com/06b/status/1591956187146330114",
+      "published": "2022-11-14T00:48:26+00:00",
+      "wm-received": "2023-01-28T11:00:28Z",
+      "wm-id": 1608968,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1579404759693680640/1591956187146330114",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "content": {
+        "text": "✏️CSS Halftone Patterns css-irl.info/css-halftone-p…"
+      },
+      "repost-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "nus3",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ed426403d618356dc2e5ed872ee9216c5879d75d09f26ff3f015af15deb981f5.jpg",
+        "url": "https://twitter.com/nus3_"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-827449600852103168",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:27Z",
+      "wm-id": 1608967,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/827449600852103168",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rob",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8cb4cef44bf444770888e615ea209ad05740a1acf4af65291911d2ded7cea671.jpg",
+        "url": "https://twitter.com/cancel_that"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-126480687",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:26Z",
+      "wm-id": 1608966,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/126480687",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "🆂🅿🅰🅲🅴🅰🅿🅴",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4ebd3b6d993ded957caa4ad14348ecfe325e3503b67831ab3859d505b848974b.jpg",
+        "url": "https://twitter.com/_sinewave_"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-18074049",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:25Z",
+      "wm-id": 1608965,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/18074049",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fatih Hayrioğlu",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/166b7d0568c42ab788f9402df85f2de8a48f42ae63af7cff290fbe60aa243bcb.jpg",
+        "url": "https://twitter.com/fatihhayri"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-15015786",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:24Z",
+      "wm-id": 1608964,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/15015786",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "マイク道 🏵",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bb4827d8b1ddb00548440bbc505db45756a4e5da3993b1412a8d10c4effbe340.jpg",
+        "url": "https://twitter.com/maikudou"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-98882040",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:23Z",
+      "wm-id": 1608963,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/98882040",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bushair",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d5810d2bb7ab3109d6e227f56b8dcc96cc2428d3ea1181d6d3436692578aab7f.jpg",
+        "url": "https://twitter.com/iambushair"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-442815112",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:22Z",
+      "wm-id": 1608961,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/442815112",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "avellar",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6b323b5e8ccd6d62902a7f01b2d1d4070a4758f5bb5dca79470b3d0e363511d6.jpg",
+        "url": "https://twitter.com/aveIIar"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-739840196263448576",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:21Z",
+      "wm-id": 1608960,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/739840196263448576",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kishore Andra (KcH)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c162706af995039190e8d2fe216481fa4a17efce7392598a567b9f8dd0541fc4.jpg",
+        "url": "https://twitter.com/kishore_kch"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-2457795684",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:20Z",
+      "wm-id": 1608959,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/2457795684",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "krave",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/krave8"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1722608600",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:19Z",
+      "wm-id": 1608958,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1722608600",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Juan Antonio Ledesma",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/806879372e6ba890e76b6714072cfaff6db3a4e9267fcb973eab3e3625769bc6.jpg",
+        "url": "https://twitter.com/j_a_ledesma"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1506020633985044480",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:18Z",
+      "wm-id": 1608957,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1506020633985044480",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Katherine Kato",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1efb5c0e0a4d01a264de3a6128fc2766c85523b978fc2b6db8392a19dda48553.jpg",
+        "url": "https://twitter.com/kato_katherine"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-780837920466796544",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:17Z",
+      "wm-id": 1608956,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/780837920466796544",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "T. Afif @ CSS Challenges",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/52104894ba58cf8c84a281f07f7cbd3fa7b290bd6a1e5ff99d2108d28c060fea.jpg",
+        "url": "https://twitter.com/ChallengesCss"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1384161676090437646",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:16Z",
+      "wm-id": 1608955,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1384161676090437646",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ana Alcañiz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/db3de702128966ec93f2cd91887e56a9c6cec3197a0c12320dbd2125eca4c669.jpg",
+        "url": "https://twitter.com/noekidotcom"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-197165366",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:15Z",
+      "wm-id": 1608954,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/197165366",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shalanah Dawson",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/89f59a2852ff58f4c4164a8b42eeec2b0f8a8ecd60c7dc75c08606ca384790b2.jpg",
+        "url": "https://twitter.com/shalanahfaith"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-746775142034980864",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:14Z",
+      "wm-id": 1608953,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/746775142034980864",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gökhan İpek",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/50b502ffb6a6f4fd090d653208a8f07e948055f12ab83e20957068ad8e2223c5.jpg",
+        "url": "https://twitter.com/gipek03"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1462380078",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:13Z",
+      "wm-id": 1608952,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1462380078",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tu Nguyen",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/897a2b972cd65eefde1968f09d0edbae23e64e467074a5073af618e21f26bd97.jpg",
+        "url": "https://twitter.com/tuna2191"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-237187919",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:12Z",
+      "wm-id": 1608951,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/237187919",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Florian Bougel",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/67ad8db0e81cf8db4fd2fa8ada49709bc6ab69f7f608a4f70a269b22cf97e3b6.jpg",
+        "url": "https://twitter.com/FlorianBougel"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-397110167",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:11Z",
+      "wm-id": 1608950,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/397110167",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kushal Billaiya 🎶👨🏻‍💻🎶",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f5e50b5684acfbb58cccadfda0c1a55e4be8fd523a2263c9f1669f9ced4da54.jpg",
+        "url": "https://twitter.com/connectkubi"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1198100071",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:10Z",
+      "wm-id": 1608949,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1198100071",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeanne Peureux",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f83dfd012a7898a50dd2715a6bca23614a9ec3f41148834fb8b7dba717dada68.jpg",
+        "url": "https://twitter.com/JeannePeureux"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1229914457561796608",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:09Z",
+      "wm-id": 1608948,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1229914457561796608",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dario Corsi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e30bb9b5f8ff926ab3a6e9638fb55f8892f8754faebdba0754bd4e06a650516c.jpg",
+        "url": "https://twitter.com/dariocorsi"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-20253991",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:08Z",
+      "wm-id": 1608947,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/20253991",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "fffuel.co",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/212f42b12da84daa2c50494b792c24470d31d1cf00a4b59cef636275ac3d150c.jpg",
+        "url": "https://twitter.com/ffffffuel"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1415756358364790784",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:07Z",
+      "wm-id": 1608946,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1415756358364790784",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Iain Bean",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/91c0c86e3ab9ff5c4c12d8ce23730b8644a6d894a959c05c5b479088de6a0e50.jpg",
+        "url": "https://twitter.com/iainmbean"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-2692942718",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:06Z",
+      "wm-id": 1608945,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/2692942718",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aragakey.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/aebdc3b3205fb629bab47c95b6bce7ada7619b1290e0a9e17a38b762e351b9b9.jpg",
+        "url": "https://twitter.com/jiangyijie27"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-2482540374",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:05Z",
+      "wm-id": 1608944,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/2482540374",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "An",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/737854538d04af8f6a5a1c76be20a6c03b496ad0d20db2a501cbbc00fbfbaf74.jpg",
+        "url": "https://twitter.com/kcjpop"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-51977378",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:04Z",
+      "wm-id": 1608943,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/51977378",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Workafrolic (±∞)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/db7a1d540e1be0ab8d8fba17b87d1ab7736b5150a23b7e2cadf7d0cafab1cf08.jpg",
+        "url": "https://twitter.com/ABatickaya"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-701078288026968064",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:03Z",
+      "wm-id": 1608942,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/701078288026968064",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adrian Roselli (parody) 🗯",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2802f5da6057132df9da7f04acee0dc3b93167f1f8b23230a15c6b138cf8acb1.jpeg",
+        "url": "https://twitter.com/aardrian"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-16515870",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:02Z",
+      "wm-id": 1608941,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/16515870",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Samet Ceylan",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2ee9afb36f4a263a03b89a24b75b57bea6901178ee9174f58f36a34575b7ac0a.jpg",
+        "url": "https://twitter.com/cylnsamet06"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1251569941045747713",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:01Z",
+      "wm-id": 1608940,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1251569941045747713",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patrik Engborg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/814242fbd7bdd89cf05eadb7dad3113ff228d1fc17a49bf48a556623ac613fdb.jpg",
+        "url": "https://twitter.com/patrikengborg"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-48298562",
+      "published": null,
+      "wm-received": "2023-01-28T11:00:00Z",
+      "wm-id": 1608939,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/48298562",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Megan ✨",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f3b53a4e8e0e9f158bad1d470b9f0a276b83b2e5636b35bf48f77a0263301141.jpg",
+        "url": "https://twitter.com/megandcleo"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-59308483",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:59Z",
+      "wm-id": 1608938,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/59308483",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/thomasvantus"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1232747368602357764",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:58Z",
+      "wm-id": 1608936,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1232747368602357764",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "study",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7225bf718ae1e13478ffd463a2df87dcf0de600ac5dc7f8a4bac7950a7db2eff.jpg",
+        "url": "https://twitter.com/Thisll7"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-881130231007924226",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:58Z",
+      "wm-id": 1608937,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/881130231007924226",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sophie Drouvroy @cyberbaloo@mastodon.social",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0de988435a4df947908a7a234fc21c164e9ffd29ecb836631e364ffe37c282f5.jpg",
+        "url": "https://twitter.com/cyberbaloo_"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-14346018",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:56Z",
+      "wm-id": 1608935,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/14346018",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pati Boh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6e88891cdb9a9c12e6a52081df6bd25d37370166b81db354ebe11d144eb3ccd1.png",
+        "url": "https://twitter.com/_patiboh"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1156666848",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:55Z",
+      "wm-id": 1608934,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1156666848",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marta Vidal",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/613550181485b26955e0b6da10a0667f621807f35fb1fa5dbef92d5dfbf49f33.jpg",
+        "url": "https://twitter.com/Mavidelaru"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-85107772",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:54Z",
+      "wm-id": 1608933,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/85107772",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aldo Mendez",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/eacbc6c216029142cbc64258d528393b65f80063ec57ba826947c6d822efb4d1.jpg",
+        "url": "https://twitter.com/aldomendez86"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-63640163",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:53Z",
+      "wm-id": 1608932,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/63640163",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "iou90",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2fa63df6f407f3245f51f74ba23f210e8f6c760153803f9baef78a485bfa1044.jpg",
+        "url": "https://twitter.com/iou90ldk"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-222696335",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:52Z",
+      "wm-id": 1608931,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/222696335",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Emily Rapport",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6d510a816549aee09e4dac1079f01b01cadb53d85f1ec939da9707997b75ae12.jpg",
+        "url": "https://twitter.com/eatpaintchic"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-19426124",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:51Z",
+      "wm-id": 1608930,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/19426124",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rau",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/566c8c273de619b5b1ff04fa1a5d5b7a2d070aa10efbb460de357c09b58233ed.png",
+        "url": "https://twitter.com/raubaca"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1579404759693680640#favorited-by-1121430050031702016",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:50Z",
+      "wm-id": 1608929,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1579404759693680640/1121430050031702016",
+      "wm-target": "https://css-irl.info/css-halftone-patterns/",
+      "like-of": "https://css-irl.info/css-halftone-patterns/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "¯\\_(Kλmal)_/¯",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f68c7629f41a9f379bae995a6c1ac2a4c5ba63c190d7cdbc440367d9b28a898e.jpg",
+        "url": "https://twitter.com/kamalnrf"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1584922554506133507#favorited-by-1513305358093402114",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:49Z",
+      "wm-id": 1608927,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1584922554506133507/1513305358093402114",
+      "wm-target": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "like-of": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Volunteer js",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e98afac69dff74d29801ecb03de9c848e3a2aa34e6a66bbae1ba090d31a883fb.jpg",
+        "url": "https://twitter.com/Ad40842528"
+      },
+      "url": "https://twitter.com/Ad40842528/status/1585982634387128320",
+      "published": "2022-10-28T13:11:40+00:00",
+      "wm-received": "2023-01-28T10:59:49Z",
+      "wm-id": 1608928,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1584922554506133507/1585982634387128320",
+      "wm-target": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "content": {
+        "text": "Need to mock some API requests? Here are some handy tools I like: css-irl.info/handy-tools-fo…"
+      },
+      "repost-of": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rachel Deutsch (She/Her)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3720a0e7b0cedc0745891bff3f9c3b4f75551198ca45cd835c075783d1fddae3.jpg",
+        "url": "https://twitter.com/RacheI_Deutsch"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1584922554506133507#favorited-by-1381039791152713731",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:48Z",
+      "wm-id": 1608925,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1584922554506133507/1381039791152713731",
+      "wm-target": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "like-of": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Friederich",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/54681fcc5ed000fd01c8e6c63c5ed7bfebc41a585131bc96c7dbf8de97a63af7.jpg",
+        "url": "https://twitter.com/zufrieden"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1584922554506133507#favorited-by-18915289",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:48Z",
+      "wm-id": 1608926,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1584922554506133507/18915289",
+      "wm-target": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "like-of": "https://css-irl.info/handy-tools-for-mocking-api-requests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pedro picapiedra",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/76d810d896eac99c9f57a3faf3c38fa3f44ea4d4191f9d63bc86d756a3d7cb9f.jpg",
+        "url": "https://twitter.com/xiuhtecuh"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-909924507518894080",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:47Z",
+      "wm-id": 1608924,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/909924507518894080",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "John Hoysa",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3cdf73a39b1ee086d070a34fe8e7c3429964511b52c40abc044fe3ef07490970.jpg",
+        "url": "https://twitter.com/johnHoysa"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-37652054",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:46Z",
+      "wm-id": 1608922,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/37652054",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "fershad",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8a604147ee59b99e47c11ebb0736226673051ad1783217537e5a72d610a9f055.jpg",
+        "url": "https://twitter.com/fershad"
+      },
+      "url": "https://twitter.com/fershad/status/1592310207493058560",
+      "published": "2022-11-15T00:15:11+00:00",
+      "wm-received": "2023-01-28T10:59:46Z",
+      "wm-id": 1608923,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1592286634950922241/1592310207493058560",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "content": {
+        "text": "Hello, hello, anyone still here on this site? Anyway, just posted some web sustainability resources, since it’s not just Twitter that’s burning down css-irl.info/web-sustainabi…"
+      },
+      "repost-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "dana-byerly.html",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ae11da462767995f7225b0a4162a2f6e767ab8f6d21dc9435b22a76aa40568fc.jpg",
+        "url": "https://twitter.com/superterrific"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-4094721",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:45Z",
+      "wm-id": 1608920,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/4094721",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Álvaro Montoro",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b8a47e12135bb731022d146806649b1813ba9696d32b88e6ee7575e92cc57f1a.jpg",
+        "url": "https://twitter.com/alvaro_montoro"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-143117070",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:45Z",
+      "wm-id": 1608921,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/143117070",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Miguel Hojman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bdd8af0caa90f4fccf604288d318efbd9a54e1b8857244b3299bff0471d48f35.jpg",
+        "url": "https://twitter.com/MiguelHojman"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-502132148",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:44Z",
+      "wm-id": 1608918,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/502132148",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Šime",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e29e67ea2c6633244ed51a3968a245b1f02006e7fd3103638c7e5f1a2c947304.jpg",
+        "url": "https://twitter.com/simevidas"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-175727560",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:44Z",
+      "wm-id": 1608919,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/175727560",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "strongest",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ecf86317ffc2f7ba94b49ec8169567e60044cf8f8c9458fb2da78679b9bf648a.jpg",
+        "url": "https://twitter.com/strongest"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-17511450",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:43Z",
+      "wm-id": 1608917,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/17511450",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michaël Vanderheyden",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0ecc21a658bbea1c23a73175a4e586b2039d74165fd768aff5065603a298c853.jpg",
+        "url": "https://twitter.com/Th3S4mur41"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-250025409",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:41Z",
+      "wm-id": 1608915,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/250025409",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ocebot (also @ cohost.org/OcebotDJ)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bf43972bdae3ce15c201a35242cdc4727cfbbbf00b64ae2d8abf264b206c2a51.jpg",
+        "url": "https://twitter.com/OcebotDJ"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-14631595",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:41Z",
+      "wm-id": 1608916,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/14631595",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tobias Löfstrand",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4d60d9800e65c0a1cf8de3336d641e7fe835be867716522b644bc8d107cd243a.jpg",
+        "url": "https://twitter.com/tobeleaf"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-136236445",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:40Z",
+      "wm-id": 1608914,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/136236445",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adiel Hercules",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1c61549eef95def0deea2e7bb8687fb08de24bc6c530acc526e6505a470bca36.jpg",
+        "url": "https://twitter.com/adielhercules"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1595000076304535554#favorited-by-154253094",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:33Z",
+      "wm-id": 1608913,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1595000076304535554/154253094",
+      "wm-target": "https://css-irl.info/find-me-on-mastodon/",
+      "like-of": "https://css-irl.info/find-me-on-mastodon/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "fershad",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8a604147ee59b99e47c11ebb0736226673051ad1783217537e5a72d610a9f055.jpg",
+        "url": "https://twitter.com/fershad"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1592286634950922241#favorited-by-28210015",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:32Z",
+      "wm-id": 1608912,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1592286634950922241/28210015",
+      "wm-target": "https://css-irl.info/web-sustainability-resources/",
+      "like-of": "https://css-irl.info/web-sustainability-resources/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "strongest",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ecf86317ffc2f7ba94b49ec8169567e60044cf8f8c9458fb2da78679b9bf648a.jpg",
+        "url": "https://twitter.com/strongest"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1595000076304535554#favorited-by-17511450",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:30Z",
+      "wm-id": 1608911,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1595000076304535554/17511450",
+      "wm-target": "https://css-irl.info/find-me-on-mastodon/",
+      "like-of": "https://css-irl.info/find-me-on-mastodon/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Konstantin Rouda",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a8af0c1310ed9e680cae1ba98088ec18ac8dee72edbe4ae6aaf415d628c817a4.jpg",
+        "url": "https://twitter.com/KonstantinRouda"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-3302310624",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:29Z",
+      "wm-id": 1608909,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/3302310624",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jesterhead 🌻",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/60ff35ae7bd6474b77076f8f4cb9ad6911522747be49eefe69c53c35430511eb.jpg",
+        "url": "https://twitter.com/komiska"
+      },
+      "url": "https://twitter.com/komiska/status/1603390157524180993",
+      "published": "2022-12-15T14:02:57+00:00",
+      "wm-received": "2023-01-28T10:59:29Z",
+      "wm-id": 1608910,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1603380426629959680/1603390157524180993",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "content": {
+        "text": "Logical Border Radius css-irl.info/logical-border…"
+      },
+      "repost-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rachel Deutsch (She/Her)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3720a0e7b0cedc0745891bff3f9c3b4f75551198ca45cd835c075783d1fddae3.jpg",
+        "url": "https://twitter.com/RacheI_Deutsch"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-1381039791152713731",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:27Z",
+      "wm-id": 1608908,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/1381039791152713731",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fernando Mateus 🦣",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/159d63c027d94615c83dec75f4ba7fb0e8ade7822c57ad245a9988fef4148a7b.jpg",
+        "url": "https://twitter.com/fernandomateus"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-16832673",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:22Z",
+      "wm-id": 1608907,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/16832673",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Camilo",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/Camilo01488631"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-1414940879907852291",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:21Z",
+      "wm-id": 1608905,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/1414940879907852291",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Juan Antonio Ledesma",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/806879372e6ba890e76b6714072cfaff6db3a4e9267fcb973eab3e3625769bc6.jpg",
+        "url": "https://twitter.com/j_a_ledesma"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-1506020633985044480",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:21Z",
+      "wm-id": 1608906,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/1506020633985044480",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christopher Sands",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c311618302f86f8c18006d1124227d1a06f8ee28521e2ce445f3c4b06a2c010a.jpg",
+        "url": "https://twitter.com/ChrstphrSands"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-723118028",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:20Z",
+      "wm-id": 1608904,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/723118028",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "WYKbN92R",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/66a58c3cde95d13e73d1569dabe9e9cac37d35d5b88959e51678e88bf3522235.jpg",
+        "url": "https://twitter.com/WYKbN92R"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-3036065058",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:13Z",
+      "wm-id": 1608902,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/3036065058",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lyra Belaqua",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/186fb9ae98b0940340999e2c892a10ee70b5b9395ce9c0467689297840332513.jpg",
+        "url": "https://twitter.com/LyraBelaqua8"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1603380426629959680#favorited-by-1120052282958045185",
+      "published": null,
+      "wm-received": "2023-01-28T10:59:13Z",
+      "wm-id": 1608903,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1603380426629959680/1120052282958045185",
+      "wm-target": "https://css-irl.info/logical-border-radius/",
+      "like-of": "https://css-irl.info/logical-border-radius/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ]
+}
