@@ -46,7 +46,6 @@ class Expander {
   }
 
   init() {
-    console.log('expander')
     this.btn.hidden = this.isDesktop.matches
 
     if (!this.isDesktop.matches) {
