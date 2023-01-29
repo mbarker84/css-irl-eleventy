@@ -8,7 +8,7 @@ In my [2023 review](/2022-in-review/) I mentioned that I wanted to give this sit
 
 ## Design improvements
 
-I felt like the previous UI was becoming a bit muddled as I added new features on an ad-hoc basis, without sitting down and committing to a plan. Also, I was just sick of looking at it! So this design is a bit more stripped back visually, without to many unnecessary flourishes, while still keeping some nice little touches, like [animated underlines](/animating-underlines/) on hover. Other improvements include a better mobile experience (via the expanding/collapsing tag menu), and the ability to filter by category of post (currently “articles”, “notes” or “quick tips”, which I might add to over time).
+I felt like the previous UI was becoming a bit muddled as I added new features on an ad-hoc basis, without sitting down and committing to a plan. Also, I was just sick of looking at it! So this design is a bit more stripped back visually, without too many unnecessary flourishes, while still keeping some nice little touches, like [animated underlines](/animating-underlines/) on hover. Other improvements include a better mobile experience (via the expanding/collapsing tag menu), and the ability to filter by category of post (currently “articles”, “notes” or “quick tips”, which I might add to over time).
 
 If I had any sense I’d do a few visual mockups in Figma or something before jumping straight into the code. But I’m an impatient developer, at least when it comes to my personal projects, and this is probably a masterclass in how **not** to do a redesign. All the planning went on very much in my head, supplemented by short, handwritten to-do list. Analogue, baby!
 
