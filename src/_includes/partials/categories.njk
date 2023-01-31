@@ -1,19 +1,23 @@
 {% set categories = [
   {
     title: 'All',
-    url: '/'
+    url: '/',
+    length: collections.post|length
   },
   {
     title: 'Articles',
-    url: '/tags/post'
+    url: '/articles/',
+    length: collections.article|length
   },
   {
     title: 'Quick tips',
-    url: '/tags/quick-tip'
+    url: '/quick-tips/',
+    length: collections['quick tip']|length
   },
   {
     title: 'Notes',
-    url: '/tags/note'
+    url: '/notes/',
+    length: collections.note|length
   }
 ] %}
 
@@ -22,7 +26,7 @@
   <ul class="c-categories__list">
   {% for category in categories %}
     <li class="c-categories__item">
-      <a href="{{ category.url }}"><span>{{ category.title }}</span></a>
+      <a href="{{ category.url }}" aria-current="{{ page.url == category.url }}"><span>{{ category.title }}</span> <span class="c-categories__post-count">({{ category.length or collections.article|length }})</span></a>
     </li>
   {% endfor %}
   </ul>

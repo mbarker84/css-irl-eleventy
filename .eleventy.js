@@ -33,6 +33,19 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTag('post').reverse()
   })
 
+  /* Articles */
+  eleventyConfig.addCollection('article', (collectionApi) => {
+    return collectionApi
+      .getFilteredByTag('post')
+      .reverse()
+      .filter((item) => {
+        return (
+          !item.data.tags.includes('note') &&
+          !item.data.tags.includes('quick tip')
+        )
+      })
+  })
+
   eleventyConfig.addCollection('tagList', function (collection) {
     let tagSet = new Set()
     collection.getAll().forEach(function (item) {

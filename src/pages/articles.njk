@@ -1,0 +1,17 @@
+---
+pageTitle: 'Articles'
+layout: 'posts-layout.njk'
+---
+
+{% block content %}
+  <div class="c-posts-grid__header">
+    <h1 class="c-posts-grid__heading">Articles</h1>
+    <span class="c-page-header__post-count">{{ collections.article | length }} posts</span>
+  </div>
+
+  <ul class="c-posts-grid__list">
+    {% for post in collections.article %}
+      {% include "../_includes/partials/post-listing.njk" %}
+    {% endfor %}
+  </ul>
+{% endblock %}

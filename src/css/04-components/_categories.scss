@@ -17,7 +17,7 @@
       transition: opacity 150ms, transform 150ms;
     }
 
-    span {
+    span:first-child {
       text-decoration: underline;
     }
 
@@ -39,4 +39,11 @@
 
 .c-categories__title {
   margin-bottom: calc(var(--vr) / 2);
+}
+
+.c-categories__post-count {
+  font-family: $heading-light;
+  font-size: max(0.6em, 0.9rem);
+  margin-left: 0.3em;
+  color: var(--textGrey);
 }

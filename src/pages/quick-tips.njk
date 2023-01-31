@@ -1,0 +1,17 @@
+---
+pageTitle: 'Quick tips'
+layout: 'posts-layout.njk'
+---
+
+{% block content %}
+  <div class="c-posts-grid__header">
+    <h1 class="c-posts-grid__heading">Quick tips</h1>
+    <span class="c-page-header__post-count">{{ collections['quick tip'] | length }} posts</span>
+  </div>
+
+  <ul class="c-posts-grid__list">
+    {% for post in collections['quick tip'] %}
+      {% include "../_includes/partials/post-listing.njk" %}
+    {% endfor %}
+  </ul>
+{% endblock %}
