@@ -10,7 +10,7 @@ In this article we’ll walk through how to use Github Actions to automate regul
 
 This site (the one you’re reading right now) is a static site built with [Eleventy](https://www.11ty.dev). That means there’s no server building the pages on demand. Instead, every time I write a blog post in markdown and commit the file to the [Github repository](https://github.com/mbarker84/css-irl-eleventy), the site is re-built — with Eleventy generating a static HTML page from my markdown file — and deployed on Netlify’s servers. Pretty cool, right?
 
-In order to set up automated deployments you need to link your Github repository to your Netlify account, then configure your build settings — including the build command you want to use (e.g. `nom run build`), and the directory to publish from. This isn’t a tutorial on how to deploy a site to Netlify, but [the docs](https://docs.netlify.com/) have you covered if you’re new to it.
+In order to set up automated deployments you need to link your Github repository to your Netlify account, then configure your build settings — including the build command you want to use (e.g. `npm run build`), and the directory to publish from. This isn’t a tutorial on how to deploy a site to Netlify, but [the docs](https://docs.netlify.com/) have you covered if you’re new to it.
 
 ### Webmentions
 
