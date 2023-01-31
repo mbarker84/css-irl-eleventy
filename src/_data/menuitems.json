@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "title": "Search by topic",
+    "url": "/tags"
+  },
+  {
+    "title": "About",
+    "url": "/about"
+  },
+  {
+    "title": "FAQs",
+    "url": "/faqs"
+  },
+  {
+    "title": "Blogroll",
+    "url": "/blogroll"
+  },
+  {
+    "title": "RSS",
+    "url": "/rss.xml"
+  }
+]

@@ -37,19 +37,15 @@
       <div data-menu-wrapper="data-menu-wrapper">
         <nav class="c-header__nav">
           <ul class="c-header__list">
-            <li class="c-header__item">
-              <a class="c-header__link" href="/" hidden="true" data-home-link="data-home-link">Home</a>
-            </li>
-
-            {% for page in collections.page %}
+            {% for item in menuitems %}
               <li class="c-header__item">
-                <a class="c-header__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
+                {% if item.title == 'Home' %}
+                  <a class="c-header__link" href="/" hidden="true" data-home-link="data-home-link">Home</a>
+                {% else %}
+                  <a class="c-header__link" href="{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
               </li>
             {% endfor %}
-
-            <li class="c-header__item">
-              <a class="c-header__link" href="/rss.xml">RSS</a>
-            </li>
           </ul>
         </nav>
       </div>
