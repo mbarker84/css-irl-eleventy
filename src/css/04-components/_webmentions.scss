@@ -60,6 +60,8 @@
   font-size: 1rem;
   display: inline-flex;
   align-items: center;
+  color: var(--textGrey);
+  text-decoration-color: var(--textGrey);
 
   svg {
     width: 1rem;
