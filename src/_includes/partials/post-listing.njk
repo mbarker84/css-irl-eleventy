@@ -1,11 +1,16 @@
 {% set isQuickTip = false %}
+{% set isNote = false %}
+
 {% for item in post.data.tags %}
   {% if item === 'quick tip' %}
     {% set isQuickTip = true %}
   {% endif %}
+
+  {% if item === 'note' %}
+    {% set isNote = true %}
+  {% endif %}
 {% endfor %}
 
-{% set isNote = post.data.tags[1] === 'note' %}
 {% if isNote %}
   {% set componentClass = 'c-post-listing--note' %}
 {% elseif isQuickTip %}
