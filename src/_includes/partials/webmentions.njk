@@ -51,7 +51,7 @@
         {% for item in webmentions %}
           {% set replied = item['in-reply-to'] == url %}
 
-          {% if replied %}
+          {% if replied and item.content.html|length %}
             <li class="c-webmentions__list-item">
               <blockquote>
                 {{ item.content.html | safe }}
