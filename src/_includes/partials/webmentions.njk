@@ -1,12 +1,14 @@
 {% set likeCount = 0 %}
 {% set repostCount = 0 %}
 {% set replyCount = 0 %}
+{% set mentionCount = 0 %}
 {% set url = 'https://css-irl.info' + page.url %}
 
 {% for item in webmentions %}
   {% set liked = item['like-of'] == url %}
   {% set reposted = item['repost-of'] == url %}
   {% set replied = item['in-reply-to'] == url %}
+  {% set mentioned = item['mention-of'] == url %}
 
   {% if liked %}
     {% set likeCount = likeCount + 1 %}
@@ -19,9 +21,14 @@
   {% if replied %}
     {% set replyCount = replyCount + 1 %}
   {% endif %}
+
+  {% if mentioned %}
+    {% set mentionCount = mentionCount + 1 %}
+  {% endif %}
+
 {% endfor %}
 
-{% if likeCount > 0 or replyCount > 0 or repostCount > 0 %}
+{% if likeCount > 0 or replyCount > 0 or repostCount > 0 or mentionCount > 0 %}
   <section class="c-webmentions">
     <div class="c-webmentions__header">
       <h2 class="c-webmentions__heading heading-4">Webmentions for this page</h2>
@@ -33,17 +40,25 @@
     </div>
     <div class="c-webmentions__items">
       <p class="c-webmentions__item">
-        <svg class="c-hero__svg" xmlns="http://www.w3.org/2000/svg" width="1127" height="161" aria-hidden="true" focusable="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1127" height="161" aria-hidden="true" focusable="false">
           <use href="#icon-heart"/>
         </svg>
         Likes: {{ likeCount }}
       </p>
       <p class="c-webmentions__item">
-        <svg class="c-hero__svg" xmlns="http://www.w3.org/2000/svg" width="1127" height="161" aria-hidden="true" focusable="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1127" height="161" aria-hidden="true" focusable="false">
           <use href="#icon-repost"/>
         </svg>
         Reposts: {{ repostCount }}
       </p>
+      {% if mentionCount > 0 %}
+        <p class="c-webmentions__item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1127" height="161" aria-hidden="true" focusable="false">
+            <use href="#icon-mention"/>
+          </svg>
+          Mentions: {{ mentionCount }}
+        </p>
+      {% endif %}
     </div>
 
     {% if replyCount > 0 %}
