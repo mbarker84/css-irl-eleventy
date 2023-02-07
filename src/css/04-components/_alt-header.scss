@@ -10,9 +10,19 @@
   color: var(--headerTextColor, var(--white));
 
   .c-tag-links__tag a {
-    font-family: $heading;
     color: var(--white);
     background-color: var(--headerBg);
+  }
+
+  .c-tag-links__tag--note a,
+  .c-tag-links__tag--quick-tip a {
+    background-color: var(--note, royalblue);
+    color: var(--white);
+  }
+
+  .c-tag-links__tag--quick-tip a {
+    background-color: var(--note, turquoise);
+    color: var(--black);
   }
 
   @media (min-width: $lg) {
