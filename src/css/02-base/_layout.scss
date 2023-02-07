@@ -81,10 +81,15 @@ body {
   }
 }
 
-.post-grid__main,
-.post-grid__prev-next {
+.post-grid__main {
   @media (min-width: $lg) {
     grid-column: main;
+  }
+}
+
+.post-grid__prev-next {
+  @media (min-width: $lg) {
+    grid-column: 1 / -1;
   }
 }
 
