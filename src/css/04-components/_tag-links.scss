@@ -88,7 +88,7 @@
     &:last-child {
       a {
         background: none;
-        color: var(--primary);
+        color: var(--textColor);
         text-decoration: underline;
 
         &:hover,
@@ -102,6 +102,7 @@
 
 .c-posts-grid__tag--note,
 .c-tag-links__tag--note a,
+.c-tag-links__tag--quick-tip a,
 .c-posts-grid__tag--quick-tip {
   font-weight: 700;
   background-color: var(--note, royalblue);

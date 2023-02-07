@@ -31,13 +31,12 @@ ol {
 }
 
 a {
-  color: var(--primary);
+  color: var(--textColor);
   transition: color 200ms, text-underline-offset 200ms,
     text-decoration-color 200ms;
 
   @supports (text-decoration-color: transparent) {
     text-decoration: underline;
-    text-decoration-color: var(--primary);
     text-underline-offset: 0.2em;
     text-decoration-thickness: 0.1em;
   }
