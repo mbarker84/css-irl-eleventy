@@ -9,6 +9,10 @@
     margin-top: var(--vr);
   }
 
+  img {
+    background: var(--bgTint);
+  }
+
   pre {
     display: block;
     padding: 1rem;
