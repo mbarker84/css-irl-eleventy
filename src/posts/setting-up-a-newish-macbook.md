@@ -79,6 +79,7 @@ Another plugin I find really useful is [Zsh-z](https://github.com/agkozak/zsh-z)
 plugins=(
   git
   zsh-nvm
+  z
 )
 ```
 
