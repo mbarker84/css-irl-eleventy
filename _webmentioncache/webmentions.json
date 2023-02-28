@@ -1,6 +1,1621 @@
 {
-  "lastFetched": "2023-02-07T10:17:57.188Z",
+  "lastFetched": "2023-02-28T11:36:22.633Z",
   "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yehonatan Daniv",
+        "photo": "https://webmention.io/avatar/front-end.social/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://front-end.social/@ydaniv"
+      },
+      "url": "https://front-end.social/@ydaniv/109936326733878279",
+      "published": "2023-02-27T10:53:39",
+      "wm-received": "2023-02-27T11:01:25Z",
+      "wm-id": 1631156,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109881702748826530/109936326733878279",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> nice one! I filed a very naive issue for the CSSWG, right after I joined: <a href=\"https://github.com/w3c/csswg-drafts/issues/7208\"><span>https://</span><span>github.com/w3c/csswg-drafts/is</span><span>sues/7208</span></a><br />maybe someone would care to pick it up and start an explainer doc?</p>\n<a href=\"https://github.com/w3c/csswg-drafts/issues/7208\">[css-ui][proposal] Enhance resize capabilities and shadow DOM styling · Issue #7208 · w3c/csswg-drafts</a>",
+        "text": "@michelle nice one! I filed a very naive issue for the CSSWG, right after I joined: https://github.com/w3c/csswg-drafts/issues/7208\nmaybe someone would care to pick it up and start an explainer doc?\n[css-ui][proposal] Enhance resize capabilities and shadow DOM styling · Issue #7208 · w3c/csswg-drafts"
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Šime Vidas",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/22c5d30a7be8c07be6885efd5471496a80c8a1f50e1b668cec6326366ccf7aeb.jpg",
+        "url": "https://mastodon.social/@simevidas"
+      },
+      "url": "https://mastodon.social/@simevidas/109890593442628971",
+      "published": "2023-02-19T09:03:05",
+      "wm-received": "2023-02-27T11:01:25Z",
+      "wm-id": 1631157,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109881702748826530/109890593492302270",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@bramus\" class=\"u-url\">@<span>bramus</span></a></span> <span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@bnijenhuis\" class=\"u-url\">@<span>bnijenhuis</span></a></span> You could try sneaking it into Interop 2023. Maybe nobody will notice.</p>",
+        "text": "@bramus @michelle @bnijenhuis You could try sneaking it into Interop 2023. Maybe nobody will notice."
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://us.fourdotsdesign.com/css-in-actual-life/",
+      "published": null,
+      "wm-received": "2023-02-24T20:00:04Z",
+      "wm-id": 1629742,
+      "wm-source": "https://us.fourdotsdesign.com/css-in-actual-life/",
+      "wm-target": "https://css-irl.info/aspect-ratio-is-great/",
+      "mention-of": "https://css-irl.info/aspect-ratio-is-great/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://us.fourdotsdesign.com/css-in-actual-life/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "d j",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/018006bdddb74318f10c883bc5b09bf0ff140204822b5b737863e1c1c00e1d9d.jpg",
+        "url": "https://twitter.com/beebox_designs"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-126087585",
+      "published": null,
+      "wm-received": "2023-02-24T00:34:25Z",
+      "wm-id": 1629184,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/126087585",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aaron In Iowa",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cd5d89d63c5385c0da32913598fcc5e8f8541e93a8be31daf4d2c7e5466d545a.png",
+        "url": "https://mastodon.social/@aeischeid"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109304576545923028",
+      "published": null,
+      "wm-received": "2023-02-23T23:29:49Z",
+      "wm-id": 1629157,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109304576545923028",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://us.fourdotsdesign.com/a-fast-web-site-redesign/",
+      "published": null,
+      "wm-received": "2023-02-23T03:47:17Z",
+      "wm-id": 1628507,
+      "wm-source": "https://us.fourdotsdesign.com/a-fast-web-site-redesign/",
+      "wm-target": "https://css-irl.info/2022-in-review/",
+      "mention-of": "https://css-irl.info/2022-in-review/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://us.fourdotsdesign.com/a-fast-web-site-redesign/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://us.fourdotsdesign.com/a-fast-web-site-redesign/",
+      "published": null,
+      "wm-received": "2023-02-23T03:47:16Z",
+      "wm-id": 1628506,
+      "wm-source": "https://us.fourdotsdesign.com/a-fast-web-site-redesign/",
+      "wm-target": "https://css-irl.info/animating-underlines/",
+      "mention-of": "https://css-irl.info/animating-underlines/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://us.fourdotsdesign.com/a-fast-web-site-redesign/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.mjeeb.com/what-the-in-crowd-wont-tell-you-about-alcohol-detox/",
+      "published": null,
+      "wm-received": "2023-02-20T02:47:47Z",
+      "wm-id": 1626675,
+      "wm-source": "https://www.mjeeb.com/what-the-in-crowd-wont-tell-you-about-alcohol-detox/",
+      "wm-target": "https://css-irl.info/debugging-css-grid-part-1-understanding-implicit-tracks/",
+      "mention-of": "https://css-irl.info/debugging-css-grid-part-1-understanding-implicit-tracks/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.mjeeb.com/what-the-in-crowd-wont-tell-you-about-alcohol-detox/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "rtud",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/50bf8ff0e30be195e0f98b10b0ef106e7a40bd55a96ddd769552e048443b291d.jpg",
+        "url": "https://mastodon.social/@rtud"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109303188233172780",
+      "published": null,
+      "wm-received": "2023-02-19T16:04:58Z",
+      "wm-id": 1626441,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109303188233172780",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://stephaniewalter.design/blog/pixels-of-the-week-february-19-2023/",
+      "published": null,
+      "wm-received": "2023-02-19T11:32:43Z",
+      "wm-id": 1626363,
+      "wm-source": "https://stephaniewalter.design/blog/pixels-of-the-week-february-19-2023/",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "name": "Pixels of the Week – February 19, 2023",
+      "content": {
+        "html": "<p>On <a href=\"https://twitter.com/WalterStephanie\">Twitter</a>, <a href=\"https://www.linkedin.com/in/stephaniewalterpro/\"> LinkedIn</a> and<a href=\"https://front-end.social/@stephaniewalter\"> Mastodon</a>, I share curated <b>articles</b> I read, <b>resources</b> and <b>tools</b> about UX Design, User Research, UI and mobile design, HTML, CSS, the web industry, some process, some inspiration, etc. This is an archive of everything I shared this week. And some <b>extra links</b> that I decided to only share for the blog readers. Also,<a href=\"https://stephaniewalter.design/subscribe-to-the-blog-updates/\"> subscribe to the newsletter</a> to get notified when those are published!</p>\n<h2>#Now – what I’m up to</h2>\n<p></p><img src=\"https://stephaniewalter.design/wp-content/uploads/2023/02/2023.02.19-weeklylinks-content-02.jpg\" alt=\"\" width=\"1200\" height=\"408\" />\n<p>I had an awesome time, <a href=\"https://twitter.com/WalterStephanie/status/1626197621147676672\">talking about accessibility and design systems with Geri Reid, Laren Eatty, Aprile Elcich this Thursday</a>. The video should be available soon, I’ll share it here and on social media.</p>\n<p>I’m also currently having fun with some raccoons illustrations for Mastodon server, and <a href=\"https://twitter.com/WalterStephanie/status/1625211893571788801\">I’ve started adding vectorizing them and picking the actual colors</a>. I also baked gluten free cookies, you can get the recipe on <a href=\"https://www.instagram.com/p/Cok62hNIZaA/?igshid=YmMyMTA2M2Y%3D\">Instagram</a> (or at the end of the article).</p>\n<h2>TL;DNR the one you should not miss</h2>\n<p></p><img src=\"https://stephaniewalter.design/wp-content/uploads/2023/02/2023.02.19-weeklylinks-content-03.jpg\" alt=\"\" width=\"1061\" height=\"408\" />\n<p><a href=\"https://www.refactoringui.com/previews/building-your-color-palette?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Building Your Color Palette</a>: I’m sharing this one again, it’s one of the best introduction to color palette for beginners I’ve found. It nicely shows that you don’t just need the “palette” you built, but greys and accent colors (it misses a part about accessibility though)</p>\n<h2>Interesting articles</h2>\n<p></p><img src=\"https://stephaniewalter.design/wp-content/uploads/2023/02/2023.02.19-weeklylinks-content-04.jpg\" alt=\"\" width=\"1200\" height=\"416\" />\n<h3>UX design, research, inclusive design and ethics</h3>\n<ul><li><a href=\"https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Design thinking was supposed to fix the world. Where did it go wrong?</a> Interesting read on the issues of design thinking, how a lot of the things that came out of such workshops were actually never implemented (due to lack of budget and how far away from reality some solutions where).</li>\n<li><a href=\"https://uxdesign.cc/some-ethical-dilemmas-surrounding-the-study-of-human-behaviour-for-marketing-purposes-6b3cb99f1f82\">Ethical dilemmas around the study of human behavior for marketing</a>: Interesting read on ethical dilemmas when studying human behavior, also applies to UX research, why we need to stop nagging with empathy, go beyond stereotypes and more, by Karla Paniagua R.</li>\n<li><a href=\"https://indeed.design/article/three-basic-principles-of-ethical-research-that-ux-can-take-from-academia?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Some principles for ethical user research that are used in academia and can work for other sectors</a>: Respect people (consent, privacy), Do the most good and least harm, Practice inclusivity to foster justice (cognitive complexity, etc.)</li>\n<li>I<a href=\"https://uxdesign.cc/implementing-good-ux-in-an-early-stage-startup-a-practical-guide-425172d9cc63\">nteresting advice if you want to implement a user centric process for your startup</a>. And trust me, you should want to, this is how you build better products that scale and fit your target audience needs!  By Nicole Gallardo</li>\n<li><a href=\"https://uxdesign.cc/global-ux-how-to-study-beyond-your-bubble-856401c15eb1\">Global UX: how to study beyond your bubble | by Daley Wilhelm</a> interesting read on localisation and how attitudes towards a product might change for different culture</li>\n<li><a href=\"https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Rethinking Authentication UX</a>: great tips on how to make authentication more user friends for all.</li>\n</ul><h3>CSS wish lists and the false promises of JS frameworks</h3>\n<ul><li><span>Some very cool ideas in all those 2023 CSS wish lists from: </span><a href=\"https://meyerweb.com/eric/thoughts/2023/02/08/css-wish-list-2023/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Eric Meyer,</a> <a href=\"https://daverupert.com/2023/01/css-wishlist-2023/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Dave Rupert</a>, <a href=\"https://ishadeed.com/article/css-wishlist-2023/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Ahmad Shadeed</a></li>\n<li><a href=\"https://infrequently.org/2023/02/the-market-for-lemons/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">The Market for Lemons</a>: Interesting notes from Alex Russell on JS frameworks, the false promises of how better developer experience (DX) was supposed to bring better UX (spoiler: it didn’t)</li>\n</ul><h3>Spices, AI skills, training and all the other cool ones</h3>\n<ul><li><a href=\"https://longreads.com/2023/01/03/the-strangely-beautiful-experience-of-google-reviews/\">The Strangely Beautiful Experience of Google Reviews</a>, a nice article on how people use Google reviews to connect with each other, to build stories, memories. It’s quite unexpected but nice to see it exists</li>\n<li><a href=\"https://www.inverse.com/science/spicy-cold-cure-colds-neuroscience\">Can spicy foods cure colds? A neuroscientist reveals the encouraging truth</a>: not really but it can make you feel warm and better which is always nice when you are sick</li>\n<li><a href=\"https://www.technologyreview.com/2023/02/14/1068498/why-you-shouldnt-trust-ai-search-engines/\">Why you shouldn’t trust AI search engines</a>: “ Essentially, we—the users—are now doing the work of testing this technology for free. We’re all guinea pigs at this point”, yeah this is what happens when you push to prod something not ready.</li>\n<li><a href=\"https://archive.ph/xm3Ck\">How prompt writing could become an important skills:</a> it takes expertise, creativity and a lot of guesswork</li>\n<li><a href=\"https://www.voorhoede.nl/en/blog/can-ai-generate-illustrations-custom-style/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Very interesting if you want to understand how an AI can be trained on a specific style</a>. I kind of want to do a local test now and test it on some of my own, but I don’t think I have enough in the same style</li>\n</ul><h2>Inspiration, fun experiments and great ideas</h2>\n<p></p><img src=\"https://stephaniewalter.design/wp-content/uploads/2023/02/2023.02.19-weeklylinks-content-05.jpg\" alt=\"\" width=\"1081\" height=\"408\" />\n<ul><li><a href=\"https://twitter.com/DT_comic/status/1625793339281879042\">This comics about being “customer obsessed”</a> made me giggle</li>\n<li><a href=\"https://sheribyrnehaber.medium.com/accessibility-memes-2183f7fd24a5\">Accessibility Memes</a>: there aren’t any. So Sheri Byrne-Haber made some, and borrowed one she really liked.</li>\n<li><a href=\"https://flappybirdle.com/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">FlappyBirdle</a>: I don’t know why anyone would mix worlde and flappy bird, this is the most stressful game ever, BUT, if you are up for a challenge, here you go</li>\n</ul><h2>Useful tools and resources that will make your life easy</h2>\n<p></p><img src=\"https://stephaniewalter.design/wp-content/uploads/2023/02/2023.02.19-weeklylinks-content-06.jpg\" alt=\"\" width=\"1089\" height=\"416\" />\n<ul><li><a href=\"https://screenplaysubs.com/\">ScreenplaySubs</a> a browser extension for Netflix that syncs up movies with screenplays, displaying them side by side. It shows you if a dialogue was improvised, a scene omitted, etc. It can be a fun way to discover behind the scenes of your favorites movies (if they are on Netflix)</li>\n<li><a href=\"https://www.themicropedia.org/#/microaggression-definition-tips/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">The Micropedia</a>: An awesome resource to better understand micro aggression marginalized groups face. Identifying those is a first step into avoiding them and building a more inclusive society, workplace, etc.</li>\n<li><a href=\"https://www.modernillustration.org/archive/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Modern Ilustration Archive</a>: Explore the archives or 1940s, 1950s, 1960s and 1970s illustrations (mostly print design, advertisement, etc.)</li>\n<li><a href=\"https://typetrials.com/\">Typetrials</a>: a free platform to test and experiment with fonts, especially if those are variable fonts. You can upload yours (or use the platform fonts):</li>\n<li><span><a href=\"https://vikunja.io/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Vikunja</a>: an open-source, self-hostable to-do app that you can configure different way, including trello style. </span></li>\n<li><a href=\"https://www.stableattribution.com/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Stable Attribution</a>: this website claims it shows you the human made images that were used to by an AI to generate an image. Interesting to see the dataset (and might interest some illustrators to see if their content is in datasets without their consent)</li>\n<li><a href=\"https://www.aicyclopedia.com/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">AIcyclopedia</a>, <span>Another list of AI tools organised by categories</span></li>\n</ul><h2>Tutorials</h2>\n<p></p><img src=\"https://stephaniewalter.design/wp-content/uploads/2023/02/2023.02.19-weeklylinks-content-07.jpg\" alt=\"\" width=\"1061\" height=\"408\" />\n<p><a href=\"https://css-irl.info/testing-colour-accessibility-with-dev-tools/\">Testing Colour Accessibility with Dev Tools</a>, that’s a very useful trick if you don’t have any tools you can install</p>\n<h2>News in the industry</h2>\n<ul><li>You can <a href=\"https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview/\">test out new native CSS nesting in Safari and Chrome</a></li>\n<li>Ohhh this is the best valentine gift ever: <a href=\"https://web.dev/cq-stable/?utm_source=stephaniewalter.design&amp;utm_medium=weeklylinks\">Container queries land in stable browsers</a></li>\n<li><a href=\"https://uxdesign.cc/another-death-knell-for-accessibility-on-twitter-2ac459be6d71\">Another death knell for accessibility on Twitter</a>: how the change in Twitter API pricing will affect (as in, make disappear) some super important accessibility bots</li>\n</ul>",
+        "text": "On Twitter,  LinkedIn and Mastodon, I share curated articles I read, resources and tools about UX Design, User Research, UI and mobile design, HTML, CSS, the web industry, some process, some inspiration, etc. This is an archive of everything I shared this week. And some extra links that I decided to only share for the blog readers. Also, subscribe to the newsletter to get notified when those are published!\n#Now – what I’m up to\nI had an awesome time, talking about accessibility and design systems with Geri Reid, Laren Eatty, Aprile Elcich this Thursday. The video should be available soon, I’ll share it here and on social media.\nI’m also currently having fun with some raccoons illustrations for Mastodon server, and I’ve started adding vectorizing them and picking the actual colors. I also baked gluten free cookies, you can get the recipe on Instagram (or at the end of the article).\nTL;DNR the one you should not miss\nBuilding Your Color Palette: I’m sharing this one again, it’s one of the best introduction to color palette for beginners I’ve found. It nicely shows that you don’t just need the “palette” you built, but greys and accent colors (it misses a part about accessibility though)\nInteresting articles\nUX design, research, inclusive design and ethics\nDesign thinking was supposed to fix the world. Where did it go wrong? Interesting read on the issues of design thinking, how a lot of the things that came out of such workshops were actually never implemented (due to lack of budget and how far away from reality some solutions where).\nEthical dilemmas around the study of human behavior for marketing: Interesting read on ethical dilemmas when studying human behavior, also applies to UX research, why we need to stop nagging with empathy, go beyond stereotypes and more, by Karla Paniagua R.\nSome principles for ethical user research that are used in academia and can work for other sectors: Respect people (consent, privacy), Do the most good and least harm, Practice inclusivity to foster justice (cognitive complexity, etc.)\nInteresting advice if you want to implement a user centric process for your startup. And trust me, you should want to, this is how you build better products that scale and fit your target audience needs!  By Nicole Gallardo\nGlobal UX: how to study beyond your bubble | by Daley Wilhelm interesting read on localisation and how attitudes towards a product might change for different culture\nRethinking Authentication UX: great tips on how to make authentication more user friends for all.\nCSS wish lists and the false promises of JS frameworks\nSome very cool ideas in all those 2023 CSS wish lists from: Eric Meyer, Dave Rupert, Ahmad Shadeed\nThe Market for Lemons: Interesting notes from Alex Russell on JS frameworks, the false promises of how better developer experience (DX) was supposed to bring better UX (spoiler: it didn’t)\nSpices, AI skills, training and all the other cool ones\nThe Strangely Beautiful Experience of Google Reviews, a nice article on how people use Google reviews to connect with each other, to build stories, memories. It’s quite unexpected but nice to see it exists\nCan spicy foods cure colds? A neuroscientist reveals the encouraging truth: not really but it can make you feel warm and better which is always nice when you are sick\nWhy you shouldn’t trust AI search engines: “ Essentially, we—the users—are now doing the work of testing this technology for free. We’re all guinea pigs at this point”, yeah this is what happens when you push to prod something not ready.\nHow prompt writing could become an important skills: it takes expertise, creativity and a lot of guesswork\nVery interesting if you want to understand how an AI can be trained on a specific style. I kind of want to do a local test now and test it on some of my own, but I don’t think I have enough in the same style\nInspiration, fun experiments and great ideas\nThis comics about being “customer obsessed” made me giggle\nAccessibility Memes: there aren’t any. So Sheri Byrne-Haber made some, and borrowed one she really liked.\nFlappyBirdle: I don’t know why anyone would mix worlde and flappy bird, this is the most stressful game ever, BUT, if you are up for a challenge, here you go\nUseful tools and resources that will make your life easy\nScreenplaySubs a browser extension for Netflix that syncs up movies with screenplays, displaying them side by side. It shows you if a dialogue was improvised, a scene omitted, etc. It can be a fun way to discover behind the scenes of your favorites movies (if they are on Netflix)\nThe Micropedia: An awesome resource to better understand micro aggression marginalized groups face. Identifying those is a first step into avoiding them and building a more inclusive society, workplace, etc.\nModern Ilustration Archive: Explore the archives or 1940s, 1950s, 1960s and 1970s illustrations (mostly print design, advertisement, etc.)\nTypetrials: a free platform to test and experiment with fonts, especially if those are variable fonts. You can upload yours (or use the platform fonts):\nVikunja: an open-source, self-hostable to-do app that you can configure different way, including trello style. \nStable Attribution: this website claims it shows you the human made images that were used to by an AI to generate an image. Interesting to see the dataset (and might interest some illustrators to see if their content is in datasets without their consent)\nAIcyclopedia, Another list of AI tools organised by categories\nTutorials\nTesting Colour Accessibility with Dev Tools, that’s a very useful trick if you don’t have any tools you can install\nNews in the industry\nYou can test out new native CSS nesting in Safari and Chrome\nOhhh this is the best valentine gift ever: Container queries land in stable browsers\nAnother death knell for accessibility on Twitter: how the change in Twitter API pricing will affect (as in, make disappear) some super important accessibility bots"
+      },
+      "mention-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://stephaniewalter.design/blog/pixels-of-the-week-february-19-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://dior--outlet.com/jetsmart-airlines-hopes-to-begin-talks-to-buy-colombias-viva-air/",
+      "published": null,
+      "wm-received": "2023-02-18T19:49:05Z",
+      "wm-id": 1625938,
+      "wm-source": "https://dior--outlet.com/jetsmart-airlines-hopes-to-begin-talks-to-buy-colombias-viva-air/",
+      "wm-target": "https://css-irl.info/all-the-css-colours/",
+      "mention-of": "https://css-irl.info/all-the-css-colours/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Roma Komarov",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/c6cd4cbb5498166524de22dbb8a19bdfe0214deb80ffa1ad1255eed8895e11a7.jpg",
+        "url": "https://front-end.social/@kizu"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109298881215298619",
+      "published": null,
+      "wm-received": "2023-02-18T18:27:40Z",
+      "wm-id": 1625801,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109298881215298619",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://berndwiechering.de/2023/02/18/updates-der-woche-kw-07-2023/",
+      "published": null,
+      "wm-received": "2023-02-18T14:21:46Z",
+      "wm-id": 1625713,
+      "wm-source": "https://berndwiechering.de/2023/02/18/updates-der-woche-kw-07-2023/",
+      "wm-target": "https://css-irl.info/imperfect/",
+      "content": {
+        "html": "<p>Mein <em>Digitaler Garten</em> wird so gaaaanz langsam …</p>\n\n\n\n<img width=\"1200\" height=\"1080\" src=\"https://berndwiechering.de/wp-content/uploads/2023/02/Bildschirmfoto-2023-02-14-um-17.12.41-2000x1080.png\" alt=\"\" />Prototyping auf Codepen…<p>… aber ganz langsam ist ok. Ich hatte ja vor zwei Wochen ein <a href=\"https://berndwiechering.de/experimente/\">Experiment</a> hier angekündigt, dass bis jetzt eher weniger gut angelaufen ist. Es ging um das Nichtverzerren von Zucker, bzw. auf den Verzicht von Industrieessen, Milchprodukten, Brot und Brötchen und den alleinigen Genuss von Lebensmitteln, die entweder gar nicht verpackt sind, oder die ohne eine Zutatenliste auskommen. Kurzum: Ich will meine Ernährung auf „gesund“ umstellen.</p>\n\n\n\n<p>Das klingt eigentlich ganz einfach. Ist es aber nicht, zumindest nicht für mich. Es hat auch viel mit Willenskraft zu tun und nach einem Arbeitstag, das Lernen einer Programmiersprache und das Aufbringen der Disziplin, eventuell noch einen Song zu schreiben … ist diese Kraft so gut wie aufgebraucht. Da greift man abends dann schnell zur Tiefkühlpizza oder zumindest nach dem Toastbrot mit Nutella…</p>\n\n\n\n<img width=\"1200\" height=\"1200\" src=\"https://berndwiechering.de/wp-content/uploads/2023/02/pexels-muffin-creatives-1653877-2000x1333.jpg\" alt=\"\" />nee…<p>Aber mir ist dieses Experiment wichtig, deshalb starte ich am Montag nochmal neu 😉 Das wird schon … Diese Woche habe ich auch mal etwas intensiver mit <em><a href=\"https://berndwiechering.de/2023/02/17/texte-ohne-schreibblockade-wie-chatgpt-helfen-kann/\">ChatGPT</a></em> herumgespielt und bin schon beeindruckt. Aber man bekommt halt nur das, was es eh schon gab. Die Maschine wird kein gutes Buch schreiben, keinen guten Song komponieren und auch keine originelle Website designen. Die Digitaltechnik hat das Nachahmen ja eh schon sehr vereinfacht und jetzt wird es nochmal einen exponentiellen Anstieg der Einheitsbrei-Suppe geben … aber wer weiß, wie gut diese Technik noch wird… spannend ist es allemal.</p>\n\n\n\n<h2>Linksammlung</h2>\n\n\n\n<p><a href=\"https://blog.thunderbird.net/2023/02/the-future-of-thunderbird-why-were-rebuilding-from-the-ground-up/\">The Future</a> of <em>Thunderbird</em> // Pick a favorite <a href=\"https://www.yewknee.com/blog/pick-a-favorite-retro-bass\">Retro Bass</a> // AI <a href=\"https://interestingengineering.com/innovation/chatgpt-destroy-googles-business-two-years\">will destroy</a> Google’s business in two years // <em>Paint</em> <a href=\"https://www.youtube.com/watch?v=8ObPQyc6Qsk\">Trailer</a> // <em>Screenstab</em>: Turn Screenshots <a href=\"https://www.screenstab.com/editor/\">into beautiful assets</a> // <em>TypeTrials</em>: A free platform to <a href=\"https://typetrials.com/https://typetrials.com/\">experiment with your fonts</a> // <a href=\"https://uxdesign.cc/advanced-techniques-for-writing-good-interfaces-c030ae60150\">Advanced techniques</a> for writing good interfaces // Just <a href=\"https://justinjackson.ca/words.html\">words</a>… // Learning how to <a href=\"https://matthewstrom.com/writing/learning-how-to-see\">See</a> // <a href=\"https://css-irl.info/imperfect/\">Imperfect</a> // Some <a href=\"https://chriscoyier.net/2023/02/08/some-monospace-fonts-ive-only-just-seen/\">Monospace fonts</a> I’ve just seen // <a href=\"https://chriscoyier.net/2023/01/18/coding-fonts-id-actually-use/\">Coding Fonts</a> I’d actually use // <a href=\"https://medium.com/@IGLevine/so-lots-of-people-have-responded-to-my-encouragement-to-get-into-the-industry-asking-how-do-i-get-e2d0cd738733#.kyqgwwfsa\">Getting in</a> (the creative industry) // The Front-End <a href=\"https://frontendchecklist.io/\">Checklist</a> // Write <a href=\"https://matthiasott.com/notes/write-it-down-1\">it</a> Down // Why Do You Want to <a href=\"https://morrick.me/archives/9715\">touch your Mac screen</a> so badly? // <em>ChatGPT</em> Hype is proof <a href=\"https://nabilalouani.substack.com/p/chatgpt-hype-is-proof-nobody-really\">nobody</a> really understands AI // <a href=\"https://ciechanow.ski/sound/?ref=sidebar\">Sound</a> // The Centre for the <a href=\"https://ciechanow.ski/sound/?ref=sidebar\">less good Idea</a> … an interview // A <a href=\"https://agoodmovietowatch.com/\">Good Movie</a> To Watch // <em>StarFigher</em> <a href=\"https://de.starlabs.systems/pages/starfighter?shpxid=589b3139-bf7d-4889-a31f-534b7bf51a59\">Laptop</a> // <a href=\"https://blog.jupyter.org/introducing-the-new-jupyterlab-desktop-bca1982bdb23\">Introducing</a> the new <em>JupyterLab</em> Desktop // Internet Era <a href=\"https://tracydurnell.com/2023/02/11/internet-era-life-skills/\">Life Skills</a> // How Vinyl records are made:</p>\n\n\n\n\n\n<p><em>Deno</em>: <a href=\"https://deno.land/\">A modern runtime</a> for <em>JavaScript</em> and <em>TypeScript</em> // <em>Gen-1</em>: The next <a href=\"https://research.runwayml.com/gen1\">step forward</a> for generative AI // <em>CHD-4</em>: <a href=\"https://auktionsverket.com/en/chd-4-a-drum-machine-with-congenital-heart-disease/\">A beautiful drum machine</a> based on heart beats // What is <em>ChatGPT</em> doing … <a href=\"https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/\">and why</a> does it work? // Emotion in <a href=\"https://abbeyroadinstitute.nl/blog/emotion-in-music-giving-you-the-chills/?cn-reloaded=1\">music</a> // <a href=\"https://www.youtube.com/watch?v=jPhJbKBuNnA\">I tried</a> using AI … it scared me // Formulas for optical <a href=\"https://bjango.com/articles/opticaladjustments/?ref=sidebar\">adjustment</a> ///</p>\n\n\n\n<h2>Aktuelle Musik</h2>\n\n\n\n<p>Letztes Wochenende waren gleich zwei wichtige Releases. Zum einen hat <em>Yo La Tengo</em> mal wieder ein richtig gutes Album rausgebracht, aber das habe ich ja <a href=\"https://berndwiechering.de/2023/02/11/plattenkritik-yo-la-tengo-this-stupid-world-2023/\">hier schon</a> mit Lob überschüttet. Des Weiteren haben <em>The Notwist</em> die Live-Aufnahmen von <em>2012</em> aus dem <em>Alien Research Center</em> als <a href=\"https://www.discogs.com/release/25938304-The-Notwist-Vertigo-Days-Live-From-Alien-Research-Center\">offizellen Titel</a> released. Das Vinyl hatte ich mir vorbestellt und – wie sollte es anders sein – ist das wieder ein hervorragendes Live Album der Weilheimer.</p>\n\n\n\n\n\n<p>Ein weiteres Live Album haben <em>The Smile</em> veröffentlicht. Die Supergroup mit <em>Thom Yorke</em> und <em>Johnny Greenwood</em> haben im Sommer vergangenen Jahres beim <em>Montreux Jazz Festival</em> gespielt und bewiesen, dass sie die Songs des Debütalbums auch live spielen können. Ich hatte mich damals über die pompöse Produktion des Albums und die vielen Streicher beschwert. Auf der Live-Platte kommt das Ganze so rüber, wie ich mir das schon für’s Album gewünscht hätte. Gute Platte! Und – mein Gott – leben wir in grandiosen Zeiten: Natürlich kann man sich das Konzert auch komplett bei YouTube ansehen…</p>\n\n\n\n\n\n<p>Und … <em>Pavement.</em> Die sind ja immer mal wieder live unterwegs. Aber es wird kein neues Album geben. Alle Jahre tun sich die Jungs (oder mittlerweile älteren Herren) wieder zusammen und spielen einige Live-Shows. Ich find‘ das ja meistens blöd, wenn alte Bands sowas tun und ich habe mich auch tüchtig über die hohen Ticketpreise hier in Deutschland aufgeregt. Jetzt habe ich mir aber den <em>Austin City Limits</em> Gig auf YouTube von diesem Monat angesehen … Verdammt gut. Alt sind ’se geworden, aber immer noch verdammt gut!</p>\n\n\n\n\n\n<p>Achja, die <em>Beatles</em>. Letztes Jahr kam ja die <em>Revolver</em> Deluxe Version raus. Dies ist das erste Deluxe Release, dass ich nicht gekauft habe – die sind ja auch arschteuer. Aber man kann sie ja auch auf <em>Spotify</em> hören. Aber … das ist definitiv nicht dasselbe. Klar, die Songs sind dieselben und das ist ja auch irgendwie toll. Aber wer will denn einfach nur die Outtakes hören? Das meiste kennt man ja auch schon von irgendwo her … von den Anthologies, oder von Bootlegs etc… Nee, diese Deluxe Alben will man von CD oder Platte hören, mit einem Buch oder Booklet dabei. Nur so macht das Sinn.</p>\n\n\n\n<p>Egal, ich habe sie mir auf <em>Spotify</em> angehört und fand das Release ok. Vieles kannte man schon, einiges war toll … aber ich hätte mir halt gerne das Buch dazu angesehen … aber für knapp <em>110,-</em> Euro?</p>\n\n\n\n\n\n<p></p>",
+        "text": "Mein Digitaler Garten wird so gaaaanz langsam …\n\n\n\nPrototyping auf Codepen…… aber ganz langsam ist ok. Ich hatte ja vor zwei Wochen ein Experiment hier angekündigt, dass bis jetzt eher weniger gut angelaufen ist. Es ging um das Nichtverzerren von Zucker, bzw. auf den Verzicht von Industrieessen, Milchprodukten, Brot und Brötchen und den alleinigen Genuss von Lebensmitteln, die entweder gar nicht verpackt sind, oder die ohne eine Zutatenliste auskommen. Kurzum: Ich will meine Ernährung auf „gesund“ umstellen.\n\n\n\nDas klingt eigentlich ganz einfach. Ist es aber nicht, zumindest nicht für mich. Es hat auch viel mit Willenskraft zu tun und nach einem Arbeitstag, das Lernen einer Programmiersprache und das Aufbringen der Disziplin, eventuell noch einen Song zu schreiben … ist diese Kraft so gut wie aufgebraucht. Da greift man abends dann schnell zur Tiefkühlpizza oder zumindest nach dem Toastbrot mit Nutella…\n\n\n\nnee…Aber mir ist dieses Experiment wichtig, deshalb starte ich am Montag nochmal neu 😉 Das wird schon … Diese Woche habe ich auch mal etwas intensiver mit ChatGPT herumgespielt und bin schon beeindruckt. Aber man bekommt halt nur das, was es eh schon gab. Die Maschine wird kein gutes Buch schreiben, keinen guten Song komponieren und auch keine originelle Website designen. Die Digitaltechnik hat das Nachahmen ja eh schon sehr vereinfacht und jetzt wird es nochmal einen exponentiellen Anstieg der Einheitsbrei-Suppe geben … aber wer weiß, wie gut diese Technik noch wird… spannend ist es allemal.\n\n\n\nLinksammlung\n\n\n\nThe Future of Thunderbird // Pick a favorite Retro Bass // AI will destroy Google’s business in two years // Paint Trailer // Screenstab: Turn Screenshots into beautiful assets // TypeTrials: A free platform to experiment with your fonts // Advanced techniques for writing good interfaces // Just words… // Learning how to See // Imperfect // Some Monospace fonts I’ve just seen // Coding Fonts I’d actually use // Getting in (the creative industry) // The Front-End Checklist // Write it Down // Why Do You Want to touch your Mac screen so badly? // ChatGPT Hype is proof nobody really understands AI // Sound // The Centre for the less good Idea … an interview // A Good Movie To Watch // StarFigher Laptop // Introducing the new JupyterLab Desktop // Internet Era Life Skills // How Vinyl records are made:\n\n\n\n\n\nDeno: A modern runtime for JavaScript and TypeScript // Gen-1: The next step forward for generative AI // CHD-4: A beautiful drum machine based on heart beats // What is ChatGPT doing … and why does it work? // Emotion in music // I tried using AI … it scared me // Formulas for optical adjustment ///\n\n\n\nAktuelle Musik\n\n\n\nLetztes Wochenende waren gleich zwei wichtige Releases. Zum einen hat Yo La Tengo mal wieder ein richtig gutes Album rausgebracht, aber das habe ich ja hier schon mit Lob überschüttet. Des Weiteren haben The Notwist die Live-Aufnahmen von 2012 aus dem Alien Research Center als offizellen Titel released. Das Vinyl hatte ich mir vorbestellt und – wie sollte es anders sein – ist das wieder ein hervorragendes Live Album der Weilheimer.\n\n\n\n\n\nEin weiteres Live Album haben The Smile veröffentlicht. Die Supergroup mit Thom Yorke und Johnny Greenwood haben im Sommer vergangenen Jahres beim Montreux Jazz Festival gespielt und bewiesen, dass sie die Songs des Debütalbums auch live spielen können. Ich hatte mich damals über die pompöse Produktion des Albums und die vielen Streicher beschwert. Auf der Live-Platte kommt das Ganze so rüber, wie ich mir das schon für’s Album gewünscht hätte. Gute Platte! Und – mein Gott – leben wir in grandiosen Zeiten: Natürlich kann man sich das Konzert auch komplett bei YouTube ansehen…\n\n\n\n\n\nUnd … Pavement. Die sind ja immer mal wieder live unterwegs. Aber es wird kein neues Album geben. Alle Jahre tun sich die Jungs (oder mittlerweile älteren Herren) wieder zusammen und spielen einige Live-Shows. Ich find‘ das ja meistens blöd, wenn alte Bands sowas tun und ich habe mich auch tüchtig über die hohen Ticketpreise hier in Deutschland aufgeregt. Jetzt habe ich mir aber den Austin City Limits Gig auf YouTube von diesem Monat angesehen … Verdammt gut. Alt sind ’se geworden, aber immer noch verdammt gut!\n\n\n\n\n\nAchja, die Beatles. Letztes Jahr kam ja die Revolver Deluxe Version raus. Dies ist das erste Deluxe Release, dass ich nicht gekauft habe – die sind ja auch arschteuer. Aber man kann sie ja auch auf Spotify hören. Aber … das ist definitiv nicht dasselbe. Klar, die Songs sind dieselben und das ist ja auch irgendwie toll. Aber wer will denn einfach nur die Outtakes hören? Das meiste kennt man ja auch schon von irgendwo her … von den Anthologies, oder von Bootlegs etc… Nee, diese Deluxe Alben will man von CD oder Platte hören, mit einem Buch oder Booklet dabei. Nur so macht das Sinn.\n\n\n\nEgal, ich habe sie mir auf Spotify angehört und fand das Release ok. Vieles kannte man schon, einiges war toll … aber ich hätte mir halt gerne das Buch dazu angesehen … aber für knapp 110,- Euro?"
+      },
+      "mention-of": "https://css-irl.info/imperfect/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://berndwiechering.de/2023/02/18/updates-der-woche-kw-07-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wenzel — ⌞w⌝",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ca0418a3b35cbf43e6542860bdcb3076b0c323464b9b515eb00025b141daddf0.jpg",
+        "url": "https://indieweb.social/@stairjoke"
+      },
+      "url": "https://indieweb.social/@stairjoke/109885692649630504",
+      "published": "2023-02-18T12:16:45",
+      "wm-received": "2023-02-18T12:25:50Z",
+      "wm-id": 1625687,
+      "wm-source": "https://brid.gy/comment/mastodon/@andy@bell.bz/109884768617941329/109885692673147949",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://bell.bz/@andy\" class=\"u-url\">@<span>andy</span></a></span> I’m not a fan of this automated posting of your likes. Your roots are interesting, but I don’t want to see all the likes in my timeline…</p>\n<a class=\"u-mention\" href=\"https://css-irl.info/resizing-with-css/\"></a>",
+        "text": "@andy I’m not a fan of this automated posting of your likes. Your roots are interesting, but I don’t want to see all the likes in my timeline…"
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Bell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cea017ea6e66e1ee7d2f97f7278d83b1aa6a13ccb195c71c06a3e7b04d9bdfa0.jpg",
+        "url": "https://bell.bz/@andy"
+      },
+      "url": "https://bell.bz/@andy/109885408015764726",
+      "published": "2023-02-18T11:04:21",
+      "wm-received": "2023-02-18T12:25:21Z",
+      "wm-id": 1625686,
+      "wm-source": "https://brid.gy/comment/mastodon/@andy@bell.bz/109884768617941329/109885408015764726",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://masto.ai/@tosbourn\" class=\"u-url\">@<span>tosbourn</span></a></span> there’s an RSS feed too <a href=\"https://feedbin.com/starred/91894d3eb1e30664631b3d475c213f5e.xml\"><span>https://</span><span>feedbin.com/starred/91894d3eb1</span><span>e30664631b3d475c213f5e.xml</span></a></p>\n<a class=\"u-mention\" href=\"https://css-irl.info/resizing-with-css/\"></a>",
+        "text": "@tosbourn there’s an RSS feed too https://feedbin.com/starred/91894d3eb1e30664631b3d475c213f5e.xml"
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alexander Lehner, CPACC",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/3a592dcc28a670471a8bd79b5265e4527db9a2fc0c34973c51207b0c927d7fb0.jpg",
+        "url": "https://tech.lgbt/@alex86"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109329680646397404",
+      "published": null,
+      "wm-received": "2023-02-18T10:34:32Z",
+      "wm-id": 1625656,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109329680646397404",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alexander Lehner, CPACC",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/3a592dcc28a670471a8bd79b5265e4527db9a2fc0c34973c51207b0c927d7fb0.jpg",
+        "url": "https://tech.lgbt/@alex86"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#reblogged-by-109329680646397404",
+      "published": null,
+      "wm-received": "2023-02-18T10:34:01Z",
+      "wm-id": 1625655,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109881702748826530/109329680646397404",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "repost-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Toby",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/e61e64fb3b82c0474209194397e75bf76b1d18191a2d7d0a454c599717b6d266.png",
+        "url": "https://masto.ai/@tosbourn"
+      },
+      "url": "https://masto.ai/@tosbourn/109884920244317178",
+      "published": "2023-02-18T09:00:19",
+      "wm-received": "2023-02-18T09:06:48Z",
+      "wm-id": 1625628,
+      "wm-source": "https://brid.gy/comment/mastodon/@andy@bell.bz/109884768617941329/109884920309007887",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://bell.bz/@andy\" class=\"u-url\">@<span>andy</span></a></span> I must say, I really enjoy your “I really enjoyed reading”</p><p>It’s like a mini curated RSS feed 👍🏻</p>\n<a class=\"u-mention\" href=\"https://css-irl.info/resizing-with-css/\"></a>",
+        "text": "@andy I must say, I really enjoy your “I really enjoyed reading”It’s like a mini curated RSS feed 👍🏻"
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Leópold Kristjánsson",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9fa47d2a349f705ab51326d23a45ccf32006f31fe4e81ef0ed475c8226cf9f51.jpg",
+        "url": "https://mastodon.social/@leopoldk"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109395478805199928",
+      "published": null,
+      "wm-received": "2023-02-17T21:36:28Z",
+      "wm-id": 1625409,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109395478805199928",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Barker",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7430075ff637e892dcde4c2b240222eff41209111509d14b8f3fffc26ac3909c.jpg",
+        "url": "https://front-end.social/@michelle"
+      },
+      "url": "https://front-end.social/@michelle/109881784249132233",
+      "published": "2023-02-17T19:42:47",
+      "wm-received": "2023-02-17T21:09:14Z",
+      "wm-id": 1625400,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109881702748826530/109881784249132233",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@bnijenhuis\" class=\"u-url\">@<span>bnijenhuis</span></a></span> True, on iOS at any rate</p>",
+        "text": "@bnijenhuis True, on iOS at any rate"
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Nickel",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/6ed63468e74d16a8ca3909621afb98b66a5af19fa627687e51463385f37eddb0.jpg",
+        "url": "https://home.social/@JasonNickel"
+      },
+      "url": "https://home.social/@JasonNickel/109882060370472861",
+      "published": "2023-02-17T20:53:00",
+      "wm-received": "2023-02-17T21:09:14Z",
+      "wm-id": 1625401,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109881702748826530/109882060390647327",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> I usually add resize: vertical to all textareas, since by default the user can stretch it outside the container.</p>",
+        "text": "@michelle I usually add resize: vertical to all textareas, since by default the user can stretch it outside the container."
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Coyier",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/d35cbbbc72da6db6260b7fb3970dfdea39aa5a8e639566f797f1b956ab284bf7.jpg",
+        "url": "https://front-end.social/@chriscoyier"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109304655908819292",
+      "published": null,
+      "wm-received": "2023-02-17T21:08:45Z",
+      "wm-id": 1625399,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109304655908819292",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Carlisle",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/fe0ca33e5b3ec9dedc8e48034c445e328ffbd6e8339b15c1a23e9af9e9d0a330.png",
+        "url": "https://fosstodon.org/@ericcarlisle"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#reblogged-by-109310163103480157",
+      "published": null,
+      "wm-received": "2023-02-17T20:39:12Z",
+      "wm-id": 1625382,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109881702748826530/109310163103480157",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "repost-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "admin",
+        "photo": "",
+        "url": "https://www.imoneyhub.com/author/admin/"
+      },
+      "url": "https://www.imoneyhub.com/2023/02/17/resizing-with-css/",
+      "published": "2023-02-17T20:08:33+00:00",
+      "wm-received": "2023-02-17T20:08:44Z",
+      "wm-id": 1625372,
+      "wm-source": "https://www.imoneyhub.com/2023/02/17/resizing-with-css/",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "name": "Resizing with CSS",
+      "content": {
+        "html": "<p>In case you missed it, <a href=\"https://web.dev/cq-stable/\">container queries landed in all stable browsers</a> this week! It’s a pretty exciting time to be working with CSS, seeing this long-awaited feature finally become useable.</p>\n<p>Una’s post on <a href=\"https://web.dev/cq-stable/\">web.dev</a> includes a rundown of how to use container queries, as well as some nifty demos. By coincidence, I’ve also been editing a soon-to-be-published article by <a href=\"https://thinkdobecreate.com/\">Stephanie</a> on container queries, which also includes some rather lovely demos. Something I’ve noticed about both sets of demos is that they make use of the <code>resize</code> CSS property to create a resizeable area within the document, rather than relying on the user having to resize their entire viewport to see the container queries in action.</p>\n<p style=\"height:560px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/web-dot-dev/pen/ZEMzNGj\"><br />\n  Untitled</a> by web.dev (<a href=\"https://codepen.io/web-dot-dev\">@web-dot-dev</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<p>I was vaguely aware of the <code>resize</code> property, but I hadn’t really thought about any use case for it before, so it kind of passed me by. But it seems perfect for this! I’ll definitely keep it in mind for future demos. You can select which direction to apply the resizing: <code>horizontal</code>, <code>vertical</code> or <code>both</code>, as well as logical properties <code>inline</code> and <code>block</code>, with <code>none</code> as the default.</p>\n<pre><code><span>/* Makes the element horizontally resizeable */</span><br /><span>div</span> <span>{</span><br /><span>resize</span><span>:</span> horizontal<span>;</span><br /><span>}</span></code></pre>\n<p>The element must be a scroll container, meaning that it must have its <code>overflow</code> property value set to <code>scroll</code> or <code>auto</code> in order for <code>resize</code> to have any effect.</p>\n<h2>Use cases</h2>\n<p>Besides these container query demos, I guess another scenario where it might be handy is if you have a floating toolbar or some user controls, and you want the user to be able to move these around the page and position them however they want. Another possible use case could be a long list of options in a scrollable container: the user could resize the element vertically to see more of the options and reduce the amount the need to scroll.</p>\n<p style=\"height:497px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/michellebarker/pen/QWVbzMX\"><br />\n  Untitled</a> by Michelle Barker (<a href=\"https://codepen.io/michellebarker\">@michellebarker</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<p>A kind of cool thing here is that we can set a <code>max-height</code> too, permitted the user to resize only up to a point if we so choose.</p>\n<p><code>resize</code> also respects flex and grid layouts. In this demo the user is permitted to resize the navigation column and the main content area will adapt, as we’re using <code>1fr</code> for the grid column on the right, which causes it to fill the available space.</p>\n<p style=\"height:423px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/michellebarker/pen/eYLNepQ\"><br />\n  Resize</a> by Michelle Barker (<a href=\"https://codepen.io/michellebarker\">@michellebarker</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<h2>Limitations</h2>\n<p>One drawback is the resize control is only positioned in the bottom right corner of the element, and it’s not possible to style it. It would be nice to have this customiseable ability, and increase the area of the resize control. In the menu example it would be better if the user could grab <strong>any</strong> part of the right hand edge, for example.</p>\n<p>In any case, <code>resize</code> will feature much more highly on my radar from now on.</p>\n<ul><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/resize\">Read about it on MDN</a></li>\n<li><a href=\"https://w3c.github.io/csswg-drafts/css-ui/#resize\">Read the spec</a></li>\n</ul><p><a href=\"https://css-irl.info/resizing-with-css/\" style=\"font-style:italic;\">* This article was originally published here</a></p>",
+        "text": "In case you missed it, container queries landed in all stable browsers this week! It’s a pretty exciting time to be working with CSS, seeing this long-awaited feature finally become useable.\nUna’s post on web.dev includes a rundown of how to use container queries, as well as some nifty demos. By coincidence, I’ve also been editing a soon-to-be-published article by Stephanie on container queries, which also includes some rather lovely demos. Something I’ve noticed about both sets of demos is that they make use of the resize CSS property to create a resizeable area within the document, rather than relying on the user having to resize their entire viewport to see the container queries in action.\n\n  See the Pen \n\n  Untitled by web.dev (@web-dot-dev)\n\n  on CodePen.\n\n\nI was vaguely aware of the resize property, but I hadn’t really thought about any use case for it before, so it kind of passed me by. But it seems perfect for this! I’ll definitely keep it in mind for future demos. You can select which direction to apply the resizing: horizontal, vertical or both, as well as logical properties inline and block, with none as the default.\n/* Makes the element horizontally resizeable */\ndiv {\nresize: horizontal;\n}\nThe element must be a scroll container, meaning that it must have its overflow property value set to scroll or auto in order for resize to have any effect.\nUse cases\nBesides these container query demos, I guess another scenario where it might be handy is if you have a floating toolbar or some user controls, and you want the user to be able to move these around the page and position them however they want. Another possible use case could be a long list of options in a scrollable container: the user could resize the element vertically to see more of the options and reduce the amount the need to scroll.\n\n  See the Pen \n\n  Untitled by Michelle Barker (@michellebarker)\n\n  on CodePen.\n\n\nA kind of cool thing here is that we can set a max-height too, permitted the user to resize only up to a point if we so choose.\nresize also respects flex and grid layouts. In this demo the user is permitted to resize the navigation column and the main content area will adapt, as we’re using 1fr for the grid column on the right, which causes it to fill the available space.\n\n  See the Pen \n\n  Resize by Michelle Barker (@michellebarker)\n\n  on CodePen.\n\n\nLimitations\nOne drawback is the resize control is only positioned in the bottom right corner of the element, and it’s not possible to style it. It would be nice to have this customiseable ability, and increase the area of the resize control. In the menu example it would be better if the user could grab any part of the right hand edge, for example.\nIn any case, resize will feature much more highly on my radar from now on.\nRead about it on MDN\nRead the spec\n* This article was originally published here"
+      },
+      "mention-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.imoneyhub.com/2023/02/17/resizing-with-css/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tim",
+        "photo": "https://webmention.io/avatar/front-end.social/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://mastodon.social/@tlow"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109351283540698426",
+      "published": null,
+      "wm-received": "2023-02-17T20:03:50Z",
+      "wm-id": 1625369,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109351283540698426",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Florian Geierstanger",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/f1c020229c0be53788bfc9693d82f8f2da4362a9e3bcda0ce66402875bb61760.jpg",
+        "url": "https://mastodon.social/@kinoauge"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109294894111274110",
+      "published": null,
+      "wm-received": "2023-02-17T20:03:50Z",
+      "wm-id": 1625370,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109294894111274110",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bernard Nijenhuis",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/97e18bcdae1ee90362a849e7211a2351671b48813a2b0403a117c6be93048f92.jpg",
+        "url": "https://mastodon.social/@bnijenhuis"
+      },
+      "url": "https://mastodon.social/@bnijenhuis/109881725694991943",
+      "published": "2023-02-17T19:27:54",
+      "wm-received": "2023-02-17T19:31:10Z",
+      "wm-id": 1625367,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109881702748826530/109881725722603819",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> Another drawback might be that it doesn't work on mobile...?</p>",
+        "text": "@michelle Another drawback might be that it doesn't work on mobile...?"
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "CSS by T. Afif :verified:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cc8bdd877c7cec4197600fc6d5b595d7a05134ad323391707830c9278dc58595.jpg",
+        "url": "https://front-end.social/@css"
+      },
+      "url": "https://front-end.social/@michelle/109881702748826530#favorited-by-109292938549413014",
+      "published": null,
+      "wm-received": "2023-02-17T19:30:41Z",
+      "wm-id": 1625365,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109881702748826530/109292938549413014",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "like-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tim Murtaugh",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/eb6aeaf5ad8b40213622b9208db09f27077a66880e75faf45f997bbe909c92a9.jpg",
+        "url": "https://mastodon.social/@murtaugh"
+      },
+      "url": "https://mastodon.social/@murtaugh/109881732244079218",
+      "published": "2023-02-17T19:29:34",
+      "wm-received": "2023-02-17T19:30:41Z",
+      "wm-id": 1625366,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109881702748826530/109881732268278850",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> I just dug this up recently too! I used it on a widget that lets a user preview an HTML module at different sizes 👍</p>",
+        "text": "@michelle I just dug this up recently too! I used it on a widget that lets a user preview an HTML module at different sizes 👍"
+      },
+      "in-reply-to": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.makemoneyonlinecom.com/servers/2023/02/17/resizing-with-css/",
+      "published": null,
+      "wm-received": "2023-02-17T19:29:48Z",
+      "wm-id": 1625364,
+      "wm-source": "https://www.makemoneyonlinecom.com/servers/2023/02/17/resizing-with-css/",
+      "wm-target": "https://css-irl.info/resizing-with-css/",
+      "mention-of": "https://css-irl.info/resizing-with-css/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://trincherawp.com/noticias-wordpress-06/",
+      "published": null,
+      "wm-received": "2023-02-17T10:52:29Z",
+      "wm-id": 1625118,
+      "wm-source": "https://trincherawp.com/noticias-wordpress-06/",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/?utm_source=trincherawp",
+      "content": {
+        "html": "<span></span>\n<p><a href=\"https://trincherawp.com/newsletter/\">Únete a la Newsletter de Trinchera WP y, cada semana, recibe todas las novedades del sector directamente en tu correo.</a></p>\n\n\n<p>¡Las Noticias de WordPress ya están aquí!</p>\n<h2>WordPress » Comunidad</h2>\n<p>La <strong>WordCamp Chiclana</strong> se celebrará los días 3 y 4 de marzo. <a href=\"https://chiclana.wordcamp.org/2023/compra-tu-entrada/\">Compra ahora tu entrada</a>, que se terminan.</p>\n<p>La <strong>WordCamp Torrelodones</strong> es oficial y se celebrará los días 11 y 12 de marzo. No tardes y <a href=\"https://torrelodones.wordcamp.org/2023/entradas/\">hazte ahora con tu entrada</a>, que se terminan.</p>\n<p>En el equipo de <strong>Core</strong> nos indican que la versión <a href=\"https://make.wordpress.org/core/2023/02/14/wordpress-6-2-beta-2/\">WordPress 6.2 Beta 2 ya está disponible</a> para descargar y probar. La versión 6.2 se centrará en integrar Openverse en la biblioteca de medios y mejorar el bloque de navegación.</p>\n<p>En <strong>Diseño</strong>, han <a href=\"https://make.wordpress.org/design/2023/02/15/design-share-jan-30-feb-10/\">rediseñado las páginas</a> de Directorio de Patrones y la página del Editor Visual.</p>\n<p>Jesús Amieiro, de <strong>Polyglots</strong>, comparte cómo ahora cada «patrón» tendrá su propio proyecto para una mejor traducción. Ahora contamos con <a href=\"https://make.wordpress.org/polyglots/2023/02/16/virtual-projects-for-the-patterns-project/\">«proyectos virtuales para patrones»</a>.</p>\n<p>En <strong>Comunidad</strong>, anuncian que la página de <a href=\"https://openverse.org/\">openverse.org</a> tiene un <a href=\"https://make.wordpress.org/openverse/2023/02/03/openverse-is-moving/\">nuevo diseño</a> para que sea más fácil utilizarla. También se está realizando un debate para <a href=\"https://make.wordpress.org/community/2023/02/13/discussion-refining-the-mentor-program/\">redefinir el Programa de Mentores</a>.</p>\n<h2>Aprender</h2>\n<p><strong>Fernando Tellado</strong> ha creado un artículo muy importante donde nos explica <a href=\"https://ayudawp.com/como-pedir-ayuda-correctamente-foros-soporte-wordpress/?utm_source=trincherawp\">cómo pedir ayuda correctamente en los foros de soporte de WordPress</a>. Además, también nos explica <a href=\"https://ayudawp.com/limitar-ventas-diarias-producto-woocommerce/?utm_source=trincherawp\">cómo limitar las ventas diarias de un producto en WooCommerce</a>.</p>\n<p>Siempre he comentado la importancia que tiene el planificar y gestionar bien un Calendario Editorial para mejorar nuestra productividad. Pues bien, <strong>Ruth Raventós</strong> de Nelio, nos muestra <a href=\"https://neliosoftware.com/es/blog/maximiza-tu-estrategia-de-contenidos-la-importancia-del-calendario-editorial/?utm_source=trincherawp\">la importancia del calendario editorial</a>.</p>\n<p>¿Sabías que los colores pueden estar registrados? <strong>Alfonso Serrano</strong> nos habla sobre <a href=\"https://www.silocreativo.com/colores-estan-registrados-podrian-demandar-usas/?utm_source=trincherawp\">los colores registrados y cómo podrían demandarnos por su uso</a>.</p>\n<p>Siguiendo con WooCommerce, <strong>Álvaro Blanco</strong> nos enseña a <a href=\"https://www.ciudadano2cero.com/configurar-productos-woocommerce/?utm_source=trincherawp\">configurar productos en WooCommerce</a>.</p>\n<p><strong>Antonio Cambronero</strong> nos da las pautas necesarias para <a href=\"https://www.blogpocket.com/2023/02/06/como-convertir-un-tema-clasico-en-un-tema-de-bloques?utm_source=trincherawp\">convertir un tema clásico en un tema de bloques</a>.</p>\n<p>En <strong>NegociosWP</strong>, Elías y Yannick debaten sobre <a href=\"https://negocioswp.es/emprendedor-vs-empleado/?utm_source=trincherawp\">las diferencias entre «emprendedor» y «empleado»</a>.</p>\n<p>Si te interesa el mundo del marketing, en el blog de <strong>Modular DS</strong> puedes aprender sobre <a href=\"https://modulards.com/metricas-web-fundamentales-google-analytics/?utm_source=trincherawp\">las métricas web fundamentales en Google Analytics 4</a>.</p>\n<p>Una empresa de Barcelona, ha creado una herramienta de Analítica Web para competir con Google Analytics. <a href=\"https://sealmetrics.com/?utm_source=trincherawp\">Analiza el tráfico de tu página sin rastrear a las personas</a>.</p>\n<h2>Aprender en Inglés</h2>\n<p><a href=\"https://wptavern.com/wordpress-project-aims-to-complete-customization-phase-and-begin-exploring-collaboration-in-2023/?utm_source=trincherawp\">Como comentan en WPTavern</a>, el objetivo para este 2023 es que dejemos atrás la «Fase 2 (personalización)» y comencemos con la «Fase 3 (Colaboración)».</p>\n<p>En <strong>WPBeginner</strong> nos explican <a href=\"https://www.wpbeginner.com/beginners-guide/how-to-properly-change-move-and-delete-wordpress-categories/?utm_source=trincherawp\">cómo cambiar, mover y eliminar las categorías de WordPress</a>.</p>\n<p>Nitish Kumar, de <strong>Envato</strong>, comparte con nosotros <a href=\"https://webdesign.tutsplus.com/tutorials/wordpress-pingbacks-everything-you-should-know--cms-93518?utm_source=trincherawp\">qué son y cómo funcionan los «Pingbacks» de WordPress</a>.</p>\n<p>La gente de <strong>Awesome Motive</strong> ha comprado <strong>Thrive Themes</strong>. Aquí puedes ver la <a href=\"https://awesomemotive.com/awesome-motive-acquires-thrive-themes-growth-tool-suite-to-help-small-businesses-improve-their-online-marketing/\">publicación de Awesome Motive</a>.</p>\n<p>En <strong>WPMU DEV</strong> han creado una <a href=\"https://wpmudev.com/blog/wordpress-local-development-cheatsheet/?utm_source=trincherawp\">«checklist» para desarrollar en local</a>.</p>\n<p>Peter Ramsey, de <strong>Smashing Magazine</strong>, nos explica <a href=\"https://www.smashingmagazine.com/2023/01/copying-designs-doesnt-work/?utm_source=trincherawp\">por qué copiar diseños no funciona</a>.</p>\n<p>La «carga lenta» es esencial para un buen WPO. En <strong>CSS-Tricks</strong> nos explican <a href=\"https://css-tricks.com/an-approach-to-lazy-loading-custom-elements/?utm_source=trincherawp\">cómo podemos utilizar la carga lenta en elementos personalizados</a>.</p>\n<p>La <strong>accesibilidad</strong> es importante y los colores pueden ser complicados de gestionar. En <strong>CSS-IRL</strong> nos explican <a href=\"https://css-irl.info/testing-colour-accessibility-with-dev-tools/?utm_source=trincherawp\">cómo comprobar los colores directamente con Dev Tools</a>.</p>\n\n\n<span></span>\n<p><a href=\"https://trincherawp.com/newsletter/\">Únete a la Newsletter de Trinchera WP y, cada semana, recibe todas las novedades del sector directamente en tu correo.</a></p>",
+        "text": "Únete a la Newsletter de Trinchera WP y, cada semana, recibe todas las novedades del sector directamente en tu correo.\n\n\n¡Las Noticias de WordPress ya están aquí!\nWordPress » Comunidad\nLa WordCamp Chiclana se celebrará los días 3 y 4 de marzo. Compra ahora tu entrada, que se terminan.\nLa WordCamp Torrelodones es oficial y se celebrará los días 11 y 12 de marzo. No tardes y hazte ahora con tu entrada, que se terminan.\nEn el equipo de Core nos indican que la versión WordPress 6.2 Beta 2 ya está disponible para descargar y probar. La versión 6.2 se centrará en integrar Openverse en la biblioteca de medios y mejorar el bloque de navegación.\nEn Diseño, han rediseñado las páginas de Directorio de Patrones y la página del Editor Visual.\nJesús Amieiro, de Polyglots, comparte cómo ahora cada «patrón» tendrá su propio proyecto para una mejor traducción. Ahora contamos con «proyectos virtuales para patrones».\nEn Comunidad, anuncian que la página de openverse.org tiene un nuevo diseño para que sea más fácil utilizarla. También se está realizando un debate para redefinir el Programa de Mentores.\nAprender\nFernando Tellado ha creado un artículo muy importante donde nos explica cómo pedir ayuda correctamente en los foros de soporte de WordPress. Además, también nos explica cómo limitar las ventas diarias de un producto en WooCommerce.\nSiempre he comentado la importancia que tiene el planificar y gestionar bien un Calendario Editorial para mejorar nuestra productividad. Pues bien, Ruth Raventós de Nelio, nos muestra la importancia del calendario editorial.\n¿Sabías que los colores pueden estar registrados? Alfonso Serrano nos habla sobre los colores registrados y cómo podrían demandarnos por su uso.\nSiguiendo con WooCommerce, Álvaro Blanco nos enseña a configurar productos en WooCommerce.\nAntonio Cambronero nos da las pautas necesarias para convertir un tema clásico en un tema de bloques.\nEn NegociosWP, Elías y Yannick debaten sobre las diferencias entre «emprendedor» y «empleado».\nSi te interesa el mundo del marketing, en el blog de Modular DS puedes aprender sobre las métricas web fundamentales en Google Analytics 4.\nUna empresa de Barcelona, ha creado una herramienta de Analítica Web para competir con Google Analytics. Analiza el tráfico de tu página sin rastrear a las personas.\nAprender en Inglés\nComo comentan en WPTavern, el objetivo para este 2023 es que dejemos atrás la «Fase 2 (personalización)» y comencemos con la «Fase 3 (Colaboración)».\nEn WPBeginner nos explican cómo cambiar, mover y eliminar las categorías de WordPress.\nNitish Kumar, de Envato, comparte con nosotros qué son y cómo funcionan los «Pingbacks» de WordPress.\nLa gente de Awesome Motive ha comprado Thrive Themes. Aquí puedes ver la publicación de Awesome Motive.\nEn WPMU DEV han creado una «checklist» para desarrollar en local.\nPeter Ramsey, de Smashing Magazine, nos explica por qué copiar diseños no funciona.\nLa «carga lenta» es esencial para un buen WPO. En CSS-Tricks nos explican cómo podemos utilizar la carga lenta en elementos personalizados.\nLa accesibilidad es importante y los colores pueden ser complicados de gestionar. En CSS-IRL nos explican cómo comprobar los colores directamente con Dev Tools.\n\n\n\nÚnete a la Newsletter de Trinchera WP y, cada semana, recibe todas las novedades del sector directamente en tu correo."
+      },
+      "mention-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/?utm_source=trincherawp",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://trincherawp.com/noticias-wordpress-06/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://seriestutorials.com/running-with-color-scales-for-information-visualisation-in-d3/",
+      "published": null,
+      "wm-received": "2023-02-17T01:03:30Z",
+      "wm-id": 1624760,
+      "wm-source": "https://seriestutorials.com/running-with-color-scales-for-information-visualisation-in-d3/",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "mention-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tommi",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/d6a755e7a6fbb227b7291bc58eaa9379391c4150946017ebfc552d97cd11f9fe.jpg",
+        "url": "https://pan.rent/@tommi"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109393597227021586",
+      "published": null,
+      "wm-received": "2023-02-15T00:19:08Z",
+      "wm-id": 1623048,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109393597227021586",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Barry White",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8d34971af2969371e17c011a9f6889967b696c1d7287ed646d958b69ed4bacb1.jpg",
+        "url": "https://mastodon.social/@barrygw"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109516781223959996",
+      "published": null,
+      "wm-received": "2023-02-14T20:42:19Z",
+      "wm-id": 1622963,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109516781223959996",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yan Lyesin",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/b4b5e4b432808d3c49956cc121ddd1a47ccf3e526181a9c872a3f25b0dc95acb.jpg",
+        "url": "https://mstdn.social/@yanlyesin"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109553005881062480",
+      "published": null,
+      "wm-received": "2023-02-14T20:41:51Z",
+      "wm-id": 1622962,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109553005881062480",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.makemoneyonlinecom.com/servers/2023/02/14/working-with-colour-scales-for-data-visualisation-in-d3/",
+      "published": null,
+      "wm-received": "2023-02-14T19:31:13Z",
+      "wm-id": 1622923,
+      "wm-source": "https://www.makemoneyonlinecom.com/servers/2023/02/14/working-with-colour-scales-for-data-visualisation-in-d3/",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "mention-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "admin",
+        "photo": "",
+        "url": "https://www.imoneyhub.com/author/admin/"
+      },
+      "url": "https://www.imoneyhub.com/2023/02/14/working-with-colour-scales-for-data-visualisation-in-d3/",
+      "published": "2023-02-14T18:14:14+00:00",
+      "wm-received": "2023-02-14T18:14:35Z",
+      "wm-id": 1622895,
+      "wm-source": "https://www.imoneyhub.com/2023/02/14/working-with-colour-scales-for-data-visualisation-in-d3/",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "name": "Working with Colour Scales for Data Visualisation in D3",
+      "content": {
+        "html": "<img src=\"https://css-irl.info/working-with-color-scales-03.jpg\" alt=\"Temperature chart with threshold scale applied, showing distinct colour bands\" width=\"1200\" height=\"578\" />Temperature anomaly data from the Global Warming and Climate Change API, visualised with D3<p>There are many different ways of using colour informatively when it comes to data visualization. But we also need to ensure our use of colour conveys the right information, and that it is used accessibly. In this article we’ll walk through some examples of using colour in different types of visualizations with the data visualization library <a href=\"https://d3js.org/\">D3.js</a>. Some familiarity with D3 will be assumed, but there will be some helpful pointers regardless of how you create your visualizations.</p>\n<h2>Is colour the best option?</h2>\n<p>Colour can be extremely useful in conveying meaning in our designs. It can also be difficult to get right, and in the worst case could have a negative impact on the user experience. Some colour combinations are difficult to perceive by people with colour blindness or low vision. Some colours might have different cultural significance in different parts of the world, which can affect how they are interpreted in a UI. The colour red might signify warning or danger in the western world, but in East Asian countries often represents happiness and good fortune.</p>\n<p>Therefore, it’s rarely a good idea to rely on colour alone. Before creating a chart, we should consider what other options are available to us for visualizing our data. It’s useful to keep in mind <a href=\"https://webflow.com/blog/gestalt-principles-of-design\">Gestalt principles</a>: size, position, proximity, grouping and contrast could be some other ways to differentiate data, as well as text labels when necessary. On the web we’re lucky because our charts can also be interactive: we can progressively disclose more information to the user, without overwhelming them.</p>\n<h2>Colour scales</h2>\n<p>Assuming we’ve established that colour is important for our visualization, let’s look at some colour scale options. We’re going to be using the <a href=\"https://github.com/d3/d3-scale\">d3-scale</a> module, and evaluating some different use cases for its various scale functions.</p>\n<h3>Overview of scales</h3>\n<p>The purpose of a scale is to map one range of values to another. In D3 (and data visualization in general), their purpose is to map values in a set of data to a visual representation. We can see the principle illustrated in <a href=\"https://codepen.io/michellebarker/pen/PoEGXjM\">this demo</a>, where hovering on the larger area maps the position on the smaller one.</p>\n<p style=\"height:500px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/michellebarker/pen/PoEGXjM\"><br />\n  D3 domain/range</a> by Michelle Barker (<a href=\"https://codepen.io/michellebarker\">@michellebarker</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<p>The input (that is, the data we want to map) is the <strong>domain</strong> and the output (consisting of the range of values our mapped data should result in) is called the <strong>range</strong>.</p>\n<p>D3 has a lot of different scale functions, but we’ll look at a handful that are particularly useful when working with colour in data visualization. To demonstrate we’re going to visualize data from the Global Warming and Climate Change API. To start with we’ll fetch data from <a href=\"https://global-warming.org/api/temperature-api\">this endpoint</a>, which gives us an array of global temperature anomalies from 1893 to the present day. We’ll plot these as a linear gradient in CSS, which will allow us to see the advantages on disadvantages of the different types of scales in action.</p>\n<p>To help visualise the result of applying different colour scales, here is an interactive demo that demonstrates linear, diverging and threshold colour scales — the main ones I’ll be explaining in this article.</p>\n<p style=\"height:489px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/michellebarker/pen/NWBZQRj\"><br />\n  D3 color scale visualizer</a> by Michelle Barker (<a href=\"https://codepen.io/michellebarker\">@michellebarker</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<h2>Continuous scales</h2>\n<p><a href=\"https://github.com/d3/d3-scale#continuous-scales\">Continuous scales</a> in D3 enable us to map a continuous, quantitative input domain to a continuous output range. Let’s look at an example of a continuous colour scale using D3’s <code>scaleLinear</code> function. Here we’re creating a function to map a domain of values from 0 to 100 to a continuous colour range from royalblue to pink.</p>\n<pre><code><span>const</span> colorScale <span>=</span> d3<br /><span>.</span><span>scaleLinear</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span><span>0</span><span>,</span> <span>100</span><span>]</span><span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'royalblue'</span><span>,</span> <span>'pink'</span><span>]</span><span>)</span></code></pre>\n<p>If we call our colour scale function, passing in a value from 0 to 100 we’ll get a colour that falls somewhere within that range. So <code>colorScale(0)</code> will give us royalblue (output as <code>rgb(173, 216, 230)</code>), <code>colorScale(100)</code> will give us pink (<code>rgb(255, 192, 203)</code>), while <code>colorScale(50)</code> results in a lavender colour (interpolated from blue and pink).</p>\n<img src=\"https://css-irl.info/working-with-color-scales-02.jpg\" alt=\"Screenshot showing the resulting colours on the colour scale\" width=\"1035\" height=\"292\" /><br /><h3>Clamping</h3>\n<p>Passing in a value outside of our expected domain can result in some unexpected colours. For example, <code>colorScale(200)</code> results in <code>rgb(255, 255, 181)</code>, a pale yellow colour!</p>\n<img src=\"https://css-irl.info/working-with-color-scales-01.svg\" alt=\"Colour swatches showing the (expected) colour values for 0 and 100, and the unexpected yellow colour for 200\" width=\"1200\" height=\"900\" /><br /><p>A solution is to use the clamp method, which ensures any values outside of the domain will be clamped to the given range, and we won’t get any unexpected results.</p>\n<pre><code><span>const</span> colorScale <span>=</span> d3<br /><span>.</span><span>scaleLinear</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span><span>0</span><span>,</span> <span>100</span><span>]</span><span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'royalblue'</span><span>,</span> <span>'pink'</span><span>]</span><span>)</span><br /><span>.</span><span>clamp</span><span>(</span><span>true</span><span>)</span></code></pre>\n<h2>Working with data</h2>\n<p>When working with data it’s likely we’ll want our domain to be determined by the data itself. We can use D3’s <code>extent</code> function to get the highest and lowest values in our dataset as an array. We can pass in a simple array, for example:</p>\n<pre><code>d3<span>.</span><span>extent</span><span>(</span><span>[</span><span>0</span><span>,</span> <span>20</span><span>,</span> <span>50</span><span>,</span> <span>100</span><span>]</span><span>)</span> <span>// result: [0, 100]</span></code></pre>\n<p>Alternatively we can use an accessor function, if we want to use a particular attribute from our data. Let’s fetch some data from the Global Warming and Climate Change API and use the <code>extent</code> function to get the domain based on land temperature anomaly values from the dataset. We’ll write a new function called <code>draw</code> to do this, seeing as we’ll be using it quite a bit later on:</p>\n<pre><code><span>/* Fetch data */</span><br /><span>fetch</span><span>(</span><span>'https://global-warming.org/api/temperature-api'</span><span>)</span><br /><span>.</span><span>then</span><span>(</span><span>(</span><span>response</span><span>)</span> <span>=&gt;</span> response<span>.</span><span>json</span><span>(</span><span>)</span><span>)</span><br /><span>.</span><span>then</span><span>(</span><span>(</span><span>response</span><span>)</span> <span>=&gt;</span> <span>{</span><br /><span>const</span> data <span>=</span> <span>downsampleData</span><span>(</span>response<span>.</span>result<span>)</span><br /><span>draw</span><span>(</span>data<span>)</span><br /><span>}</span><span>)</span><br /><span>.</span><span>catch</span><span>(</span><span>(</span><span>error</span><span>)</span> <span>=&gt;</span> error<span>)</span><br /><br /><span>/* Accessor function to get the land temperature from the datum */</span><br /><span>const</span> <span>yAccessor</span> <span>=</span> <span>(</span><span>d</span><span>)</span> <span>=&gt;</span> <span>parseFloat</span><span>(</span>d<span>.</span>land<span>)</span><br /><br /><span>const</span> <span>draw</span> <span>=</span> <span>(</span><span>data</span><span>)</span> <span>=&gt;</span> <span>{</span><br /><span>/* Retrieve the lowest and highest temperatures from our data */</span><br /><span>const</span> domain <span>=</span> d3<span>.</span><span>extent</span><span>(</span>data<span>,</span> yAccessor<span>)</span> <span>// result: [-0.481, 1.018]</span><br /><br /><span>const</span> colorScale <span>=</span> d3<br /><span>.</span><span>scaleLinear</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span>domain<span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'pink'</span><span>,</span> <span>'blue'</span><span>]</span><span>)</span><br /><span>.</span><span>clamp</span><span>(</span><span>true</span><span>)</span><br /><span>}</span></code></pre>\n<p>The request response contains quite high resolution data. In the demo we’re using a function to downsample the data so that we are working with the average temperature anomaly on a yearly rather than monthly basis. This might not be necessary for your own dataset.</p>\n<p>Let’s use our linear colour scale with our data to render a an SVG with a gradient fill that corresponds to temperature anomaly values over time — where higher temperatures are represented by colours towards the pink end of the scale and lower temperatures by bluer colours.</p>\n<pre><code><span>/* In our draw function */</span><br /><span>const</span> colorScale <span>=</span> d3<br /><span>.</span><span>scaleLinear</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span>domain<span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'pink'</span><span>,</span> <span>'royalblue'</span><span>]</span><span>)</span><br /><span>.</span><span>clamp</span><span>(</span><span>true</span><span>)</span><br /><br /><span>/* Create SVG */</span><br /><span>const</span> svg <span>=</span> chart<br /><span>.</span><span>append</span><span>(</span><span>'svg'</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'width'</span><span>,</span> <span>600</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'height'</span><span>,</span> <span>400</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'viewBox'</span><span>,</span> <span>'0 0 600 400'</span><span>)</span><br /><br /><span>/* Append &lt;defs&gt; element containing &lt;linearGradient&gt;, where we will define the gradient to use */</span><br /><span>const</span> gradient <span>=</span> svg<span>.</span><span>append</span><span>(</span><span>'defs'</span><span>)</span><span>.</span><span>append</span><span>(</span><span>'linearGradient'</span><span>)</span><span>.</span><span>attr</span><span>(</span><span>'id'</span><span>,</span> <span>'grad1'</span><span>)</span><br /><br /><span>/* Create the gradient stops from our data */</span><br />data<span>.</span><span>forEach</span><span>(</span><span>(</span><span>d<span>,</span> index</span><span>)</span> <span>=&gt;</span> <span>{</span><br /><span>const</span> color <span>=</span> <span>colorScale</span><span>(</span><span>yAccessor</span><span>(</span>d<span>)</span><span>)</span><br /><span>const</span> step <span>=</span> <span>100</span> <span>/</span> data<span>.</span>length<br /><br />  gradient<span>.</span><span>append</span><span>(</span><span>'stop'</span><span>)</span><span>.</span><span>attr</span><span>(</span><span>'offset'</span><span>,</span> <span>0</span><span>)</span><span>.</span><span>attr</span><span>(</span><span>'stop-colour'</span><span>,</span> color<span>)</span><br /><br />  gradient<br /><span>.</span><span>append</span><span>(</span><span>'stop'</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'offset'</span><span>,</span> <span><span>`</span><span><span>${</span>index <span>*</span> step<span>}</span></span><span>%</span><span>`</span></span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'stop-colour'</span><span>,</span> color<span>)</span><br /><span>}</span><span>)</span><br /><br /><span>/* Create a rectangle and fill it with the gradient background */</span><br />svg<br /><span>.</span><span>append</span><span>(</span><span>'rect'</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'x'</span><span>,</span> <span>0</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'y'</span><span>,</span> <span>0</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'width'</span><span>,</span> <span>600</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'height'</span><span>,</span> <span>400</span><span>)</span><br /><span>.</span><span>attr</span><span>(</span><span>'fill'</span><span>,</span> <span>'url(#grad1)'</span><span>)</span></code></pre>\n<p>We <strong>could</strong> use a CSS gradient for this particular visualisation, but if we want to create a more complex chart that includes axes, labels, and more information, using an SVG is much more versatile.</p>\n<img src=\"https://css-irl.info/working-with-color-scales-02c.jpg\" alt=\"Temperature chart with linear colour scale. Higher temperature anomalies are depicted by pink colours, lower anomalies by blue\" width=\"1200\" height=\"786\" /><br /><p>Note, when we use a linear scale both our domain and range can include a greater number of values, but it generally works best if both arrays are of the same length. In this example <code>colorScale(0)</code> will map to dark violet, <code>colorScale(100)</code> will map to red, and so on.</p>\n<pre><code>d3<span>.</span><span>scaleLinear</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span><span>-</span><span>100</span><span>,</span> <span>0</span><span>,</span> <span>100</span><span>]</span><span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'lightblue'</span><span>,</span> <span>'darkviolet'</span><span>,</span> <span>'red'</span><span>]</span><span>)</span></code></pre>\n<h3>Diverging scales</h3>\n<p>We can in fact use a different scale function for creating diverging colour scales: <code>scaleDiverging</code> always takes three values for its domain, similar to our linear scale function above. But instead of a range, we can specify an interpolator. D3 provides a bunch of colour scheme interpolators in its <a href=\"https://github.com/d3/d3-scale-chromatic\">d3-scale-chromatic module</a>. The interpolator <code>d3.interpolateRdYlBu</code> is perfect for our temperature data, as it goes from red, through neutral colours, to dark blue. It also has a good degree of tonal contrast, with the lightness of the colours decreasing towards either end of the scale. This makes it more accessible for users that might find it difficult to perceive changes in hue.</p>\n<p>We’ll flip the domain around in this instance, so that higher values will be represented by colours towards the red end of the scale and vice versa. We’re setting a middle value of 0, as 0 represents no temperature anomaly, which should be represented by a neutral colour.</p>\n<p>Let’s apply this scale to our dataset.</p>\n<pre><code><span>/* Replace the previous `colorScale` value in our draw function: */</span><br /><span>const</span> colorScale <span>=</span> d3<br /><span>.</span><span>scaleDiverging</span><span>(</span>d3<span>.</span>interpolateRdYlBu<span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span>domain<span>[</span><span>1</span><span>]</span><span>,</span> <span>0</span><span>,</span> domain<span>[</span><span>0</span><span>]</span><span>]</span><span>)</span></code></pre>\n<p style=\"height:481px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/michellebarker/pen/QWVWdjz\"><br />\n  D3 colour scale linear (diverging)</a> by Michelle Barker (<a href=\"https://codepen.io/michellebarker\">@michellebarker</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<h2>Interpolation</h2>\n<p>As we have seen, D3’s scale functions interpolate between two (or more) colours to produce hues that fall anywhere between those in our specified colour range. We can choose how the colours are interpolated on a linear scale using D3’s various interpolation methods. Specifying <code>interpolateCubeHelix</code> as an interpolation method, for example, will yield quite a different result to <code>interpolateRGB</code>.</p>\n<pre><code><span>const</span> colorScale <span>=</span> d3<br /><span>.</span><span>scaleLinear</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span><span>0</span><span>,</span> <span>100</span><span>]</span><span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'royalblue'</span><span>,</span> <span>'pink'</span><span>]</span><span>)</span><br /><span>.</span><span>interpolate</span><span>(</span>d3<span>.</span>interpolateCubehelix<span>)</span></code></pre>\n<p>colour interpolation is a huge topic, beyond the scope of this article. Check out the documentation on colour spaces in the <a href=\"https://github.com/d3/d3-interpolate#colour-spaces\">d3-interpolate</a> module for details of the various interpolation methods available in D3 — and try playing around with them to see the different results.</p>\n<h2>Discrete scales</h2>\n<p>We’re going to take a look at two of D3’s scale functions for working with <a href=\"https://www.g2.com/articles/discrete-vs-continuous-data\">discrete data</a> — data that consists of individual or countable values. Using our temperature data, perhaps we want to draw a line graph showing distinct lines for temperature over time during the spring, summer, autumn and winter respectively. Spring, summer, autumn and winter are discrete values (they are each distinct), while temperature is continuous.</p>\n<h3>Ordinal scale</h3>\n<p>If we want to colour our lines distinctly for the four seasons we could use an ordinal scale. This maps a discrete input to a discrete output with a 1:1 relationship.</p>\n<pre><code>d3<span>.</span><span>scaleOrdinal</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span><span>'spring'</span><span>,</span> <span>'summer'</span><span>,</span> <span>'autumn'</span><span>,</span> <span>'winter'</span><span>]</span><span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'turquoise'</span><span>,</span> <span>'pink'</span><span>,</span> <span>'orangered'</span><span>,</span> <span>'royalblue'</span><span>]</span><span>)</span></code></pre>\n<p style=\"height:481px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/michellebarker/pen/YzjMMNp\"><br />\n  D3 ordinal colour scale</a> by Michelle Barker (<a href=\"https://codepen.io/michellebarker\">@michellebarker</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<p>We would expect our data to fall into any one of these categories. On the other hand, if we were displaying a bar chart showing the number of survey respondents categorized by gender, there could be some responses that do not conform to our three categories: a respondent might have entered a different gender in their response, or declined to answer. We can use the unknown() method to define a colour for unexpected or undefined values:</p>\n<pre><code>d3<span>.</span><span>scaleOrdinal</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span><span>'male'</span><span>,</span> <span>'female'</span><span>,</span> <span>'non-binary'</span><span>]</span><span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'blue'</span><span>,</span> <span>'cornflowerblue'</span><span>,</span> <span>'lightblue'</span><span>]</span><span>)</span><br /><span>.</span><span>unknown</span><span>(</span><span>'grey'</span><span>)</span></code></pre>\n<h3>Threshold scale</h3>\n<p>A threshold scale is useful when we have continuous numerical input that we want to map to a discrete output. In our temperature data, it could be difficult to determine small changes in temperature when using a continuous colour scale. But using a threshold scale, we can show when the temperature crosses a given threshold, and provide visually distinct colours (see <a href=\"https://codepen.io/michellebarker/pen/NWBZQRj\">the demo</a>). The scale’s domain should consist of the threshold boundaries.</p>\n<pre><code><span>const</span> colorScaleThreshold <span>=</span> d3<br /><span>.</span><span>scaleThreshold</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span><span>[</span><span>-</span><span>0.25</span><span>,</span> <span>0</span><span>,</span> <span>0.25</span><span>,</span> <span>0.5</span><span>,</span> <span>0.75</span><span>]</span><span>)</span><br /><span>.</span><span>range</span><span>(</span><span>[</span><span>'royalblue'</span><span>,</span> <span>'lightblue'</span><span>,</span> <span>'azure'</span><span>,</span> <span>'pink'</span><span>,</span> <span>'hotpink'</span><span>]</span><span>)</span></code></pre>\n<p>If we use this scale for our temperature data we can clearly see the marked increase in temperature anomalies in the early part of this century. For finer detail, we could increase the number of colour thresholds.</p>\n<img src=\"https://css-irl.info/working-with-color-scales-02b.jpg\" alt=\"Temperature chart with threshold scale applied, showing distinct colour bands\" width=\"1200\" height=\"578\" /><br /><p>Rather than manually set our threshold colours, we could compute these from our linear or diverging scales.</p>\n<pre><code><span>/* In our draw function: */</span><br /><br /><span>/* Create the continuous colour scale to interpolate threshold colour values */</span><br /><span>const</span> colorScaleDiverging <span>=</span> d3<br /><span>.</span><span>scaleDiverging</span><span>(</span>d3<span>.</span>interpolateRdYlBu<span>)</span><br /><span>.</span><span>domain</span><span>(</span>linearDomain<span>)</span><br /><span>.</span><span>clamp</span><span>(</span><span>true</span><span>)</span><br /><br /><span>/* Create the threshold scale domain - equally spaced values from the data extent */</span><br /><span>const</span> totalThresholds <span>=</span> <span>8</span><br /><span>// Calculate the value between each threshold</span><br /><span>const</span> step <span>=</span> <span>(</span>domain<span>[</span><span>1</span><span>]</span> <span>-</span> domain<span>[</span><span>0</span><span>]</span><span>)</span> <span>/</span> totalThresholds<br /><br /><span>const</span> thresholdScaleDomain <span>=</span> d3<span>.</span><span>range</span><span>(</span>totalThresholds<span>)</span><span>.</span><span>map</span><span>(</span><span>(</span><span>d</span><span>)</span> <span>=&gt;</span> <span>{</span><br /><span>return</span> <span>(</span>d <span>+</span> <span>1</span><span>)</span> <span>*</span> step <span>+</span> domain<span>[</span><span>0</span><span>]</span><br /><span>}</span><span>)</span><br /><br /><span>/* Create the threshold scale range using our previous colour scale function. It sould have the same number of values as the domain */</span><br /><span>let</span> thresholdScaleRange <span>=</span> thresholdScaleDomain<span>.</span><span>map</span><span>(</span><span>(</span><span>d</span><span>)</span> <span>=&gt;</span> <span>{</span><br /><span>return</span> <span>colorScaleDiverging</span><span>(</span>d<span>)</span><br /><span>}</span><span>)</span><br /><br />thresholdScaleRange <span>=</span> <span>[</span><br /><span>colorScaleLinear</span><span>(</span>domain<span>[</span><span>0</span><span>]</span><span>)</span><span>,</span> <span>// include the lowest threshold, so we don't miss out on the first colour</span><br /><span>...</span>thresholdScaleRange<span>,</span><br /><span>]</span><br /><br /><span>/* Use these in our new colour scale function */</span><br /><span>const</span> colorScaleThreshold <span>=</span> d3<br /><span>.</span><span>scaleThreshold</span><span>(</span><span>)</span><br /><span>.</span><span>domain</span><span>(</span>thresholdScaleDomain<span>)</span><br /><span>.</span><span>range</span><span>(</span>thresholdScaleRange<span>)</span></code></pre>\n<p>Using a threshold scale rather than a linear scale, we can more clearly see the temperature contrast over the long term with getting too granular. Reducing the number of thresholds creates a starker visual disparity between the beginning of the last century and recent years, as we can clearly see the proportion of data that falls above given thresholds. Try adjusting the number of thresholds in this demo to see the impact.</p>\n<p style=\"height:489px;border:2px solid;margin:1em 0;padding:1em;\">\n  <span>See the Pen <a href=\"https://codepen.io/michellebarker/pen/oNPNYmL\"><br />\n  D3 colour scale threshold (diverging)</a> by Michelle Barker (<a href=\"https://codepen.io/michellebarker\">@michellebarker</a>)<br />\n  on <a href=\"https://codepen.io/\">CodePen</a>.</span>\n</p>\n<p></p>\n<p>Hopefully this article has given you a good overview of where different types of scales might come useful when working with colour and data visualisation.</p>\n<p><a href=\"https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/\" style=\"font-style:italic;\">* This article was originally published here</a></p>",
+        "text": "Temperature anomaly data from the Global Warming and Climate Change API, visualised with D3There are many different ways of using colour informatively when it comes to data visualization. But we also need to ensure our use of colour conveys the right information, and that it is used accessibly. In this article we’ll walk through some examples of using colour in different types of visualizations with the data visualization library D3.js. Some familiarity with D3 will be assumed, but there will be some helpful pointers regardless of how you create your visualizations.\nIs colour the best option?\nColour can be extremely useful in conveying meaning in our designs. It can also be difficult to get right, and in the worst case could have a negative impact on the user experience. Some colour combinations are difficult to perceive by people with colour blindness or low vision. Some colours might have different cultural significance in different parts of the world, which can affect how they are interpreted in a UI. The colour red might signify warning or danger in the western world, but in East Asian countries often represents happiness and good fortune.\nTherefore, it’s rarely a good idea to rely on colour alone. Before creating a chart, we should consider what other options are available to us for visualizing our data. It’s useful to keep in mind Gestalt principles: size, position, proximity, grouping and contrast could be some other ways to differentiate data, as well as text labels when necessary. On the web we’re lucky because our charts can also be interactive: we can progressively disclose more information to the user, without overwhelming them.\nColour scales\nAssuming we’ve established that colour is important for our visualization, let’s look at some colour scale options. We’re going to be using the d3-scale module, and evaluating some different use cases for its various scale functions.\nOverview of scales\nThe purpose of a scale is to map one range of values to another. In D3 (and data visualization in general), their purpose is to map values in a set of data to a visual representation. We can see the principle illustrated in this demo, where hovering on the larger area maps the position on the smaller one.\n\n  See the Pen \n\n  D3 domain/range by Michelle Barker (@michellebarker)\n\n  on CodePen.\n\n\nThe input (that is, the data we want to map) is the domain and the output (consisting of the range of values our mapped data should result in) is called the range.\nD3 has a lot of different scale functions, but we’ll look at a handful that are particularly useful when working with colour in data visualization. To demonstrate we’re going to visualize data from the Global Warming and Climate Change API. To start with we’ll fetch data from this endpoint, which gives us an array of global temperature anomalies from 1893 to the present day. We’ll plot these as a linear gradient in CSS, which will allow us to see the advantages on disadvantages of the different types of scales in action.\nTo help visualise the result of applying different colour scales, here is an interactive demo that demonstrates linear, diverging and threshold colour scales — the main ones I’ll be explaining in this article.\n\n  See the Pen \n\n  D3 color scale visualizer by Michelle Barker (@michellebarker)\n\n  on CodePen.\n\n\nContinuous scales\nContinuous scales in D3 enable us to map a continuous, quantitative input domain to a continuous output range. Let’s look at an example of a continuous colour scale using D3’s scaleLinear function. Here we’re creating a function to map a domain of values from 0 to 100 to a continuous colour range from royalblue to pink.\nconst colorScale = d3\n.scaleLinear()\n.domain([0, 100])\n.range(['royalblue', 'pink'])\nIf we call our colour scale function, passing in a value from 0 to 100 we’ll get a colour that falls somewhere within that range. So colorScale(0) will give us royalblue (output as rgb(173, 216, 230)), colorScale(100) will give us pink (rgb(255, 192, 203)), while colorScale(50) results in a lavender colour (interpolated from blue and pink).\n\nClamping\nPassing in a value outside of our expected domain can result in some unexpected colours. For example, colorScale(200) results in rgb(255, 255, 181), a pale yellow colour!\n\nA solution is to use the clamp method, which ensures any values outside of the domain will be clamped to the given range, and we won’t get any unexpected results.\nconst colorScale = d3\n.scaleLinear()\n.domain([0, 100])\n.range(['royalblue', 'pink'])\n.clamp(true)\nWorking with data\nWhen working with data it’s likely we’ll want our domain to be determined by the data itself. We can use D3’s extent function to get the highest and lowest values in our dataset as an array. We can pass in a simple array, for example:\nd3.extent([0, 20, 50, 100]) // result: [0, 100]\nAlternatively we can use an accessor function, if we want to use a particular attribute from our data. Let’s fetch some data from the Global Warming and Climate Change API and use the extent function to get the domain based on land temperature anomaly values from the dataset. We’ll write a new function called draw to do this, seeing as we’ll be using it quite a bit later on:\n/* Fetch data */\nfetch('https://global-warming.org/api/temperature-api')\n.then((response) => response.json())\n.then((response) => {\nconst data = downsampleData(response.result)\ndraw(data)\n})\n.catch((error) => error)\n\n/* Accessor function to get the land temperature from the datum */\nconst yAccessor = (d) => parseFloat(d.land)\n\nconst draw = (data) => {\n/* Retrieve the lowest and highest temperatures from our data */\nconst domain = d3.extent(data, yAccessor) // result: [-0.481, 1.018]\n\nconst colorScale = d3\n.scaleLinear()\n.domain(domain)\n.range(['pink', 'blue'])\n.clamp(true)\n}\nThe request response contains quite high resolution data. In the demo we’re using a function to downsample the data so that we are working with the average temperature anomaly on a yearly rather than monthly basis. This might not be necessary for your own dataset.\nLet’s use our linear colour scale with our data to render a an SVG with a gradient fill that corresponds to temperature anomaly values over time — where higher temperatures are represented by colours towards the pink end of the scale and lower temperatures by bluer colours.\n/* In our draw function */\nconst colorScale = d3\n.scaleLinear()\n.domain(domain)\n.range(['pink', 'royalblue'])\n.clamp(true)\n\n/* Create SVG */\nconst svg = chart\n.append('svg')\n.attr('width', 600)\n.attr('height', 400)\n.attr('viewBox', '0 0 600 400')\n\n/* Append <defs> element containing <linearGradient>, where we will define the gradient to use */\nconst gradient = svg.append('defs').append('linearGradient').attr('id', 'grad1')\n\n/* Create the gradient stops from our data */\ndata.forEach((d, index) => {\nconst color = colorScale(yAccessor(d))\nconst step = 100 / data.length\n\n  gradient.append('stop').attr('offset', 0).attr('stop-colour', color)\n\n  gradient\n.append('stop')\n.attr('offset', `${index * step}%`)\n.attr('stop-colour', color)\n})\n\n/* Create a rectangle and fill it with the gradient background */\nsvg\n.append('rect')\n.attr('x', 0)\n.attr('y', 0)\n.attr('width', 600)\n.attr('height', 400)\n.attr('fill', 'url(#grad1)')\nWe could use a CSS gradient for this particular visualisation, but if we want to create a more complex chart that includes axes, labels, and more information, using an SVG is much more versatile.\n\nNote, when we use a linear scale both our domain and range can include a greater number of values, but it generally works best if both arrays are of the same length. In this example colorScale(0) will map to dark violet, colorScale(100) will map to red, and so on.\nd3.scaleLinear()\n.domain([-100, 0, 100])\n.range(['lightblue', 'darkviolet', 'red'])\nDiverging scales\nWe can in fact use a different scale function for creating diverging colour scales: scaleDiverging always takes three values for its domain, similar to our linear scale function above. But instead of a range, we can specify an interpolator. D3 provides a bunch of colour scheme interpolators in its d3-scale-chromatic module. The interpolator d3.interpolateRdYlBu is perfect for our temperature data, as it goes from red, through neutral colours, to dark blue. It also has a good degree of tonal contrast, with the lightness of the colours decreasing towards either end of the scale. This makes it more accessible for users that might find it difficult to perceive changes in hue.\nWe’ll flip the domain around in this instance, so that higher values will be represented by colours towards the red end of the scale and vice versa. We’re setting a middle value of 0, as 0 represents no temperature anomaly, which should be represented by a neutral colour.\nLet’s apply this scale to our dataset.\n/* Replace the previous `colorScale` value in our draw function: */\nconst colorScale = d3\n.scaleDiverging(d3.interpolateRdYlBu)\n.domain([domain[1], 0, domain[0]])\n\n  See the Pen \n\n  D3 colour scale linear (diverging) by Michelle Barker (@michellebarker)\n\n  on CodePen.\n\n\nInterpolation\nAs we have seen, D3’s scale functions interpolate between two (or more) colours to produce hues that fall anywhere between those in our specified colour range. We can choose how the colours are interpolated on a linear scale using D3’s various interpolation methods. Specifying interpolateCubeHelix as an interpolation method, for example, will yield quite a different result to interpolateRGB.\nconst colorScale = d3\n.scaleLinear()\n.domain([0, 100])\n.range(['royalblue', 'pink'])\n.interpolate(d3.interpolateCubehelix)\ncolour interpolation is a huge topic, beyond the scope of this article. Check out the documentation on colour spaces in the d3-interpolate module for details of the various interpolation methods available in D3 — and try playing around with them to see the different results.\nDiscrete scales\nWe’re going to take a look at two of D3’s scale functions for working with discrete data — data that consists of individual or countable values. Using our temperature data, perhaps we want to draw a line graph showing distinct lines for temperature over time during the spring, summer, autumn and winter respectively. Spring, summer, autumn and winter are discrete values (they are each distinct), while temperature is continuous.\nOrdinal scale\nIf we want to colour our lines distinctly for the four seasons we could use an ordinal scale. This maps a discrete input to a discrete output with a 1:1 relationship.\nd3.scaleOrdinal()\n.domain(['spring', 'summer', 'autumn', 'winter'])\n.range(['turquoise', 'pink', 'orangered', 'royalblue'])\n\n  See the Pen \n\n  D3 ordinal colour scale by Michelle Barker (@michellebarker)\n\n  on CodePen.\n\n\nWe would expect our data to fall into any one of these categories. On the other hand, if we were displaying a bar chart showing the number of survey respondents categorized by gender, there could be some responses that do not conform to our three categories: a respondent might have entered a different gender in their response, or declined to answer. We can use the unknown() method to define a colour for unexpected or undefined values:\nd3.scaleOrdinal()\n.domain(['male', 'female', 'non-binary'])\n.range(['blue', 'cornflowerblue', 'lightblue'])\n.unknown('grey')\nThreshold scale\nA threshold scale is useful when we have continuous numerical input that we want to map to a discrete output. In our temperature data, it could be difficult to determine small changes in temperature when using a continuous colour scale. But using a threshold scale, we can show when the temperature crosses a given threshold, and provide visually distinct colours (see the demo). The scale’s domain should consist of the threshold boundaries.\nconst colorScaleThreshold = d3\n.scaleThreshold()\n.domain([-0.25, 0, 0.25, 0.5, 0.75])\n.range(['royalblue', 'lightblue', 'azure', 'pink', 'hotpink'])\nIf we use this scale for our temperature data we can clearly see the marked increase in temperature anomalies in the early part of this century. For finer detail, we could increase the number of colour thresholds.\n\nRather than manually set our threshold colours, we could compute these from our linear or diverging scales.\n/* In our draw function: */\n\n/* Create the continuous colour scale to interpolate threshold colour values */\nconst colorScaleDiverging = d3\n.scaleDiverging(d3.interpolateRdYlBu)\n.domain(linearDomain)\n.clamp(true)\n\n/* Create the threshold scale domain - equally spaced values from the data extent */\nconst totalThresholds = 8\n// Calculate the value between each threshold\nconst step = (domain[1] - domain[0]) / totalThresholds\n\nconst thresholdScaleDomain = d3.range(totalThresholds).map((d) => {\nreturn (d + 1) * step + domain[0]\n})\n\n/* Create the threshold scale range using our previous colour scale function. It sould have the same number of values as the domain */\nlet thresholdScaleRange = thresholdScaleDomain.map((d) => {\nreturn colorScaleDiverging(d)\n})\n\nthresholdScaleRange = [\ncolorScaleLinear(domain[0]), // include the lowest threshold, so we don't miss out on the first colour\n...thresholdScaleRange,\n]\n\n/* Use these in our new colour scale function */\nconst colorScaleThreshold = d3\n.scaleThreshold()\n.domain(thresholdScaleDomain)\n.range(thresholdScaleRange)\nUsing a threshold scale rather than a linear scale, we can more clearly see the temperature contrast over the long term with getting too granular. Reducing the number of thresholds creates a starker visual disparity between the beginning of the last century and recent years, as we can clearly see the proportion of data that falls above given thresholds. Try adjusting the number of thresholds in this demo to see the impact.\n\n  See the Pen \n\n  D3 colour scale threshold (diverging) by Michelle Barker (@michellebarker)\n\n  on CodePen.\n\n\nHopefully this article has given you a good overview of where different types of scales might come useful when working with colour and data visualisation.\n* This article was originally published here"
+      },
+      "mention-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.imoneyhub.com/2023/02/14/working-with-colour-scales-for-data-visualisation-in-d3/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "http://wsinvest24.ru/2023/02/14/medicine-rehab-centers-where-to-find-a-keeper-and-pass-on-the-lemons/",
+      "published": "2023-02-14T19:42:55+03:00",
+      "wm-received": "2023-02-14T16:43:50Z",
+      "wm-id": 1622839,
+      "wm-source": "http://wsinvest24.ru/2023/02/14/medicine-rehab-centers-where-to-find-a-keeper-and-pass-on-the-lemons/",
+      "wm-target": "https://css-irl.info/creating-generative-svg-characters/",
+      "name": "Medicine Rehab Centers — Where To Find A Keeper And Pass On The Lemons",
+      "content": {
+        "html": "<p><img src=\"http://insighttreatment.com/wp-content/uploads/2017/10/A-Drug-Rehab-for-Teens.jpg2_-768x512.jpg\" width=\"400\" align=\"left\" alt=\"A-Drug-Rehab-for-Teens.jpg2_-768x512.jpg\" /></p>\n<p>You might think your child is resistant for this material — residing their days gladly having fun with pals, likely to school, working-out their particular future. However, if they are watching the news, they may wonder when they have the next. So, not unlike the scores of grownups utilizing prescription drugs to deal with life, kids, also, look to medicines.</p>\n\n<p>No teen desires their particular parents becoming tangled up in their particular individual life. They want to be separate. Undoubtedly it really is uncommon for a teen to admit to something, never ever mind having a drug problem. Understanding your son or daughter features a challenge to start with can be extremely hard. How do you understand he or she needs Meth Addiction [<a href=\"https://realgirls.fun/jakelight414\">Click Webpage</a>] when you try not to know they usually have a challenge? A good thing you certainly can do is speak to your teen to see if they are harming, or if they are having troubles.</p>\n<p>During this extended time of sobriety, she remarried — the woman 2nd husband ended up being a charismatic and sober man. «We had a-blast. Maybe not drinking ended up being our way of life. We had many various other wonderful activities to do; liquor simply never joined the picture.» Then the impossible happened. Anna’s spouse died of a huge heart attack along with her globe shattered. His funeral occured on her birthday celebration and regarding grief,  <a href=\"https://v2.marufilm.com/bbs/board.php?bo_table=free&amp;wr_id=88348\">Full Document</a> without thinking, Anna took her first drink in nearly 10 years.</p>\n<p>Medication and Alcohol Rehab centers and programs have actually objectives. Rightly, addiction therapy has got the aim of <a href=\"https://www.who.int/news-room/fact-sheets/detail/rehabilitation\">rehabilitating</a> the person and ending addiction. Seems good, right?</p>\n<p>My mother, as always, was at my side that Monday early morning once I ‘came to.’ She’d been there all of the weekend. Planning to do just about anything she could to help but, really, she ended up being helpless. Had she understood about genuine medication addiction rehab, she’d experienced a remedy.</p>\n<p>If you know some body this is certainly fighting addiction, you might want to intervene which help her or him seek therapy. Do not be astonished when your pleas get unanswered tough. Someone will only achieve a drug rehab system if he or she is completely invested. An addict cannot get clean for anybody else but on their own. That is as they are working with many internal struggles. A good thing a loved can do is be there to aid this person in almost any choice they <a href=\"https://css-irl.info/creating-generative-svg-characters/\">generate</a>. Love the person without allowing them.</p>\n<p>Life certainly not helps it be simple and soothing for all. Hardships keep cropping up over and over repeatedly. Immersing your head in a bottle of alcoholic beverages never solves the hardships, it only aggravates them. You may end in an alcohol treatment center with a predicament you can’t beat quickly. Alcohol <a href=\"https://myeclass.academy/blog/index.php?entryid=909107\">Thailand Rehab</a> is the give you support need when you’re addicted, and faster you acquire that help, the higher for you and all sorts of those around about you.</p>",
+        "text": "You might think your child is resistant for this material — residing their days gladly having fun with pals, likely to school, working-out their particular future. However, if they are watching the news, they may wonder when they have the next. So, not unlike the scores of grownups utilizing prescription drugs to deal with life, kids, also, look to medicines.\n\nNo teen desires their particular parents becoming tangled up in their particular individual life. They want to be separate. Undoubtedly it really is uncommon for a teen to admit to something, never ever mind having a drug problem. Understanding your son or daughter features a challenge to start with can be extremely hard. How do you understand he or she needs Meth Addiction [Click Webpage] when you try not to know they usually have a challenge? A good thing you certainly can do is speak to your teen to see if they are harming, or if they are having troubles.\nDuring this extended time of sobriety, she remarried — the woman 2nd husband ended up being a charismatic and sober man. «We had a-blast. Maybe not drinking ended up being our way of life. We had many various other wonderful activities to do; liquor simply never joined the picture.» Then the impossible happened. Anna’s spouse died of a huge heart attack along with her globe shattered. His funeral occured on her birthday celebration and regarding grief,  Full Document without thinking, Anna took her first drink in nearly 10 years.\nMedication and Alcohol Rehab centers and programs have actually objectives. Rightly, addiction therapy has got the aim of rehabilitating the person and ending addiction. Seems good, right?\nMy mother, as always, was at my side that Monday early morning once I ‘came to.’ She’d been there all of the weekend. Planning to do just about anything she could to help but, really, she ended up being helpless. Had she understood about genuine medication addiction rehab, she’d experienced a remedy.\nIf you know some body this is certainly fighting addiction, you might want to intervene which help her or him seek therapy. Do not be astonished when your pleas get unanswered tough. Someone will only achieve a drug rehab system if he or she is completely invested. An addict cannot get clean for anybody else but on their own. That is as they are working with many internal struggles. A good thing a loved can do is be there to aid this person in almost any choice they generate. Love the person without allowing them.\nLife certainly not helps it be simple and soothing for all. Hardships keep cropping up over and over repeatedly. Immersing your head in a bottle of alcoholic beverages never solves the hardships, it only aggravates them. You may end in an alcohol treatment center with a predicament you can’t beat quickly. Alcohol Thailand Rehab is the give you support need when you’re addicted, and faster you acquire that help, the higher for you and all sorts of those around about you."
+      },
+      "mention-of": "https://css-irl.info/creating-generative-svg-characters/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "http://wsinvest24.ru/2023/02/14/medicine-rehab-centers-where-to-find-a-keeper-and-pass-on-the-lemons/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ecfc5765a49387efd278a21fc94a9266e787e0e8a755ea8f58ee9778d9361b3c.png",
+        "url": "https://mastodon.social/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109288800682422989",
+      "published": null,
+      "wm-received": "2023-02-14T15:15:38Z",
+      "wm-id": 1622798,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109288800682422989",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lachlan Campbell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8ed0195e4d3e58e56f0b3a1d3a1dec361d46a445939073c3a4b2bf0dee738a42.png",
+        "url": "https://mastodon.social/@lachlanjc"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109288537153472532",
+      "published": null,
+      "wm-received": "2023-02-14T14:47:25Z",
+      "wm-id": 1622776,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109288537153472532",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Napoli",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7b34e0e88927ad5e9ee43d923c79d1fa0f4892f93307ebf84e382ee273511b53.jpg",
+        "url": "https://vis.social/@Biff_Bruise"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109371207178220218",
+      "published": null,
+      "wm-received": "2023-02-14T14:47:25Z",
+      "wm-id": 1622777,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109371207178220218",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Brown",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/31fdf0fb59174db1ab3938592282a59e864924f18b2dd4746bf80fd818eabff6.jpg",
+        "url": "https://mastodon.social/@zota"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109657081887727962",
+      "published": null,
+      "wm-received": "2023-02-14T14:47:23Z",
+      "wm-id": 1622775,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109657081887727962",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jessel Sookha",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/f32c6230dc80086d0a519124f9071584480ec69b2e155a511af83e844acfe356.jpg",
+        "url": "https://mstdn.io/@Jessel"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109363862749821981",
+      "published": null,
+      "wm-received": "2023-02-14T14:47:22Z",
+      "wm-id": 1622774,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109363862749821981",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "⚛️🥱🔑",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ce9204c6b2ea2e53ff7f5acdb7ba55f17d4578274ba9a475ce5375f7b7eeecfd.jpg",
+        "url": "https://hachyderm.io/@adamyonk"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109317567237174577",
+      "published": null,
+      "wm-received": "2023-02-14T14:18:36Z",
+      "wm-id": 1622758,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109317567237174577",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sathish Paul",
+        "photo": "https://webmention.io/avatar/front-end.social/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://mastodon.social/@sathishpaul"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109616855553476234",
+      "published": null,
+      "wm-received": "2023-02-14T14:18:36Z",
+      "wm-id": 1622759,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109616855553476234",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "⛧Satanist⛧",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/24909305e63d5bbeab735d7639bff02636d39a99cdd6f7a1fd580a439442bce6.png",
+        "url": "https://baraag.net/@Satanist"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109695355030845388",
+      "published": null,
+      "wm-received": "2023-02-14T13:47:49Z",
+      "wm-id": 1622741,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109695355030845388",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Leonora",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/f43e3da2eccd66f73f4bdaedd5ac2ac1e3065454016cbff7a37eec6472b4b86b.jpg",
+        "url": "https://helvede.net/@Herover"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109289335300683396",
+      "published": null,
+      "wm-received": "2023-02-14T13:09:03Z",
+      "wm-id": 1622712,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109289335300683396",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike Brondbjerg",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a6b42001d1e9658150d55657c217d01a0e9ca8b6c45dae4bde7b052c2b6e6733.jpg",
+        "url": "https://vis.social/@mikebrondbjerg"
+      },
+      "url": "https://vis.social/@mikebrondbjerg/109863223619918286",
+      "published": "2023-02-14T13:02:34",
+      "wm-received": "2023-02-14T13:09:02Z",
+      "wm-id": 1622711,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109863028260626276/109863223648556180",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> brilliant!! Super useful post! Thanks</p>",
+        "text": "@michelle brilliant!! Super useful post! Thanks"
+      },
+      "in-reply-to": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "CobyPear",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/79b007c35a4649e4ca9ab32bef2a738be3cc7f68b689f32a9f05f2ae1684a712.png",
+        "url": "https://hachyderm.io/@cobypear"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#reblogged-by-109841036688720764",
+      "published": null,
+      "wm-received": "2023-02-14T13:08:39Z",
+      "wm-id": 1622710,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109863028260626276/109841036688720764",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "repost-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike Brondbjerg",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a6b42001d1e9658150d55657c217d01a0e9ca8b6c45dae4bde7b052c2b6e6733.jpg",
+        "url": "https://vis.social/@mikebrondbjerg"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#reblogged-by-109302861460625518",
+      "published": null,
+      "wm-received": "2023-02-14T13:08:38Z",
+      "wm-id": 1622709,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109863028260626276/109302861460625518",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "repost-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kristin Henry",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/aa6424d857fb9aefb486fde2db17bbed37da50e8903dfea05bc58f30afa4238a.jpg",
+        "url": "https://vis.social/@kristinHenry"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#reblogged-by-109289329640876042",
+      "published": null,
+      "wm-received": "2023-02-14T13:08:37Z",
+      "wm-id": 1622708,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109863028260626276/109289329640876042",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "repost-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike Brondbjerg",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a6b42001d1e9658150d55657c217d01a0e9ca8b6c45dae4bde7b052c2b6e6733.jpg",
+        "url": "https://vis.social/@mikebrondbjerg"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109302861460625518",
+      "published": null,
+      "wm-received": "2023-02-14T13:08:35Z",
+      "wm-id": 1622706,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109302861460625518",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jody",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/465afbf419671f385a37a4e1bf149e175344dccbc58fb700dbf57fa3236140ed.jpg",
+        "url": "https://mas.to/@Jody"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109367547519937737",
+      "published": null,
+      "wm-received": "2023-02-14T13:08:35Z",
+      "wm-id": 1622707,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109367547519937737",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Miguel Pinto",
+        "photo": "https://webmention.io/avatar/front-end.social/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://indieweb.social/@miguelslp"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109835644478951148",
+      "published": null,
+      "wm-received": "2023-02-14T13:08:33Z",
+      "wm-id": 1622705,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109835644478951148",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Elena Glassman",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/86ad4e0363d9230bd0a3c38169d05e2cbe944f6b78006f45ceebffb9b1344a83.jpg",
+        "url": "https://hci.social/@eglassman"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109288117957465348",
+      "published": null,
+      "wm-received": "2023-02-14T13:08:32Z",
+      "wm-id": 1622704,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109288117957465348",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jelv 🎴",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/e72caef2e7e72da8c4090c1a5c49a618ced11ee27ed21833e225064a08606a18.png",
+        "url": "https://mastodon.nl/@jelv"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#reblogged-by-109404510783845872",
+      "published": null,
+      "wm-received": "2023-02-14T12:41:51Z",
+      "wm-id": 1622681,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109863028260626276/109404510783845872",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "repost-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sarah L. Fossheim :they_them:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/97260fd81422310feddacd63e2dbc10d69162680c1c17d12d260aa676cba58b7.jpg",
+        "url": "https://queer.garden/@fossheim"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#reblogged-by-109825082348901096",
+      "published": null,
+      "wm-received": "2023-02-14T12:41:51Z",
+      "wm-id": 1622682,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109863028260626276/109825082348901096",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "repost-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Manuel Matuzović",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/efb1c999b2d30b7c189b6e1c601b820078ff50e3c0fc6019c82e42e0bc364c78.jpg",
+        "url": "https://front-end.social/@matuzo"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109417602310639127",
+      "published": null,
+      "wm-received": "2023-02-14T12:41:50Z",
+      "wm-id": 1622680,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109417602310639127",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jelv 🎴",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/e72caef2e7e72da8c4090c1a5c49a618ced11ee27ed21833e225064a08606a18.png",
+        "url": "https://mastodon.nl/@jelv"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109404510783845872",
+      "published": null,
+      "wm-received": "2023-02-14T12:41:49Z",
+      "wm-id": 1622679,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109404510783845872",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cecelia",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/67f34da43af98dbada6312298e64c012159aab9c55e3da4fd67855213f92113c.jpg",
+        "url": "https://tech.lgbt/@helianthropy"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109316634584642281",
+      "published": null,
+      "wm-received": "2023-02-14T12:41:48Z",
+      "wm-id": 1622678,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109316634584642281",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ginestra",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/607e962c157e53164e419c7b8069a6f5c4b1597212c866a29faa6eec9c0f4003.png",
+        "url": "https://mastodon.social/@ginez_17"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109336521306939384",
+      "published": null,
+      "wm-received": "2023-02-14T12:41:47Z",
+      "wm-id": 1622677,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109336521306939384",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Bassetto",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/57ecc019606f0ee60c928745a51c4cf58b0340e68abcb0197aee8adf51dc2069.png",
+        "url": "https://oslo.town/@tbassetto"
+      },
+      "url": "https://front-end.social/@michelle/109863028260626276#favorited-by-109307168687007532",
+      "published": null,
+      "wm-received": "2023-02-14T12:41:45Z",
+      "wm-id": 1622676,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109863028260626276/109307168687007532",
+      "wm-target": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "like-of": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://64byte.net/2022/11/how-do-i-create-a-text-underline-animation-4/",
+      "published": null,
+      "wm-received": "2023-02-13T00:52:55Z",
+      "wm-id": 1621738,
+      "wm-source": "https://64byte.net/2022/11/how-do-i-create-a-text-underline-animation-4/",
+      "wm-target": "https://css-irl.info/animating-underlines/",
+      "mention-of": "https://css-irl.info/animating-underlines/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://64byte.net/2022/11/how-do-i-create-a-text-underline-animation-4/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://64byte.net/2022/11/how-do-i-create-a-text-underline-animation-3/",
+      "published": null,
+      "wm-received": "2023-02-12T13:13:51Z",
+      "wm-id": 1621289,
+      "wm-source": "https://64byte.net/2022/11/how-do-i-create-a-text-underline-animation-3/",
+      "wm-target": "https://css-irl.info/animating-underlines/",
+      "mention-of": "https://css-irl.info/animating-underlines/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://64byte.net/2022/11/how-do-i-create-a-text-underline-animation-3/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ahmad Shadeed",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/b14ca94be87f8e55d5615a2affb5a2f526abbb934e1cc0c00e632079dfb5e1ab.jpg",
+        "url": "https://front-end.social/@shadeed9"
+      },
+      "url": "https://front-end.social/@michelle/109839782486634858#favorited-by-109298489369427127",
+      "published": null,
+      "wm-received": "2023-02-10T15:57:46Z",
+      "wm-id": 1619887,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109839782486634858/109298489369427127",
+      "wm-target": "https://css-irl.info/animating-underlines/",
+      "like-of": "https://css-irl.info/animating-underlines/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Coleman",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a73d82dc2dc9b1f25d7abac0fdd67e348d03fda78b7e6eb52edc60428d77c7f4.jpg",
+        "url": "https://mastodon.social/@Chris"
+      },
+      "url": "https://front-end.social/@michelle/109839782486634858#favorited-by-109288538740293443",
+      "published": null,
+      "wm-received": "2023-02-10T15:32:52Z",
+      "wm-id": 1619871,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109839782486634858/109288538740293443",
+      "wm-target": "https://css-irl.info/animating-underlines/",
+      "like-of": "https://css-irl.info/animating-underlines/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://hu.taphoamini.com/css-mitjul-aenimeisyeon/",
+      "published": null,
+      "wm-received": "2023-02-09T12:45:19Z",
+      "wm-id": 1619092,
+      "wm-source": "https://hu.taphoamini.com/css-mitjul-aenimeisyeon/",
+      "wm-target": "https://css-irl.info/animating-underlines/",
+      "mention-of": "https://css-irl.info/animating-underlines/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "http://learnsara.ir/%da%af%d9%88%d8%b4%d9%87-%da%a9%d8%b1%db%8c%d8%b3-%d9%86%d9%88%d8%b4%d8%aa%d9%86-css-%d8%b9%d8%a7%d9%84%db%8c-%d9%86%d8%b3%d8%a8%d8%aa%d8%a7%d9%8b-%d8%a7%d8%ae%db%8c%d8%b1.html/",
+      "published": null,
+      "wm-received": "2023-02-08T11:58:47Z",
+      "wm-id": 1618276,
+      "wm-source": "http://learnsara.ir/%da%af%d9%88%d8%b4%d9%87-%da%a9%d8%b1%db%8c%d8%b3-%d9%86%d9%88%d8%b4%d8%aa%d9%86-css-%d8%b9%d8%a7%d9%84%db%8c-%d9%86%d8%b3%d8%a8%d8%aa%d8%a7%d9%8b-%d8%a7%d8%ae%db%8c%d8%b1.html/",
+      "wm-target": "https://css-irl.info/quick-tip-negative-animation-delay/",
+      "mention-of": "https://css-irl.info/quick-tip-negative-animation-delay/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michaël Vanderheyden",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0ecc21a658bbea1c23a73175a4e586b2039d74165fd768aff5065603a298c853.jpg",
+        "url": "https://twitter.com/Th3S4mur41"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-250025409",
+      "published": null,
+      "wm-received": "2023-02-08T11:33:35Z",
+      "wm-id": 1618268,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/250025409",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yerzhan Utelbayev",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/w_ip6"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-1069618134141804544",
+      "published": null,
+      "wm-received": "2023-02-08T06:52:31Z",
+      "wm-id": 1618129,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/1069618134141804544",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yerzhan Utelbayev",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/w_ip6"
+      },
+      "url": "https://twitter.com/w_ip6/status/1623206222714310657",
+      "published": "2023-02-08T06:24:55+00:00",
+      "wm-received": "2023-02-08T06:52:02Z",
+      "wm-id": 1618128,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1622904558375542786/1623206222714310657",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "content": {
+        "text": "Quick tip: Some handy ways to test your colour accessibility in dev tools css-irl.info/testing-colour…"
+      },
+      "repost-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yücel Olgun",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f75ab68512928faaae51108694d536fd41405de936180a7332cab75693ed5652.jpg",
+        "url": "https://twitter.com/yclolgun"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-1204857992316903428",
+      "published": null,
+      "wm-received": "2023-02-07T18:05:40Z",
+      "wm-id": 1617048,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/1204857992316903428",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "christianT",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e5d66ff7731a3ee180ec6de5b79412371d031c710acba0f960a0f4a2b750ec84.jpg",
+        "url": "https://twitter.com/chryztianT"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-330844863",
+      "published": null,
+      "wm-received": "2023-02-07T18:05:40Z",
+      "wm-id": 1617049,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/330844863",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "admin",
+        "photo": "",
+        "url": "https://www.imoneyhub.com/author/admin/"
+      },
+      "url": "https://www.imoneyhub.com/2023/02/07/testing-colour-accessibility-with-dev-tools/",
+      "published": "2023-02-07T13:11:26+00:00",
+      "wm-received": "2023-02-07T13:11:32Z",
+      "wm-id": 1616978,
+      "wm-source": "https://www.imoneyhub.com/2023/02/07/testing-colour-accessibility-with-dev-tools/",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "name": "Testing Colour Accessibility with Dev Tools",
+      "content": {
+        "html": "<p>I often use the <a href=\"https://webaim.org/resources/contrastchecker/\">WebAIM colour contrast checker</a> to check my colours against WCAG (Web Content Accessibility Guidelines) standards while building websites. Recently I noticed a handy feature in Firefox dev tools to make checking for sufficient colour contrast really easy.</p>\n<img src=\"https://css-irl.info/testing-color-accessibility-with-dev-tools-01.jpg\" width=\"465\" height=\"361\" alt=\"Screenshot of the Firefox colour picker with accessibility informations\" /><br /><p>If you inspect an element’s CSS in the dev tools inspector you’ll notice any colours are accompanied by a little colour swatch. Clicking on this brings up a colour picker — handy for trying out different colour options in the browser. For the <code>color</code> property, this colour picker also shows the contrast ratio of the text colour compared to the colour beneath (either the element’s background colour, or the background colour of an element beneath). It turns out Chrome has a very similar feature too. That’s super useful for experimenting with accessible colour combinations, without even leaving your browser tab!</p>\n<h2>Colour contrast simulator</h2>\n<p>Firefox has another useful feature for checking our colours are accessible: the colour contrast simulator. Found in the “Accessibility” tab in the dev tools panel, this feature simulates different colour vision deficiencies. <a href=\"https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/simulation/index.html\">Check out the full write-up</a>.</p>\n<p><a href=\"https://css-irl.info/testing-colour-accessibility-with-dev-tools/\" style=\"font-style:italic;\">* This article was originally published here</a></p>",
+        "text": "I often use the WebAIM colour contrast checker to check my colours against WCAG (Web Content Accessibility Guidelines) standards while building websites. Recently I noticed a handy feature in Firefox dev tools to make checking for sufficient colour contrast really easy.\n\nIf you inspect an element’s CSS in the dev tools inspector you’ll notice any colours are accompanied by a little colour swatch. Clicking on this brings up a colour picker — handy for trying out different colour options in the browser. For the color property, this colour picker also shows the contrast ratio of the text colour compared to the colour beneath (either the element’s background colour, or the background colour of an element beneath). It turns out Chrome has a very similar feature too. That’s super useful for experimenting with accessible colour combinations, without even leaving your browser tab!\nColour contrast simulator\nFirefox has another useful feature for checking our colours are accessible: the colour contrast simulator. Found in the “Accessibility” tab in the dev tools panel, this feature simulates different colour vision deficiencies. Check out the full write-up.\n* This article was originally published here"
+      },
+      "mention-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.imoneyhub.com/2023/02/07/testing-colour-accessibility-with-dev-tools/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Niven Ranchhod",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a7ef68e3b219f36a3933627ecccabc86b402bd96053f2ebec1c7fa88d1c233d4.jpg",
+        "url": "https://twitter.com/NivenRanchhod"
+      },
+      "url": "https://twitter.com/NivenRanchhod/status/1622919787314569216",
+      "published": "2023-02-07T11:26:44+00:00",
+      "wm-received": "2023-02-07T11:48:33Z",
+      "wm-id": 1616960,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1622904558375542786/1622919787314569216",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "content": {
+        "text": "Quick tip: Some handy ways to test your colour accessibility in dev tools css-irl.info/testing-colour…"
+      },
+      "repost-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Niven Ranchhod",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a7ef68e3b219f36a3933627ecccabc86b402bd96053f2ebec1c7fa88d1c233d4.jpg",
+        "url": "https://twitter.com/NivenRanchhod"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-361616354",
+      "published": null,
+      "wm-received": "2023-02-07T11:48:31Z",
+      "wm-id": 1616959,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/361616354",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jesterhead 🌻",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/60ff35ae7bd6474b77076f8f4cb9ad6911522747be49eefe69c53c35430511eb.jpg",
+        "url": "https://twitter.com/komiska"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-42601966",
+      "published": null,
+      "wm-received": "2023-02-07T11:48:29Z",
+      "wm-id": 1616958,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/42601966",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rafael Calvo 🛡 Pathfinder RPG",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/38d349520864e218283eb45416f675940d3f172c5ff91d245d8d99cd961e74f0.jpg",
+        "url": "https://twitter.com/rafacalvogm"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-3222382606",
+      "published": null,
+      "wm-received": "2023-02-07T10:52:11Z",
+      "wm-id": 1616936,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/3222382606",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonas Calvo",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bc9300326ac65f525d1c14a48fbaa5ad0d117b302a68cf4f0ee49205925e4239.jpg",
+        "url": "https://twitter.com/Jonascalvo"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-301376353",
+      "published": null,
+      "wm-received": "2023-02-07T10:52:11Z",
+      "wm-id": 1616937,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/301376353",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ben Everard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/51d8da227d257dd5257c3cdde81ae0d3be7ee754e1a908aa14270c64455284e1.jpg",
+        "url": "https://twitter.com/_beneverard"
+      },
+      "url": "https://twitter.com/_beneverard/status/1622908556969222145",
+      "published": "2023-02-07T10:42:06+00:00",
+      "wm-received": "2023-02-07T10:51:45Z",
+      "wm-id": 1616935,
+      "wm-source": "https://brid.gy/repost/twitter/cssinreallife/1622904558375542786/1622908556969222145",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "content": {
+        "text": "Quick tip: Some handy ways to test your colour accessibility in dev tools css-irl.info/testing-colour…"
+      },
+      "repost-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Weston",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a1789cf17d438330936cff0581fa68e40ebddded98bd3fafbc02e59ea99c9477.jpg",
+        "url": "https://twitter.com/MatthiasWeston"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-900302035106631680",
+      "published": null,
+      "wm-received": "2023-02-07T10:51:44Z",
+      "wm-id": 1616934,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/900302035106631680",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ana Alcañiz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/db3de702128966ec93f2cd91887e56a9c6cec3197a0c12320dbd2125eca4c669.jpg",
+        "url": "https://twitter.com/noekidotcom"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-197165366",
+      "published": null,
+      "wm-received": "2023-02-07T10:51:43Z",
+      "wm-id": 1616933,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/197165366",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shruti Kapoor",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/743195a5ac24da199c1bbd063b6fe081db04418e7f50b675131b26c70d0c9bce.jpg",
+        "url": "https://twitter.com/shrutikapoor08"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1622904558375542786#favorited-by-88570710",
+      "published": null,
+      "wm-received": "2023-02-07T10:51:42Z",
+      "wm-id": 1616932,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1622904558375542786/88570710",
+      "wm-target": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "like-of": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
     {
       "type": "entry",
       "author": {
