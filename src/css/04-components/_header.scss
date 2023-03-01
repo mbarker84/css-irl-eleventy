@@ -246,6 +246,8 @@
     margin-bottom: 0;
     width: rem(280px);
     height: auto;
+    transform: translate3d(0, -100%, 0);
+    transition: transform 250ms;
 
     svg {
       height: 100%;
@@ -305,6 +307,10 @@
 
   .c-header__title {
     visibility: visible;
+
+    @media (min-width: $md) {
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .c-header__logo {
