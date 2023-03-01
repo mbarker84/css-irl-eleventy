@@ -1,6 +1,339 @@
 {
-  "lastFetched": "2023-02-28T11:36:22.633Z",
+  "lastFetched": "2023-03-01T18:17:24.678Z",
   "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://minimus.su/?p=36705",
+      "published": null,
+      "wm-received": "2023-03-01T06:48:10Z",
+      "wm-id": 1632107,
+      "wm-source": "https://minimus.su/?p=36705",
+      "wm-target": "https://css-irl.info/2021-in-review/",
+      "mention-of": "https://css-irl.info/2021-in-review/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Batbayar B.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5231241ed3eb5997a5fd927a67998f98119aa69c8fbb87ac5dc4378be8257d9a.jpg",
+        "url": "https://twitter.com/batbayar3113"
+      },
+      "url": "https://twitter.com/CSSInRealLife/status/1630561592398999560#favorited-by-39935068",
+      "published": null,
+      "wm-received": "2023-03-01T02:16:57Z",
+      "wm-id": 1632042,
+      "wm-source": "https://brid.gy/like/twitter/cssinreallife/1630561592398999560/39935068",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Davies",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a67a04475d2e985a30f8c8dbca9c3ee46da776919379915a9b62e2e78049ec11.jpg",
+        "url": "https://hachyderm.io/@andydavies"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#favorited-by-109874328475766981",
+      "published": null,
+      "wm-received": "2023-02-28T20:57:14Z",
+      "wm-id": 1631978,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109942230652162166/109874328475766981",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Barker",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7430075ff637e892dcde4c2b240222eff41209111509d14b8f3fffc26ac3909c.jpg",
+        "url": "https://front-end.social/@michelle"
+      },
+      "url": "https://front-end.social/@michelle/109942624998065306",
+      "published": "2023-02-28T13:35:23",
+      "wm-received": "2023-02-28T18:13:23Z",
+      "wm-id": 1631909,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109942230652162166/109942624998065306",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@pawelgrzybek\" class=\"u-url\">@<span>pawelgrzybek</span></a></span> Thanks Paweł, I know some people do this but I’ve never attempted it myself, I really should give it a go sometime! 🙂</p>",
+        "text": "@pawelgrzybek Thanks Paweł, I know some people do this but I’ve never attempted it myself, I really should give it a go sometime! 🙂"
+      },
+      "in-reply-to": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christopher",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/d7b18449a62866c65aedcce30223ef00076cf54e89e51f289e96ded4e30fa7e7.jpg",
+        "url": "https://webperf.social/@christopherbowers"
+      },
+      "url": "https://webperf.social/@christopherbowers/109943701913526756",
+      "published": "2023-02-28T18:09:16",
+      "wm-received": "2023-02-28T18:12:55Z",
+      "wm-id": 1631908,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109942230652162166/109943701931406614",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> I don't remember when but Apple added a keyboard shortcut to show/hide hidden files years back with command+shift+.</p>",
+        "text": "@michelle I don't remember when but Apple added a keyboard shortcut to show/hide hidden files years back with command+shift+."
+      },
+      "in-reply-to": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.makemoneyonlinecom.com/servers/2023/02/28/setting-up-a-newish-macbook/",
+      "published": null,
+      "wm-received": "2023-02-28T16:32:57Z",
+      "wm-id": 1631869,
+      "wm-source": "https://www.makemoneyonlinecom.com/servers/2023/02/28/setting-up-a-newish-macbook/",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "mention-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "lex",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/73ac95334af279d2a751c67c2f4d33145f162d4616d5d0a8f20a34d7925a77be.jpg",
+        "url": "https://front-end.social/@lex"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#favorited-by-109297056108281422",
+      "published": null,
+      "wm-received": "2023-02-28T16:12:32Z",
+      "wm-id": 1631859,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109942230652162166/109297056108281422",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jack Franklin",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8b6cf6e466d6bcc738d7491b66619409f20d5319ed906c8c4a020aff0e02bc29.png",
+        "url": "https://indieweb.social/@jackf"
+      },
+      "url": "https://indieweb.social/@jackf/109943057118975820",
+      "published": "2023-02-28T15:25:17",
+      "wm-received": "2023-02-28T15:55:34Z",
+      "wm-id": 1631855,
+      "wm-source": "https://brid.gy/comment/mastodon/@andy@bell.bz/109943001956503042/109943057153903227",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://bell.bz/@andy\" class=\"u-url\">@<span>andy</span></a></span> ohhh I just set up a new Surface Pro and should blog something similar for future reference</p>\n<a class=\"u-mention\" href=\"https://css-irl.info/setting-up-a-newish-macbook/\"></a>",
+        "text": "@andy ohhh I just set up a new Surface Pro and should blog something similar for future reference"
+      },
+      "in-reply-to": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christopher Kirk-Nielsen",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ef2dabdf7fd17adb97ef71037b50824aa20454eb1ffb853074dee7b62454cf9a.jpg",
+        "url": "https://mastodon.social/@chriskirknielsen"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#favorited-by-109293025722451605",
+      "published": null,
+      "wm-received": "2023-02-28T15:38:02Z",
+      "wm-id": 1631847,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109942230652162166/109293025722451605",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "admin",
+        "photo": "",
+        "url": "https://www.imoneyhub.com/author/admin/"
+      },
+      "url": "https://www.imoneyhub.com/2023/02/28/setting-up-a-newish-macbook/",
+      "published": "2023-02-28T15:15:05+00:00",
+      "wm-received": "2023-02-28T15:15:18Z",
+      "wm-id": 1631834,
+      "wm-source": "https://www.imoneyhub.com/2023/02/28/setting-up-a-newish-macbook/",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "name": "Setting Up a New(ish) MacBook",
+      "content": {
+        "html": "<img src=\"https://css-irl.info/setting-up-a-new-macbook.svg\" alt=\"Digital illustration of a MacBook in bright colours, with the words “let’s go!” on the screen\" width=\"1200\" height=\"900\" /><br /><p>I recently dusted off a relatively old (~5 years) MacBook and replaced the battery with the plan that I could use it as a secondary machine, for my “non-work” stuff. The last couple of times I’ve got a new Mac I’ve gone for the option of cloning my old setup, so I don’t need to install everything again. This time, however, the whole point was to keep things simple, minimal and (hopefully) fast, so I decided to completely wipe it and start from scratch.</p>\n<p>If you’re a developer, naturally there’s a bunch of stuff you need to install to get your environment perfectly right for coding. The following is the process I went through to install the things I need for my setup, written purely to remind me what I did, when I inevitably have to do it again sometime.</p>\n<h2>1. Install VSCode</h2>\n<p>When you’re coding (or indeed, installing anything you need to write code), what’s the first thing you need? A terminal! Sure, I could use built-in one on my MacBook, or download <a href=\"https://iterm2.com/\">iTerm</a>. But I generally use VS Code’s terminal, and since I’ll <strong>definitely</strong> need VS Code for, well, writing code, let’s <a href=\"https://code.visualstudio.com/\">go ahead and install it right away</a>.</p>\n<h3><code>code</code> command</h3>\n<p>In VS Code we can open a project from the command line by navigating to the project and typing <code>code .</code>. On a Mac, we first need to enable this by running <code>Install 'code' command in PATH</code>. (See the VS Code <a href=\"https://code.visualstudio.com/docs/editor/command-line\">command line docs</a> for more details)</p>\n<h2>2. Use zsh as the default</h2>\n<p>As of macOS 10.15, the default shell is zsh. However, VS Code automatically opens a bash terminal. <a href=\"https://dev.to/nyanev/how-to-use-zsh-in-vs-code-for-mac-39dp\">How to fix this</a>? We need to go into our settings in VS Code, find the property <code>terminal.integrated.shell.osx</code> and change this to <code>zsh</code>.</p>\n<p>We’ll also need to create a <em>.zshrc</em> file by running <code>touch ~/.zshrc</code>. This is a hidden file, so it won’t show up in Finder by default. To <a href=\"https://www.techradar.com/how-to/how-to-show-hidden-files-in-macos\">view hidden files</a> we can run:</p>\n<pre><code>defaults <span>write</span> com.apple.Finder AppleShowAllFiles <span>true</span></code></pre>\n<p>Then close and reopen Finder, and our hidden files should be visible. Now we can open this file in VS Code.</p>\n<h2>3. Xcode Command Line Tools (and Git)</h2>\n<p>For the next steps we’re going to need <a href=\"https://www.freecodecamp.org/news/install-xcode-command-line-tools/\">Xcode Command Line Tools</a>. We can download Xcode from the App Store, or use this command.</p>\n<pre><code>xcode-select --install</code></pre>\n<p>That gives us a prompt to confirm we want to install the command line developer tools. Yes, we do. As a special bonus, this process also installs <a href=\"https://git-scm.com/book/en/v2/Getting-Started-Installing-Git\">Git</a>, which we’re definitely going to need, so that’s handy.</p>\n<h2>4. Install Oh My ZSH plugin</h2>\n<p><a href=\"https://github.com/ohmyzsh/ohmyzsh\">Oh My Zsh</a> is an open source framework for managing your zsh configuration. It enables us to easily install plugins, change our shell theme, and more. Let’s follow the instructions in the Github repository and install it via the command line:</p>\n<pre><code><span>sh</span> -c <span>\"<span><span>$(</span><span>curl</span> -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span>)</span></span>\"</span></code></pre>\n<h2>5. NVM</h2>\n<p>I can pretty much guarantee I’m going to need Node installed for <strong>anything</strong> I’m working on. I like to use <a href=\"https://github.com/nvm-sh/nvm\">NVM</a> (Node Version Manager), which makes it super easy to install and switch between Node versions. The best way I’ve found to install this is using the <a href=\"https://github.com/lukechilds/zsh-nvm\">zsh-nvm</a> plugin for Oh My Zsh.</p>\n<p>First we clone the repository to our zsh plugins directory:</p>\n<pre><code><span>git</span> clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm</code></pre>\n<p>Then add it to our plugins section of the <em>.zshrc</em> file. We can list plugins like this:</p>\n<pre><code>plugins=(\n  git\n  zsh-nvm\n)\n</code></pre>\n<p>Now we should have NVM installed. We can run <code>nvm -v</code> to check.</p>\n<h2>6. Z plugin</h2>\n<p>Another plugin I find really useful is <a href=\"https://github.com/agkozak/zsh-z\">Zsh-z</a>, which enables us to jump to commonly-used directories simply by typing <code>z</code> followed by the directory name. We don’t actually need to install it, as it’s now included as part of Oh My Zsh, so we can just add it to our plugins in the <em>.zshrc</em> file:</p>\n<pre><code>plugins=(\n  git\n  zsh-nvm\n  z\n)\n</code></pre>\n<h2>7. Setting up aliases</h2>\n<p>Finally, I like to set up a few aliases for the terminal commands I use the most. We can add these to our <code>.zshrc</code> file.</p>\n<pre><code>alias gpum='git pull origin main'\nalias gpm='git push origin main'\nalias ga=\"git add .\"\nalias gm='git commit -m'\n</code></pre>\n<p>Of course, you can add any other aliases and plugins you like, as well as change your terminal theme, if that’s your bag. Happy coding!</p>\n<p><a href=\"https://css-irl.info/setting-up-a-newish-macbook/\" style=\"font-style:italic;\">* This article was originally published here</a></p>",
+        "text": "I recently dusted off a relatively old (~5 years) MacBook and replaced the battery with the plan that I could use it as a secondary machine, for my “non-work” stuff. The last couple of times I’ve got a new Mac I’ve gone for the option of cloning my old setup, so I don’t need to install everything again. This time, however, the whole point was to keep things simple, minimal and (hopefully) fast, so I decided to completely wipe it and start from scratch.\nIf you’re a developer, naturally there’s a bunch of stuff you need to install to get your environment perfectly right for coding. The following is the process I went through to install the things I need for my setup, written purely to remind me what I did, when I inevitably have to do it again sometime.\n1. Install VSCode\nWhen you’re coding (or indeed, installing anything you need to write code), what’s the first thing you need? A terminal! Sure, I could use built-in one on my MacBook, or download iTerm. But I generally use VS Code’s terminal, and since I’ll definitely need VS Code for, well, writing code, let’s go ahead and install it right away.\ncode command\nIn VS Code we can open a project from the command line by navigating to the project and typing code .. On a Mac, we first need to enable this by running Install 'code' command in PATH. (See the VS Code command line docs for more details)\n2. Use zsh as the default\nAs of macOS 10.15, the default shell is zsh. However, VS Code automatically opens a bash terminal. How to fix this? We need to go into our settings in VS Code, find the property terminal.integrated.shell.osx and change this to zsh.\nWe’ll also need to create a .zshrc file by running touch ~/.zshrc. This is a hidden file, so it won’t show up in Finder by default. To view hidden files we can run:\ndefaults write com.apple.Finder AppleShowAllFiles true\nThen close and reopen Finder, and our hidden files should be visible. Now we can open this file in VS Code.\n3. Xcode Command Line Tools (and Git)\nFor the next steps we’re going to need Xcode Command Line Tools. We can download Xcode from the App Store, or use this command.\nxcode-select --install\nThat gives us a prompt to confirm we want to install the command line developer tools. Yes, we do. As a special bonus, this process also installs Git, which we’re definitely going to need, so that’s handy.\n4. Install Oh My ZSH plugin\nOh My Zsh is an open source framework for managing your zsh configuration. It enables us to easily install plugins, change our shell theme, and more. Let’s follow the instructions in the Github repository and install it via the command line:\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\n5. NVM\nI can pretty much guarantee I’m going to need Node installed for anything I’m working on. I like to use NVM (Node Version Manager), which makes it super easy to install and switch between Node versions. The best way I’ve found to install this is using the zsh-nvm plugin for Oh My Zsh.\nFirst we clone the repository to our zsh plugins directory:\ngit clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm\nThen add it to our plugins section of the .zshrc file. We can list plugins like this:\nplugins=(\n  git\n  zsh-nvm\n)\n\nNow we should have NVM installed. We can run nvm -v to check.\n6. Z plugin\nAnother plugin I find really useful is Zsh-z, which enables us to jump to commonly-used directories simply by typing z followed by the directory name. We don’t actually need to install it, as it’s now included as part of Oh My Zsh, so we can just add it to our plugins in the .zshrc file:\nplugins=(\n  git\n  zsh-nvm\n  z\n)\n\n7. Setting up aliases\nFinally, I like to set up a few aliases for the terminal commands I use the most. We can add these to our .zshrc file.\nalias gpum='git pull origin main'\nalias gpm='git push origin main'\nalias ga=\"git add .\"\nalias gm='git commit -m'\n\nOf course, you can add any other aliases and plugins you like, as well as change your terminal theme, if that’s your bag. Happy coding!\n* This article was originally published here"
+      },
+      "mention-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.imoneyhub.com/2023/02/28/setting-up-a-newish-macbook/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "sara",
+        "photo": "https://webmention.io/avatar/front-end.social/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://xoxo.zone/@sara"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#favorited-by-109363191467699852",
+      "published": null,
+      "wm-received": "2023-02-28T14:18:50Z",
+      "wm-id": 1631805,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109942230652162166/109363191467699852",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Derek P. Collins",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/408f914072eebbb7d321b1290f4f6247f3964d676549b9a8e2e858da39d34d27.png",
+        "url": "https://mastodon.design/@derek"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#favorited-by-109775708385574931",
+      "published": null,
+      "wm-received": "2023-02-28T13:51:44Z",
+      "wm-id": 1631797,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109942230652162166/109775708385574931",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Derek P. Collins",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/408f914072eebbb7d321b1290f4f6247f3964d676549b9a8e2e858da39d34d27.png",
+        "url": "https://mastodon.design/@derek"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#reblogged-by-109775708385574931",
+      "published": null,
+      "wm-received": "2023-02-28T13:51:44Z",
+      "wm-id": 1631798,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/109942230652162166/109775708385574931",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "repost-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://writersbelt.com/police-1-of-2-boys-recovered-after-amber-alert-has-died-7/",
+      "published": null,
+      "wm-received": "2023-02-28T13:48:12Z",
+      "wm-id": 1631796,
+      "wm-source": "https://writersbelt.com/police-1-of-2-boys-recovered-after-amber-alert-has-died-7/",
+      "wm-target": "https://css-irl.info/debugging-media-queries-a-dev-tools-wish-list/",
+      "mention-of": "https://css-irl.info/debugging-media-queries-a-dev-tools-wish-list/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://writersbelt.com/police-1-of-2-boys-recovered-after-amber-alert-has-died-7/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paweł Grzybek",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/4b135be266bdfb3b0a4df3c1e60a91cb59e27a97839721176c541ff0938b5da7.jpg",
+        "url": "https://mastodon.social/@pawelgrzybek"
+      },
+      "url": "https://mastodon.social/@pawelgrzybek/109942407767786268",
+      "published": "2023-02-28T12:40:09",
+      "wm-received": "2023-02-28T12:55:00Z",
+      "wm-id": 1631772,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/109942230652162166/109942407819063389",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> Hi Michelle. Nice post. I need to look into this z plugin.</p><p>Did you think about making your own .dotfiles? That can speed this process up a lot.</p><p><a href=\"https://github.com/pawelgrzybek/dotfiles\"><span>https://</span><span>github.com/pawelgrzybek/dotfil</span><span>es</span></a></p>\n<a href=\"https://github.com/pawelgrzybek/dotfiles\">GitHub - pawelgrzybek/dotfiles</a>",
+        "text": "@michelle Hi Michelle. Nice post. I need to look into this z plugin.Did you think about making your own .dotfiles? That can speed this process up a lot.https://github.com/pawelgrzybek/dotfiles\nGitHub - pawelgrzybek/dotfiles"
+      },
+      "in-reply-to": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Damian Wajer",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/117ac47633be4636849369dde2d3cfdba3d74b2644a916ad0c1e128c17b06389.jpg",
+        "url": "https://social.damianwajer.com/profile/damian"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#favorited-by-109687682242346046",
+      "published": null,
+      "wm-received": "2023-02-28T12:20:39Z",
+      "wm-id": 1631759,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109942230652162166/109687682242346046",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Roni Laukkarinen",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/3dacf786bd579bbcb1f2475e8923ef1e45c0778ce97cce127fd2eb4300a0877a.jpg",
+        "url": "https://mementomori.social/@rolle"
+      },
+      "url": "https://front-end.social/@michelle/109942230652162166#favorited-by-109293156829634672",
+      "published": null,
+      "wm-received": "2023-02-28T12:20:39Z",
+      "wm-id": 1631760,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/109942230652162166/109293156829634672",
+      "wm-target": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "like-of": "https://css-irl.info/setting-up-a-newish-macbook/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
     {
       "type": "entry",
       "author": {
