@@ -29,7 +29,8 @@
     }
   }
 
-  code {
+  code,
+  kbd {
     border-radius: 0.25rem;
     background: var(--code);
     color: inherit;
@@ -38,6 +39,11 @@
     @media (min-width: $md) {
       font-size: 0.75em;
     }
+  }
+
+  kbd {
+    background: var(--bgTint);
+    padding: 0.1em 0.6em;
   }
 
   pre code {
