@@ -1,7 +1,7 @@
 ---
 title: 'A Native “Visually Hidden” in CSS? Yes Please!'
 date: '2023-03-01'
-tags: ['post', 'note', 'css', 'workflow']
+tags: ['note', 'post', 'css', 'workflow']
 ---
 
 If you’ve been writing CSS for any length of time, the chances are you’ll have come across situations where you need to hide some text visually, but still have that text available to assistive technologies (such as screenreaders). [Icon buttons](https://www.sarasoueidan.com/blog/accessible-icon-buttons/) and [skip links](https://css-tricks.com/how-to-create-a-skip-to-content-link/) are just two examples. (There are plenty more.) Simply using `display: none` hides text from assistive technologies, which is not useful to us in this scenario. So developers over the years have come up with clever ways to hide text visually, which usually manifest as a utility class that gets copied and pasted into every project, often called `.visually-hidden` or `.sr-only` — something like:
