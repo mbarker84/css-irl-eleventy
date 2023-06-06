@@ -1,6 +1,275 @@
 {
-  "lastFetched": "2023-05-16T09:08:03.912Z",
+  "lastFetched": "2023-06-06T08:21:45.230Z",
   "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "http://www.pearltrees.com/jayrill/ressources-articles/id67064420/item522390506",
+      "published": null,
+      "wm-received": "2023-06-05T12:21:51Z",
+      "wm-id": 1682529,
+      "wm-source": "http://www.pearltrees.com/jayrill/ressources-articles/id67064420/item522390506",
+      "wm-target": "https://css-irl.info/",
+      "mention-of": "https://css-irl.info/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "http://www.pearltrees.com/jayrill/ressources-articles/id67064420"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://83ni3.icu/a-expensive-but-useful-lesson-in-heroin-addiction/",
+      "published": null,
+      "wm-received": "2023-05-28T21:05:15Z",
+      "wm-id": 1679985,
+      "wm-source": "https://83ni3.icu/a-expensive-but-useful-lesson-in-heroin-addiction/",
+      "wm-target": "https://css-irl.info/building-a-dependency-free-site/",
+      "mention-of": "https://css-irl.info/building-a-dependency-free-site/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://ntdln.com/2023/05/22/weekly-links-05-15-05-21/",
+      "published": null,
+      "wm-received": "2023-05-22T12:34:49Z",
+      "wm-id": 1677976,
+      "wm-source": "https://ntdln.com/2023/05/22/weekly-links-05-15-05-21/",
+      "wm-target": "https://css-irl.info/carbon-capture-a-new-way-to-measure-carbon-emissions/",
+      "mention-of": "https://css-irl.info/carbon-capture-a-new-way-to-measure-carbon-emissions/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://ntdln.com/2023/05/22/weekly-links-05-15-05-21/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-may-21-2023/",
+      "published": null,
+      "wm-received": "2023-05-22T00:35:46Z",
+      "wm-id": 1677908,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-may-21-2023/",
+      "wm-target": "https://css-irl.info/exploring-has-again/",
+      "mention-of": "https://css-irl.info/exploring-has-again/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-may-21-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michael Henderson",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ed1740bd1670a388c8d94bbd9357324af86b4c01b93454a54816775e0439bdd8.png",
+        "url": "https://blazinggophers.com/@mike"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#favorited-by-109722231436563227",
+      "published": null,
+      "wm-received": "2023-05-17T17:11:26Z",
+      "wm-id": 1676306,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/110383811317373849/109722231436563227",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "like-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Amelia Bellamy-Royds",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/28c3647c2db4806feca362be35e12a8cb93dfeac759fe1785dc6e65927e94463.jpg",
+        "url": "https://front-end.social/@AmeliaBR"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#favorited-by-109288745031397981",
+      "published": null,
+      "wm-received": "2023-05-17T16:38:07Z",
+      "wm-id": 1676291,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/110383811317373849/109288745031397981",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "like-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mark Llobrera",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/3fd1ebcb348236019165cac941a921e511d443bea1de0e45e9d99d4d3007df37.jpg",
+        "url": "https://mastodon.social/@markllobrera"
+      },
+      "url": "https://mastodon.social/@markllobrera/110384829459124197",
+      "published": "2023-05-17T15:53:48",
+      "wm-received": "2023-05-17T16:04:06Z",
+      "wm-id": 1676283,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/110383811317373849/110384829491215343",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> My favorite type of blog post—a gift to your future self</p>",
+        "text": "@michelle My favorite type of blog post—a gift to your future self"
+      },
+      "in-reply-to": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nick Tune 🇺🇦",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ce1942d4e261bbd118f3c3d49f92551a4157d4d47627e020f97d2b6e2708033c.jpg",
+        "url": "https://hachyderm.io/@nick_tune"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#favorited-by-110345656332731474",
+      "published": null,
+      "wm-received": "2023-05-17T15:36:23Z",
+      "wm-id": 1676257,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/110383811317373849/110345656332731474",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "like-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dohány Tamás",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/feafd1a11556211a86b6403755ae514d5b63c0431df34e747f8cc0057366cfee.jpg",
+        "url": "https://mas.to/@iamdtms"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#favorited-by-109824999063382831",
+      "published": null,
+      "wm-received": "2023-05-17T15:36:22Z",
+      "wm-id": 1676256,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/110383811317373849/109824999063382831",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "like-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "~zinricky :computer_terminal:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ab19c8be288d5bf0f386f243d5d7d43f75e46f798654cb573095e598231aa6ce.jpg",
+        "url": "https://tilde.zone/@zinricky"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#favorited-by-109320907080923076",
+      "published": null,
+      "wm-received": "2023-05-17T15:36:21Z",
+      "wm-id": 1676255,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/110383811317373849/109320907080923076",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "like-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ecfc5765a49387efd278a21fc94a9266e787e0e8a755ea8f58ee9778d9361b3c.png",
+        "url": "https://mastodon.social/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#favorited-by-109288800682422989",
+      "published": null,
+      "wm-received": "2023-05-17T15:36:20Z",
+      "wm-id": 1676253,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/110383811317373849/109288800682422989",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "like-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Katie Sylor-Miller",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/3e48d2257a622a43ed5bce7d47d04539402bee6394dd4f72186d573024dfd1df.jpg",
+        "url": "https://mastodon.social/@ksylor"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#favorited-by-109320360477495057",
+      "published": null,
+      "wm-received": "2023-05-17T15:36:20Z",
+      "wm-id": 1676254,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/110383811317373849/109320360477495057",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "like-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dohány Tamás",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/feafd1a11556211a86b6403755ae514d5b63c0431df34e747f8cc0057366cfee.jpg",
+        "url": "https://mas.to/@iamdtms"
+      },
+      "url": "https://mas.to/@iamdtms/110383889801899286",
+      "published": "2023-05-17T11:54:50",
+      "wm-received": "2023-05-17T15:35:51Z",
+      "wm-id": 1676251,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/110383811317373849/110383889832953703",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> git flow plus feature branches pull request?</p>",
+        "text": "@michelle git flow plus feature branches pull request?"
+      },
+      "in-reply-to": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ecfc5765a49387efd278a21fc94a9266e787e0e8a755ea8f58ee9778d9361b3c.png",
+        "url": "https://mastodon.social/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/110383811317373849#reblogged-by-109288800682422989",
+      "published": null,
+      "wm-received": "2023-05-17T15:35:51Z",
+      "wm-id": 1676252,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/110383811317373849/109288800682422989",
+      "wm-target": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "repost-of": "https://css-irl.info/amending-your-past-commits-with-git/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
     {
       "type": "entry",
       "author": {
