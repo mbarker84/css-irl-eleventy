@@ -1,7 +1,7 @@
 ---
 title: 'Thoughts From CSS Day'
 date: '2023-06-13'
-tags: ['post', 'css', 'opinion', 'conference']
+tags: ['post', 'css', 'opinion', 'events']
 ---
 
 Last week I had the privilege of attending [CSS Day](https://cssday.nl/2023) for the second year in a row (and MCing the second day!). I have to say it’s pretty much the most inspiring conference I’ve ever been to. Right off the bat, [Una](https://una.im/) hit the nail on the head when she said that (paraphrasing) if we thought 2022 was a good year for CSS, we ain’t seen nothin’ yet.
