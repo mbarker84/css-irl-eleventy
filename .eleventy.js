@@ -124,7 +124,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(syntaxHighlight)
-  eleventyConfig.addPlugin(embedYouTube)
+  eleventyConfig.addPlugin(embedYouTube, {
+    lite: {},
+    lazy: true,
+    modestBranding: true,
+    recommendSelfOnly: true,
+  })
 
   dotenv.config()
   eleventyConfig.addPlugin(Webmentions, {
