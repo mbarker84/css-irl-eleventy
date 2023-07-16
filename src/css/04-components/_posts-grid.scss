@@ -55,6 +55,8 @@
   &:hover,
   &:focus {
     ~ .c-posts-grid__read-more {
+      color: var(--primary);
+
       &::after {
         transform: translate3d(0.3em, 0, 0);
       }
@@ -86,6 +88,7 @@
   font-family: $heading;
   font-weight: 700;
   margin-top: var(--vr);
+  transition: color 200ms;
 
   @media (min-width: $md) {
     font-size: rem(16px);
