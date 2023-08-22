@@ -15,6 +15,8 @@
   {% set componentClass = 'c-post-listing--note' %}
 {% elseif isQuickTip %}
   {% set componentClass = 'c-post-listing--quick-tip' %}
+{% elseif post.data.source %}
+  {% set componentClass = 'c-post-listing--external' %}
 {% else %}
   {% set componentClass = '' %}
 {% endif %}
@@ -28,9 +30,12 @@
     <span class="c-posts-grid__tag c-posts-grid__tag--quick-tip">Quick tip</span>
   {% endif %}
 
-  {% if post.data.series %}
+  {% if post.data.source %}
+    <span class="c-posts-grid__tag c-posts-grid__tag--source">Published on {{ post.data.source }}</span>
+  {% endif %}
 
-    <h4 class="c-posts-grid__series-title">{{ post.data.series }}</h4>
+  {% if post.data.series %}
+    <p class="heading-4">{{ post.data.series }}</p>
   {% endif %}
 
   <h3 class="c-posts-grid__post-heading heading-2">

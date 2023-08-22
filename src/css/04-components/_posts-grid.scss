@@ -102,14 +102,12 @@
   }
 }
 
-.c-posts-grid__series-title {
-  margin: 0 0 0.5rem 0;
-  font-size: rem(16px);
-  font-weight: 800;
-}
-
 .c-post-listing {
   position: relative;
+
+  .c-posts-grid__tag {
+    background-color: var(--accentColor);
+  }
 }
 
 .c-post-listing--note {
@@ -118,6 +116,10 @@
 
 .c-post-listing--quick-tip {
   --accentColor: turquoise;
+}
+
+.c-post-listing--external {
+  --accentColor: lavender;
 }
 
 .c-posts-grid__tag {

@@ -103,7 +103,8 @@
 .c-posts-grid__tag--note,
 .c-tag-links__tag--note a,
 .c-tag-links__tag--quick-tip a,
-.c-posts-grid__tag--quick-tip {
+.c-posts-grid__tag--quick-tip,
+.c-posts-grid__tag--source {
   font-weight: 700;
   background-color: var(--note, royalblue);
   color: var(--white);
@@ -112,5 +113,9 @@
 .c-posts-grid__tag--quick-tip,
 .c-tag-links__tag--quick-tip a {
   background-color: var(--note, turquoise);
+  color: var(--black);
+}
+
+.c-posts-grid__tag--source {
   color: var(--black);
 }
