@@ -63,6 +63,7 @@ public
 yarn-error.log
 dist
 .DS_Store
+_webmentioncache/
 
 # Yarn
 .pnp.*
