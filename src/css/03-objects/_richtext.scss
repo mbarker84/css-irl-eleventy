@@ -56,6 +56,8 @@
   }
 
   figure {
+    margin-block: var(--vr);
+
     img {
       box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.18);
     }
