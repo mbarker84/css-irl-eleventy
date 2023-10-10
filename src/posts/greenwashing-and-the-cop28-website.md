@@ -17,7 +17,7 @@ By hosting the summit, the UAE has been accused of attempting to greenwash its r
 
 ## Page weight
 
-Inspecting the network panel in dev tools, we can see the initial data transfer of the site on a desktop computer is 7.1MB for the homepage. Scrolling down to the bottom of the page, a total of 12.9MB is transferred That’s far higher than the [2.5MB average](https://httparchive.org/reports/page-weight?start=2017_04_15&end=latest&view=list) (which is still too high in most cases). The three worst offenders are images, JavaScript and fonts.
+Inspecting the network panel in dev tools, we can see the initial data transfer of the site on a desktop computer is 7.1MB for the homepage. Scrolling down to the bottom of the page, a total of 12.9MB is transferred. That’s far higher than the [2.5MB average](https://httparchive.org/reports/page-weight?start=2017_04_15&end=latest&view=list) (which is still too high in most cases). The three worst offenders are images, JavaScript and fonts.
 
 ### Images
 
