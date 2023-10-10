@@ -1,7 +1,7 @@
 ---
 title: 'In Commission to No Emmissions: Videos from Toronto Web Performance Meetup'
 date: '2022-02-19'
-tags: ['post', 'performance', 'environment', 'opinion', 'video']
+tags: ['post', 'performance', 'web sustainability', 'opinion', 'video']
 ---
 
 <figure><img src="/in-commission-to-no-emissions-01.svg" alt="Line drawing of a loudspeaker" width="1600" height="668"></figure>

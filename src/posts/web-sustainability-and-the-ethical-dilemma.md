@@ -1,7 +1,7 @@
 ---
 title: 'Web Sustainability and the Ethical Dilemma'
 date: '2022-09-19'
-tags: ['post', 'opinion', 'environment', 'performance']
+tags: ['post', 'opinion', 'web sustainability', 'performance']
 layout: 'post-alt.njk'
 headerColors: ['lightblue', 'palegreen']
 textColor: 'var(--black)'

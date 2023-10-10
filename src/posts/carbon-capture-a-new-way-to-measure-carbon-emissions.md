@@ -1,7 +1,7 @@
 ---
 title: 'Carbon Capture: A New Way to Measure Your Website’s Carbon Emissions'
 date: '2023-05-16'
-tags: ['post', 'note', 'environment', 'workflow', 'tooling']
+tags: ['post', 'note', 'web sustainability', 'workflow', 'tooling']
 ---
 
 <figure>

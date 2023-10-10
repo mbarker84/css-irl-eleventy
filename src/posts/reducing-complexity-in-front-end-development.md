@@ -2,7 +2,15 @@
 title: 'Reducing Complexity in Front End Development'
 date: '2023-06-06'
 tags:
-  ['post', 'css', 'javascript', 'opinion', 'environment', 'workflow', 'tooling']
+  [
+    'post',
+    'css',
+    'javascript',
+    'opinion',
+    'web sustainability',
+    'workflow',
+    'tooling',
+  ]
 ---
 
 One of my favourite sessions at [All Day Hey](https://heypresents.com/conferences/2023) conference last month was Jack Franklin’s talk [Abstractions, complexities and off-ramps](https://heypresents.com/talks/abstractions-complexities-and-off-ramps). As web applications grow larger, they inevitably fall prey to complexity, despite our best intentions. The prevalence of third-party libraries to solve everyday coding problems is both a blessing and a curse. It can be tempting to reach for an off-the-shelf solution to save time now, but what happens when that dependency is no longer maintained, or when developer needs change? Can you be sure you understand enough of the underlying code to fix any bugs created by pinning all-important functionality on an (often unpaid) open source maintainer?

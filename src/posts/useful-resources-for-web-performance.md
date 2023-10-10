@@ -2,7 +2,14 @@
 title: 'Useful Resources for Improving Your Site’s Performance (and Reducing Carbon Emissions)'
 date: '2023-05-01'
 tags:
-  ['note', 'post', 'javascript', 'web performance', 'environment', 'workflow']
+  [
+    'note',
+    'post',
+    'javascript',
+    'web performance',
+    'web sustainability',
+    'workflow',
+  ]
 ---
 
 There are lots of areas where better web performance and reducing carbon emissions overlap: faster websites are often less carbon-intensive ones. They transfer less data, cache efficiently, and make fewer requests, all of which reduce energy consumption.

@@ -1,7 +1,7 @@
 ---
 title: 'Introducing the Web Sustainability Guidelines'
 date: '2023-10-06'
-tags: ['note', 'post', 'environment', 'workflow']
+tags: ['note', 'post', 'web sustainability', 'workflow']
 ---
 
 <figure>

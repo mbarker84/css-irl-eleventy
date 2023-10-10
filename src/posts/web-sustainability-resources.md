@@ -1,7 +1,7 @@
 ---
 title: 'Web Sustainability Resources'
 date: '2022-11-14'
-tags: ['post', 'environment', 'html', 'css']
+tags: ['post', 'web sustainability', 'html', 'css']
 ---
 
 While there’s plenty to occupy the web community this week in the form of Twitter imploding, something far more important is also going on right now: the COP27 climate summit, taking place in Sharm El-Sheikh, where world leaders gather to hammer out agreements to (hopefully) limit catastrophic climate change.

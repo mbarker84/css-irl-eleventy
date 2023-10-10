@@ -1,7 +1,7 @@
 ---
 title: 'Tech Workers and Climate Action'
 date: '2022-07-25'
-tags: ['post', 'opinion', 'environment']
+tags: ['post', 'opinion', 'web sustainability']
 layout: post-alt.njk
 headerColors: ['lightblue', 'limegreen']
 textColor: 'var(--black)'
