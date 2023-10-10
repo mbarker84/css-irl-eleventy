@@ -49,7 +49,7 @@ It makes far more sense for an environmental perspective for low carbon to be th
 
 ### 3. Problematic language
 
-If we want people to make low carbon choices, we should avoid giving the impression that we are taking something away, or that they’re somehow getting a lesser experience. The language of the toggle label when low carbon mode is toggle on, “Switch back to full experience” makes it sound like users are missing out on something by switching on low carbon mode, when in fact (if done right) they could be gaining a better, faster experience. This is something Asim Hussain touches upon in [his talk at Smashing Conf Freiburg](https://youtu.be/Djrgi2dqWgA?si=7ywUeIPffloQ_f-c).
+If we want people to make low carbon choices, we should avoid giving the impression that we are taking something away, or that they’re somehow getting a lesser experience. The toggle label when low carbon mode is toggled on, “Switch back to full experience”, makes it sound like users are missing out on something by switching on low carbon mode, when in fact (if done right) they could be gaining a better, faster experience. This is something Asim Hussain touches upon in [his talk at Smashing Conf Freiburg](https://youtu.be/Djrgi2dqWgA?si=7ywUeIPffloQ_f-c).
 
 ## Summary
 
