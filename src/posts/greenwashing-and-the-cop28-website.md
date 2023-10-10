@@ -13,7 +13,7 @@ A member of the [Sustainable Web Design Community Group](https://www.w3.org/comm
 
 The COP28 climate summit, due to take place in the United Arab Emirates this year is somewhat controversial for a number of reasons: the fossil fuel wealth upon which much of the country is built, the [man chosen to lead the conference](https://www.theguardian.com/environment/2023/oct/07/meet-the-oil-man-tasked-with-saving-the-planet-cop28) (who happens to be head of the UAE’s national oil company), and the UAE’s [questionable record on human rights](https://www.amnesty.org/en/location/middle-east-and-north-africa/united-arab-emirates/report-united-arab-emirates/), including imprisoning peaceful protesters.
 
-By hosting the summit, the UAE has been accused of attempting to greenwash its reputation. We can also see some greenwashing of a different kind taking place on the summit’s [website](https://www.cop28.com).
+By hosting the summit, the UAE has been accused of attempting to greenwash its reputation. We can also see some greenwashing of a different kind taking place on the summit’s [website](https://www.cop28.com). Let’s take a look at how green the site really is.
 
 ## Page weight
 
