@@ -12,6 +12,8 @@
 
 body {
   font-family: $body;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   @media (min-width: $md) {
     font-size: 1.2rem;
