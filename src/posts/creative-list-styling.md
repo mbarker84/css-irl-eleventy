@@ -11,4 +11,4 @@ What comes to mind when you think of a list? The most obvious example is a shopp
 
 In this article we'll dive into the different HTML list types available to us on the web and when to use them, including some attributes you might not be familiar with. We'll also take a look at some useful and creative ways to style them with CSS.
 
-[Read the article →](https://web.dev/creative-list-styling/)
+[Read the article](https://web.dev/creative-list-styling/)

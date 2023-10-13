@@ -12,4 +12,4 @@ It certainly doesn’t hurt to be aware of these new technologies. They are the 
 
 I hope that “web3” and its associated terminologies don’t become buzzwords that recruiters look for in a CV. For most web development roles, specialist knowledge of this area is completely unnecessary.
 
-[Read the article →](https://hiddedevries.nl/en/blog/2022-01-03-the-web-doesnt-have-version-numbers)
+[Read the article](https://hiddedevries.nl/en/blog/2022-01-03-the-web-doesnt-have-version-numbers)

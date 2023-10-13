@@ -18,7 +18,7 @@ Last year, [Fershad](https://twitter.com/fershad) analysed the climate impact of
 
 [This thoughtful article](https://medium.com/microsoft-design/digital-physical-4df9eceb63b2) by Jon Friedman and Rachel Romano from the Microsoft Design team does a great job of bringing home the physical impacts of our digital lifestyles (which we in wealthy countries are largely sheltered from), and really emphasises the importance of intersectionality. Microsoft’s [Green Design Principles](https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf) (referenced in the article) are worth reading too.
 
-[Read the article →](https://medium.com/microsoft-design/digital-physical-4df9eceb63b2)
+[Read the article](https://medium.com/microsoft-design/digital-physical-4df9eceb63b2)
 
 ## Making WordPress Sustainable
 

@@ -11,4 +11,4 @@ An animation is about more than just moving things from one place to another. **
 
 The `linear()` function in CSS is a new easing function that gives us more control over crafting our animations. We'll explore how `linear()` works and also look at some practical examples of where it can be used.
 
-[Read the article →](https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/)
+[Read the article](https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/)

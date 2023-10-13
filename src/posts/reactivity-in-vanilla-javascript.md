@@ -10,4 +10,4 @@ This Frontend Masters article, [Patterns for Reactivity with Modern Javascript](
 
 To my mind it would be **very** hard. JS frameworks largely exist to take away some of the pain of this kind of thing (while giving us a whole different kind of pain, LOL), and actually use these techniques under the hood. But that doesn’t mean we shouldn’t question our choices every now and then, and maybe JS frameworks shouldn’t be the first tool we reach for for small pieces of reactivity. Either way, it’s super useful to learn about these patterns.
 
-[Read the article →](https://frontendmasters.com/blog/vanilla-javascript-reactivity/)
+[Read the article](https://frontendmasters.com/blog/vanilla-javascript-reactivity/)

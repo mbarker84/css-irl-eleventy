@@ -26,4 +26,4 @@ It’s so common that even popular CSS frameworks like [Tailwind](https://tailwi
 
 But as Ben Myers points out in this excellent article on [why the web needs this as a native feature](https://benmyers.dev/blog/native-visually-hidden/), there are problems with this. One issue is that there are many variations on this snippet, which have been found to cause problems as browsers and have evolved over time. Ben argues that it’s about time this became a native feature, and I absolutely agree. In the article, Ben outlines some of the advantages and drawbacks to the various forms this might take, such as a value of the `display` property, a property all of its own, or a HTML attribute. I recommend giving it a read, and hopefully something will come out of it 🙂
 
-[Read the article →](https://benmyers.dev/blog/native-visually-hidden/)
+[Read the article](https://benmyers.dev/blog/native-visually-hidden/)
