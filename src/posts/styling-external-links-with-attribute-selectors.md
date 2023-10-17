@@ -127,6 +127,10 @@ a[href^='http']::after {
 }
 ```
 
+<aside>
+  <p>Unfortunately this trick doesn’t work in the latest version of Chrome.</p>
+</aside>
+
 Here’s the full code:
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="XWoGgrX" data-user="michellebarker" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
