@@ -4,6 +4,8 @@ date: '2023-10-10'
 tags: ['post', 'web sustainability', 'web performance']
 ---
 
+**Update (28th October 2023): Since this post was published the COP28 website has undergone some changes. Many of the images are now better optimised, and the low-carbon toggle actually prevents them from loading. Much more could be done to optimise the site, however, and many of the points still stand.**
+
 A member of the [Sustainable Web Design Community Group](https://www.w3.org/community/sustyweb/) recently highlighted some sustainability issues with the [COP28 website](https://www.cop28.com) that warrant a closer look.
 
 <figure>
