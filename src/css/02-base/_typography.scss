@@ -151,6 +151,17 @@ small {
   font-size: 0.9rem;
 }
 
+.intro {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: var(--vr);
+
+  @media (min-width: $lg) {
+    margin-bottom: var(--vr);
+    margin-top: 0;
+  }
+}
+
 .truncate-3 {
   overflow: hidden;
   display: -webkit-box;

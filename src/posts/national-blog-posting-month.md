@@ -2,6 +2,7 @@
 title: 'National Blog Posting Month'
 date: '2023-11-01'
 tags: ['post', 'National Blog Posting Month']
+intro: 'Day 1 of National Blog Posting Month #NaBloPoMo'
 ---
 
 Today I learned from [Amy Hupe](https://amyhupe.co.uk/articles/nablopomo-2023-day-1/) that November is National Blog Posting Month, or #NaBloPoMo, if you will. I’ve always liked the idea of posting one thing a day (blog post, tip, sketch, photo, whatever), even while secretly thinking that people who commit to that must have a few screws loose. There’s a sense of achievement that comes from forcing myself to generate some sort of creative output regularly though.
