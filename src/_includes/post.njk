@@ -8,7 +8,9 @@
           {% include "./partials/post-header.njk" %}
         </div>
         <div class="post-grid__main">
-          <p class="intro">{{ intro }}</p>
+          {% if intro %}
+            <p class="intro">{{ intro }}</p>
+          {% endif %}
           <div class="o-richtext">
             {{ content | safe }}
           </div>
