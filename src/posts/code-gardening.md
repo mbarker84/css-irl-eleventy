@@ -6,7 +6,7 @@ intro: 'Day 4 of National Blog Posting Month #NaBloPoMo'
 ---
 
 <figure>
-  <img src="/code-gardening-01_900.webp" srcset="/code-gardening-01_1600.webp 1600w, /code-gardening-01_1200.webp 1200w, /code-gardening-01_900.webp 900w" sizes="(max-width: 1080px) 90vw, 930px" alt="Vector illustration of a green plant sprouting against a deep purple background">
+  <img src="/code-gardening-01_900.webp" width="1600" height="900" srcset="/code-gardening-01_1600.webp 1600w, /code-gardening-01_1200.webp 1200w, /code-gardening-01_900.webp 900w" sizes="(max-width: 1080px) 90vw, 930px" alt="Vector illustration of a green plant sprouting against a deep purple background">
 </figure>
 
 In my spare time I do a bit of voluntary development work for an activist network. What I like about this kind of work (aside from helping a good cause) is that I get to experience an entirely different codebase, architecture and working process than I do in my paid employment.
