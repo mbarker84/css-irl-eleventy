@@ -1,9 +1,13 @@
 ---
 title: 'Better Vue Application State Management with Vuex Modules'
 date: '2023-11-13'
-tags: ['post', 'National Blog Posting Month', 'javascript']
+tags: ['post', 'National Blog Posting Month', 'javascript', 'Vue']
 intro: 'Day 13 of National Blog Posting Month #NaBloPoMo'
 ---
+
+<figure>
+  <img src="/better-vuex-state-management.svg" alt="Vector illustration of modules represented as a network of colourful squares" width="1600" height="900">
+</figure>
 
 If you use Vue you might be familiar with the state management library [Vuex](https://vuex.vuejs.org). It used to be the state management library recommended by Vue, until the team developed [Pinia](https://pinia.vuejs.org/). But lots of applications still use Vuex, including the one I work on. This post contains some tips for handling state in a Vue app with Vuex. Some familiarity with building with Vue and Vuex will be assumed.
 
