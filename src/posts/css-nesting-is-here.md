@@ -20,7 +20,7 @@ If you’re familiar with preprocessors then making the leap to native CSS nesti
 </div>
 ```
 
-We can style the nested `<div>` (a child of the first-level `<div>`) by literally nesting the selector. The `&` operator is optional, but it should be noted that omitting this for element selectors is not currently supported in Chromium.
+We can style the nested `<div>` (a child of the first-level `<div>`) by literally nesting the selector. The `&` operator is optional, but it should be noted that omitting this for element selectors is not currently supported in Chromium, although **it’s coming in [Chrome 120](https://developer.chrome.com/blog/css-nesting-relaxed-syntax-update)**.
 
 ```css
 div {
