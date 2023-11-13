@@ -1,7 +1,7 @@
 ---
 title: 'Handy Tools For Mocking API Requests'
 date: '2022-10-25'
-tags: ['post', 'js', 'tooling', 'workflow']
+tags: ['post', 'javascript', 'tooling', 'workflow']
 ---
 
 In the course of my work I sometimes find myself needing to mock API requests — often when I’m prototyping, or testing a concept for an article. There are a couple of useful (free) tools I reach for on these occasions.

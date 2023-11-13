@@ -1,7 +1,7 @@
 ---
 title: 'Finding an Element’s Nearest Relative Positioned Ancestor'
 date: '2021-02-09'
-tags: ['post', 'debugging', 'css', 'js']
+tags: ['post', 'debugging', 'css', 'javascript']
 ---
 
 **This article was updated on 15 March 2021.**
