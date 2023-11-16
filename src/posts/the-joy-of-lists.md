@@ -6,7 +6,7 @@ intro: 'Day 15 of National Blog Posting Month #NaBloPoMo'
 ---
 
 <figure>
-  <img src="/the-joy-of-lists-01.svg" sizes="(max-width: 1080px) 90vw, 930px" alt="Vector illustration of a notebook and pens with green background">
+  <img src="/the-joy-of-lists-01.svg" alt="Vector illustration of a notebook and pens with green background">
 </figure>
 
 I’m a big fan of lists. I like to think of myself as a fairly organised person. I make lists for a lot of stuff, at work and home, and get a little kick out of crossing things off. Yes, I’m one of those people who add tasks to a list post-completion, just for the pleasure of seeing it crossed off. This sounds completely pointless, but it’s actually a good motivator! I’m more motivated to tackle the rest of the list if I already have the sense of achievement that comes from already-completed tasks.
