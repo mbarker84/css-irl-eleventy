@@ -1,7 +1,7 @@
 ---
 title: 'Using Flow Diagrams to Manage State in Complex Applications'
 date: '2023-11-16'
-tags: ['post', 'note', 'National Blog Posting Month', 'workflow', 'js', 'vue']
+tags: ['post', 'National Blog Posting Month', 'workflow', 'js', 'vue']
 intro: 'Day 16 of National Blog Posting Month #NaBloPoMo'
 ---
 
