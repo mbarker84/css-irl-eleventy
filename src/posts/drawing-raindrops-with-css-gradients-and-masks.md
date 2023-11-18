@@ -11,9 +11,11 @@ intro: 'Day 18 of National Blog Posting Month #NaBloPoMo'
 
 If you live in the UK like I do, you can’t escape the fact that it’s been a wet few months. Since today had been yet another rainy day, I was inspired to see if I could create a rainy background with CSS.
 
-After I created this demo, I belatedly discovered that it didn’t work as expected in Chrome. It turns out `mask-size` and `mask-repeat` (which the demo relies on) aren’t supported right now. These demos are best viewed in Firefox or Safari.
+<aside>
+<p>After I created this demo, I belatedly discovered that it didn’t work as expected in Chrome. It turns out `mask-size` and `mask-repeat` (which the demo relies on) aren’t supported right now. These demos are best viewed in Firefox or Safari.</p>
+</aside>
 
-I started of thinking I could get away with just using `background` properties. That enabled my to create the raindrop shape, but creating the highlights (which attempt to allude to reflections and refractions present in water droplets) was trickier. I decided to apply the raindrop shape as a mask, with the `mask-image` property. That mean the highlight (that I drew with `radial-gradient`) could bleed off the shape and wouldn’t be present in the background.
+I started of thinking I could get away with just using `background` properties. That enabled me to create the raindrop shape, but creating the highlights (which attempt to allude to reflections and refractions present in water droplets) was trickier. I decided to apply the raindrop shape as a mask, with the `mask-image` property. That mean the highlight (that I drew with `radial-gradient`) could bleed off the shape and wouldn’t be present in the background.
 
 Using a mask meant I had to use a pseudo-element, as a mask on the `<body>` element won’t do anything. I’m using viewport units so that the raindrops will scale.
 
