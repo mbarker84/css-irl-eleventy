@@ -1,6 +1,2678 @@
 {
-  "lastFetched": "2023-10-28T21:45:58.308Z",
+  "lastFetched": "2023-11-19T21:36:39.217Z",
   "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Politikinteressierter????????????????????️‍????",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9f69e943edab6858506da118b09a823e5d1fe05edc188790a174a072bde02302.png",
+        "url": "https://nrw.social/@politikinteressierter"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109381000876293435",
+      "published": null,
+      "wm-received": "2023-11-19T11:02:58Z",
+      "wm-id": 1740746,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109381000876293435",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andy Davies",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a67a04475d2e985a30f8c8dbca9c3ee46da776919379915a9b62e2e78049ec11.jpg",
+        "url": "https://hachyderm.io/@andydavies"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109874328475766981",
+      "published": null,
+      "wm-received": "2023-11-19T11:02:58Z",
+      "wm-id": 1740745,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109874328475766981",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a3e8f10c9190a71c8b5813cb592445962f91252468058abbac98ecff88025553.png",
+        "url": "https://social.lol/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-110651353810564612",
+      "published": null,
+      "wm-received": "2023-11-19T08:04:42Z",
+      "wm-id": 1740728,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/110651353810564612",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/4e9553dbe03be50dcb17aa9c64a7b59e9a8e021b0b7de9c1caed781da15ed8c4.png",
+        "url": "https://mastodon.social/@barrd"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109301868038341908",
+      "published": null,
+      "wm-received": "2023-11-19T08:03:34Z",
+      "wm-id": 1740727,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109301868038341908",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "CSS by T. Afif :verified:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cc8bdd877c7cec4197600fc6d5b595d7a05134ad323391707830c9278dc58595.jpg",
+        "url": "https://front-end.social/@css"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109292938549413014",
+      "published": null,
+      "wm-received": "2023-11-19T00:04:54Z",
+      "wm-id": 1740584,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109292938549413014",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "CSS by T. Afif :verified:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cc8bdd877c7cec4197600fc6d5b595d7a05134ad323391707830c9278dc58595.jpg",
+        "url": "https://front-end.social/@css"
+      },
+      "url": "https://front-end.social/@css/111434244188116328",
+      "published": "2023-11-18T23:53:46+00:00",
+      "wm-received": "2023-11-19T00:04:53Z",
+      "wm-id": 1740583,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111433582943500580/111434244188116328",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> you can use the -webkit- version for better browser support: <a href=\"https://codepen.io/t_afif/pen/dyadGKV\"><span>https://</span><span>codepen.io/t_afif/pen/dyadGKV</span><span></span></a></p><p>Even Firefox recognize the -webkit- version so you don't have to include the other one (only mask-composite requires both versions)</p>\n<a href=\"https://codepen.io/t_afif/details/dyadGKV\">dyadGKV</a>",
+        "text": "@michelle you can use the -webkit- version for better browser support: https://codepen.io/t_afif/pen/dyadGKVEven Firefox recognize the -webkit- version so you don't have to include the other one (only mask-composite requires both versions)\ndyadGKV"
+      },
+      "in-reply-to": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Evil Jim O’Donnell",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9dce1bd288c9de59add02b83c4e6eddd2a4221629dee0224792c6dbd1bed8cb0.jpg",
+        "url": "https://mastodon.social/@eatyourgreens"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109512811137824648",
+      "published": null,
+      "wm-received": "2023-11-18T22:30:56Z",
+      "wm-id": 1740551,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109512811137824648",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tamas",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8dead5987df390a532d4de9ce85c3cbf64f0f179b4ecab587e53e841750eef60.png",
+        "url": "https://mas.to/@iamdtms"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#reblogged-by-109824999063382831",
+      "published": null,
+      "wm-received": "2023-11-18T21:32:33Z",
+      "wm-id": 1740507,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111433582943500580/109824999063382831",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Apple Annie :prami:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/489bdd3b4c09425455f96e3e0bff2f6090dc37be48318700d48e474908247477.png",
+        "url": "https://social.lol/@anniegreens"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#reblogged-by-109740646094210771",
+      "published": null,
+      "wm-received": "2023-11-18T21:32:31Z",
+      "wm-id": 1740506,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111433582943500580/109740646094210771",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Josh “Yoshi” Vickerson",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/52deb648a2752cdcd52f03d34a4b7e40fdaf863e91c4f658a01664657f133de9.png",
+        "url": "https://vickerson.me/@josh"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-110017428888491088",
+      "published": null,
+      "wm-received": "2023-11-18T21:32:30Z",
+      "wm-id": 1740505,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/110017428888491088",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Silverman ????",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/d3f9e6bf083be35a05327d78b886d22877a2e7dfb80e44f29a29210360cf3d40.jpg",
+        "url": "https://mastodon.social/@csilverman"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109295206029761369",
+      "published": null,
+      "wm-received": "2023-11-18T21:32:29Z",
+      "wm-id": 1740504,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109295206029761369",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Apple Annie :prami:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/489bdd3b4c09425455f96e3e0bff2f6090dc37be48318700d48e474908247477.png",
+        "url": "https://social.lol/@anniegreens"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109740646094210771",
+      "published": null,
+      "wm-received": "2023-11-18T21:32:27Z",
+      "wm-id": 1740503,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109740646094210771",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Manuel Matuzović",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/efb1c999b2d30b7c189b6e1c601b820078ff50e3c0fc6019c82e42e0bc364c78.jpg",
+        "url": "https://front-end.social/@matuzo"
+      },
+      "url": "https://front-end.social/@michelle/111433582943500580#favorited-by-109417602310639127",
+      "published": null,
+      "wm-received": "2023-11-18T21:32:26Z",
+      "wm-id": 1740502,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111433582943500580/109417602310639127",
+      "wm-target": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://news.pourover.ai/thoughts-on-ux-engineering/",
+      "published": null,
+      "wm-received": "2023-11-18T09:17:58Z",
+      "wm-id": 1740236,
+      "wm-source": "https://news.pourover.ai/thoughts-on-ux-engineering/",
+      "wm-target": "https://css-irl.info/thoughts-on-ux-engineering/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/thoughts-on-ux-engineering/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://news.pourover.ai/thoughts-on-ux-engineering/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rehan Qasim",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/dcfb3fba0338a6215a446e7a884ba83d0f335fe881eba481c26f2e0d6adb0fd3.jpg",
+        "url": "https://mastodon.social/@rehanqasim"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-111414577739574834",
+      "published": null,
+      "wm-received": "2023-11-16T18:45:42Z",
+      "wm-id": 1739455,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/111414577739574834",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://programming.dev/post/5967973",
+      "published": null,
+      "wm-received": "2023-11-16T16:49:41Z",
+      "wm-id": 1739349,
+      "wm-source": "https://programming.dev/post/5967973",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "webmention",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://programming.dev/post/5967973"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a3e8f10c9190a71c8b5813cb592445962f91252468058abbac98ecff88025553.png",
+        "url": "https://social.lol/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-110651353810564612",
+      "published": null,
+      "wm-received": "2023-11-16T15:49:25Z",
+      "wm-id": 1739298,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/110651353810564612",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jfroehlich",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/b321d8321d850cd6cad3aa097331c85c77d28798752d09eceaca496d515b1910.png",
+        "url": "https://mastodon.social/@jfroehlich"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#reblogged-by-109291952666240180",
+      "published": null,
+      "wm-received": "2023-11-16T07:16:23Z",
+      "wm-id": 1739031,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111416816066570718/109291952666240180",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jfroehlich",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/b321d8321d850cd6cad3aa097331c85c77d28798752d09eceaca496d515b1910.png",
+        "url": "https://mastodon.social/@jfroehlich"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109291952666240180",
+      "published": null,
+      "wm-received": "2023-11-16T07:16:22Z",
+      "wm-id": 1739030,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109291952666240180",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://dinezh.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-16T00:58:30Z",
+      "wm-id": 1738962,
+      "wm-source": "https://dinezh.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://tympanus.net/codrops/collective/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Donny Daniel :mastodon:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2c6eefa01ff1fe26d3a9c846fb0a3e70ac6e147887050077cec0167dc510ef0c.jpg",
+        "url": "https://indieweb.social/@dnnydnl"
+      },
+      "url": "https://indieweb.social/@dnnydnl/111417115709521937",
+      "published": "2023-11-15T23:17:46+00:00",
+      "wm-received": "2023-11-15T23:33:39Z",
+      "wm-id": 1738940,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111416816066570718/111417115752497209",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> <br />\"My lists aren’t pretty. I don’t have nice notebooks. I use scrap paper — old envelopes, school newsletters, the back of a child’s drawings begun and subsequently abandoned — folded and torn into small A6 rectangles\"</p><p>Glad to know there are kindred spirits ????</p>",
+        "text": "@michelle \n\"My lists aren’t pretty. I don’t have nice notebooks. I use scrap paper — old envelopes, school newsletters, the back of a child’s drawings begun and subsequently abandoned — folded and torn into small A6 rectangles\"Glad to know there are kindred spirits ????"
+      },
+      "in-reply-to": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Donny Daniel :mastodon:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2c6eefa01ff1fe26d3a9c846fb0a3e70ac6e147887050077cec0167dc510ef0c.jpg",
+        "url": "https://indieweb.social/@dnnydnl"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109321540796477234",
+      "published": null,
+      "wm-received": "2023-11-15T23:33:38Z",
+      "wm-id": 1738939,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109321540796477234",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lene Saile",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7b11bce21a15d560ac99e575696be482d744f10237abefd30f3e7f6b0861f476.png",
+        "url": "https://front-end.social/@lene"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109292536543732634",
+      "published": null,
+      "wm-received": "2023-11-15T23:01:35Z",
+      "wm-id": 1738898,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109292536543732634",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tamas",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8dead5987df390a532d4de9ce85c3cbf64f0f179b4ecab587e53e841750eef60.png",
+        "url": "https://mas.to/@iamdtms"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109824999063382831",
+      "published": null,
+      "wm-received": "2023-11-15T23:01:33Z",
+      "wm-id": 1738896,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109824999063382831",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "TJ Kendon",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/fdc015c8ae3d4a97589bd6594d18db6b5abdf713b1ee8cd10c4667f36aefab4a.jpg",
+        "url": "https://scholar.social/@tjkendon"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109742244482926454",
+      "published": null,
+      "wm-received": "2023-11-15T23:01:33Z",
+      "wm-id": 1738897,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109742244482926454",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "tomhazledine",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/67a03a8a8cbb481aadab9b3d0cb4dc6d8de0a51ed35f5b7540f4e0b9b2b81708.jpg",
+        "url": "https://mastodon.social/@tomhazledine"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#reblogged-by-109365520768303261",
+      "published": null,
+      "wm-received": "2023-11-15T22:29:43Z",
+      "wm-id": 1738882,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111416816066570718/109365520768303261",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christopher Mackay ????????",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/1d7337f7fd520b8deee73ff0ef088a776546df91e7c79c7b321f3292e78b23e7.png",
+        "url": "https://nojack.easydns.ca/@tantramar"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109383028214196740",
+      "published": null,
+      "wm-received": "2023-11-15T22:29:42Z",
+      "wm-id": 1738881,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109383028214196740",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Megan Sullivan",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/85908c56db179c41406e1727cc6c97ffe302526e61fa4230190dd277d7ce46fe.jpg",
+        "url": "https://hachyderm.io/@meganesulli"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109360967508547268",
+      "published": null,
+      "wm-received": "2023-11-15T22:29:39Z",
+      "wm-id": 1738880,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109360967508547268",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sue",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/c98cf88c16395481c545dbfb13904e481f615ce337569e2ca16f29a5b6af2b5f.jpg",
+        "url": "https://mastodon.social/@suethepooh"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109299363085095765",
+      "published": null,
+      "wm-received": "2023-11-15T22:29:38Z",
+      "wm-id": 1738879,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109299363085095765",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "tomhazledine",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/67a03a8a8cbb481aadab9b3d0cb4dc6d8de0a51ed35f5b7540f4e0b9b2b81708.jpg",
+        "url": "https://mastodon.social/@tomhazledine"
+      },
+      "url": "https://front-end.social/@michelle/111416816066570718#favorited-by-109365520768303261",
+      "published": null,
+      "wm-received": "2023-11-15T22:29:33Z",
+      "wm-id": 1738878,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111416816066570718/109365520768303261",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "tomhazledine",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/67a03a8a8cbb481aadab9b3d0cb4dc6d8de0a51ed35f5b7540f4e0b9b2b81708.jpg",
+        "url": "https://mastodon.social/@tomhazledine"
+      },
+      "url": "https://mastodon.social/@tomhazledine/111416893028332219",
+      "published": "2023-11-15T22:21:08+00:00",
+      "wm-received": "2023-11-15T22:29:32Z",
+      "wm-id": 1738877,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111416816066570718/111416893270132777",
+      "wm-target": "https://css-irl.info/the-joy-of-lists/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> Very nice; love the aesthetic.</p><p>Re:pen-and-paper lists, have you ever tried running a Bullet Journal? I used to (although I did eventually move it off paper and into markdown). YMMV, but I found it super helpful</p>",
+        "text": "@michelle Very nice; love the aesthetic.Re:pen-and-paper lists, have you ever tried running a Bullet Journal? I used to (although I did eventually move it off paper and into markdown). YMMV, but I found it super helpful"
+      },
+      "in-reply-to": "https://css-irl.info/the-joy-of-lists/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "canleaf08 ⌘ ✅",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ecc726fb7e59ce93c6068e8f7b029e9ca605416792319657393153b33a78d361.jpg",
+        "url": "https://mastodon.social/@canleaf"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109401019777430951",
+      "published": null,
+      "wm-received": "2023-11-15T15:13:13Z",
+      "wm-id": 1738631,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109401019777430951",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://news.pourover.ai/radial-gradients-and-css-trigonometric-functions/",
+      "published": null,
+      "wm-received": "2023-11-15T08:59:41Z",
+      "wm-id": 1738555,
+      "wm-source": "https://news.pourover.ai/radial-gradients-and-css-trigonometric-functions/",
+      "wm-target": "https://css-irl.info/radial-gradients-and-css-trigonometric-functions/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/radial-gradients-and-css-trigonometric-functions/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://news.pourover.ai/radial-gradients-and-css-trigonometric-functions/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://mastermindtechpro.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-15T01:39:23Z",
+      "wm-id": 1738499,
+      "wm-source": "https://mastermindtechpro.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://mastermindtechpro.com/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.worldnewstrends.net/2023/11/15/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-15T00:46:25Z",
+      "wm-id": 1738492,
+      "wm-source": "https://www.worldnewstrends.net/2023/11/15/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://abuspeaks.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T18:35:01Z",
+      "wm-id": 1738425,
+      "wm-source": "https://abuspeaks.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://moneymanages.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T17:47:48Z",
+      "wm-id": 1738420,
+      "wm-source": "https://moneymanages.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://moneymanages.com/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://evolucioncreativa.website/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T17:25:54Z",
+      "wm-id": 1738414,
+      "wm-source": "https://evolucioncreativa.website/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://evolucioncreativa.website/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://swissvolcano.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T16:58:24Z",
+      "wm-id": 1738408,
+      "wm-source": "https://swissvolcano.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://swissvolcano.com/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://atocs.net/tutorials/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T16:15:10Z",
+      "wm-id": 1738394,
+      "wm-source": "https://atocs.net/tutorials/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://realdealselectronics.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T13:17:10Z",
+      "wm-id": 1738337,
+      "wm-source": "https://realdealselectronics.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://luxoramall.com/blog/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T12:52:06Z",
+      "wm-id": 1738331,
+      "wm-source": "https://luxoramall.com/blog/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://luxoramall.com/blog/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "http://www.moneyhaat.com/education/web-development-skills/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T12:27:11Z",
+      "wm-id": 1738319,
+      "wm-source": "http://www.moneyhaat.com/education/web-development-skills/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "http://www.moneyhaat.com/education/web-development-skills/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://siliconhype.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T12:10:19Z",
+      "wm-id": 1738315,
+      "wm-source": "https://siliconhype.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AdminGPT",
+        "photo": "",
+        "url": "https://a.supportcontact.online/author/a_y2z1od/"
+      },
+      "url": "https://a.supportcontact.online/2023/11/14/collective-790/",
+      "published": "2023-11-14T12:03:46+00:00",
+      "wm-received": "2023-11-14T12:05:10Z",
+      "wm-id": 1738313,
+      "wm-source": "https://a.supportcontact.online/2023/11/14/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "name": "Collective #790",
+      "content": {
+        "html": "<p> <br /></p>\n\n<a href=\"https://codrops.com\"><img width=\"126\" style=\"border:0;width:126px;height:auto;\" alt=\"Codrops logo\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/66c53629-bfb9-7a17-0785-49331fcdc0dd.png\" /></a>\n<a href=\"https://tympanus.net/codrops/\"><img width=\"660\" style=\"border:0;width:660px;height:auto;\" alt=\"Collective 790\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/05e07473-714e-09bd-7603-b7a7e82db891.jpg\" /></a>\n\n<p></p><h2>Welcome to Collective #790!</h2>\n\n\n\n\n<p>Today we have some fresh frontend links for you including a dive into the world of shaders, some insights by Lea Verou on the balance between usability and aesthetics in UIs and some gradient magic by Michelle Barker. </p>\n\n\n\n\n<p>We’re also introducing “Behind the Pixel”, a bite sized look at tiny design details and how they are accomplished!</p>\n\n\n\n\n<p>Please enjoy reading and feel free to share your favorite links and feedback by replying to this email.</p>\n\n\n\n\n<p><strong>Have a great start of the week!</strong></p>\n\n\n\n\n<p>Grab your .COM domain at an unbeatable price of $5.98 and unlock freebies like a 2-month email address trial, lifetime privacy protection, DNSSEC security, and 24/7 customer support. <a href=\"https://namecheap.pxf.io/c/1284512/1130470/5618\">Get your domain</a></p>\n\n\n\n<img height=\"0\" width=\"0\" src=\"https://namecheap.pxf.io/i/1284512/1130470/5618\" border=\"0\" alt=\"5618\" />\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://www.mayerowitz.io/blog/a-journey-into-shaders\">A Journey Into Shaders</a></p>\n<p>This article by Antoine Mayerowitz introduces the world of shaders, explaining how they work and their importance in graphics, particularly in video games, and guides beginners through the process of creating simple shader-based graphics using OpenGL Shading Language (GLSL).</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://www.matuzo.at/blog/2023/how-browsers-zoom-text\">Totally remdom, or How browsers zoom text</a></p>\n<p>Manuel Matuzović shares his experiment with using “rem” and “px” units for font sizing in web design, highlighting how different mobile browsers and operating systems handle text scaling and emphasizes the importance of using relative units like “rem” to respect user preferences in interface design.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://austingil.com/ai-for-web-devs-neural-networks-llms-gpts/\">AI for Web Devs: What Are Neural Networks, LLMs, &amp; GPTs?</a></p>\n<p>This article is part of Austin Gil’s series on integrating AI into web applications and provides a good overview of AI, neural networks, Large Language Models (LLMs), parameters, embeddings, and Generative Pre-trained Transformers (GPTs).</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://lea.verou.me/blog/2023/minimalist-affordances/\">Minimalist Affordances: Making the right tradeoffs</a></p>\n<p>Lea Verou discusses the balance between usability and aesthetics in user interface design, using the example of GitHub’s new commenting interface to highlight how prioritizing aesthetics over usability can lead to confusion and user frustration.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://css-irl.info/messing-about-with-css-gradients/\">Messing About with CSS Gradients</a></p>\n<p>Michelle Barker dives into the creative use of CSS gradients, including layering, custom properties, and pixel art generation and shares a demo where you can create your own single div pixel art.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://geoffgraham.me/what-exactly-is-modern-css/\">What Exactly is “Modern” CSS?</a></p>\n<p>Geoff Graham reflects on the evolving landscape of CSS and the challenge of defining what is considered “modern” in web design, suggesting various naming approaches to capture different eras or periods in CSS development.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://propellent.framer.website/\">Propellent: Free One Page Framer Template</a></p>\n<p>A free Framer template with a really nice and modern design, especially suitable for software startups and small businesses. Made by Andrea Montini.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://akari.lusion.co/#home\">AKARI: 2D Light Tracing Experiment</a></p>\n<p>Lusion has created an impressive collection of 2D Light Tracing examples that utilize the jump flooding algorithm to produce the distance field for 2D ray marching. This experiment features various visuals and mini-games for users to interact with.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://twitter.com/argyleink/status/1720550871300493541\">Morphing tip prototype with View Transitions</a></p>\n<p>Adam Argyle shares a morphing tooltip prototype with View Transitions. This tooltip includes a fixed position and animates display:none. You can simply set the innerText and position with left/top. </p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://twitter.com/jh3yy/status/1720595836608872892\">CSS Tip: Glowy border button effect with CSS Container Queries</a></p>\n<p>Jhey Thompkins demonstrates an awesome technique for creating a glowing border button effect using CSS container query units in animations. This technique also employs custom properties to control the speed of the animation.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://goose.icu/introducing-shadow/\">Introducing Shadow</a></p>\n<p>CanadaHonk introduces Shadow, a novel browser engine primarily built in JavaScript for fun and learning, emphasizing its unique approach and purpose.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://github.com/ChrisBuilds/terminaltexteffects#terminal-text-effects\">Terminal Text Effects</a></p>\n<p>A Python tool for applying various visual effects to text in the terminal, offering options such as color conversion and text manipulation effects like decryption and animation.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://crazy-pumpkin.andriibabintsev.com/\">Crazy Pumpkin Game</a></p>\n<p>Andrii Babintsev created this adorable game of jumping pumpkins for the Three.js Journey Challenge. You can find the code <a href=\"https://github.com/Snokke/crazy-pumpkin\">here</a>.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://genderswap.fm/\">Genderswap.fm</a></p>\n<p>Eva Decker has shared with us a fascinating project she is currently working on. The project involves creating a website for tracking gender-swapped music covers. The website is built using Astro with View Transitions and is designed to automatically tag covers using the Spotify Audio Features API.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://twitter.com/viki_code/status/1720155979134714078\">Responsive HTML table with sticky columns</a></p>\n<p>Viki shares a cool responsive HTML table that includes sticky columns and a mobile view, created using only CSS and HTML.</p>\n\n\n\n<p></p><h4>Behind the Pixel ????</h4>\n\n\n<a href=\"https://hervebaillargeon.com/info\"><img width=\"660\" style=\"border:0;width:660px;height:auto;\" alt=\"\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/fa310b48-076b-83e6-2773-88f18f8efee8.gif\" /></a>\n\n\n<p><em>In our new section “Behind the Pixel,” we examine small design and animation details and take a peek under the hood to see how they are accomplished.</em></p>\n\n\n\n\n<p>Today, we’re examining a small line animation on <a href=\"https://hervebaillargeon.com/info\">Hervé Baillargeon’s website</a>. As the user scrolls, the information details come into view and a line between the items animates. When we inspect this animation, we can see that the line is a pseudo-element that scales on the X-axis (from 0 to 1) when the section comes into the viewport:</p>\n\n\n\n\n\n<pre><code>.c-list_item.is-inview::before, \n.c-list_item.is-inview:last-child::after {\ntransform: scale(1);\n}</code></pre>\n\n\n\n\n\n<p>The “is-inview” class gets added to each list item when it enters the viewport. A clever technique to animate a pseudo element! Certainly a nice detail ????</p>\n\n\n\n<p></p><h4>Video Vault</h4>\n\n\n\n\n\n\n\n\n\n\n\n\n<a href=\"https://www.youtube.com/watch?v=Qj0Qx8HpNUo&amp;t\"><img width=\"660\" style=\"border:0;width:660px;height:auto;\" alt=\"True Parallax\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/385a91d3-14c8-af4c-a7f3-27a8e377a2e5.jpeg\" /></a>\n\n\n<p><a href=\"https://www.youtube.com/watch?v=Qj0Qx8HpNUo&amp;t\">True parallax with CSS-only is now possible</a></p>\n\n\n\n\n<p>Kevin Powell shows how thanks to <em>scroll-timeline: scroll()</em>, we can now create true parallax effects without JavaScript and have complete control over the speed of each layer. </p>\n\n\n\n\n\n\n\n\n\n\n\n\n<p></p><h4>Demo Corner</h4>\n\n\n\n<p></p><h4>From our blog</h4>\n\n\n\n\n<p style=\"line-height:1.5;\">And that’s it! Thank you for reading the Collective! If you have something you would like us to feature in the next edition, simply reply to this email!</p>\n\n\n<img width=\"200\" style=\"width:200px;height:auto;\" alt=\"\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/12100b0d-ca1c-7582-8d19-dfe2196e9ecd.jpeg\" />\n\n\n<p>Codrops is proudly sponsored by <a href=\"https://www.keycdn.com/\"><strong>KeyCDN</strong></a><strong>, the high performance content delivery network that has been built for the future.</strong></p>\n\n\n\n<p><br /><br /><br /><br /><a href=\"https://tympanus.net/codrops/collective/collective-790/\">Source link </a></p>",
+        "text": "Welcome to Collective #790!\n\n\n\n\nToday we have some fresh frontend links for you including a dive into the world of shaders, some insights by Lea Verou on the balance between usability and aesthetics in UIs and some gradient magic by Michelle Barker. \n\n\n\n\nWe’re also introducing “Behind the Pixel”, a bite sized look at tiny design details and how they are accomplished!\n\n\n\n\nPlease enjoy reading and feel free to share your favorite links and feedback by replying to this email.\n\n\n\n\nHave a great start of the week!\n\n\n\n\nGrab your .COM domain at an unbeatable price of $5.98 and unlock freebies like a 2-month email address trial, lifetime privacy protection, DNSSEC security, and 24/7 customer support. Get your domain\n\n\n\nA Journey Into Shaders\nThis article by Antoine Mayerowitz introduces the world of shaders, explaining how they work and their importance in graphics, particularly in video games, and guides beginners through the process of creating simple shader-based graphics using OpenGL Shading Language (GLSL).\n\n\n\n\nTotally remdom, or How browsers zoom text\nManuel Matuzović shares his experiment with using “rem” and “px” units for font sizing in web design, highlighting how different mobile browsers and operating systems handle text scaling and emphasizes the importance of using relative units like “rem” to respect user preferences in interface design.\n\n\n\n\nAI for Web Devs: What Are Neural Networks, LLMs, & GPTs?\nThis article is part of Austin Gil’s series on integrating AI into web applications and provides a good overview of AI, neural networks, Large Language Models (LLMs), parameters, embeddings, and Generative Pre-trained Transformers (GPTs).\n\n\n\n\nMinimalist Affordances: Making the right tradeoffs\nLea Verou discusses the balance between usability and aesthetics in user interface design, using the example of GitHub’s new commenting interface to highlight how prioritizing aesthetics over usability can lead to confusion and user frustration.\n\n\n\n\nMessing About with CSS Gradients\nMichelle Barker dives into the creative use of CSS gradients, including layering, custom properties, and pixel art generation and shares a demo where you can create your own single div pixel art.\n\n\n\n\nWhat Exactly is “Modern” CSS?\nGeoff Graham reflects on the evolving landscape of CSS and the challenge of defining what is considered “modern” in web design, suggesting various naming approaches to capture different eras or periods in CSS development.\n\n\n\n\nPropellent: Free One Page Framer Template\nA free Framer template with a really nice and modern design, especially suitable for software startups and small businesses. Made by Andrea Montini.\n\n\n\n\nAKARI: 2D Light Tracing Experiment\nLusion has created an impressive collection of 2D Light Tracing examples that utilize the jump flooding algorithm to produce the distance field for 2D ray marching. This experiment features various visuals and mini-games for users to interact with.\n\n\n\n\nMorphing tip prototype with View Transitions\nAdam Argyle shares a morphing tooltip prototype with View Transitions. This tooltip includes a fixed position and animates display:none. You can simply set the innerText and position with left/top. \n\n\n\n\nCSS Tip: Glowy border button effect with CSS Container Queries\nJhey Thompkins demonstrates an awesome technique for creating a glowing border button effect using CSS container query units in animations. This technique also employs custom properties to control the speed of the animation.\n\n\n\n\nIntroducing Shadow\nCanadaHonk introduces Shadow, a novel browser engine primarily built in JavaScript for fun and learning, emphasizing its unique approach and purpose.\n\n\n\n\nTerminal Text Effects\nA Python tool for applying various visual effects to text in the terminal, offering options such as color conversion and text manipulation effects like decryption and animation.\n\n\n\n\nCrazy Pumpkin Game\nAndrii Babintsev created this adorable game of jumping pumpkins for the Three.js Journey Challenge. You can find the code here.\n\n\n\n\nGenderswap.fm\nEva Decker has shared with us a fascinating project she is currently working on. The project involves creating a website for tracking gender-swapped music covers. The website is built using Astro with View Transitions and is designed to automatically tag covers using the Spotify Audio Features API.\n\n\n\n\nResponsive HTML table with sticky columns\nViki shares a cool responsive HTML table that includes sticky columns and a mobile view, created using only CSS and HTML.\n\n\n\nBehind the Pixel ????\n\n\n\n\n\nIn our new section “Behind the Pixel,” we examine small design and animation details and take a peek under the hood to see how they are accomplished.\n\n\n\n\nToday, we’re examining a small line animation on Hervé Baillargeon’s website. As the user scrolls, the information details come into view and a line between the items animates. When we inspect this animation, we can see that the line is a pseudo-element that scales on the X-axis (from 0 to 1) when the section comes into the viewport:\n\n\n\n\n\n.c-list_item.is-inview::before, \n.c-list_item.is-inview:last-child::after {\ntransform: scale(1);\n}\n\n\n\n\n\nThe “is-inview” class gets added to each list item when it enters the viewport. A clever technique to animate a pseudo element! Certainly a nice detail ????\n\n\n\nVideo Vault\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrue parallax with CSS-only is now possible\n\n\n\n\nKevin Powell shows how thanks to scroll-timeline: scroll(), we can now create true parallax effects without JavaScript and have complete control over the speed of each layer. \n\n\n\n\n\n\n\n\n\n\n\n\nDemo Corner\n\n\n\nFrom our blog\n\n\n\n\nAnd that’s it! Thank you for reading the Collective! If you have something you would like us to feature in the next edition, simply reply to this email!\n\n\nCodrops is proudly sponsored by KeyCDN, the high performance content delivery network that has been built for the future.\n\n\n\n\n\n\n\nSource link"
+      },
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://digitalwebgeek.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T11:29:05Z",
+      "wm-id": 1738300,
+      "wm-source": "https://digitalwebgeek.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://digitalwebgeek.com/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://washingtonread.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T11:27:16Z",
+      "wm-id": 1738298,
+      "wm-source": "https://washingtonread.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "name": "Collective #790",
+      "content": {
+        "html": "<p><br /><br /><br /><br /></p>\n\n<a href=\"https://codrops.com\"></a>\n<img width=\"660\" style=\"border:0;width:660px;height:auto;\" alt=\"Collective 790\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/05e07473-714e-09bd-7603-b7a7e82db891.jpg\" />\n\n<p></p><h2>Welcome to Collective #790!</h2>\n\n\n\n\n<p>Today we have some fresh frontend links for you including a dive into the world of shaders, some insights by Lea Verou on the balance between usability and aesthetics in UIs and some gradient magic by Michelle Barker. </p>\n\n\n\n\n<p>We’re also introducing “Behind the Pixel”, a bite sized look at tiny design details and how they are accomplished!</p>\n\n\n\n\n<p>Please enjoy reading and feel free to share your favorite links and feedback by replying to this email.</p>\n\n\n\n\n<p><strong>Have a great start of the week!</strong></p>\n\n\n\n\n<p>Grab your .COM domain at an unbeatable price of $5.98 and unlock freebies like a 2-month email address trial, lifetime privacy protection, DNSSEC security, and 24/7 customer support. <a href=\"https://namecheap.pxf.io/c/1284512/1130470/5618\">Get your domain</a></p>\n\n\n\n<img height=\"0\" width=\"0\" src=\"https://namecheap.pxf.io/i/1284512/1130470/5618\" border=\"0\" alt=\"5618\" />\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://www.mayerowitz.io/blog/a-journey-into-shaders\">A Journey Into Shaders</a></p>\n<p>This article by Antoine Mayerowitz introduces the world of shaders, explaining how they work and their importance in graphics, particularly in video games, and guides beginners through the process of creating simple shader-based graphics using OpenGL Shading Language (GLSL).</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://www.matuzo.at/blog/2023/how-browsers-zoom-text\">Totally remdom, or How browsers zoom text</a></p>\n<p>Manuel Matuzović shares his experiment with using “rem” and “px” units for font sizing in web design, highlighting how different mobile browsers and operating systems handle text scaling and emphasizes the importance of using relative units like “rem” to respect user preferences in interface design.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://austingil.com/ai-for-web-devs-neural-networks-llms-gpts/\">AI for Web Devs: What Are Neural Networks, LLMs, &amp; GPTs?</a></p>\n<p>This article is part of Austin Gil’s series on integrating AI into web applications and provides a good overview of AI, neural networks, Large Language Models (LLMs), parameters, embeddings, and Generative Pre-trained Transformers (GPTs).</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://lea.verou.me/blog/2023/minimalist-affordances/\">Minimalist Affordances: Making the right tradeoffs</a></p>\n<p>Lea Verou discusses the balance between usability and aesthetics in user interface design, using the example of GitHub’s new commenting interface to highlight how prioritizing aesthetics over usability can lead to confusion and user frustration.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://css-irl.info/messing-about-with-css-gradients/\">Messing About with CSS Gradients</a></p>\n<p>Michelle Barker dives into the creative use of CSS gradients, including layering, custom properties, and pixel art generation and shares a demo where you can create your own single div pixel art.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://geoffgraham.me/what-exactly-is-modern-css/\">What Exactly is “Modern” CSS?</a></p>\n<p>Geoff Graham reflects on the evolving landscape of CSS and the challenge of defining what is considered “modern” in web design, suggesting various naming approaches to capture different eras or periods in CSS development.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://propellent.framer.website/\">Propellent: Free One Page Framer Template</a></p>\n<p>A free Framer template with a really nice and modern design, especially suitable for software startups and small businesses. Made by Andrea Montini.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://akari.lusion.co/#home\">AKARI: 2D Light Tracing Experiment</a></p>\n<p>Lusion has created an impressive collection of 2D Light Tracing examples that utilize the jump flooding algorithm to produce the distance field for 2D ray marching. This experiment features various visuals and mini-games for users to interact with.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://twitter.com/argyleink/status/1720550871300493541\">Morphing tip prototype with View Transitions</a></p>\n<p>Adam Argyle shares a morphing tooltip prototype with View Transitions. This tooltip includes a fixed position and animates display:none. You can simply set the innerText and position with left/top. </p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://twitter.com/jh3yy/status/1720595836608872892\">CSS Tip: Glowy border button effect with CSS Container Queries</a></p>\n<p>Jhey Thompkins demonstrates an awesome technique for creating a glowing border button effect using CSS container query units in animations. This technique also employs custom properties to control the speed of the animation.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://goose.icu/introducing-shadow/\">Introducing Shadow</a></p>\n<p>CanadaHonk introduces Shadow, a novel browser engine primarily built in JavaScript for fun and learning, emphasizing its unique approach and purpose.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://github.com/ChrisBuilds/terminaltexteffects#terminal-text-effects\">Terminal Text Effects</a></p>\n<p>A Python tool for applying various visual effects to text in the terminal, offering options such as color conversion and text manipulation effects like decryption and animation.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://crazy-pumpkin.andriibabintsev.com/\">Crazy Pumpkin Game</a></p>\n<p>Andrii Babintsev created this adorable game of jumping pumpkins for the Three.js Journey Challenge. You can find the code <a href=\"https://github.com/Snokke/crazy-pumpkin\">here</a>.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://genderswap.fm/\">Genderswap.fm</a></p>\n<p>Eva Decker has shared with us a fascinating project she is currently working on. The project involves creating a website for tracking gender-swapped music covers. The website is built using Astro with View Transitions and is designed to automatically tag covers using the Spotify Audio Features API.</p>\n\n\n\n\n<p style=\"line-height:2;\"><a href=\"https://twitter.com/viki_code/status/1720155979134714078\">Responsive HTML table with sticky columns</a></p>\n<p>Viki shares a cool responsive HTML table that includes sticky columns and a mobile view, created using only CSS and HTML.</p>\n\n\n\n<p></p><h4>Behind the Pixel ????</h4>\n\n\n<a href=\"https://hervebaillargeon.com/info\"><img width=\"660\" style=\"border:0;width:660px;height:auto;\" alt=\"\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/fa310b48-076b-83e6-2773-88f18f8efee8.gif\" /></a>\n\n\n<p><em>In our new section “Behind the Pixel,” we examine small design and animation details and take a peek under the hood to see how they are accomplished.</em></p>\n\n\n\n\n<p>Today, we’re examining a small line animation on <a href=\"https://hervebaillargeon.com/info\">Hervé Baillargeon’s website</a>. As the user scrolls, the information details come into view and a line between the items animates. When we inspect this animation, we can see that the line is a pseudo-element that scales on the X-axis (from 0 to 1) when the section comes into the viewport:</p>\n\n\n\n\n\n<pre><code>.c-list_item.is-inview::before, \n.c-list_item.is-inview:last-child::after \ntransform: scale(1);\n</code></pre>\n\n\n\n\n\n<p>The “is-inview” class gets added to each list item when it enters the viewport. A clever technique to animate a pseudo element! Certainly a nice detail ????</p>\n\n\n\n<p></p><h4>Video Vault</h4>\n\n\n\n\n\n\n\n\n\n\n\n\n<a href=\"https://www.youtube.com/watch?v=Qj0Qx8HpNUo&amp;t\"><img width=\"660\" style=\"border:0;width:660px;height:auto;\" alt=\"True Parallax\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/385a91d3-14c8-af4c-a7f3-27a8e377a2e5.jpeg\" /></a>\n\n\n<p><a href=\"https://www.youtube.com/watch?v=Qj0Qx8HpNUo&amp;t\">True parallax with CSS-only is now possible</a></p>\n\n\n\n\n<p>Kevin Powell shows how thanks to <em>scroll-timeline: scroll()</em>, we can now create true parallax effects without JavaScript and have complete control over the speed of each layer. </p>\n\n\n\n\n\n\n\n\n\n\n\n\n<p></p><h4>Demo Corner</h4>\n\n\n\n<p></p><h4>From our blog</h4>\n\n\n\n\n<p style=\"line-height:1.5;\">And that’s it! Thank you for reading the Collective! If you have something you would like us to feature in the next edition, simply reply to this email!</p>\n\n\n<img width=\"200\" style=\"width:200px;height:auto;\" alt=\"\" src=\"https://mcusercontent.com/10ffec652b0f54fe5d8682ac0/images/12100b0d-ca1c-7582-8d19-dfe2196e9ecd.jpeg\" />\n\n\n<p>Codrops is proudly sponsored by <a href=\"https://www.keycdn.com/\"><strong>KeyCDN</strong></a><strong>, the high performance content delivery network that has been built for the future.</strong></p>\n\n\n\n<p><br /><br /><br /><br /><br /><br /><a href=\"https://tympanus.net/codrops/collective/collective-790/\">Source link </a></p>\n                            \n                                    \n                                    \n\t<h2>Continue Reading</h2>\n\t\t<a href=\"https://washingtonread.com/the-easiest-ways-to-hide-away-mirrored-closet-doors/\"><span>Previous</span> <span>Previous post:</span> <span></span></a><h4><a href=\"https://washingtonread.com/the-easiest-ways-to-hide-away-mirrored-closet-doors/\"><span>The Easiest Ways to Hide Away Mirrored Closet Doors</span></a></h4><a href=\"https://washingtonread.com/the-easiest-ways-to-hide-away-mirrored-closet-doors/\"><span><img width=\"150\" height=\"150\" src=\"https://washingtonread.com/wp-content/uploads/2023/11/The-Easiest-Ways-to-Hide-Away-Mirrored-Closet-Doors-150x150.webp\" alt=\"\" /></span></a><a href=\"https://washingtonread.com/latest-us-climate-assessment-shows-the-extreme-toll-taken-by-climate-change/\"><span>Next</span> <span>Next post:</span> <span></span></a><h4><a href=\"https://washingtonread.com/latest-us-climate-assessment-shows-the-extreme-toll-taken-by-climate-change/\"><span>Latest US climate assessment shows the extreme toll taken by climate change</span></a></h4><a href=\"https://washingtonread.com/latest-us-climate-assessment-shows-the-extreme-toll-taken-by-climate-change/\"><span><img width=\"150\" height=\"150\" src=\"https://washingtonread.com/wp-content/uploads/2023/11/Latest-US-climate-assessment-shows-the-extreme-toll-taken-by-150x150.webp\" alt=\"\" /></span></a>",
+        "text": "Welcome to Collective #790!\n\n\n\n\nToday we have some fresh frontend links for you including a dive into the world of shaders, some insights by Lea Verou on the balance between usability and aesthetics in UIs and some gradient magic by Michelle Barker. \n\n\n\n\nWe’re also introducing “Behind the Pixel”, a bite sized look at tiny design details and how they are accomplished!\n\n\n\n\nPlease enjoy reading and feel free to share your favorite links and feedback by replying to this email.\n\n\n\n\nHave a great start of the week!\n\n\n\n\nGrab your .COM domain at an unbeatable price of $5.98 and unlock freebies like a 2-month email address trial, lifetime privacy protection, DNSSEC security, and 24/7 customer support. Get your domain\n\n\n\nA Journey Into Shaders\nThis article by Antoine Mayerowitz introduces the world of shaders, explaining how they work and their importance in graphics, particularly in video games, and guides beginners through the process of creating simple shader-based graphics using OpenGL Shading Language (GLSL).\n\n\n\n\nTotally remdom, or How browsers zoom text\nManuel Matuzović shares his experiment with using “rem” and “px” units for font sizing in web design, highlighting how different mobile browsers and operating systems handle text scaling and emphasizes the importance of using relative units like “rem” to respect user preferences in interface design.\n\n\n\n\nAI for Web Devs: What Are Neural Networks, LLMs, & GPTs?\nThis article is part of Austin Gil’s series on integrating AI into web applications and provides a good overview of AI, neural networks, Large Language Models (LLMs), parameters, embeddings, and Generative Pre-trained Transformers (GPTs).\n\n\n\n\nMinimalist Affordances: Making the right tradeoffs\nLea Verou discusses the balance between usability and aesthetics in user interface design, using the example of GitHub’s new commenting interface to highlight how prioritizing aesthetics over usability can lead to confusion and user frustration.\n\n\n\n\nMessing About with CSS Gradients\nMichelle Barker dives into the creative use of CSS gradients, including layering, custom properties, and pixel art generation and shares a demo where you can create your own single div pixel art.\n\n\n\n\nWhat Exactly is “Modern” CSS?\nGeoff Graham reflects on the evolving landscape of CSS and the challenge of defining what is considered “modern” in web design, suggesting various naming approaches to capture different eras or periods in CSS development.\n\n\n\n\nPropellent: Free One Page Framer Template\nA free Framer template with a really nice and modern design, especially suitable for software startups and small businesses. Made by Andrea Montini.\n\n\n\n\nAKARI: 2D Light Tracing Experiment\nLusion has created an impressive collection of 2D Light Tracing examples that utilize the jump flooding algorithm to produce the distance field for 2D ray marching. This experiment features various visuals and mini-games for users to interact with.\n\n\n\n\nMorphing tip prototype with View Transitions\nAdam Argyle shares a morphing tooltip prototype with View Transitions. This tooltip includes a fixed position and animates display:none. You can simply set the innerText and position with left/top. \n\n\n\n\nCSS Tip: Glowy border button effect with CSS Container Queries\nJhey Thompkins demonstrates an awesome technique for creating a glowing border button effect using CSS container query units in animations. This technique also employs custom properties to control the speed of the animation.\n\n\n\n\nIntroducing Shadow\nCanadaHonk introduces Shadow, a novel browser engine primarily built in JavaScript for fun and learning, emphasizing its unique approach and purpose.\n\n\n\n\nTerminal Text Effects\nA Python tool for applying various visual effects to text in the terminal, offering options such as color conversion and text manipulation effects like decryption and animation.\n\n\n\n\nCrazy Pumpkin Game\nAndrii Babintsev created this adorable game of jumping pumpkins for the Three.js Journey Challenge. You can find the code here.\n\n\n\n\nGenderswap.fm\nEva Decker has shared with us a fascinating project she is currently working on. The project involves creating a website for tracking gender-swapped music covers. The website is built using Astro with View Transitions and is designed to automatically tag covers using the Spotify Audio Features API.\n\n\n\n\nResponsive HTML table with sticky columns\nViki shares a cool responsive HTML table that includes sticky columns and a mobile view, created using only CSS and HTML.\n\n\n\nBehind the Pixel ????\n\n\n\n\n\nIn our new section “Behind the Pixel,” we examine small design and animation details and take a peek under the hood to see how they are accomplished.\n\n\n\n\nToday, we’re examining a small line animation on Hervé Baillargeon’s website. As the user scrolls, the information details come into view and a line between the items animates. When we inspect this animation, we can see that the line is a pseudo-element that scales on the X-axis (from 0 to 1) when the section comes into the viewport:\n\n\n\n\n\n.c-list_item.is-inview::before, \n.c-list_item.is-inview:last-child::after \ntransform: scale(1);\n\n\n\n\n\n\nThe “is-inview” class gets added to each list item when it enters the viewport. A clever technique to animate a pseudo element! Certainly a nice detail ????\n\n\n\nVideo Vault\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrue parallax with CSS-only is now possible\n\n\n\n\nKevin Powell shows how thanks to scroll-timeline: scroll(), we can now create true parallax effects without JavaScript and have complete control over the speed of each layer. \n\n\n\n\n\n\n\n\n\n\n\n\nDemo Corner\n\n\n\nFrom our blog\n\n\n\n\nAnd that’s it! Thank you for reading the Collective! If you have something you would like us to feature in the next edition, simply reply to this email!\n\n\nCodrops is proudly sponsored by KeyCDN, the high performance content delivery network that has been built for the future.\n\n\n\n\n\n\n\n\n\nSource link \n                            \n                                    \n                                    \n\tContinue Reading\n\t\tPrevious Previous post: The Easiest Ways to Hide Away Mirrored Closet DoorsNext Next post: Latest US climate assessment shows the extreme toll taken by climate change"
+      },
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://washingtonread.com/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://techtoguide.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T11:19:38Z",
+      "wm-id": 1738295,
+      "wm-source": "https://techtoguide.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://techtoguide.com/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://mycheapwebhosting.com/collective-790/",
+      "published": null,
+      "wm-received": "2023-11-14T10:53:03Z",
+      "wm-id": 1738291,
+      "wm-source": "https://mycheapwebhosting.com/collective-790/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://mycheapwebhosting.com/collective-790/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Johanna J",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/e89292539ba1beb030823ed83bdbb73893d3682c753f121c597c94767dc261b7.png",
+        "url": "https://kirche.social/@hanna_unterwegs"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109302815692718426",
+      "published": null,
+      "wm-received": "2023-11-14T09:50:45Z",
+      "wm-id": 1738278,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109302815692718426",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Björn Berkholz",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8e3cf6331e9c747e6d7e069a2180578701fff51b813468538ed63db441ca191c.png",
+        "url": "https://fedisabled.social/@bberkholz"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109308044429803652",
+      "published": null,
+      "wm-received": "2023-11-14T06:18:52Z",
+      "wm-id": 1738251,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109308044429803652",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lea Rosema",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/4601eefdce9b795a8d4fde186d05556f8eb9e54a1ee407418a6a9a366085bcb9.png",
+        "url": "https://lea.lgbt/@lea"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109966669842769457",
+      "published": null,
+      "wm-received": "2023-11-13T23:32:15Z",
+      "wm-id": 1738181,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109966669842769457",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lea Rosema",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/4601eefdce9b795a8d4fde186d05556f8eb9e54a1ee407418a6a9a366085bcb9.png",
+        "url": "https://lea.lgbt/@lea"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109966669842769457",
+      "published": null,
+      "wm-received": "2023-11-13T23:32:15Z",
+      "wm-id": 1738182,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109966669842769457",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "published": null,
+      "wm-received": "2023-11-13T22:10:36Z",
+      "wm-id": 1738164,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "wm-target": "https://css-irl.info/update-on-the-cop28-website/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/update-on-the-cop28-website/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-november-13-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "published": null,
+      "wm-received": "2023-11-13T22:10:25Z",
+      "wm-id": 1738163,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "wm-target": "https://css-irl.info/code-gardening/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/code-gardening/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-november-13-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "published": null,
+      "wm-received": "2023-11-13T22:10:24Z",
+      "wm-id": 1738162,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "wm-target": "https://css-irl.info/dont-mind-the-gap/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/dont-mind-the-gap/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-november-13-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "published": null,
+      "wm-received": "2023-11-13T22:10:19Z",
+      "wm-id": 1738161,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "wm-target": "https://css-irl.info/leaving-twitter-behind/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/leaving-twitter-behind/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-november-13-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "published": null,
+      "wm-received": "2023-11-13T22:10:18Z",
+      "wm-id": 1738160,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "wm-target": "https://css-irl.info/national-blog-posting-month/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/national-blog-posting-month/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-november-13-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "published": null,
+      "wm-received": "2023-11-13T22:10:16Z",
+      "wm-id": 1738159,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-november-13-2023/",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-november-13-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://news.pourover.ai/programming-as-a-craft/",
+      "published": null,
+      "wm-received": "2023-11-13T08:38:51Z",
+      "wm-id": 1737841,
+      "wm-source": "https://news.pourover.ai/programming-as-a-craft/",
+      "wm-target": "https://css-irl.info/programming-as-a-craft/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/programming-as-a-craft/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://news.pourover.ai/programming-as-a-craft/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marty McGuire",
+        "photo": "https://webmention.io/avatar/martymcgui.re/f750b9918a92f3dc86d15d8fefad4a06c20a829ae950e18dfc2c8b9a4b26b422.jpg",
+        "url": "https://martymcgui.re/"
+      },
+      "url": "https://martymcgui.re/2023/11/12/112958/",
+      "published": "2023-11-12T11:29:58-05:00",
+      "wm-received": "2023-11-12T16:31:55Z",
+      "wm-id": 1737643,
+      "wm-source": "https://martymcgui.re/2023/11/12/112958/",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "summary": {
+        "content-type": "text/plain",
+        "value": "???? Reposted https://css-irl.info/stop-using-ai-generated-images/"
+      },
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://martymcgui.re/2023/11/12/112958/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeremy Keith",
+        "photo": "https://webmention.io/avatar/adactio.com/24f33c5820046ebbcb429f78bb988fc1fa9f97d35247e0b72b3fb5ff888da633.jpg",
+        "url": "https://adactio.com/"
+      },
+      "url": "https://adactio.com/links/20622",
+      "published": "2023-11-12T11:29:07",
+      "wm-received": "2023-11-12T11:30:12Z",
+      "wm-id": 1737560,
+      "wm-source": "https://adactio.com/links/20622",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<h1 class=\"p-name\">\n<a class=\"u-bookmark-of\" href=\"https://css-irl.info/stop-using-ai-generated-images/\">\nCSS { In Real Life } | Stop Using AI-Generated Images\n</a>\n</h1>\n<h2>\n<time class=\"dt-published\" datetime=\"2023-11-12T11:29:07\">\nNovember 12th, 2023\n</time></h2>\n\n<blockquote>\n  <p>I have yet to meet anyone who wants to hang AI art on their walls (although I fully expect to see it in hotel chains).</p>\n</blockquote>",
+        "text": "CSS { In Real Life } | Stop Using AI-Generated Images\n\n\n\n\nNovember 12th, 2023\n\n\n\n  I have yet to meet anyone who wants to hang AI art on their walls (although I fully expect to see it in hotel chains)."
+      },
+      "bookmark-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "bookmark-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://adactio.com/links/20622"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "tzi",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/b88d95ca686715a70d9b6944f91a509ce1c56890be45782695d6ee9d43aae423.png",
+        "url": "https://social.tzi.fr/@thomas"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109295680198393011",
+      "published": null,
+      "wm-received": "2023-11-12T08:32:24Z",
+      "wm-id": 1737538,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109295680198393011",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tracy Durnell",
+        "photo": "https://webmention.io/avatar/secure.gravatar.com/166bfa79afa93d034d4fe38d5b399838c290891e3144a650d46f1a7e5acd6532.jpg",
+        "url": "https://tracydurnell.com"
+      },
+      "url": "https://tracydurnell.com/2023/11/11/we-need-solidarity-across-creative-industries/",
+      "published": "2023-11-11T21:59:38-08:00",
+      "wm-received": "2023-11-12T05:59:54Z",
+      "wm-id": 1737513,
+      "wm-source": "https://tracydurnell.com/2023/11/11/we-need-solidarity-across-creative-industries/",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "name": "We need solidarity across creative industries",
+      "content": {
+        "html": "<span title=\"Like\" style=\"max-height:1rem;margin-right:0.5rem;\"><span></span></span><span>Liked</span> <a href=\"https://css-irl.info/stop-using-ai-generated-images/\" class=\"p-name u-url\">Stop Using AI-Generated Images</a> by <span class=\"h-card p-author\">Michelle Barker</span> <em>(<span class=\"p-publication\">CSS { In Real Life }</span>)</em><blockquote class=\"e-summary\"><p>AI can be used by artists to augment their work and explore an exciting, new, creative frontier. But the vast majority of “AI art” I’ve seen is not that. It’s theft. You don’t have a right to “free” art, in the same way you don’t have a right to have your car fixed for free.</p></blockquote>\n<p>I saw someone post the other day about how good AI-generated imagery is now, and how they’d paid good money for comparable illustrations for a print magazine back in the day. The implication I heard (perhaps not intended) was that they could have swapped in AI graphics, if they’d been this quality then. It made me sad that someone you’d think would value creative works would be just as happy to have a computer “do it for free.” That editorial illustration is seen as a cost, not a contributor of value. (I feel the same way about <a href=\"https://tracydurnell.com/2023/02/21/the-dream-of-ai-is-the-dream-of-free-labor/\">corporations viewing employees as costs instead of assets</a>.)</p>\n<blockquote><p>Just like LLMs, AI image generators are trained on image data scraped from the internet, much of it copyrighted, and almost all of it without the artists’ permission. Artists train for years, sometimes decades, to hone their craft in a precarious and low-paid industry. Without their skill, which produces the training data, these models simply wouldn’t be possible. And yet the artists are not compensated or credited in any way.</p></blockquote>\n<p>I get that paying for illustration is expensive for a small publication, but that’s part of the deal: you have to pay for creative work, otherwise you’re undermining its value. (In the past, I donated editorial illustrations to a friend’s literary magazine, but I wouldn’t do it again today.) If you can’t afford to pay for art, then your publication must make do without, or you need to follow <a href=\"https://pluralistic.net/2022/12/25/a-year-in-illustration/\">Cory Doctorow’s lead</a> and learn to make your own from public domain pieces. (While I’m subtweeting, I just flipped open an article I thought might be relevant — about work and automation — and its editorial graphic was AI-generated ????‍♀️)</p>\n<p><strong>Artists and writers must have <a href=\"https://tracydurnell.com/2023/09/16/solidarity-is-the-greatest-tool-of-the-working-class/\">solidarity</a> across creative industries</strong>: if you wouldn’t feel comfortable with your own work being replaced by <a href=\"https://tracydurnell.com/2023/04/24/algogen-missing-the-point/\">algogen</a>, then you shouldn’t use generated content of other creative mediums. <em>Even if you would never pay for illustration anyway</em>, the choice to use generated imagery on your blog or publication normalizes the valuelessness of human-created art — go back to using free stock photography if you must have a graphic, or… just skip the graphic altogether. It’s fine to just publish text.</p>\n<p>This is <a href=\"https://tracydurnell.com/2023/10/24/disguising-and-reinforcing-the-status-quo-with-tech/\">straight out of the corporate playbook</a>: Walmart comes to town and drives all the mom-and-pops under. Amazon’s pulled the same stunt with online shopping. Uber comes to town and kills the taxi industry (which despite its problems actually provided a decent living from my understanding, unlike the exploited “independent contractors” of rideshare today). We’re just starting to see the cost hikes from that. (Yes, yes, <a href=\"https://knowyourmeme.com/memes/we-should-improve-society-somewhat\">I shop at Amazon and have used rideshare</a>.) Now Google and Microsoft and Meta have come to town with generative AI. Will we fall for it again in the name of saving a buck, and watch the art or writing industries collapse? Are you ready for a world dominated by <a href=\"https://tracydurnell.com/2023/10/03/art-devoid-of-politics/\">bland, unchallenging</a>, <a href=\"https://restofworld.org/2023/ai-image-stereotypes/\">stereotype-laden</a> AI graphics and devoid of art?</p>",
+        "text": "Liked Stop Using AI-Generated Images by Michelle Barker (CSS { In Real Life })AI can be used by artists to augment their work and explore an exciting, new, creative frontier. But the vast majority of “AI art” I’ve seen is not that. It’s theft. You don’t have a right to “free” art, in the same way you don’t have a right to have your car fixed for free.\nI saw someone post the other day about how good AI-generated imagery is now, and how they’d paid good money for comparable illustrations for a print magazine back in the day. The implication I heard (perhaps not intended) was that they could have swapped in AI graphics, if they’d been this quality then. It made me sad that someone you’d think would value creative works would be just as happy to have a computer “do it for free.” That editorial illustration is seen as a cost, not a contributor of value. (I feel the same way about corporations viewing employees as costs instead of assets.)\nJust like LLMs, AI image generators are trained on image data scraped from the internet, much of it copyrighted, and almost all of it without the artists’ permission. Artists train for years, sometimes decades, to hone their craft in a precarious and low-paid industry. Without their skill, which produces the training data, these models simply wouldn’t be possible. And yet the artists are not compensated or credited in any way.\nI get that paying for illustration is expensive for a small publication, but that’s part of the deal: you have to pay for creative work, otherwise you’re undermining its value. (In the past, I donated editorial illustrations to a friend’s literary magazine, but I wouldn’t do it again today.) If you can’t afford to pay for art, then your publication must make do without, or you need to follow Cory Doctorow’s lead and learn to make your own from public domain pieces. (While I’m subtweeting, I just flipped open an article I thought might be relevant — about work and automation — and its editorial graphic was AI-generated ????‍♀️)\nArtists and writers must have solidarity across creative industries: if you wouldn’t feel comfortable with your own work being replaced by algogen, then you shouldn’t use generated content of other creative mediums. Even if you would never pay for illustration anyway, the choice to use generated imagery on your blog or publication normalizes the valuelessness of human-created art — go back to using free stock photography if you must have a graphic, or… just skip the graphic altogether. It’s fine to just publish text.\nThis is straight out of the corporate playbook: Walmart comes to town and drives all the mom-and-pops under. Amazon’s pulled the same stunt with online shopping. Uber comes to town and kills the taxi industry (which despite its problems actually provided a decent living from my understanding, unlike the exploited “independent contractors” of rideshare today). We’re just starting to see the cost hikes from that. (Yes, yes, I shop at Amazon and have used rideshare.) Now Google and Microsoft and Meta have come to town with generative AI. Will we fall for it again in the name of saving a buck, and watch the art or writing industries collapse? Are you ready for a world dominated by bland, unchallenging, stereotype-laden AI graphics and devoid of art?"
+      },
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://tracydurnell.com/2023/11/11/we-need-solidarity-across-creative-industries/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rodney Pruitt",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/0c9ccb79fd2ee0f554e4778eb70ed5c755e4050964805416dffdad78e00183ee.png",
+        "url": "https://mastodon.social/@thepru"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109689372886025941",
+      "published": null,
+      "wm-received": "2023-11-12T02:47:29Z",
+      "wm-id": 1737467,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109689372886025941",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Romaric",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/40bef4bc6dafcb148042b5cb88047fc956890e46eaf648777c7c8497edd9077a.jpg",
+        "url": "https://social.romaricpascal.com/@romaric"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109364284007821533",
+      "published": null,
+      "wm-received": "2023-11-11T23:51:26Z",
+      "wm-id": 1737445,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109364284007821533",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lex Lofthouse",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cb0e57656e5350e5350a6980cdcd1336bee71d7b1822e3b6b87f562b0d4fa1f8.jpg",
+        "url": "https://typo.social/@loftio"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109347766768300351",
+      "published": null,
+      "wm-received": "2023-11-11T22:45:12Z",
+      "wm-id": 1737432,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109347766768300351",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/255373054185f8ff06bb64b2e7a8f8a95bf99b372a93036124823f4d6dc77a60.jpg",
+        "url": "https://nerdculture.de/@jasonfry"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109296767451024046",
+      "published": null,
+      "wm-received": "2023-11-11T21:49:00Z",
+      "wm-id": 1737417,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109296767451024046",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Johnny Taylor",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/dd0d0335427f85a4302156e49f211d10abeb9c970a2e1c217d7d46f555ec3f25.png",
+        "url": "https://mastodon.social/@johnnydaux"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-110504493903868187",
+      "published": null,
+      "wm-received": "2023-11-11T21:18:52Z",
+      "wm-id": 1737403,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/110504493903868187",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a3e8f10c9190a71c8b5813cb592445962f91252468058abbac98ecff88025553.png",
+        "url": "https://social.lol/@tylersticka"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-110651353810564612",
+      "published": null,
+      "wm-received": "2023-11-11T21:18:52Z",
+      "wm-id": 1737404,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/110651353810564612",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andrea Titolo",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/976bd63e274e5e2b892fc92543e577b5e57478ec69c0d27ba56e0d19108ec0b9.jpg",
+        "url": "https://archaeo.social/@andreatitolo"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109315183180180641",
+      "published": null,
+      "wm-received": "2023-11-11T20:16:36Z",
+      "wm-id": 1737377,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109315183180180641",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christian Niklas ????????",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/da454c6ba0db55d189b2bce4894c5cd0ed89cf4dcbed61e4b79093b23837b275.jpg",
+        "url": "https://indieweb.social/@websident"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109298554470075080",
+      "published": null,
+      "wm-received": "2023-11-11T19:47:04Z",
+      "wm-id": 1737371,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109298554470075080",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ryuno-Ki",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/26dacb234de95e11102acdc9db28142662f350d6cfc7b1fc671b2e07affe2173.jpg",
+        "url": "https://layer8.space/@RyunoKi"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109292668718557300",
+      "published": null,
+      "wm-received": "2023-11-11T19:18:49Z",
+      "wm-id": 1737364,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109292668718557300",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hidde",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2e6c5e8c5e746448a4a3172abb9584ffb9c5e46eae7f85d5122decc14d2c3fa2.jpg",
+        "url": "https://front-end.social/@hdv"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109292541621018376",
+      "published": null,
+      "wm-received": "2023-11-11T18:43:09Z",
+      "wm-id": 1737354,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109292541621018376",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Robb",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/5cc7645c258bb1ad8aaba8ccbbeb5303db62cb6c2a7ad7448c05f4c64c0a384b.jpg",
+        "url": "https://front-end.social/@Robb"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109292473355859787",
+      "published": null,
+      "wm-received": "2023-11-11T18:43:07Z",
+      "wm-id": 1737353,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109292473355859787",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tamas",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8dead5987df390a532d4de9ce85c3cbf64f0f179b4ecab587e53e841750eef60.png",
+        "url": "https://mas.to/@iamdtms"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109824999063382831",
+      "published": null,
+      "wm-received": "2023-11-11T18:43:06Z",
+      "wm-id": 1737352,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109824999063382831",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "JW",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/acb57e921accdd23cc8255b12bd9cec8312397d771f4e2a71a2be8f9592011bc.jpg",
+        "url": "https://mastodon.social/@whiteja"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#reblogged-by-109294018208722065",
+      "published": null,
+      "wm-received": "2023-11-11T18:43:05Z",
+      "wm-id": 1737351,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111392847025422311/109294018208722065",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hidde",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2e6c5e8c5e746448a4a3172abb9584ffb9c5e46eae7f85d5122decc14d2c3fa2.jpg",
+        "url": "https://front-end.social/@hdv"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109292541621018376",
+      "published": null,
+      "wm-received": "2023-11-11T18:43:04Z",
+      "wm-id": 1737350,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109292541621018376",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "JW",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/acb57e921accdd23cc8255b12bd9cec8312397d771f4e2a71a2be8f9592011bc.jpg",
+        "url": "https://mastodon.social/@whiteja"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109294018208722065",
+      "published": null,
+      "wm-received": "2023-11-11T18:43:02Z",
+      "wm-id": 1737348,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109294018208722065",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul Hebert",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/cfa9a730f403c6d6bd01bfbce352517fc19e6aac4e3416c77622fabdc6aa3e4b.jpg",
+        "url": "https://sunny.garden/@paulhebert"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109372025199031262",
+      "published": null,
+      "wm-received": "2023-11-11T18:43:02Z",
+      "wm-id": 1737349,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109372025199031262",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adrian Egger",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/f6b4982217dc91665f8a64af35bc0da33bf8aa7502cd9ea1134a5ca9e5ad9084.jpg",
+        "url": "https://mastodon.design/@adrian"
+      },
+      "url": "https://front-end.social/@michelle/111392847025422311#favorited-by-109473483242169089",
+      "published": null,
+      "wm-received": "2023-11-11T18:07:00Z",
+      "wm-id": 1737334,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111392847025422311/109473483242169089",
+      "wm-target": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/stop-using-ai-generated-images/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://news.pourover.ai/nan-or-not-a-number/",
+      "published": null,
+      "wm-received": "2023-11-09T20:22:59Z",
+      "wm-id": 1736633,
+      "wm-source": "https://news.pourover.ai/nan-or-not-a-number/",
+      "wm-target": "https://css-irl.info/nan-or-not-a-number/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/nan-or-not-a-number/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://news.pourover.ai/nan-or-not-a-number/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jan",
+        "photo": "https://webmention.io/avatar/secure.gravatar.com/8acf1bd615138649a393edb0924ffdbc718bb77b682d0b51f1d49b61670adf1d.jpg",
+        "url": "https://jan.boddez.net/author/jan"
+      },
+      "url": "https://jan.boddez.net/likes/f9f2df7c76",
+      "published": "2023-11-08T17:11:00+01:00",
+      "wm-received": "2023-11-08T16:13:06Z",
+      "wm-id": 1736120,
+      "wm-source": "https://jan.boddez.net/likes/f9f2df7c76",
+      "wm-target": "https://css-irl.info/dont-mind-the-gap/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><i>Likes <a class=\"u-url p-name\" href=\"https://css-irl.info/dont-mind-the-gap/\">CSS { In Real Life } | (Don’t) Mind the Gap</a>.</i></p>",
+        "text": "Likes CSS { In Real Life } | (Don’t) Mind the Gap."
+      },
+      "like-of": "https://css-irl.info/dont-mind-the-gap/",
+      "wm-property": "like-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jan.boddez.net/likes/f9f2df7c76"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://news.pourover.ai/dont-mind-the-gap/",
+      "published": null,
+      "wm-received": "2023-11-07T20:11:05Z",
+      "wm-id": 1735715,
+      "wm-source": "https://news.pourover.ai/dont-mind-the-gap/",
+      "wm-target": "https://css-irl.info/dont-mind-the-gap/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/dont-mind-the-gap/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://news.pourover.ai/dont-mind-the-gap/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AurelieT44",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/70592b6b4a2654a974e41d3602fa1b4b0b9dd54a1d54d3480869dcd7f44f641b.jpg",
+        "url": "https://front-end.social/@aureliet44"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109293711494230292",
+      "published": null,
+      "wm-received": "2023-11-06T21:30:43Z",
+      "wm-id": 1735183,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109293711494230292",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://pxprodigy.com/weekly-news-for-designers-%e2%84%96-717-pxprodigy/",
+      "published": null,
+      "wm-received": "2023-11-06T16:58:12Z",
+      "wm-id": 1735023,
+      "wm-source": "https://pxprodigy.com/weekly-news-for-designers-%e2%84%96-717-pxprodigy/",
+      "wm-target": "https://css-irl.info/styling-external-links-with-attribute-selectors/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/styling-external-links-with-attribute-selectors/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://ntdln.com/2023/11/06/weekly-links-10-30-11-05/",
+      "published": null,
+      "wm-received": "2023-11-06T16:52:24Z",
+      "wm-id": 1735021,
+      "wm-source": "https://ntdln.com/2023/11/06/weekly-links-10-30-11-05/",
+      "wm-target": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/messing-about-with-css-gradients/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://ntdln.com/2023/11/06/weekly-links-10-30-11-05/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "McNeely",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/20f6c8041154875d78bf3cbc0d476f1328597bcf5a1796e2ea1da17cf29fb09c.png",
+        "url": "https://indieweb.social/@McNeely"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109552212004760906",
+      "published": null,
+      "wm-received": "2023-11-06T16:47:03Z",
+      "wm-id": 1735013,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109552212004760906",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Derek P. Collins",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/408f914072eebbb7d321b1290f4f6247f3964d676549b9a8e2e858da39d34d27.png",
+        "url": "https://mastodon.design/@derek"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109775708385574931",
+      "published": null,
+      "wm-received": "2023-11-06T16:14:39Z",
+      "wm-id": 1734997,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109775708385574931",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Ott",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9b43cf4597a9f2b93cd61be3728cd124f5684dee709abdbd2633121ff273ba00.png",
+        "url": "https://mastodon.social/@matthiasott"
+      },
+      "url": "https://mastodon.social/@matthiasott/111359740009234875",
+      "published": "2023-11-05T20:06:22+00:00",
+      "wm-received": "2023-11-06T15:09:27Z",
+      "wm-id": 1734978,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111359740087031470",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@simevidas\" class=\"u-url\">@<span>simevidas</span></a></span> <span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> Oh yes, that’s a good point! I rarely type in a URL by hand as well. It’s either RSS, a link shared via social, or search. Another reason to not be too obsessed with finding the “perfect” domain…</p>",
+        "text": "@simevidas @michelle Oh yes, that’s a good point! I rarely type in a URL by hand as well. It’s either RSS, a link shared via social, or search. Another reason to not be too obsessed with finding the “perfect” domain…"
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hidde",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2e6c5e8c5e746448a4a3172abb9584ffb9c5e46eae7f85d5122decc14d2c3fa2.jpg",
+        "url": "https://front-end.social/@hdv"
+      },
+      "url": "https://front-end.social/@hdv/111364209846178675",
+      "published": "2023-11-06T15:03:07+00:00",
+      "wm-received": "2023-11-06T15:09:27Z",
+      "wm-id": 1734979,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111364209846178675",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@matthiasott\" class=\"u-url\">@<span>matthiasott</span></a></span> I picked my current blog domain so that I can more easily brag to people IRL about the fact that I have a blog, because it is somewhat easy to remember</p>",
+        "text": "@michelle @matthiasott I picked my current blog domain so that I can more easily brag to people IRL about the fact that I have a blog, because it is somewhat easy to remember"
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wenzel",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/ca0418a3b35cbf43e6542860bdcb3076b0c323464b9b515eb00025b141daddf0.jpg",
+        "url": "https://indieweb.social/@stairjoke"
+      },
+      "url": "https://indieweb.social/@stairjoke/111363576655493025",
+      "published": "2023-11-06T12:22:05+00:00",
+      "wm-received": "2023-11-06T15:09:23Z",
+      "wm-id": 1734977,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111363576670778060",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://social.lol/@flamed\" class=\"u-url\">@<span>flamed</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@matthiasott\" class=\"u-url\">@<span>matthiasott</span></a></span> <span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> inspires me to reconsider tossing stairjoke.me and beachball.tech I've been looking for the right domain name for a while… maybe it just doesn't matter, as you write.</p>",
+        "text": "@flamed @matthiasott @michelle inspires me to reconsider tossing stairjoke.me and beachball.tech I've been looking for the right domain name for a while… maybe it just doesn't matter, as you write."
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "fLaMEd",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/f1269043577361277d2ddb60a4532e13ae807793cbd6d83cb649c41d03945718.jpg",
+        "url": "https://social.lol/@flamed"
+      },
+      "url": "https://social.lol/@flamed/111360355611584027",
+      "published": "2023-11-05T22:42:56+00:00",
+      "wm-received": "2023-11-06T15:09:20Z",
+      "wm-id": 1734975,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111360355654196677",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@matthiasott\" class=\"u-url\">@<span>matthiasott</span></a></span> <span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> </p><p>I've had a go at responding via my website too: <a href=\"https://flamedfury.com/posts/own-your-web-whats-in-a-name/\"><span>https://</span><span>flamedfury.com/posts/own-your-</span><span>web-whats-in-a-name/</span></a></p><p>Thanks for the prompt <span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> :)</p>\n<a href=\"https://flamedfury.com/posts/own-your-web-whats-in-a-name/\">Own Your Web: What’s in a Name?</a>",
+        "text": "@matthiasott @michelle I've had a go at responding via my website too: https://flamedfury.com/posts/own-your-web-whats-in-a-name/Thanks for the prompt @michelle :)\nOwn Your Web: What’s in a Name?"
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Barker",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7430075ff637e892dcde4c2b240222eff41209111509d14b8f3fffc26ac3909c.jpg",
+        "url": "https://front-end.social/@michelle"
+      },
+      "url": "https://front-end.social/@michelle/111362760718496087",
+      "published": "2023-11-06T08:54:35+00:00",
+      "wm-received": "2023-11-06T15:09:20Z",
+      "wm-id": 1734976,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111362760718496087",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://social.lol/@flamed\" class=\"u-url\">@<span>flamed</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@matthiasott\" class=\"u-url\">@<span>matthiasott</span></a></span> Love the name! ????</p>",
+        "text": "@flamed @matthiasott Love the name! ????"
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mx Autumn :blobcatpumpkin:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/d7a3b1dce715f163e733f12409483f98bb5e13aa55410851081281f2063eb0a4.png",
+        "url": "https://notacult.social/@carbontwelve"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109292409924327253",
+      "published": null,
+      "wm-received": "2023-11-06T10:56:33Z",
+      "wm-id": 1734908,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109292409924327253",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Björn Berkholz",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8e3cf6331e9c747e6d7e069a2180578701fff51b813468538ed63db441ca191c.png",
+        "url": "https://fedisabled.social/@bberkholz"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-109308044429803652",
+      "published": null,
+      "wm-received": "2023-11-06T10:29:40Z",
+      "wm-id": 1734900,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/109308044429803652",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lea Rosema",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/4601eefdce9b795a8d4fde186d05556f8eb9e54a1ee407418a6a9a366085bcb9.png",
+        "url": "https://lea.lgbt/@lea"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-109966669842769457",
+      "published": null,
+      "wm-received": "2023-11-06T09:09:32Z",
+      "wm-id": 1734872,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/109966669842769457",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Luka",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/6cf7185066ad796f8b9bc3f0df709d30e33ae1b7438df444c3b72fc09b5d464b.jpg",
+        "url": "https://mastodon.social/@rwxganta"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109407249498881785",
+      "published": null,
+      "wm-received": "2023-11-05T23:51:35Z",
+      "wm-id": 1734770,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109407249498881785",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "fLaMEd",
+        "photo": "https://webmention.io/avatar/flamedfury.com/7359425b2726030b6cf7976a3d0b778b6a8d50e1154760b3f46088a43816e795.jpg",
+        "url": "https://flamedfury.com"
+      },
+      "url": "https://flamedfury.com/posts/own-your-web-whats-in-a-name/",
+      "published": "2023-11-06T00:00:00",
+      "wm-received": "2023-11-05T23:18:17Z",
+      "wm-id": 1734761,
+      "wm-source": "https://flamedfury.com/posts/own-your-web-whats-in-a-name/",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "name": "Own Your Web: What’s in a Name?",
+      "content": {
+        "html": "<p>Matthias Ott’s latest newsletter, “<a href=\"https://buttondown.email/ownyourweb\">Own Your Web</a>”, has got many of us thinking about a simple yet intriguing question: “<a href=\"https://buttondown.email/ownyourweb/archive/issue-02/\">What’s the story behind your website’s URL?</a>” Michelle gave her take in her blog post “<a href=\"https://css-irl.info/owning-your-web/\">Owning Your Web</a>”, and now it’s my turn to share my thoughts.</p>\n<p>I previously <a href=\"https://social.lol/@flamed/111321626710197107\">responded briefly on Mastodon</a>, but now, I’d like to dig a little deeper on my own website, <a href=\"https://flamedfury.com\">flamedfury.com</a>, which has been with me for over two decades. It has gone through several transformations, reflecting different phases of my life.</p>\n<p>The name ‘Flamed Fury’ came about during my teenage years when I was creating a website to collect magazine scans. Some were my scans, and some were sourced from IRC. The name itself doesn’t carry much meaning; it’s essentially a combination of ‘Fury’ and my IRC handle back then, ‘fLaMEd.’ Upon reflecting on this, I started writing out the history of Flamed Fury as I remembered it, and you can follow along on my new Website History page.</p>\n<p>Interestingly, most people seem to choose their first and last names as their domain names, connecting their online presence with their real-life identity. I, on the other hand, prefer to keep my online and work life separate. My website has no bearing on my career, and I have no need to use it for self-promotion.</p>\n<p>I’m content with my unconventional domain name and have no intention of switching to a more conventional, real-name URL. I agree with Michelle and Matthias that:</p>\n<blockquote>\n<p>People will visit your site for what you publish on it, not because you have the most sophisticated URL on the internet.</p>\n</blockquote>\n<p>I hope my website’s content speaks for itself, and I trust that the domain name won’t deter visitors. In recent years, I’ve been sharing content that I hope others find interesting.</p>\n<p>In today’s digital landscape, I’m considering becoming more involved in the communities and websites I enjoy. The real value of owning your web lies in the connections and conversations we foster in this vast online world.</p>\n<p>So, what’s the backstory of your domain? What led you to choose your unique web address? I’d love to hear your own experiences and thoughts. Let’s keep the conversation going.</p>",
+        "text": "Matthias Ott’s latest newsletter, “Own Your Web”, has got many of us thinking about a simple yet intriguing question: “What’s the story behind your website’s URL?” Michelle gave her take in her blog post “Owning Your Web”, and now it’s my turn to share my thoughts.\nI previously responded briefly on Mastodon, but now, I’d like to dig a little deeper on my own website, flamedfury.com, which has been with me for over two decades. It has gone through several transformations, reflecting different phases of my life.\nThe name ‘Flamed Fury’ came about during my teenage years when I was creating a website to collect magazine scans. Some were my scans, and some were sourced from IRC. The name itself doesn’t carry much meaning; it’s essentially a combination of ‘Fury’ and my IRC handle back then, ‘fLaMEd.’ Upon reflecting on this, I started writing out the history of Flamed Fury as I remembered it, and you can follow along on my new Website History page.\nInterestingly, most people seem to choose their first and last names as their domain names, connecting their online presence with their real-life identity. I, on the other hand, prefer to keep my online and work life separate. My website has no bearing on my career, and I have no need to use it for self-promotion.\nI’m content with my unconventional domain name and have no intention of switching to a more conventional, real-name URL. I agree with Michelle and Matthias that:\n\nPeople will visit your site for what you publish on it, not because you have the most sophisticated URL on the internet.\n\nI hope my website’s content speaks for itself, and I trust that the domain name won’t deter visitors. In recent years, I’ve been sharing content that I hope others find interesting.\nIn today’s digital landscape, I’m considering becoming more involved in the communities and websites I enjoy. The real value of owning your web lies in the connections and conversations we foster in this vast online world.\nSo, what’s the backstory of your domain? What led you to choose your unique web address? I’d love to hear your own experiences and thoughts. Let’s keep the conversation going."
+      },
+      "mention-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://flamedfury.com/posts/own-your-web-whats-in-a-name/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://dinezh.com/chris-corner-relatively-recent-great-css-writing/",
+      "published": null,
+      "wm-received": "2023-11-05T21:58:42Z",
+      "wm-id": 1734753,
+      "wm-source": "https://dinezh.com/chris-corner-relatively-recent-great-css-writing/",
+      "wm-target": "https://css-irl.info/quick-tip-negative-animation-delay/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/quick-tip-negative-animation-delay/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://blog.codepen.io/2023/01/18/chris-corner-relatively-recent-great-css-writing/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ana Rodrigues",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9d42d260dda7235e88c49246eb617a4598cc5cea0251a0f0caf24496da1afbf9.png",
+        "url": "https://mastodon.social/@ohhelloana"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-109288608207722597",
+      "published": null,
+      "wm-received": "2023-11-05T21:29:36Z",
+      "wm-id": 1734742,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/109288608207722597",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ana Rodrigues",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9d42d260dda7235e88c49246eb617a4598cc5cea0251a0f0caf24496da1afbf9.png",
+        "url": "https://mastodon.social/@ohhelloana"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109288608207722597",
+      "published": null,
+      "wm-received": "2023-11-05T21:29:35Z",
+      "wm-id": 1734741,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109288608207722597",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max Böck",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9106ed0ced6012e33cc0c4dffa224225fdf1bd29d370bf3e91ad36959024d5e2.jpg",
+        "url": "https://front-end.social/@mxbck"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109352980294525814",
+      "published": null,
+      "wm-received": "2023-11-05T20:27:56Z",
+      "wm-id": 1734710,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109352980294525814",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Ott",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9b43cf4597a9f2b93cd61be3728cd124f5684dee709abdbd2633121ff273ba00.png",
+        "url": "https://mastodon.social/@matthiasott"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-109287752283181975",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:11Z",
+      "wm-id": 1734692,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/109287752283181975",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Large Heydon Collider",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2da6aadce98103fc0a53118a0adeae7bec693ddc1e274d5cc8f211343c96b2eb.png",
+        "url": "https://front-end.social/@heydon"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-109363923974146422",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:11Z",
+      "wm-id": 1734693,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/109363923974146422",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pete Moore",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/91bf5774a5cb5911e3bd5b8055b8de6e5b9f823cf5fc02e194fe94cd5e06624a.jpg",
+        "url": "https://social.lol/@pimoore"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-110787962256052074",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:08Z",
+      "wm-id": 1734690,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/110787962256052074",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Apple Annie :prami:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/489bdd3b4c09425455f96e3e0bff2f6090dc37be48318700d48e474908247477.png",
+        "url": "https://social.lol/@anniegreens"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-109740646094210771",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:08Z",
+      "wm-id": 1734691,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/109740646094210771",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christian \"Schepp\" Schaefer",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/76c6b82b9a5e59dfb895c25041f33298bf11f65afd8f8e18e4524a2e80527b82.jpg",
+        "url": "https://mastodon.social/@Schepp"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109288510030258685",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:05Z",
+      "wm-id": 1734688,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109288510030258685",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Roni Laukkarinen",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2325dbe2d39f956994c2073c74d31ab9639ff4c2d9ded75a53ca0340759b89f8.jpg",
+        "url": "https://mementomori.social/@rolle"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#reblogged-by-109293156829634672",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:05Z",
+      "wm-id": 1734689,
+      "wm-source": "https://brid.gy/repost/mastodon/@michelle@front-end.social/111358711534633858/109293156829634672",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Roma Komarov",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/c6cd4cbb5498166524de22dbb8a19bdfe0214deb80ffa1ad1255eed8895e11a7.jpg",
+        "url": "https://front-end.social/@kizu"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109298881215298619",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:03Z",
+      "wm-id": 1734687,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109298881215298619",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Ott",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9b43cf4597a9f2b93cd61be3728cd124f5684dee709abdbd2633121ff273ba00.png",
+        "url": "https://mastodon.social/@matthiasott"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109287752283181975",
+      "published": null,
+      "wm-received": "2023-11-05T19:58:02Z",
+      "wm-id": 1734686,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109287752283181975",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jalciné is coping by having",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/26db4c3cce93d4ffaeda0286b51dc4d5532963f0836541b031567c33cff06d1d.png",
+        "url": "https://todon.eu/@jalcine"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109293864709524127",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:59Z",
+      "wm-id": 1734684,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109293864709524127",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Coleman",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/a73d82dc2dc9b1f25d7abac0fdd67e348d03fda78b7e6eb52edc60428d77c7f4.jpg",
+        "url": "https://mastodon.social/@Chris"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109288538740293443",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:59Z",
+      "wm-id": 1734685,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109288538740293443",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Roni Laukkarinen",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/2325dbe2d39f956994c2073c74d31ab9639ff4c2d9ded75a53ca0340759b89f8.jpg",
+        "url": "https://mementomori.social/@rolle"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109293156829634672",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:56Z",
+      "wm-id": 1734682,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109293156829634672",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Apple Annie :prami:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/489bdd3b4c09425455f96e3e0bff2f6090dc37be48318700d48e474908247477.png",
+        "url": "https://social.lol/@anniegreens"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109740646094210771",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:56Z",
+      "wm-id": 1734683,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109740646094210771",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marcos D. Alves :prami:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/7813dc5335e186302569df357d27c84b67a455cd0f515baf49e1529c39e2685c.png",
+        "url": "https://social.lol/@mdalves"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109542620989883300",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:53Z",
+      "wm-id": 1734680,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109542620989883300",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stefan Grund :eay:",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/024d66ca1a2b235a0d3ef96e333494a3ff830ba08fb07b905c84e7054d32bb29.jpg",
+        "url": "https://eay.social/@eay"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109298645255367203",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:53Z",
+      "wm-id": 1734681,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109298645255367203",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "fLaMEd",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/f1269043577361277d2ddb60a4532e13ae807793cbd6d83cb649c41d03945718.jpg",
+        "url": "https://social.lol/@flamed"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-110888559433510147",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:50Z",
+      "wm-id": 1734678,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/110888559433510147",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Luke Dorny",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/dac3951ee50152eff2dc9130e575f51a9dcd7ba61375b0b4b804a2d303efcd63.jpg",
+        "url": "https://typo.social/@Luke"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109399449652135346",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:50Z",
+      "wm-id": 1734679,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109399449652135346",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "beyond tellerrand",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/8a13412dae04039ee7c7c8fdeeeb8604e37b1366223bad664b82624fa9453c41.png",
+        "url": "https://mastodon.social/@btconf"
+      },
+      "url": "https://front-end.social/@michelle/111358711534633858#favorited-by-109292227369717823",
+      "published": null,
+      "wm-received": "2023-11-05T19:57:48Z",
+      "wm-id": 1734676,
+      "wm-source": "https://brid.gy/like/mastodon/@michelle@front-end.social/111358711534633858/109292227369717823",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "like-of": "https://css-irl.info/owning-your-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Šime Vidas",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/22c5d30a7be8c07be6885efd5471496a80c8a1f50e1b668cec6326366ccf7aeb.jpg",
+        "url": "https://mastodon.social/@simevidas"
+      },
+      "url": "https://mastodon.social/@simevidas/111359689633718935",
+      "published": "2023-11-05T19:53:34+00:00",
+      "wm-received": "2023-11-05T19:57:48Z",
+      "wm-id": 1734677,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111359689827356331",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@matthiasott\" class=\"u-url\">@<span>matthiasott</span></a></span> Ever since I started using RSS (years ago) to get notifications about new blog posts from the people that I follow, top-level domains and even entire domains became completely irrelevant to me. Some of my favorite authors, I have no idea what domain names to type to open their websites directly. I would have to search for them on Mastodon/Twitter and click the links to their websites on their profiles.</p>",
+        "text": "@michelle @matthiasott Ever since I started using RSS (years ago) to get notifications about new blog posts from the people that I follow, top-level domains and even entire domains became completely irrelevant to me. Some of my favorite authors, I have no idea what domain names to type to open their websites directly. I would have to search for them on Mastodon/Twitter and click the links to their websites on their profiles."
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Luke Dorny",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/dac3951ee50152eff2dc9130e575f51a9dcd7ba61375b0b4b804a2d303efcd63.jpg",
+        "url": "https://typo.social/@Luke"
+      },
+      "url": "https://typo.social/@Luke/111359145056622962",
+      "published": "2023-11-05T17:35:04+00:00",
+      "wm-received": "2023-11-05T19:57:45Z",
+      "wm-id": 1734675,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111359145082181284",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@matthiasott\" class=\"u-url\">@<span>matthiasott</span></a></span> nice article, Michelle. Love the domain name.</p>",
+        "text": "@michelle @matthiasott nice article, Michelle. Love the domain name."
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthias Ott",
+        "photo": "https://webmention.io/avatar/cdn.masto.host/9b43cf4597a9f2b93cd61be3728cd124f5684dee709abdbd2633121ff273ba00.png",
+        "url": "https://mastodon.social/@matthiasott"
+      },
+      "url": "https://mastodon.social/@matthiasott/111358749891931797",
+      "published": "2023-11-05T15:54:35+00:00",
+      "wm-received": "2023-11-05T19:57:44Z",
+      "wm-id": 1734674,
+      "wm-source": "https://brid.gy/comment/mastodon/@michelle@front-end.social/111358711534633858/111358750295187010",
+      "wm-target": "https://css-irl.info/owning-your-web/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@michelle\" class=\"u-url\">@<span>michelle</span></a></span> Thanks so much for the shout-out, Michelle – and your really interesting post about the considerations behind CSS-IRL.info and your personal site’s URL! ????????</p>",
+        "text": "@michelle Thanks so much for the shout-out, Michelle – and your really interesting post about the considerations behind CSS-IRL.info and your personal site’s URL! ????????"
+      },
+      "in-reply-to": "https://css-irl.info/owning-your-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://jeffbridgforth.com/weeknotes-november-4-2023/",
+      "published": null,
+      "wm-received": "2023-11-05T02:27:33Z",
+      "wm-id": 1734430,
+      "wm-source": "https://jeffbridgforth.com/weeknotes-november-4-2023/",
+      "wm-target": "https://css-irl.info/finding-meaning-in-our-work/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/finding-meaning-in-our-work/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://jeffbridgforth.com/weeknotes-november-4-2023/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://news.pourover.ai/national-blog-posting-month/",
+      "published": null,
+      "wm-received": "2023-11-01T19:38:51Z",
+      "wm-id": 1733479,
+      "wm-source": "https://news.pourover.ai/national-blog-posting-month/",
+      "wm-target": "https://css-irl.info/national-blog-posting-month/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/national-blog-posting-month/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://news.pourover.ai/national-blog-posting-month/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://peace-truth.com/featured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle/",
+      "published": null,
+      "wm-received": "2023-11-01T13:59:14Z",
+      "wm-id": 1733345,
+      "wm-source": "https://peace-truth.com/featured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle/",
+      "wm-target": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-protocol": "pingback",
+      "name": "FEATURED UN COP28 CLIMATE CHANGE SUMMIT REPORT: Reworks website following greenwashing allegations over ‘low carbon’ toggle",
+      "content": {
+        "html": "<a href=\"https://live-production.wcms.abc-cdn.net.au/8a6b234d1e4177ed1dab36bb2f662ff4?impolicy=wcms_crop_resize&amp;cropH=3081&amp;cropW=4622&amp;xPos=377&amp;yPos=0&amp;width=862&amp;height=575\"><img src=\"https://live-production.wcms.abc-cdn.net.au/8a6b234d1e4177ed1dab36bb2f662ff4?impolicy=wcms_crop_resize&amp;cropH=3081&amp;cropW=4622&amp;xPos=377&amp;yPos=0&amp;width=862&amp;height=575\" alt=\"A woman in a white labcoat holds up the palms of her hands to the camera. '1.5 to survive' is written on her palms\" /></a><strong>A demonstrator advocates for the 1.5 degree Celsius warming goal at 2022’s COP27 climate summit in Egypt.(AP Photo: Peter Dejong/File)</strong><h1>GlobalWarming &amp; ClimateChange News Desk – Organisers of the COP28 climate summit in the United Arab Emirates (UAE) have reworked their event’s official website following allegations of greenwashing over a “low carbon” toggle which was found to have a minor impact on the site’s energy usage.</h1>\n\n\n\n<a href=\"https://i0.wp.com/peace-truth.com/wp-content/uploads/2023/11/img_0916-9-1.jpg?ssl=1\"><img width=\"580\" height=\"330\" src=\"https://i0.wp.com/peace-truth.com/wp-content/uploads/2023/11/img_0916-9-1.jpg?resize=580%2C330&amp;ssl=1\" alt=\"\" /></a>@acenewsservices <h1>Ace Press News From Cutting Room Floor: Published: Oct.31; 2023: ABC Climate Change News: <strong><a href=\"https://AE92BA53-86A1-4911-9262-6B03828D923F/news/julian-fell/13905936\">Julian Fell</a> contributed to this story</strong>: TELEGRAM Ace Daily News Link <a href=\"https://t.me/+PuI36tlDsM7GpOJe\">https://t.me/+PuI36tlDsM7GpOJe</a></h1>\n\n\n\n<a href=\"https://live-production.wcms.abc-cdn.net.au/59e87fcf7a45771bb26821acbf1e9042?src\"><img src=\"https://live-production.wcms.abc-cdn.net.au/59e87fcf7a45771bb26821acbf1e9042?src\" alt=\"An animated gif showing a 'low carbon version' toggle being switched on at the top of a website\" /></a>The COP28 climate conference was accused of greenwashing over a “low carbon version” of its website.(ABC News)none<h1>The COP (Conference of the Parties) conference is arguably the world’s largest intergovernmental gathering on climate change, and is organised by the United Nations (UN) but run by its host nation.</h1>\n\n\n\n<p>The conference’s 2023 event, COP28, is taking place in Dubai from late November. <a href=\"https://AE92BA53-86A1-4911-9262-6B03828D923F/news/2023-01-13/climate-summit-cop28-lead-by-head-of-oil-giant-from-uae/101853492\">The location has drawn controversy</a> because of COP president Sultan Ahmed al-Jaber and the UAE’s ties to the oil industry, but the summit website has also been criticised over a toggle which invites users to switch to a “low carbon version” of the site.</p>\n\n\n\n<p>The toggle’s effectiveness has been criticised by experienced website developers who have accused COP28 organisers of greenwashing — a term referring to making misleading or false claims about the environmental sustainability of a product or service.</p>\n\n\n\n<a href=\"https://live-production.wcms.abc-cdn.net.au/a38704a909c1c5d8111b2c351f749edb?impolicy=wcms_crop_resize&amp;cropH=2414&amp;cropW=3622&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575\"><img src=\"https://live-production.wcms.abc-cdn.net.au/a38704a909c1c5d8111b2c351f749edb?impolicy=wcms_crop_resize&amp;cropH=2414&amp;cropW=3622&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575\" alt=\"A man wearing a Ghutra sits and speaks in front of a backdrop with the 'COP28UAE' logo\" /></a><strong>Ahmed al-Jaber is the president of 2023’s COP climate summit.(AP Photo: Kamran Jebreili)</strong><h1>ABC News initially found that when the “low carbon” toggle was switched on, <a href=\"https://www.cop28.com/\">the COP28 site</a> did not display some of its images, but still downloaded all of them in the background — offering only a minuscule amount of energy saving.</h1>\n\n\n\n<p>After being contacted by ABC News, COP28 organisers updated the event’s website on October 26 so that it no longer downloaded or displayed any large images in “low carbon” mode, but an animation and a countdown at the top of the site remained.</p>\n\n\n\n<p>At the time of writing, first-time visitors still land on the regular version of the COP28 site, which downloads and renders all of its images.</p>\n\n\n\n<p>COP28 organisers say the “low carbon” toggle reduces the website’s carbon footprint and aims to raise awareness.</p>\n\n\n\n<p>“By featuring a low carbon mode, website visitors are informed about the significance of reducing their digital carbon footprint,” they say in a statement.</p>\n\n\n\n<p>Organisers also say the website is hosted on servers powered by renewable energy sources, and has other features which are designed to save energy. They did not respond to allegations of greenwashing.</p>\n\n\n\n<p>The UN’s climate change office the UNFCCC (United Nations Framework Convention on Climate Change), which has criticised greenwashing in the past, did not respond to a request for comment.</p>\n\n\n\n<h2>Before and after: COP28’s ‘low carbon’ site on October 25 and 26</h2>\n\n\n\n<a href=\"https://live-production.wcms.abc-cdn.net.au/e86c498a170ba82c861cebba7f701745?src\"><img src=\"https://live-production.wcms.abc-cdn.net.au/e86c498a170ba82c861cebba7f701745?src\" alt=\"COP28 website on October 26, 2023.\" /></a>COP28 website on October 25, 2023. / COP28 website on October 26, 2023.<h2>‘A classic example of greenwashing’</h2>\n\n\n\n<p>Michelle Barker is a senior developer for an artificial intelligence company in the United Kingdom, and has written about COP28’s “low carbon” toggle <a href=\"https://css-irl.info/greenwashing-and-the-cop28-website/\">in her personal web development blog</a>. She initially called the toggle “fake” and said it did “absolutely nothing”.</p>\n\n\n\n<p>“It simply gives the user the impression that they (and the website owners) are considering the planet, without actually changing anything,” she wrote. “A classic example of greenwashing.”</p>\n\n\n\n<p>Ms Barker said a low carbon site “should be the default” instead of giving users the option to switch to one, and said the language used by the COP28 website was problematic.</p>\n\n\n\n<p>“The toggle label when low carbon mode is toggled on, ‘Switch back to full experience,’ makes it sound like users are missing out on something by switching on low carbon mode, when in fact (if done right) they could be gaining a better, faster experience,” she said.</p>\n\n\n\n<p>Fershad Irani is a freelance web sustainability consultant in Taiwan who is part of the Green Web Foundation. He said he was excited when he first saw COP28’s low-carbon toggle, but was disappointed by its implementation.</p>\n\n\n\n<p>“At the moment, the way the low-carbon version is, it kind of does feel a bit like greenwashing, in that it’s just so minimal effort,” he said. “It’s just like, ‘We removed images, and let’s not think about anything else.’</p>\n\n\n\n<p>“Whereas, if you’re serious about this, you put some time, effort and design resources into creating an experience that is actually equivalent to what you would say the ‘full experience’ is.</p>\n\n\n\n<p>“Which is why something like this, and the design of the low-carbon version, is super important.”</p>\n\n\n\n<p>COP28 organisers previously said that they aimed to ensure this year’s event would be “sustainable and carbon neutral”.</p>\n\n\n\n<p>In its Sustainability Policy, COP28 said its push for climate action and realistic goals would be “reflected in everything we do at COP28 UAE, from the catering suppliers we use, to the transport options available to participants”. COP conference attendees have faced criticism in the past for <a href=\"https://AE92BA53-86A1-4911-9262-6B03828D923F/news/2022-08-23/taylor-swift-celebrities-private-jets-emissions-environment-data/101318022\">taking private planes to the summit</a>.</p>\n\n\n\n<a href=\"https://live-production.wcms.abc-cdn.net.au/8a6b234d1e4177ed1dab36bb2f662ff4?impolicy=wcms_crop_resize&amp;cropH=3081&amp;cropW=4622&amp;xPos=377&amp;yPos=0&amp;width=862&amp;height=575\"><img src=\"https://live-production.wcms.abc-cdn.net.au/8a6b234d1e4177ed1dab36bb2f662ff4?impolicy=wcms_crop_resize&amp;cropH=3081&amp;cropW=4622&amp;xPos=377&amp;yPos=0&amp;width=862&amp;height=575\" alt=\"A woman in a white labcoat holds up the palms of her hands to the camera. '1.5 to survive' is written on her palms\" /></a><strong>A demonstrator advocates for the 1.5 degree Celsius warming goal at 2022’s COP27 climate summit in Egypt.(AP Photo: Peter Dejong/File)</strong><h2>Changes welcomed, but ‘more needs to be done’</h2>\n\n\n\n<p>After the COP28 website was modified on October 26, Ms Barker said she was pleased to see the site was now using less data, but found the “low carbon” toggle still wasn’t having much of an impact on energy usage.</p>\n\n\n\n<p>“The home page is considerably smaller than before (in terms of data transfer) even with the low-carbon toggle off. That’s good news on the whole, even though the toggle isn’t having very much effect,” she said.</p>\n\n\n\n<p>“It’s unfortunate that low-carbon mode isn’t the default, and it doesn’t seem like a lot of consideration has gone into the low-carbon design. It’s still presented as an inferior experience to the end user.</p>\n\n\n\n<p>“I actually think that’s a really big deal, as there’s so much stigma associated with making green choices. It’s often spun by politicians and the media to mean reduced quality and going without. Whereas with careful design consideration, it could be a more desirable option, and there’s space for high-profile websites to lead the way on this.”</p>\n\n\n\n<p>Mr Irani said changes to the COP28 website appeared to show it was now using less energy, but “more needs to be done”.</p>\n\n\n\n<p>“It shows they care, the fact that they made changes to the website … It shows that they are paying attention, and they are cognisant of it,” he said.</p>\n\n\n\n<p>“It’s a good first step, but I understand the greenwashing criticism, because it looks like [the ‘low-carbon’ version] been slapped on there as an afterthought, rather than it being the primary reason for building the website and showing what you can do with using less energy and less data.</p>\n\n\n\n<p>“This whole idea of the internet being a carbon-producing machine — it’s not something that’s in the public consciousness yet.”</p>\n\n\n\n<h2>Before and after: COP28’s ‘low carbon’ site on October 25 and 26</h2>\n\n\n\n<a href=\"https://live-production.wcms.abc-cdn.net.au/c4e7c5accb8451b5611cc221e4d0037a?src\"><img src=\"https://live-production.wcms.abc-cdn.net.au/c4e7c5accb8451b5611cc221e4d0037a?src\" alt=\"COP28 website on October 26, 2023.\" /></a>COP28 website on October 25, 2023. / COP28 website on October 26, 2023.<blockquote><p><strong>Editor says …Sterling Publishing &amp; Media Service Agency is not responsible for the content of external site or from any reports, posts or links and thanks for following as always appreciate every like, reblog or retweet and comment thank you </strong></p>@acenewsservices </blockquote><a href=\"https://live-production.wcms.abc-cdn.net.au/8a6b234d1e4177ed1dab36bb2f662ff4?impolicy=wcms_crop_resize&amp;cropH=3081&amp;cropW=4622&amp;xPos=377&amp;yPos=0&amp;width=862&amp;height=575\"><img src=\"https://live-production.wcms.abc-cdn.net.au/8a6b234d1e4177ed1dab36bb2f662ff4?impolicy=wcms_crop_resize&amp;cropH=3081&amp;cropW=4622&amp;xPos=377&amp;yPos=0&amp;width=862&amp;height=575\" alt=\"A woman in a white labcoat holds up the palms of her hands to the camera. '1.5 to survive' is written on her palms\" /></a><strong>A demonstrator advocates for the 1.5 degree Celsius warming goal at 2022’s COP27 climate summit in Egypt.(AP Photo: Peter Dejong/File)</strong><p></p>\n\n\n\n<a href=\"https://i0.wp.com/peace-truth.com/wp-content/uploads/2023/10/wp-1698659690464.jpg?ssl=1\"><img width=\"580\" height=\"815\" src=\"https://i0.wp.com/peace-truth.com/wp-content/uploads/2023/10/wp-1698659690464.jpg?resize=580%2C815&amp;ssl=1\" alt=\"\" /></a>@acenewsservices \n\t\t\n\t\t<h3>PEACE &amp; TRUTH</h3><ul><li></li><li><a href=\"https://twitter.com/share\">Tweet</a></li><li><a href=\"https://www.tumblr.com/share\" title=\"Share on Tumblr\">Share on Tumblr</a></li><li><a href=\"https://peace-truth.com/featured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle/?share=telegram\" title=\"Click to share on Telegram\"><span>Telegram</span></a></li><li></li><li><a href=\"https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpeace-truth.com%2Ffeatured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle%2F&amp;media=https%3A%2F%2Fi0.wp.com%2Fpeace-truth.com%2Fwp-content%2Fuploads%2F2023%2F10%2Fwp-1698659690464.jpg%3Ffit%3D854%252C1200%26ssl%3D1&amp;description=FEATURED%20UN%20COP28%20CLIMATE%20CHANGE%20SUMMIT%20REPORT%3A%20Reworks%20website%20following%20greenwashing%20allegations%20over%20%27low%20carbon%27%20toggle\"><img src=\"https://i0.wp.com/assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png?w=580\" alt=\"pinit_fg_en_rect_gray_20.png?w=580\" /></a></li><li><a href=\"https://peace-truth.com/featured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle/?share=mastodon\" title=\"Click to share on Mastodon\"><span>Mastodon</span></a></li><li><a href=\"mailto:?subject=%5BShared%20Post%5D%20FEATURED%20UN%20COP28%20CLIMATE%20CHANGE%20SUMMIT%20REPORT%3A%20Reworks%20website%20following%20greenwashing%20allegations%20over%20%27low%20carbon%27%20toggle&amp;body=https%3A%2F%2Fpeace-truth.com%2Ffeatured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle%2F&amp;share=email\" title=\"Click to email a link to a friend\"><span>Email</span></a></li><li><a href=\"https://peace-truth.com/featured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle/?share=x\" title=\"Click to share on X\"><span>X</span></a></li><li><a href=\"https://peace-truth.com/featured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle/#\"><span>More</span></a></li><li></li></ul><ul style=\"background-image:none;\"><li><a href=\"https://getpocket.com/save\">Pocket</a></li><li></li></ul><span><span>Like</span></span> <span>Loading...</span><span></span><a></a>\n\n\t<h3><em>Related</em></h3>\n<a href=\"https://peace-truth.com\"><img src=\"https://i0.wp.com/peace-truth.com/wp-content/uploads/2023/05/FB_IMG_1591947240350.jpg?fit=748%2C1069&amp;ssl=1\" alt=\"\" width=\"748\" height=\"1069\" /></a>",
+        "text": "A demonstrator advocates for the 1.5 degree Celsius warming goal at 2022’s COP27 climate summit in Egypt.(AP Photo: Peter Dejong/File)GlobalWarming & ClimateChange News Desk – Organisers of the COP28 climate summit in the United Arab Emirates (UAE) have reworked their event’s official website following allegations of greenwashing over a “low carbon” toggle which was found to have a minor impact on the site’s energy usage.\n\n\n\n@acenewsservices Ace Press News From Cutting Room Floor: Published: Oct.31; 2023: ABC Climate Change News: Julian Fell contributed to this story: TELEGRAM Ace Daily News Link https://t.me/+PuI36tlDsM7GpOJe\n\n\n\nThe COP28 climate conference was accused of greenwashing over a “low carbon version” of its website.(ABC News)noneThe COP (Conference of the Parties) conference is arguably the world’s largest intergovernmental gathering on climate change, and is organised by the United Nations (UN) but run by its host nation.\n\n\n\nThe conference’s 2023 event, COP28, is taking place in Dubai from late November. The location has drawn controversy because of COP president Sultan Ahmed al-Jaber and the UAE’s ties to the oil industry, but the summit website has also been criticised over a toggle which invites users to switch to a “low carbon version” of the site.\n\n\n\nThe toggle’s effectiveness has been criticised by experienced website developers who have accused COP28 organisers of greenwashing — a term referring to making misleading or false claims about the environmental sustainability of a product or service.\n\n\n\nAhmed al-Jaber is the president of 2023’s COP climate summit.(AP Photo: Kamran Jebreili)ABC News initially found that when the “low carbon” toggle was switched on, the COP28 site did not display some of its images, but still downloaded all of them in the background — offering only a minuscule amount of energy saving.\n\n\n\nAfter being contacted by ABC News, COP28 organisers updated the event’s website on October 26 so that it no longer downloaded or displayed any large images in “low carbon” mode, but an animation and a countdown at the top of the site remained.\n\n\n\nAt the time of writing, first-time visitors still land on the regular version of the COP28 site, which downloads and renders all of its images.\n\n\n\nCOP28 organisers say the “low carbon” toggle reduces the website’s carbon footprint and aims to raise awareness.\n\n\n\n“By featuring a low carbon mode, website visitors are informed about the significance of reducing their digital carbon footprint,” they say in a statement.\n\n\n\nOrganisers also say the website is hosted on servers powered by renewable energy sources, and has other features which are designed to save energy. They did not respond to allegations of greenwashing.\n\n\n\nThe UN’s climate change office the UNFCCC (United Nations Framework Convention on Climate Change), which has criticised greenwashing in the past, did not respond to a request for comment.\n\n\n\nBefore and after: COP28’s ‘low carbon’ site on October 25 and 26\n\n\n\nCOP28 website on October 25, 2023. / COP28 website on October 26, 2023.‘A classic example of greenwashing’\n\n\n\nMichelle Barker is a senior developer for an artificial intelligence company in the United Kingdom, and has written about COP28’s “low carbon” toggle in her personal web development blog. She initially called the toggle “fake” and said it did “absolutely nothing”.\n\n\n\n“It simply gives the user the impression that they (and the website owners) are considering the planet, without actually changing anything,” she wrote. “A classic example of greenwashing.”\n\n\n\nMs Barker said a low carbon site “should be the default” instead of giving users the option to switch to one, and said the language used by the COP28 website was problematic.\n\n\n\n“The toggle label when low carbon mode is toggled on, ‘Switch back to full experience,’ makes it sound like users are missing out on something by switching on low carbon mode, when in fact (if done right) they could be gaining a better, faster experience,” she said.\n\n\n\nFershad Irani is a freelance web sustainability consultant in Taiwan who is part of the Green Web Foundation. He said he was excited when he first saw COP28’s low-carbon toggle, but was disappointed by its implementation.\n\n\n\n“At the moment, the way the low-carbon version is, it kind of does feel a bit like greenwashing, in that it’s just so minimal effort,” he said. “It’s just like, ‘We removed images, and let’s not think about anything else.’\n\n\n\n“Whereas, if you’re serious about this, you put some time, effort and design resources into creating an experience that is actually equivalent to what you would say the ‘full experience’ is.\n\n\n\n“Which is why something like this, and the design of the low-carbon version, is super important.”\n\n\n\nCOP28 organisers previously said that they aimed to ensure this year’s event would be “sustainable and carbon neutral”.\n\n\n\nIn its Sustainability Policy, COP28 said its push for climate action and realistic goals would be “reflected in everything we do at COP28 UAE, from the catering suppliers we use, to the transport options available to participants”. COP conference attendees have faced criticism in the past for taking private planes to the summit.\n\n\n\nA demonstrator advocates for the 1.5 degree Celsius warming goal at 2022’s COP27 climate summit in Egypt.(AP Photo: Peter Dejong/File)Changes welcomed, but ‘more needs to be done’\n\n\n\nAfter the COP28 website was modified on October 26, Ms Barker said she was pleased to see the site was now using less data, but found the “low carbon” toggle still wasn’t having much of an impact on energy usage.\n\n\n\n“The home page is considerably smaller than before (in terms of data transfer) even with the low-carbon toggle off. That’s good news on the whole, even though the toggle isn’t having very much effect,” she said.\n\n\n\n“It’s unfortunate that low-carbon mode isn’t the default, and it doesn’t seem like a lot of consideration has gone into the low-carbon design. It’s still presented as an inferior experience to the end user.\n\n\n\n“I actually think that’s a really big deal, as there’s so much stigma associated with making green choices. It’s often spun by politicians and the media to mean reduced quality and going without. Whereas with careful design consideration, it could be a more desirable option, and there’s space for high-profile websites to lead the way on this.”\n\n\n\nMr Irani said changes to the COP28 website appeared to show it was now using less energy, but “more needs to be done”.\n\n\n\n“It shows they care, the fact that they made changes to the website … It shows that they are paying attention, and they are cognisant of it,” he said.\n\n\n\n“It’s a good first step, but I understand the greenwashing criticism, because it looks like [the ‘low-carbon’ version] been slapped on there as an afterthought, rather than it being the primary reason for building the website and showing what you can do with using less energy and less data.\n\n\n\n“This whole idea of the internet being a carbon-producing machine — it’s not something that’s in the public consciousness yet.”\n\n\n\nBefore and after: COP28’s ‘low carbon’ site on October 25 and 26\n\n\n\nCOP28 website on October 25, 2023. / COP28 website on October 26, 2023.Editor says …Sterling Publishing & Media Service Agency is not responsible for the content of external site or from any reports, posts or links and thanks for following as always appreciate every like, reblog or retweet and comment thank you @acenewsservices A demonstrator advocates for the 1.5 degree Celsius warming goal at 2022’s COP27 climate summit in Egypt.(AP Photo: Peter Dejong/File)\n\n\n\n@acenewsservices \n\t\t\n\t\tPEACE & TRUTHTweetShare on TumblrTelegramMastodonEmailXMorePocketLike Loading...\n\n\tRelated"
+      },
+      "mention-of": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://peace-truth.com/featured-un-cop28-climate-change-summit-report-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.nlatblog.com/a-classic-example-of-greenwashing-un-climate-summit-website-criticized-over-low-carbon-toggle/",
+      "published": null,
+      "wm-received": "2023-10-31T10:59:06Z",
+      "wm-id": 1732855,
+      "wm-source": "https://www.nlatblog.com/a-classic-example-of-greenwashing-un-climate-summit-website-criticized-over-low-carbon-toggle/",
+      "wm-target": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.foarabblog.com/a-classic-example-of-greenwashing-un-climate-summit-website-criticized-for-low-carbon-activation/",
+      "published": null,
+      "wm-received": "2023-10-31T10:28:12Z",
+      "wm-id": 1732848,
+      "wm-source": "https://www.foarabblog.com/a-classic-example-of-greenwashing-un-climate-summit-website-criticized-for-low-carbon-activation/",
+      "wm-target": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://greenstak.com/united-nations-cop28-climate-summit-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle-abc-news/",
+      "published": null,
+      "wm-received": "2023-10-31T02:35:22Z",
+      "wm-id": 1732778,
+      "wm-source": "https://greenstak.com/united-nations-cop28-climate-summit-reworks-website-following-greenwashing-allegations-over-low-carbon-toggle-abc-news/",
+      "wm-target": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.notiulti.com/la-cumbre-climatica-cop28-de-las-naciones-unidas-modifica-el-sitio-web-tras-las-acusaciones-de-lavado-verde-sobre-la-opcion-bajas-en-carbono/",
+      "published": null,
+      "wm-received": "2023-10-31T02:23:02Z",
+      "wm-id": 1732772,
+      "wm-source": "https://www.notiulti.com/la-cumbre-climatica-cop28-de-las-naciones-unidas-modifica-el-sitio-web-tras-las-acusaciones-de-lavado-verde-sobre-la-opcion-bajas-en-carbono/",
+      "wm-target": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/greenwashing-and-the-cop28-website/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://ntdln.com/2023/10/30/weekly-links-10-23-10-29/",
+      "published": null,
+      "wm-received": "2023-10-30T15:02:49Z",
+      "wm-id": 1732551,
+      "wm-source": "https://ntdln.com/2023/10/30/weekly-links-10-23-10-29/",
+      "wm-target": "https://css-irl.info/finding-meaning-in-our-work/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://css-irl.info/finding-meaning-in-our-work/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://ntdln.com/2023/10/30/weekly-links-10-23-10-29/"
+      }
+    },
     {
       "type": "entry",
       "author": {
