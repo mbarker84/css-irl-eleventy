@@ -13,10 +13,14 @@
         <li class="c-tag-links__tag c-tag-links__tag--quick-tip">
           <a href="/tags/{{ tag | slug }}">Quick tip</a>
         </li>
+      {% elseif tag === 'demo' %}
+        <li class="c-tag-links__tag c-tag-links__tag--demo">
+          <a href="/tags/{{ tag | slug }}">Demo</a>
+        </li>
       {% endif %}
     {% endfor %}
     {% for tag in tags %}
-      {% if tag != 'post' and tag != 'note' and tag != 'quick tip' %}
+      {% if tag != 'post' and tag != 'note' and tag != 'quick tip' and tag != 'demo' %}
         <li class="c-tag-links__tag">
           <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
         </li>

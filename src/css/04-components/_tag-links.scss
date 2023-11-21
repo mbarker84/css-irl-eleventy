@@ -104,6 +104,8 @@
 .c-tag-links__tag--note a,
 .c-tag-links__tag--quick-tip a,
 .c-posts-grid__tag--quick-tip,
+.c-posts-grid__tag--demo,
+.c-tag-links__tag--demo a,
 .c-posts-grid__tag--source {
   font-weight: 700;
   background-color: var(--note, royalblue);
@@ -113,6 +115,13 @@
 .c-posts-grid__tag--quick-tip,
 .c-tag-links__tag--quick-tip a {
   background-color: var(--note, turquoise);
+  color: var(--black);
+}
+
+.c-posts-grid__tag--demo,
+.c-tag-links__tag--demo a {
+  --accentColor: orange;
+  background-color: var(--accentColor);
   color: var(--black);
 }
 

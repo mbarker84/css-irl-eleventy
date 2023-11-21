@@ -25,6 +25,11 @@
     color: var(--black);
   }
 
+  .c-tag-links__tag--demo a {
+    background-color: var(--note, orange);
+    color: var(--black);
+  }
+
   @media (min-width: $lg) {
     margin-bottom: calc(var(--vr) * 2);
   }

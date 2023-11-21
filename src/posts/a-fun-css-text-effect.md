@@ -1,7 +1,7 @@
 ---
 title: 'A Fun CSS Text Effect'
 date: '2023-11-19'
-tags: ['post', 'note', 'National Blog Posting Month', 'css']
+tags: ['post', 'demo', 'National Blog Posting Month', 'css']
 intro: 'Day 19 of National Blog Posting Month #NaBloPoMo'
 ---
 

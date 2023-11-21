@@ -1,7 +1,7 @@
 ---
 title: 'Radial Gradients and CSS Trigonometric Functions'
 date: '2023-11-14'
-tags: ['post', 'National Blog Posting Month', 'css']
+tags: ['post', 'demo', 'National Blog Posting Month', 'css']
 intro: 'Day 14 of National Blog Posting Month #NaBloPoMo'
 ---
 

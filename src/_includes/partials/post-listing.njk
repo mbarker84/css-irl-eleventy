@@ -9,12 +9,18 @@
   {% if item === 'note' %}
     {% set isNote = true %}
   {% endif %}
+
+  {% if item === 'demo' %}
+    {% set isDemo = true %}
+  {% endif %}
 {% endfor %}
 
 {% if isNote %}
   {% set componentClass = 'c-post-listing--note' %}
 {% elseif isQuickTip %}
   {% set componentClass = 'c-post-listing--quick-tip' %}
+{% elseif isDemo %}
+  {% set componentClass = 'c-post-listing--demo' %}
 {% elseif post.data.source %}
   {% set componentClass = 'c-post-listing--external' %}
 {% else %}
@@ -30,6 +36,12 @@
     <span class="c-posts-grid__tag c-posts-grid__tag--quick-tip">Quick tip</span>
   {% endif %}
 
+  {% for item in post.data.tags %}
+    {% if item == 'demo' %}
+      <span class="c-posts-grid__tag c-posts-grid__tag--demo">Demo</span>
+    {% endif %}
+  {% endfor %}
+
   {% if post.data.source %}
     <span class="c-posts-grid__tag c-posts-grid__tag--source">Published on {{ post.data.source }}</span>
   {% endif %}
@@ -37,6 +49,7 @@
   {% if post.data.series %}
     <p class="heading-4">{{ post.data.series }}</p>
   {% endif %}
+
 
   <h3 class="c-posts-grid__post-heading heading-2">
     {% if post.data.externalLink %}

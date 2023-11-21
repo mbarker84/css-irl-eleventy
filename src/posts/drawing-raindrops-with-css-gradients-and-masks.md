@@ -1,7 +1,7 @@
 ---
 title: 'Drawing Raindrops with CSS Gradients and Masks'
 date: '2023-11-18'
-tags: ['post', 'note', 'National Blog Posting Month', 'css']
+tags: ['post', 'demo', 'National Blog Posting Month', 'css']
 intro: 'Day 18 of National Blog Posting Month #NaBloPoMo'
 ---
 
