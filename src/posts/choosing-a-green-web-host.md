@@ -33,7 +33,7 @@ There is also the [embodied carbon](https://circularecology.com/carbon-footprint
 
 I’m not aware of many hosting companies that publish detailed sustainability information on anything beyond electricity use (if they even publish that).
 
-## Renewable energy vs. Energy efficiency
+## Renewable energy vs. energy efficiency
 
 There’s much more we could examine when it comes to the energy efficiency of our site’s infrastructure. [Using a CDN](https://www.wholegraindigital.com/blog/how-using-a-cdn-is-better-for-people-and-the-planet/) (Content Delivery Network) **could** be a greener choice, as web pages can be served close to the the user, reducing data transfer. But with a more distributed network there could be a trade-off, as there may be less control over the carbon-intensity of the electricity.
 
@@ -47,7 +47,7 @@ Running CSS { In Real Life } through [Website Carbon](https://www.websitecarbon.
 
 Although the energy infrastructure that powers my website appears to be relatively green, [Amazon is hardly what I would consider a “green” company](https://www.theverge.com/2022/8/1/23287351/amazon-climate-change-carbon-emissions-worse-2021), with a business that relies on unsustainable consumption, as well as ever-increasing demand for computing power and data infrastructure.
 
-## Finding a Green Web Host
+## Finding a green web Host
 
 If you’re shopping for a green (or at least greener) web host, a good first port of call is the Green Web Foundation’s [Green Hosting Directory](https://www.thegreenwebfoundation.org/tools/directory/). Although there’s not a huge amount of information on each company (and individual companies’ websites can be frustratingly opaque), in order to be published in the directory companies need to provide proof of their green claims, so it’s a good baseline.
 
