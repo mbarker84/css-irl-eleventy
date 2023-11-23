@@ -43,9 +43,13 @@ Utilising serverless architecture could be a positive step too, but it as with s
 
 ## How green is my website?
 
-Running CSS { In Real Life } through [Website Carbon](https://www.websitecarbon.com) tells me that this website runs on clean energy. How can we be sure of that? My website is hosted with Netlify, which uses AWS infrastructure. Amazon helpfully provides a webpage detailing their [sustainability initiatives](https://sustainability.aboutamazon.com/products-services). We should remember that this is self-reported, and companies are inclined to put a positive spin on their environmental efforts for marketing purposes.
+Running CSS { In Real Life } through [Website Carbon](https://www.websitecarbon.com) tells me that this website runs on clean energy. How can we be sure of that? Website Carbon has a section that explains [how the energy source is determined](https://www.websitecarbon.com/how-does-it-work/#green-energy), but notes that the data source does not distinguish between data centres that purchase green electricity and those that buy standard electricity but offset their emissions.
 
-Although the energy infrastructure that powers my website appears to be relatively green, [Amazon is hardly what I would consider a “green” company](https://www.theverge.com/2022/8/1/23287351/amazon-climate-change-carbon-emissions-worse-2021), with a business that relies on unsustainable consumption, as well as ever-increasing demand for computing power and data infrastructure.
+My website is hosted with Netlify, which I can learn from their [sustainability page](https://www.netlify.com/sustainability/) uses AWS infrastructure. Amazon helpfully provides a webpage detailing their [sustainability initiatives](https://sustainability.aboutamazon.com/products-services). But we should remember that this is self-reported, and companies are inclined to put a positive spin on their environmental efforts for marketing purposes.
+
+Although the energy infrastructure that powers my website **appears** to be relatively green, [Amazon is hardly what I would consider a “green” company](https://www.theverge.com/2022/8/1/23287351/amazon-climate-change-carbon-emissions-worse-2021), with a business that relies on unsustainable consumption, as well as ever-increasing demand for computing power and data infrastructure.
+
+Even with reliable data, calculating carbon emissions from infrastructure is tricky, and it’s impossible to account for all variables. The creators behind Website Carbon have a page explaining [how digital emissions are calculated](https://sustainablewebdesign.org/calculating-digital-emissions/) for their estimates, but it can only ever be a rough estimate.
 
 ## Finding a green web Host
 
