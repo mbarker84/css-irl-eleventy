@@ -22,3 +22,11 @@ Apple products have been criticised for their built-in obsolescence, and Apple h
 The main thing you can do to prevent e-waste is to avoid upgrading unnecessarily and hold onto your devices for as long as possible. If a device is no longer needed, consider selling or donating it, or if it can no longer be used then take it to a recycling facility or return it to the manufacturer.
 
 This Black Friday, please consider the environment and maybe **don’t** buy that new device.
+
+## Learn more about greening the web
+
+Join myself and [Gerry McGovern](https://gerrymcgovern.com/) on Thursday 7th December online for [Smashing Meets Goes Green](https://smashingconf.com/meets-green) — a special, sustainability focused edition of the meetup!
+
+<figure>
+  <img src="/smashing-meets-goes-green.svg" width="800" height="600"  alt="Smashing Meet Goes Green">
+</figure>
