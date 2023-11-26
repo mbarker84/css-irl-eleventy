@@ -180,5 +180,5 @@ function extractExcerpt(article) {
     }
   })
 
-  return excerpt
+  return excerpt || ''
 }

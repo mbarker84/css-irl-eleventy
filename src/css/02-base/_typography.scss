@@ -151,6 +151,10 @@ small {
   font-size: 0.9rem;
 }
 
+p:empty {
+  display: none;
+}
+
 .intro {
   font-size: 1.1em;
   font-weight: 500;
