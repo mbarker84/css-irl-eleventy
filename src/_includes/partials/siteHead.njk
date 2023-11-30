@@ -28,6 +28,7 @@
 
   <!--https://darn.es/you-should-add-a-generator-tag-to-your-eleventy-site/-->
   <meta name="generator" content="{{ eleventy.generator }}">
+
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/styles{{ version }}.css">
 
@@ -37,6 +38,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
   <link
   rel="manifest" href="/favicon/site.webmanifest">
+
+  {# RSS #}
+  <link rel="alternate" type="application/rss+xml" title="CSS { In Real Life }" href="https://css-irl.info/rss.xml" />
 
   {# Webmention.io #}
   <link rel="webmention" href="https://webmention.io/css-irl.info/webmention" />
@@ -53,6 +57,5 @@
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}"/>
   <meta property="og:site_name" content="{{ title }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
-
 
 </head>
