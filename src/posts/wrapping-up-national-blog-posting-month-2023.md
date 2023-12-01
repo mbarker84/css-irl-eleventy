@@ -7,7 +7,7 @@ intro: 'Day 30 of National Blog Posting Month #NaBloPoMo'
 
 We made it! I tasked myself with writing 30 posts in 30 days for National Blog Posting Month, and somehow I just about managed it (well, including this post — yes, I cheated!). So, what have I learned?
 
-## Let yourself of the hook
+## Let yourself off the hook
 
 Paradoxically, giving myself an off-ramp right at the beginning made me push myself harder. In the first post I had already set myself up with reasons (excuses) why I might not complete the task of posting every day for a month. I let myself feel comfortable with the idea that **trying** was the main thing, and that I wasn’t competing with anyone. Somehow that made me even more determined not to miss a day. I’m at my best when I’m only competing with myself.
 
