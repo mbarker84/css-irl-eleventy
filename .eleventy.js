@@ -137,6 +137,8 @@ module.exports = function (eleventyConfig) {
     token: process.env.WEBMENTIONS_TOKEN,
   })
 
+  eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' })
+
   return {
     dir: {
       input: 'src',
