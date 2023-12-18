@@ -41,7 +41,8 @@ module.exports = function (eleventyConfig) {
       .filter((item) => {
         return (
           !item.data.tags.includes('note') &&
-          !item.data.tags.includes('quick tip')
+          !item.data.tags.includes('quick tip') &&
+          !item.data.tags.includes('demo')
         )
       })
   })
