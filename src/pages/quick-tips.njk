@@ -10,7 +10,7 @@ layout: 'posts-layout.njk'
   </div>
 
   <ul class="c-posts-grid__list">
-    {% for post in collections['quick tip'] %}
+    {% for post in collections['quick tip'] | reverse %}
       {% include "../_includes/partials/post-listing.njk" %}
     {% endfor %}
   </ul>
