@@ -1,0 +1,15 @@
+---
+title: 'Where Do We Go From Here?'
+date: '2024-01-20'
+tags: ['post', 'opinion', 'writing']
+---
+
+A question I’ve been asking myself recently is “What is the purpose of this blog”? When I started writing in 2018 it didn’t occur to me that I’d still be doing it five years later. I picked the name “CSS { In Real Life }” because I loved CSS (I still do!), and that was what I was most interested in learning and writing about. But over the course of the years I’ve found myself expanding my writing into different areas: web sustainability, JS, dev ops, front-end in general, and work/life more broadly.
+
+Somehow this blog became a respected source of CSS articles, thanks to some well-known folks sharing it on social media and through newsletters. But it’s first and foremost a personal blog. The idea from the beginning was to document my web development learnings, and now I’ve found that many of the things I’m learning that feel important aren’t exclusively in the realm of web development. I want to write more personally from time to time, including non-web topics: book reviews, thoughts on parenting and work/life balance, tech in general, sustainability as a broad topic (beyond the web). A blog feels like a natural fit, especially now that Twitter is no longer a viable place to share thoughts and have discussions. But I worry that visitors coming along hoping for CSS content will be disappointed.
+
+That’s not to say I won’t be writing about CSS anymore. But in my day-to-day work I don’t get to play around with CSS quite so much now (it’s very JS and data-viz heavy), and my priorities in my personal life have shifted off-screen. As a consequence I don’t always have as much to write on experimental CSS or interesting use cases for features as I once did. There are a great number of wonderful people writing in-depth CSS articles: [Ahmad Shadeed](https://ishadeed.com/), [Stephanie Eckles](https://thinkdobecreate.com/), [Temani Afif](https://codepen.io/t_afif), [Manuel Matuzović](https://matuzo.at/blog), [Miriam Suzanne](https://www.miriamsuzanne.com/), the CSS team at Google ([Adam Argyle](https://nerdy.dev/), [Una Kravets](https://una.im/) and [Bramus Van Damme](https://www.bram.us/)), to name just a few, and I enjoy reading and learning from their work. I want to write about more than CSS, but when the title of this blog pertains to CSS, is it appropriate?
+
+I could start a separate, personal blog over on my [personal site](https://michellebarker.co.uk/). But I’m not sure I have the time to maintain two blogs, and if I kept this one exclusively for front end content I feel like I’d end up posting here a lot less. Maybe that’s fine though?
+
+So I’m asking you, dear reader: should I keep posting here, even if the content isn’t specifically CSS, or even front end? Or should my personal blog have another home? I’m not going to go all Elon and abide by your decision no matter what. But I’m genuinely interested to hear your thoughts 🙂
