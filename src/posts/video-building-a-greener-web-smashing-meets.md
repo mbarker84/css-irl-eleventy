@@ -3,6 +3,15 @@ title: 'Video: Building a Greener Web (Smashing Meets Goes Green)'
 date: '2024-01-21'
 tags:
   ['post', 'video', 'web sustainability', 'javascript', 'workflow', 'tooling']
+related:
+  [
+    { title: 'Building a Greener Web', url: '/building-a-greener-web' },
+    { title: 'Choosing a Green Web Host', url: '/choosing-a-green-web-host' },
+    {
+      title: 'Greenwashing and the COP28 Website',
+      url: '/greenwashing-and-the-cop28-website',
+    },
+  ]
 ---
 
 Just before Christmas I spoke at Smashing Meets Goes Green an online event focused on digital sustainability. The video of my talk is now online, so if you’d like to know more about this vast topic, jump right in!

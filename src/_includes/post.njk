@@ -16,6 +16,11 @@
           </div>
           {% include "./partials/webmentions.njk" %}
         </div>
+        {% if related %}
+          <div>
+            {% include "./partials/more-like-this.njk" %}
+          </div>
+        {% endif %}
         <div class="post-grid__prev-next">
           {% include "./partials/prev-next.njk" %}
         </div>

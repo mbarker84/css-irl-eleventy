@@ -1,0 +1,10 @@
+<div class="sidebar">
+  <h2 class="sidebar__heading">More like this</h2>
+  <ul class="sidebar__list">
+    {% for item in related %}
+      <li>
+        <a class="sidebar__link" href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

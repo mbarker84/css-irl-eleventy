@@ -66,10 +66,10 @@ body {
 .post-grid {
   @media (min-width: $lg) {
     display: grid;
-    gap: calc(2 * var(--vr)) var(--vr);
+    gap: calc(2 * var(--vr));
     grid-template-columns:
       [main-start] minmax(0, 58rem)
-      [main-end] minmax(rem(150px), 1fr);
+      [main-end] minmax(rem(250px), 1fr);
   }
 }
 
