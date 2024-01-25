@@ -26,11 +26,11 @@ I set myself the goal of buying no **new** clothes (except socks and underwear) 
 
 ### Reading instead of doom scrolling
 
-I made a conscious effort to read more books and be less online this year, in part because I wanted to model positive behaviour for my son. It’s been difficult at times as the allure of the screen is strong, and there have been plenty of days when I’ve fallen prey to it. But I’m definitely heading in the right direction. I’ve certainly read more books than the previous year, and feel better for it.
+I made a conscious effort to read more books and be less online this year, in part because I wanted to model positive behaviour for my son. It’s been difficult at times as the allure of the screen is strong, and there have been plenty of days when I’ve fallen prey to it. But I’m definitely heading in the right direction. I’ve certainly read more books than the previous year, and feel better for it. One of my favourite books I read this year was The Ship by Antonia Honeywell. I’m a sucker for dystopian sci-fi, and this is right up my street.
 
 ### Drums
 
-I learnt to play Cherub Rock, one of my favourite Smashing Pumpkins songs, on the drums! 🤘
+I learnt to play Cherub Rock, one of my favourite Smashing Pumpkins songs, on the drums! 🤘 I also joined a band! We mostly play 90s grunge covers. It’s a pretty casual affair, but really nice to play with others again.
 
 ## Conferences
 
