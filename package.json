@@ -5,8 +5,8 @@
   "scripts": {
     "start": "run-s start:remove build:images build:assets start:watch",
     "start:remove": "node onStart.mjs",
-    "start:watch": "run-p watch:eleventy watch:parcel start:browsersync",
-    "watch:eleventy": "npx @11ty/eleventy --watch",
+    "start:watch": "run-p watch:eleventy watch:parcel",
+    "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
     "watch:parcel": "run-p watch:css watch:js",
     "watch:css": "parcel watch src/css/styles.scss",
     "watch:js": "parcel watch src/js/index.js src/js/service-worker.js",

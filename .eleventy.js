@@ -3,6 +3,8 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const embedYouTube = require('eleventy-plugin-youtube-embed')
 const Webmentions = require('eleventy-plugin-webmentions')
 const dotenv = require('dotenv')
+const sass = require('sass')
+const path = require('node:path')
 
 const getPostCount = (tag, posts) => {
   return posts.filter((post) => post.data.tags.includes(tag)).length
@@ -29,6 +31,48 @@ const getTags = (item) => {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addTemplateFormats('scss')
+  // Creates the extension for use
+  eleventyConfig.addExtension('scss', {
+    outputFileExtension: 'css', // optional, default: "html"
+
+    // `compile` is called once per .scss file in the input directory
+    compile: function (inputContent, inputPath) {
+      let parsed = path.parse(inputPath)
+
+      if (parsed.name.startsWith('_')) {
+        return
+      }
+
+      let result = sass.compileString(inputContent, {
+        loadPaths: [parsed.dir || '.', this.config.dir.includes],
+      })
+
+      console.log(result)
+
+      // This is the render function, `data` is the full data cascade
+      return async (data) => {
+        return result.css
+      }
+    },
+  })
+  // ignore source assets (processing and watching)
+  // eleventyConfig.ignores.add('./src/css/**/*')
+  // eleventyConfig.ignores.add('./src/js/**/*')
+  // eleventyConfig.watchIgnores.add('./src/css/**/*')
+  // eleventyConfig.watchIgnores.add('./src/js/**/*')
+
+  // pass through (copy fonts and images to output directory)
+  eleventyConfig.addPassthroughCopy('./src/img')
+  eleventyConfig.addPassthroughCopy('./src/fonts')
+  eleventyConfig.addPassthroughCopy('./src/js')
+
+  // server config (watch generated assets in dist folder)
+  eleventyConfig.setServerOptions({
+    watch: ['./dist/*.css', './dist/*.js'],
+    port: 3000,
+  })
+
   eleventyConfig.addCollection('postPaginated', function (collectionApi) {
     return collectionApi.getFilteredByTag('post').reverse()
   })
