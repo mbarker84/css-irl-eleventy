@@ -3,6 +3,8 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const embedYouTube = require('eleventy-plugin-youtube-embed')
 const Webmentions = require('eleventy-plugin-webmentions')
 const dotenv = require('dotenv')
+const sass = require('sass')
+const path = require('node:path')
 
 const getPostCount = (tag, posts) => {
   return posts.filter((post) => post.data.tags.includes(tag)).length
@@ -29,6 +31,18 @@ const getTags = (item) => {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setServerOptions({
+    module: '@11ty/eleventy-server-browsersync',
+    enabled: true,
+    files: ['dist/*'],
+    injectChanges: true,
+    reloadThrottle: 3000,
+    watch: true,
+    server: {
+      baseDir: 'dist',
+    },
+  })
+
   eleventyConfig.addCollection('postPaginated', function (collectionApi) {
     return collectionApi.getFilteredByTag('post').reverse()
   })

@@ -1,15 +1,6 @@
-{% if version|length == 0 %}
-  {% set version = '' %}
-{% else %}
-  {% set version = version.js %}
-{% endif %}
-
 <footer class="c-footer">
   <small>&copy;
     {{ metadata.author.name }}
     {% year %}
   </small>
 </footer>
-
-<!--JS-->
-<script src="/index{{ version }}.js"></script>
