@@ -20,9 +20,9 @@
 {% endif %}
 
 {% if version|length == 0 %}
-  {% set version = '' %}
+  {% set cssVersion = '' %}
 {% else %}
-  {% set version = version.css %}
+  {% set cssVersion = version.css %}
 {% endif %}
 
 <head>
@@ -39,7 +39,7 @@
   <meta name="generator" content="{{ eleventy.generator }}">
 
   <title>{{ title }}</title>
-  <link rel="stylesheet" href="/css/styles{{ version }}.css">
+  <link rel="stylesheet" href="/css/styles{{ cssVersion }}.css">
 
   {# Favicon #}
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -80,6 +80,11 @@
   {% include './partials/footer.njk' %}
   
   <!--JS-->
-  <script src="/js/scripts{{ version }}.js"></script>
+  {% if version|length == 0 %}
+    {% set jsVersion = '' %}
+  {% else %}
+    {% set jsVersion = version.js %}
+  {% endif %}
+  <script src="/js/scripts{{ jsVersion }}.js"></script>
 </body>
 </html>
