@@ -13,7 +13,7 @@ const readCssFile = () => {
 }
 
 const readJsFile = () => {
-  return readFile('dist/js/index.js', (err, data) => {
+  return readFile('dist/js/scripts.js', (err, data) => {
     if (err) console.log(err)
     return data
   })
@@ -48,11 +48,11 @@ const renameCSS = () => {
 
 const renameJS = () => {
   return rename(
-    'dist/js/index.js',
-    `dist/js/index${hashJs}.js`,
+    'dist/js/scripts.js',
+    `dist/js/scripts${hashJs}.js`,
     function (err) {
       if (err) return console.log('ERROR: ' + err)
-      console.log(`dist/js/index.js > dist/js/index${hashJs}.js`)
+      console.log(`dist/js/scripts.js > dist/js/scripts${hashJs}.js`)
     }
   )
 }
