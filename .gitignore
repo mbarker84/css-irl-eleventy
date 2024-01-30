@@ -63,15 +63,17 @@ public
 yarn-error.log
 dist
 .DS_Store
-_webmentioncache/
+_webmentioncache
 
 # Yarn
 .pnp.*
-.yarn/*
+.yarn
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
 
-.netlify/*
+# Netlify generated stuff
+.netlify/
+netlify
