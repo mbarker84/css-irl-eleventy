@@ -1,7 +1,10 @@
 {
   "title": "CSS { In Real Life }",
-  "description": "Tips, tricks and tutorials on the web’s most beautiful language.",
-  "maxPostsPerPage": 2,
+  "description": "A blog about CSS, front-end development, the web, and beyond.",
+  "aboutLink": {
+    "title": "Find out more",
+    "url": "/about"
+  },
   "author": {
     "name": "Michelle Barker"
   },

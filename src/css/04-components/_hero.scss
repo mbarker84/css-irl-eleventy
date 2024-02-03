@@ -1,5 +1,5 @@
 .c-hero {
-  padding: 3rem 0 var(--vr);
+  padding: 3rem 0 calc(2 * var(--vr));
   display: flex;
   align-items: center;
   position: relative;
@@ -13,11 +13,17 @@
   font-family: $heading-light;
   font-weight: 400;
   font-size: 1.3rem;
-  max-width: 45rem;
+  max-width: 35rem;
 
   @media (min-width: $md) {
     font-size: 1.8rem;
   }
+}
+
+.c-hero__about {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-top: 1em;
 }
 
 .c-hero__svg {
