@@ -153,6 +153,8 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' })
+  eleventyConfig.addPassthroughCopy({ 'src/media': 'dist/media' })
+  eleventyConfig.addPassthroughCopy({ 'src/favicon': 'dist/favicon' })
 
   return {
     dir: {

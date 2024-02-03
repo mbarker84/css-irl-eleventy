@@ -8,19 +8,18 @@
     "src/js/service-worker.js"
   ],
   "scripts": {
-    "start": "run-s start:remove build:images build:assets start:watch",
+    "start": "run-s start:remove build:images start:watch",
     "start:remove": "node onStart.mjs",
     "start:watch": "run-p watch:eleventy",
     "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
     "watch:parcel": "parcel watch --no-cache",
-    "build": "run-s clean create build:parcel build:assets hash build:eleventy",
+    "build": "run-s clean create build:parcel hash build:eleventy",
     "svg": "svg-symbol-sprite -i src/icons -o src/_includes/partials/sprite.svg -p ''",
     "build:eleventy": "npx @11ty/eleventy",
     "build:parcel": "run-s build:css build:js build:images",
     "build:css": "parcel build src/css/styles.scss --dist-dir 'dist/css' --no-cache",
     "build:js": "parcel build src/js/scripts.js --dist-dir 'dist/js' --no-cache",
     "build:images": "parcel build 'src/images/*'",
-    "build:assets": "node copyAssets.mjs",
     "clean": "rm -rf dist",
     "create": "mkdir dist dist/css dist/js",
     "hash": "node onBuild.mjs"
