@@ -15,12 +15,6 @@ The official Github repository for front end blog [CSS { In Real Life }](https:/
 npm run build
 ```
 
-### Build for production
-
-```zsh
-npm run build
-```
-
 ### Generate SVG sprite
 
 ```zsh
