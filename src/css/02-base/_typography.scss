@@ -10,6 +10,12 @@
   font-display: swap;
 }
 
+html {
+  @media (min-width: 95em) {
+    font-size: 120%;
+  }
+}
+
 body {
   font-family: $body;
 
@@ -44,7 +50,9 @@ ol {
 
 a {
   color: var(--textColor);
-  transition: color 200ms, text-underline-offset 200ms,
+  transition:
+    color 200ms,
+    text-underline-offset 200ms,
     text-decoration-color 200ms;
 
   @supports (text-decoration-color: transparent) {
@@ -60,7 +68,9 @@ a {
     color: var(--textColor);
     text-decoration-color: var(--primary);
     text-decoration-thickness: 0.1em;
-    transition: color 200ms, text-underline-offset 200ms,
+    transition:
+      color 200ms,
+      text-underline-offset 200ms,
       text-decoration-color 200ms;
   }
 }
