@@ -12,11 +12,11 @@
 {% endif %}
 
 {% if title %}
-  {% set title = metadata.title + ' | ' + title %}
+  {% set siteTitle = metadata.title + ' | ' + title %}
 {% elseif pageTitle %}
-  {% set title = metadata.title + ' | ' + pageTitle %}
+  {% set siteTitle = metadata.title + ' | ' + pageTitle %}
 {% else %}
-  {% set title = metadata.title %}
+  {% set siteTitle = metadata.title %}
 {% endif %}
 
 {% if version|length == 0 %}
@@ -38,7 +38,7 @@
   <!--https://darn.es/you-should-add-a-generator-tag-to-your-eleventy-site/-->
   <meta name="generator" content="{{ eleventy.generator }}">
 
-  <title>{{ title }}</title>
+  <title>{{ siteTitle }}</title>
   <link rel="stylesheet" href="/css/styles{{ cssVersion }}.css">
 
   {# Favicon #}
@@ -56,15 +56,15 @@
   <link rel="pingback" href="https://webmention.io/css-irl.info/xmlrpc" />
 
   {# Facebook and Twitter card #}
-  <meta property="og:title" content="{{ title }}"/>
-  <meta property="og:title" content="{{ title }}"/>
+  <meta property="og:title" content="{{ siteTitle }}"/>
+  <meta property="og:title" content="{{ siteTitle }}"/>
   <meta property="og:type" content="website"/>
   {% if page.url == '/' %}
     <meta property="og:description" content="{{ metadata.description }}"/>
   {% endif %}
   <meta property="og:image" content="{{ metadata.url }}/{{ metadata.img }}"/>
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}"/>
-  <meta property="og:site_name" content="{{ title }}"/>
+  <meta property="og:site_name" content="{{ siteTitle }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
 </head>
 
