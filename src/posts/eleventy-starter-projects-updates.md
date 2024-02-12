@@ -2,6 +2,21 @@
 title: 'Eleventy Starter Project Updates'
 date: '2024-02-11'
 tags: ['post', 'workflow', 'tooling']
+related:
+  [
+    {
+      title: 'From Gatsby to Eleventy: Choosing a Static Site Generator for a Personal Site',
+      url: '/from-gatsby-to-eleventy',
+    },
+    {
+      title: 'Launching the New and Improved CSS { In Real Life }',
+      url: '/launching-the-new-and-improved-css-irl',
+    },
+    {
+      title: 'Scheduling Netlify Deployments with Github Actions',
+      url: 'scheduling-netlify-deployments-with-github-actions',
+    },
+  ]
 ---
 
 <figure>

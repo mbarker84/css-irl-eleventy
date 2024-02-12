@@ -21,7 +21,7 @@
 
 .sidebar__list {
   display: grid;
-  gap: calc(var(--vr) / 2);
+  gap: 1em;
   position: sticky;
   top: 0;
 }
@@ -29,4 +29,5 @@
 .sidebar__link {
   font-family: $heading;
   font-weight: $bold;
+  line-height: 1.25;
 }
