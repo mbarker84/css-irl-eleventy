@@ -2,12 +2,14 @@
   font-family: 'Urbanist';
   src: url('../fonts/urbanist.woff2') format('woff2');
   font-display: swap;
+  font-weight: 100 800;
 }
 
 @font-face {
   font-family: 'Jost';
   src: url('../fonts/jost.woff2') format('woff2');
   font-display: swap;
+  font-weight: 100 800;
 }
 
 html {
@@ -39,6 +41,11 @@ h5,
 .heading-4,
 .heading-5 {
   font-family: $heading;
+  font-weight: 700;
+}
+
+h1,
+.heading-1 {
   font-weight: 800;
 }
 
