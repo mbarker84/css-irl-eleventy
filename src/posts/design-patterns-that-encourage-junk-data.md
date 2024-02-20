@@ -8,7 +8,7 @@ A post [from Remy](https://front-end.social/@rem/111957249492228263) on Mastodon
 
 > Been picking up some of the jsbin archive work. Today, there's currently 62 millions bins stored. The last full copy archive I ran (which downloads the full html, js + css into a single page) holds 42 millions bins, consumes 130gb and the names alone (not even the urls) takes up 750mb.
 
-That’s a lot of data, and I’d be willing to bet a fair amount of of it is no longer needed.
+That’s a lot of data, and I’d be willing to bet a fair amount of it is no longer needed.
 
 Not long ago I read [World Wide Waste](https://gerrymcgovern.com/world-wide-waste/) by Gerry McGovern, which brings into sharp relief the physical and ecological impacts of our digital lives. One aspect of this is the huge amount of data we accumulate. It all has to be stored somewhere. And despite what we might like to believe — that “the cloud” is this magical, nebulous, (crucially) free storage space floating high above us — it’s actually stored in vast datacentres, hungry for water and electricity. The Guardian recently ran a story on [datacentres in Ireland](https://www.theguardian.com/world/2024/feb/15/power-grab-hidden-costs-of-ireland-datacentre-boom), which are estimated to consume 18% of the country’s electricity. And more are being built all the time, to satisfy our ever-growing appetite for data.
 
