@@ -2,6 +2,18 @@
 title: 'Design Patterns that Encourage Junk Data'
 date: '2024-02-20'
 tags: ['post', 'web sustainability']
+related:
+  [
+    { title: 'Building a Greener Web', url: '/building-a-greener-web' },
+    {
+      title: 'Video: Building a Greener Web (Smashing Meets Goes Green)',
+      url: '/video-building-a-greener-web-smashing-meets',
+    },
+    {
+      title: 'New and Improved Green Web Hosting Directory from the Green Web Foundation',
+      url: '/new-and-improved-green-web-hosting-directory/',
+    },
+  ]
 ---
 
 A post [from Remy](https://front-end.social/@rem/111957249492228263) on Mastodon recently got me thinking:
