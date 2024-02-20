@@ -45,7 +45,7 @@ If our font variation is on the **weight** axis, we should set a range for the `
 ```css
 @font-face {
   font-family: 'Urbanist';
-  src: url('../fonts/urbanist.woff2');
+  src: url('../fonts/urbanist.woff2') format('woff2');
   font-display: swap;
   font-weight: 100 800;
 }
