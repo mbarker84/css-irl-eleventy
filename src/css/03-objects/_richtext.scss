@@ -37,12 +37,12 @@
         content: '';
         display: inline-block;
         position: absolute;
-        width: 1em;
-        height: 1em;
-        margin-left: 0.25em;
+        width: 0.7em;
+        height: 0.7em;
+        margin-left: 0.15em;
         background-size: 100%;
         background-image: var(--externalLinkImage);
-        transform: translateY(0.29em);
+        transform: translateY(0.2em);
       }
     }
   }
