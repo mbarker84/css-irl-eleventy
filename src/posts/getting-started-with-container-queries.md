@@ -11,4 +11,4 @@ As of this year, container queries are supported in all major browsers. But what
 
 This post for MDN includes everything you need to get started using container queries for building layouts.
 
-[Read the post on MDN](https://developer.mozilla.org/en-US/blog/getting-started-with-css-container-queries/)
+{% hotlink 'https://developer.mozilla.org/en-US/blog/getting-started-with-css-container-queries/', 'Read the post on MDN' %}

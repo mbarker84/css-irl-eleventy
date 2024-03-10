@@ -124,8 +124,14 @@ module.exports = function (eleventyConfig) {
     return arr.slice(0, 15)
   })
 
+  /* Shortcodes */
+  eleventyConfig.addShortcode('hotlink', (url, title, target = '_blank') => {
+    return `<a class="o-hotlink" href="${url}" target=${target}>${title}</a>`
+  })
+
   eleventyConfig.addShortcode('excerpt', (article) => extractExcerpt(article))
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
+
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(embedYouTube, {

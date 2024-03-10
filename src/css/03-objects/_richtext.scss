@@ -123,7 +123,7 @@
     margin-top: 0;
   }
 
-  > * + :is(h2, h3, aside, figure) {
+  > * + :is(h2, h3, aside, figure, p:has(:first-child.o-hotlink)) {
     margin-top: calc(var(--vr) * 2);
   }
 
@@ -211,5 +211,15 @@
 
   @media (min-width: $lg) {
     padding-top: 0;
+  }
+
+  .o-hotlink {
+    &[href^='http'] {
+      padding: 0.25em 1em;
+
+      &::after {
+        position: relative;
+      }
+    }
   }
 }
