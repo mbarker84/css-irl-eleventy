@@ -25,7 +25,7 @@ Some might see this as frustrating (and it can be), but it’s not all bad. Doin
 
 ## A bit less broken
 
-When I’m working on this kind of project it’s had to resist the urge to refactor everything. But that would easily spiral out of control, and no work would ever get deployed. A bit like a firefighter stopping to sweep up the debris while the fire rages out of control. Instead, I’ll settle for leaving things a bit less broken.
+When I’m working on this kind of project it’s hard to resist the urge to refactor everything. But that would easily spiral out of control, and no work would ever get deployed. A bit like a firefighter stopping to sweep up the debris while the fire rages out of control. Instead, I’ll settle for leaving things a bit less broken.
 
 In my work on the front end, I’m forever spotting accessibility issues, no doubt baked in years ago. While working on a feature or bug fix, I’ll spend a few extra minutes restructuring the [heading levels](https://www.w3.org/WAI/tutorials/page-structure/headings/) for a page, refactoring a particular piece of UI into a reusable component, or adding focus styles to a button. It’s not the kind of work that’s going to win awards, but perhaps it’ll mean that someone will be able to access the information who couldn’t before, or that next time another developer picks up the project it’ll be just a little bit easier to work with. I’ve no idea who came up with the term “code gardening”, but that’s exactly what it is.
 
