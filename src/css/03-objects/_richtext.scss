@@ -59,15 +59,11 @@
     display: block;
     padding: 1rem;
     max-width: 60rem;
-    font-size: 0.9rem;
+    font-size: 0.8em;
     margin: var(--vr) 0;
 
     * {
       margin-top: 0;
-    }
-
-    @media (min-width: $lg) {
-      font-size: 1.2rem;
     }
   }
 
@@ -165,8 +161,7 @@
       }
     }
 
-    &::before,
-    &::after {
+    &::before {
       position: absolute;
       background-color: var(--primary);
       color: $black;
@@ -179,12 +174,6 @@
       content: '<aside>';
       top: -1rem;
       left: 1rem;
-    }
-
-    &::after {
-      content: '</aside>';
-      bottom: -1rem;
-      right: 1rem;
     }
 
     @media (min-width: $md) {
