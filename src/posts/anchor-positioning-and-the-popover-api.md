@@ -71,9 +71,9 @@ p,
 }
 ```
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="NWVqjwm" data-user="michellebarker" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/michellebarker/pen/NWVqjwm">
-  Popover with anchor positioning (inset area)</a> by Michelle Barker (<a href="https://codepen.io/michellebarker">@michellebarker</a>)
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="VwOLmdX" data-pen-title="Popover with anchor positioning" data-user="michellebarker" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/michellebarker/pen/VwOLmdX">
+  Popover with anchor positioning</a> by Michelle Barker (<a href="https://codepen.io/michellebarker">@michellebarker</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -88,9 +88,9 @@ We can also position our anchored element with the `inset-area`, property instea
 }
 ```
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="NWVqjwm" data-user="michellebarker" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="NWVqjwm" data-pen-title="Popover with anchor positioning (inset area)" data-user="michellebarker" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/michellebarker/pen/NWVqjwm">
-  Popover with anchor positioning</a> by Michelle Barker (<a href="https://codepen.io/michellebarker">@michellebarker</a>)
+  Popover with anchor positioning (inset area)</a> by Michelle Barker (<a href="https://codepen.io/michellebarker">@michellebarker</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
