@@ -41,6 +41,13 @@
               <li class="c-header__item">
                 {% if item.title == 'Home' %}
                   <a class="c-header__link" href="/" hidden="true" data-home-link="data-home-link">Home</a>
+                {% elseif item.title == 'RSS' %}
+                  <a class="c-header__link" href="{{ item.url }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" aria-hidden="true" focusable="false">
+                      <use href="/sprite.svg#{{ item.icon.name }}"/>
+                    </svg>
+                    {{ item.title }}
+                  </a>
                 {% else %}
                   <a class="c-header__link" href="{{ item.url }}">{{ item.title }}</a>
                 {% endif %}

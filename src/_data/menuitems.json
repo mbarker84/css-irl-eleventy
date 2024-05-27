@@ -21,6 +21,11 @@
   },
   {
     "title": "RSS",
-    "url": "/rss.xml"
+    "url": "/rss.xml",
+    "icon": {
+      "name": "icon-rss",
+      "title": "RSS",
+      "url": "/rss.xml"
+    }
   }
 ]

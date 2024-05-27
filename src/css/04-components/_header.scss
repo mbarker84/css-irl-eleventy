@@ -54,7 +54,9 @@
   cursor: pointer;
   margin-right: -0.5rem;
   text-underline-offset: 0;
-  transition: text-underline-offset 200ms, text-decoration-color 200ms;
+  transition:
+    text-underline-offset 200ms,
+    text-decoration-color 200ms;
   color: var(--bg-headerLink);
 
   @supports (text-decoration-color: transparent) {
@@ -167,10 +169,13 @@
   padding: 0.5rem 1rem;
   color: var(--bg-headerLink);
   display: flex;
+  gap: 0.25em;
   align-items: center;
   height: 100%;
   text-decoration: none;
-  transition: color 200ms, text-underline-offset 200ms,
+  transition:
+    color 200ms,
+    text-underline-offset 200ms,
     text-decoration-color 200ms;
 
   @supports (text-decoration-color: transparent) {
@@ -180,7 +185,6 @@
   }
 
   svg {
-    margin-left: 0.5rem;
     width: 1.75rem;
     height: 1.75rem;
   }

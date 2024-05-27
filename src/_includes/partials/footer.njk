@@ -1,6 +1,12 @@
 <footer class="c-footer">
   <small>&copy;
-    {{ metadata.author.name }}
+    <a href="https://michellebarker.co.uk">{{ metadata.author.name }}</a>
     {% year %}
   </small>
+  {% set iconLink = {
+    url: '/rss.xml',
+    name: 'icon-rss',
+    title: 'RSS feed'
+  } %}
+  {% include './components/icon-link.njk' %}
 </footer>
