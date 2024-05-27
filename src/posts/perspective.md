@@ -5,7 +5,7 @@ tags: ['post', 'note', 'opinion']
 ---
 
 <figure>
-  <img srcset="/perspective-01_1800.webp 1800w, /perspective-01_1600.webp 1600w, /perspective-01_1800.webp 1200w, /perspective-01_900.webp 900w, /perspective-01_700.webp 700w," sizes="(min-width: 1200px) 1200px, 90vw" src="/perspective-01_1800.webp 1200w" width="1200" height="800" alt="View from the top of Mount Snowdon (Y Wyddfa), looking down at two lakes and rocky slopes, with mountains fading into the distance against a backdrop of blue, cloudy sky">
+  <img srcset="/perspective-01_1800.webp 1800w, /perspective-01_1600.webp 1600w, /perspective-01_1200.webp 1200w, /perspective-01_900.webp 900w, /perspective-01_700.webp 700w," sizes="(min-width: 1200px) 1200px, 90vw" src="/perspective-01_1200.webp 1200w" width="1200" height="800" alt="View from the top of Mount Snowdon (Y Wyddfa), looking down at two lakes and rocky slopes, with mountains fading into the distance against a backdrop of blue, cloudy sky">
   <figcaption>View from the top of Mount Snowdon (Y Wyddfa) in Eryri National Park</figcaption>
 </figure>
 
