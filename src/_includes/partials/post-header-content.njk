@@ -36,9 +36,9 @@
   {{ title }}
 </h1>
 
-{% if headerStyle != 'simple' %}
-  <time datetime="{{ page.date }}" class="c-post-header__date">{{ page.date.toDateString() }}</time>
-{% endif %}
+<div class="c-post-header__date">
+  <time datetime="{{ page.date }}">{{ page.date.toDateString() }}</time>{% if lastEdited %}, <time datetime="{{ lastEdited }}">{% lastEdited lastEdited %}</time>{% endif %}
+</div>
 
 {% if source and srcUrl %}
   <a href="{{ srcUrl }}" class="c-post-header__source">{{ source }}</a>

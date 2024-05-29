@@ -130,6 +130,13 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addShortcode('excerpt', (article) => extractExcerpt(article))
+
+  eleventyConfig.addShortcode('lastEdited', (lastEdited) => {
+    if (!lastEdited) return 'No date last edited'
+    const date = new Date(lastEdited)
+    return `Last edited: ${date.toString().split(' ').slice(0, 3).join(' ')}`
+  })
+
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
   eleventyConfig.addPlugin(pluginRss)
