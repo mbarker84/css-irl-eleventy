@@ -1,6 +1,7 @@
 ---
 title: 'Progressively Enhanced Popover Toggletips'
 date: '2024-05-27'
+lastEdited: '2024-05-29'
 tags: ['post', 'demo', 'css', 'layout']
 ---
 
@@ -97,3 +98,47 @@ I’m using custom properties for the anchor name here because each toggletip ha
 ```
 
 I hesitate to call these tooltips, as to my mind a tooltip is generally something that appears on hover, to explain the thing you’re about to click on. These could more accurately be described as “toggletips”, which provide supplementary information, as described in Heydon Pickering’s [Inclusive Components](https://inclusive-components.design/tooltips-toggletips/).
+
+## Anchor positioning with pseudo-elements
+
+As a bonus, I’ve refactored the above demo to work in a way that’s a little bit more user-friendly. It uses pseudo elements on the buttons with the `popovertarget` attribute in order to increase their hit area, and additionally allows us a bit more control over the positioning of the popovers, as they will be positioned relative to the pseudo-element.
+
+Previously we were using percentage values to position the popover slightly offset from the anchor. Unfortunately lengths such as pixels or rems, or `calc()` functions are not permitted.
+
+```css
+[popover] {
+  /* Not allowed :( */
+  top: anchor(var(--anchor) calc(100% + 1rem));
+  left: anchor(var(--anchor) -1rem);
+
+  /* Use percentage instead */
+  top: anchor(var(--anchor) 150%);
+  left: anchor(var(--anchor) -150%);
+}
+```
+
+But by using a pseudo-element, we can align the popover to that instead:
+
+```css
+[popovertarget] {
+  &::after {
+    content: '';
+    position: absolute;
+    inset: -1rem;
+  }
+}
+
+[popover] {
+  top: anchor(var(--anchor) bottom);
+  left: anchor(var(--anchor) left);
+}
+```
+
+Here’s the full demo, with the pseudo-elements outlined in red:
+
+<p class="codepen" data-height="392.1640625" data-default-tab="result" data-slug-hash="PovbBdK" data-pen-title="Anchor positioning popovers with pseudo elements" data-user="michellebarker" style="height: 392.1640625px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/michellebarker/pen/PovbBdK">
+  Anchor positioning popovers with pseudo elements</a> by Michelle Barker (<a href="https://codepen.io/michellebarker">@michellebarker</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
