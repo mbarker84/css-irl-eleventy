@@ -3,7 +3,13 @@
 {% block content %}
   <div class="page-content page-content--page">
     <div class="container o-richtext">
-      <h1>{{ pageTitle }}</h1>
+      <h1>
+        {% if displayTitle %}
+          {{ displayTitle }}
+        {% else %}
+          {{ pageTitle }} 
+        {% endif %}
+      </h1>
       {{ content | safe }}
     </div>
   </div>
