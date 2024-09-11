@@ -6,7 +6,7 @@ related:
   [
     {
       title: 'Anchor Positioning and the Popover API for a JS-Free Site Menu',
-      url: '//anchor-positioning-and-the-popover-api',
+      url: '/anchor-positioning-and-the-popover-api',
     },
     {
       title: 'Progressively Enhanced Popover Toggletips',
