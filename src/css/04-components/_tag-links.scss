@@ -1,20 +1,16 @@
 .c-tag-links {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.5em;
 }
 
 .c-tag-links__tag {
   font-family: $heading-light;
   font-size: 0.9rem;
-  margin-right: 0.75rem;
   margin-bottom: 0.2rem;
 
   a {
     display: block;
-  }
-
-  @media (min-width: $md) {
-    margin-right: 1rem;
   }
 
   @media (min-width: $md) {
@@ -29,7 +25,10 @@
   font-weight: 400;
   background-color: var(--primary);
   color: var(--black);
-  transition: background-color 200ms, color 200ms, transform 200ms;
+  transition:
+    background-color 200ms,
+    color 200ms,
+    transform 200ms;
   padding: 0 rem(6px);
   text-decoration: none;
   border-radius: 0.2rem;
