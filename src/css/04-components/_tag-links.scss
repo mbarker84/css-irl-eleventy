@@ -77,13 +77,6 @@
   }
 
   .c-tag-links__tag {
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-
-    @media (min-width: $md) {
-      margin-right: 0.5rem;
-    }
-
     &:last-child {
       a {
         background: none;
