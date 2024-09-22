@@ -1,6 +1,7 @@
 ---
 title: Anchor Positioning and the Popover API for a JS-Free Site Menu
 date: '2024-05-14'
+lastEdited: '2024-09-22'
 tags: ['post', 'css', 'layout']
 ---
 
@@ -94,6 +95,10 @@ We can also position our anchored element with the `inset-area`, property instea
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<aside>
+  <p><strong>Edit:</strong> <code>inset-area</code> is due to be rename <code>position-area</code>. The change will take effect in Chrome 129. Read the <a href="https://developer.chrome.com/blog/anchor-syntax-changes">Chrome developers’ article</a> more details on the syntax change.</p>
+</aside>
 
 ## Popover menu demo
 
