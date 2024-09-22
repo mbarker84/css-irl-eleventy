@@ -38,7 +38,9 @@ Chris Adams also talked about the evolution of the Sustainable Web Design (SWD) 
 
 ## Greenwashing is prevalent in Big Tech
 
-Big tech companies’ reporting of emissions data and claims of “Net Zero” emissions cannot be trusted. Speakers highlighted the difference between companies’ reported figures, which are market-adjusted, and their location-based emissions, which are far higher and growing — particularly as a result of the AI boom. Cloud services are not necessarily greener than on-premises servers, and the claims of the big players (such and Amazon and Microsoft) came under scrutiny at this conference, particularly in Mark Butcher’s excellent talk, which pulled no punches. Where servers are located matters — in countries with a high proportion of fossil fuels, the electricity generated will be “dirtier”.
+Big tech companies’ reporting of emissions data and claims of “Net Zero” emissions cannot be trusted. Speakers highlighted the difference between companies’ reported figures, which are market-adjusted, and their location-based emissions, which are far higher and growing — particularly as a result of the AI boom. (A recent [Guardian article](https://www.theguardian.com/technology/2024/sep/15/data-center-gas-emissions-tech) puts the spotlight on tech firms’ “creative accounting” practices when it comes to reporting on carbon emissions.)
+
+Cloud services are not necessarily greener than on-premises servers, and the claims of the big players (such and Amazon and Microsoft) came under scrutiny at this conference, particularly in Mark Butcher’s excellent talk, which pulled no punches. Where servers are located matters — in countries with a high proportion of fossil fuels, the electricity generated will be “dirtier”.
 
 ## Efficiency isn’t enough (Jevon’s paradox)
 
