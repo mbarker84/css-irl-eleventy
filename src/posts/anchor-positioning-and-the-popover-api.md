@@ -79,12 +79,12 @@ p,
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We can also position our anchored element with the `inset-area`, property instead of the `anchor()` function. This is more limited, as it only permits positioning on one axis, with only a single keyword of `top`, `right`, `bottom` or `left` (or logical property equivalents: `block-start`, `inline-end`, `block-end`, `inline-start`). We can however use transforms to move our element around if we so choose.
+We can also position our anchored element with the `position-area`, property instead of the `anchor()` function. This is more limited, as it only permits positioning on one axis, with only a single keyword of `top`, `right`, `bottom` or `left` (or logical property equivalents: `block-start`, `inline-end`, `block-end`, `inline-start`). We can however use transforms to move our element around if we so choose.
 
 ```css
 #popover_1 {
   position-anchor: --anchor_1;
-  inset-area: bottom;
+  position-area: bottom;
   transform: translateX(50%);
 }
 ```
@@ -97,7 +97,7 @@ We can also position our anchored element with the `inset-area`, property instea
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <aside>
-  <p><strong>Edit:</strong> <code>inset-area</code> is due to be rename <code>position-area</code>. The change will take effect in Chrome 129. Read the <a href="https://developer.chrome.com/blog/anchor-syntax-changes">Chrome developers’ article</a> more details on the syntax change.</p>
+  <p><strong>Edit:</strong> <code>position-area</code> was previously named <code>inset-area</code>. The change takes effect in Chrome 129. Read the <a href="https://developer.chrome.com/blog/anchor-syntax-changes">Chrome developers’ article</a> more details on the syntax change.</p>
 </aside>
 
 ## Popover menu demo
