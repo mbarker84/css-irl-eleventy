@@ -38,7 +38,7 @@ OK. So...is it not enough to put **actual quote marks** in the text (“like thi
 
 All of which is to say, HTML is hard. Probably the hardest part of my job. In all the years I’ve been writing articles, I’ve received far more complaints/corrections about HTML than anything else, and I consider myself pretty OK at HTML. And despite writing it for years, I don’t feel like I really know it well (see above).
 
-Conversely, it’s pretty easy to write bad HTML, because for most developers there are **no consequences**. If you write some bad Javascript, your application will probably crash and you or your users will get a horrible error message. It’s like a flashing light above your head telling the world you’ve done something bad. HTML fails silently. Write bad HTML and maybe it means someone who doesn’t browse the web in exactly the same way as you do doesn’t get access to the information they need. But maybe you still get your pay rise and bonus.
+Conversely, it’s pretty easy to write bad HTML, because for most developers there are **no consequences**. If you write some bad Javascript, your application will probably crash and you or your users will get a horrible error message. It’s like a flashing light above your head telling the world you’ve done something bad. At the very least you’ll feel like a prize chump. HTML fails silently. Write bad HTML and maybe it means someone who doesn’t browse the web in exactly the same way as you do doesn’t get access to the information they need. But maybe you still get your pay rise and bonus.
 
 So it’s frustrating to see the importance of learning HTML dismissed time and time again. Sorry to end on a bad note, but that’s where we’re at right now.
 
