@@ -139,6 +139,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
+  eleventyConfig.addPairedShortcode('element', (content, el, className) => {
+    return `<${el} class="${className}">${content}</${el}>`
+  })
+
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(embedYouTube, {
