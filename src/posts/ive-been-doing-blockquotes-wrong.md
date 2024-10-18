@@ -43,3 +43,7 @@ Conversely, it’s pretty easy to write bad HTML, because for most developers th
 So it’s frustrating to see the importance of learning HTML dismissed time and time again. Sorry to end on a bad note, but that’s where we’re at right now.
 
 I recommend reading Heydon’s article, and the others from the series on HTML elements, which is far more comprehensive (and, I dare say, better written) than this one, despite the fact that I’ve lifted a load of quotes from it verbatim. And by the end of the series, hopefully we’ll all be experts in HTML.
+
+## Edit
+
+Adrian Roselli has a great rundown of how [different screenreaders announce various combinations of `<blockquote>` and `<cite>`](https://adrianroselli.com/2023/07/blockquotes-in-screen-readers.html). Reading though these, I don’t think nesting `<cite>` inside `<blockquote>` is a totally terrible choice, even if it’s _technically_ wrong.
