@@ -9,7 +9,9 @@ tags: ['post', 'workflow', 'tooling', 'javascript']
   <img src="/a-modern-front-end-workflow-01_01.png" alt="NPM logo on blue gradient background">
 </figure>
 
-When it comes to building a simple front-end project, how do you get started? What are the tools you need? I suspect everyone will have a different answer. Do you start with a (JS or CSS) framework, or off-the-shelf boilerplate? Perhaps you use a task runner (like [Gulp](https://gulpjs.com/) to orchestrate your project’s needs. Or do you start simple, with just HTML and a CSS file?
+When it comes to building a simple front-end project, how do you get started? What are the tools you need? I suspect everyone will have a different answer. Do you start with a (JS or CSS) framework, or off-the-shelf boilerplate? Perhaps you use a task runner (like [Gulp](https://gulpjs.com/)) to orchestrate your project’s needs. Or do you start simple, with just HTML and a CSS file?
+
+<!--excerpt-->
 
 The front-end tooling landscape can be confusing, and at times overwhelming – and when you’re dedicating your time to learning HTML, CSS and Javascript, it feels like yet another thing you need to make time to learn. In this series of articles I want to help developers understand some of the tools and methodologies that have become commonplace for building web projects. Over the next three articles we’ll build a simple project starter (or boilerplate) together. We’ll cover:
 
@@ -139,7 +141,7 @@ Line by line, this code:
 Now let’s add the following to our _index.html_ file so that we can see our site in the browser:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

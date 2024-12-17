@@ -6,6 +6,8 @@ tags: ['post', 'workflow', 'inspiration', 'careers', 'css', 'review']
 
 Another year gone by, and it’s time to reflect on the highlights and look ahead to some goals for next year. Like [Hidde](https://hiddedevries.nl/en/blog/), I prefer not to dwell too much on the negatives for these end-of-year posts. Suffice to say, in another pandemic year, there have been plenty of lows as well as highs.
 
+<!--excerpt-->
+
 ## CSS
 
 There hasn’t been one single new CSS feature in 2021 that’s captured my attention above all others. But CSS continues to evolve and keep pace with developers’ needs. It’s great to see browsers coming through with widespread support for `aspect-ratio`. I’ve been using `min()`, `max()` and `clamp()` a lot more now that they’re widely supported, and finding them super convenient. And there are _a lot_ of exciting new CSS features just over the horizon — some of which browsers are already beginning to implement. Here are some I’m looking forward to in 2022:

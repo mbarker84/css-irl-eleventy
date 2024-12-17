@@ -9,6 +9,8 @@ textColor: 'var(--black)'
 
 I was just preparing a demo for an [upcoming talk](https://smashingconf.com/freiburg-2022) and it suddenly occurred to me that cascade layers would be a perfect solution to a problem I was having.
 
+<!--excerpt-->
+
 For any element of live coding, I like to meticulously prepare my demos to prevent any moments of friction on the day. I wanted to apply a bunch of default styles to a grid of cards in [this container queries demo](https://codepen.io/michellebarker/pen/QWmPGqL), but I wanted those styles to appear at the bottom of the stylesheet, so that when it came to live coding the demo I could write all the relevant code at the top, and the audience could just focus on the layout styles I would be discussing. However, there were a few styles that consequently wouldn’t be applied, as they would have been overridden by those further down. For example, at the top of the CSS file I want to apply a container query that would result in a horizontal card layout:
 
 ```css

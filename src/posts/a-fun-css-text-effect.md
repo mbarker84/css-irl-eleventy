@@ -7,6 +7,8 @@ intro: 'Day 19 of National Blog Posting Month #NaBloPoMo'
 
 Today’s post is a quick one, but (hopefully!) a fun one! It’s a demo featuring a fun text effect, using `background-clip: text` and `text-stroke`. It’s not a new technique, but worth remembering.
 
+<!--excerpt-->
+
 It looks like the text has been clipped out of the black translucent background, but in fact the `<h1>` just has the same background as the body. I’m making sure they line up with each other by setting the `background-position` to `center`.
 
 <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="MWLQomX" data-user="michellebarker" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

@@ -6,6 +6,8 @@ tags: ['post', 'workflow', 'inspiration', 'careers', 'css', 'review']
 
 As is tradition, it’s time to do a little round-up of the past year!
 
+<!--excerpt-->
+
 ## Work
 
 At the end of 2021 I started a new job as Senior Front End Developer at [Ada Mode](https://www.ada-mode.com/), a data science and AI company working in the renewable energy sector. It’s been a great year for the company, as we’ve taken on a bunch of exciting projects and continued to make a name for ourselves. The year has been full of interesting challenges and learning opportunities for me personally, working with Vue and [D3.js](https://d3js.org/) in particular, (and AWS, which has been less fun 😅) and it’s been a pleasure to work with the friendly and knowledgeable team. I’m looking forward to the company continuing to grow in 2023 as we hire new developers and begin projects spanning sustainable agriculture, wind energy, nuclear decommissioning, solar power and more.

@@ -6,6 +6,8 @@ tags: ['post', 'inspiration']
 
 [Marko Bijelic](https://medium.com/@markobijelic), designer at [Hipinspire](https://hipinspire.com), recently published [this article on Medium](https://medium.com/hipinspire/web-design-legends-where-are-they-now-becfa4f481ff) title _Web design legends: where are they now?_. The article was a look back at [Cameron Moll](https://cameronmoll.carrd.co/)’s who’s who of web design in 2004, exploring the 20 individuals’ influence on the web today. While it was interesting to read Marko’s post and reflect on the undeniable influence of many of these leading figures, it was impossibly to notice the distinct absence of women from the original list. In fact, only one woman ([Donna Driscoll](https://twitter.com/dahnahdee)) gets a mention, and in Marko’s article she is only referred to with a footnote in her ex-husband’s entry:
 
+<!--excerpt-->
+
 > Donna is his ex-wife.
 
 To the author’s credit, he does suggest two women who should have made the cut. It’s hard to imagine such a male-heavy list being published now, not least because of the sheer number of incredible women at the forefront of web design and development. But it’s a reminder of how hard it must have been to those starting their careers all those years ago, with very few visible role models to look up to and to lean on.

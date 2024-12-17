@@ -6,6 +6,8 @@ tags: ['post', 'html', 'eleventy', 'javascript']
 
 When writing blog posts in Markdown files I often find myself needing to add HTML elements that aren’t accounted for in Markdown. Some common ones are `<aside>` elements, where I include content tangentially related to the post itself, or external references.
 
+<!--excerpt-->
+
 Having to include HTML in Markdown is kind of a pain, because once you start writing HTML, you can’t then use Markdown _inside_ it: everything inside the HTML element must also be HTML. This is pretty annoying for elements where you might want to include multiple paragraphs or links, for example. The markdown writing experience is far more pleasant.
 
 ## Shortcodes
