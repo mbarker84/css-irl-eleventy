@@ -57,7 +57,6 @@
   transition:
     text-underline-offset 200ms,
     text-decoration-color 200ms;
-  color: var(--bg-headerLink);
 
   @supports (text-decoration-color: transparent) {
     text-decoration: underline;
@@ -106,7 +105,7 @@
     left: 0;
     transition: opacity 95ms;
     transform-origin: center;
-    background-color: var(--bg-headerLink, var(--black));
+    background-color: currentColor;
   }
 
   &::before,
@@ -167,7 +166,6 @@
 
 .c-header__link {
   padding: 0.5rem 1rem;
-  color: var(--bg-headerLink);
   display: flex;
   gap: 0.25em;
   align-items: center;
