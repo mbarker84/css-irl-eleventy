@@ -51,6 +51,10 @@ Before rendering our data as an SVG path, we first need to create an empty SVG e
 
 However, since we’re going to be using D3 anyway, let’s create the SVG in Javascript, the D3 way. That makes it simple to set our SVG dimensions as variables, which we’ll use again shortly.
 
+It also means we can wait until _after_ the browser has successfully fetched our data and parsed the response before rendering the SVG — and gives us the option of showing a helpful error message to users in case our request fails.
+
+We’ll set the SVG dimensions as a variable.
+
 ```js
 const dimensions = {
   width: 600,
@@ -58,9 +62,7 @@ const dimensions = {
 }
 ```
 
-It also means we can wait until _after_ the browser has successfully fetched our data and parsed the response before rendering the SVG — and gives us the option of showing a helpful error message to users in case our request fails.
-
-We’ll use D3’s `select()` method to select an element to which to append our SVG. This could be the `<body>`, or any other element. In this case, we’ll use a `<div>` with an ID of `wrapper`.
+Then we’ll use D3’s `select()` method to select an element to which to append our SVG. This could be the `<body>`, or any other element. In this case, we’ll use a `<div>` with an ID of `wrapper`.
 
 We’ll append an SVG element, then set the width, height and viewBox attributes.
 
