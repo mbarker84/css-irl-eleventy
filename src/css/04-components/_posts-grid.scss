@@ -68,7 +68,7 @@
   margin: rem(5px) 0;
   display: block;
   font-size: 0.8rem;
-  font-family: $heading-light;
+  font-family: var(--font-heading);
 
   @media (min-width: $md) {
     font-size: rem(15px);
@@ -85,7 +85,7 @@
 }
 
 .c-posts-grid__read-more {
-  font-family: $heading;
+  font-family: var(--font-heading);
   font-weight: 700;
   margin-top: var(--vr);
   transition: color 200ms;

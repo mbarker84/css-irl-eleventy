@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: $body;
+  font-family: var(--font-body);
 
   @media (min-width: $md) {
     font-size: 1.2rem;
@@ -40,7 +40,7 @@ h5,
 .heading-3,
 .heading-4,
 .heading-5 {
-  font-family: $heading;
+  font-family: var(--font-heading);
   font-weight: 700;
 }
 
@@ -84,8 +84,8 @@ a {
 
 pre {
   overflow: scroll;
-  background-color: $bg-dark;
-  color: $light-grey;
+  background-color: var(--bgDark);
+  color: var(--bgGrey);
   padding: 1rem;
 }
 

@@ -8,7 +8,7 @@
   display: flex;
   gap: var(--vr);
   font-size: 1rem;
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   margin-bottom: var(--vr);
 }
 
@@ -40,7 +40,7 @@
 
   cite {
     font-style: normal;
-    font-family: $heading-light;
+    font-family: var(--font-heading);
     font-size: 1rem;
   }
 }
@@ -56,7 +56,7 @@
 
 .c-webmentions__info-link {
   font-style: normal;
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-size: 1rem;
   display: inline-flex;
   align-items: center;

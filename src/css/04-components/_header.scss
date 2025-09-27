@@ -3,13 +3,13 @@
   --headerBg: var(--white);
   display: flex;
   align-items: center;
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  color: $black;
+  color: var(--black);
   background-color: var(--headerBg);
 
   @media (min-width: $md) {
@@ -240,7 +240,7 @@
 
   &:hover,
   &:focus {
-    color: $accent;
+    color: var(--primary);
   }
 
   @media (min-width: $md) {

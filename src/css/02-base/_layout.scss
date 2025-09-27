@@ -10,7 +10,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: $wrapper;
+  max-width: var(--wrapper);
   margin: 0 auto;
   padding: 0 1rem;
 
@@ -29,7 +29,7 @@ body {
 
 .container-sm {
   width: 100%;
-  max-width: $wrapper;
+  max-width: var(--wrapper);
   margin: 0 auto;
   padding: 0 1rem;
 
@@ -171,7 +171,7 @@ body {
 }
 
 .home-layout__expander-button {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   appearance: none;
   border: none;
   font-size: inherit;

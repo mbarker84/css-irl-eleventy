@@ -5,7 +5,7 @@
 }
 
 .c-tag-links__tag {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-size: 0.9rem;
   margin-bottom: 0.2rem;
 
@@ -20,7 +20,7 @@
 
 .c-posts-grid__tag,
 .c-tag-links__tag a {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-size: 0.9rem;
   font-weight: 400;
   background-color: var(--primary);

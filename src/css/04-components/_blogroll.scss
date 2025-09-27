@@ -1,6 +1,6 @@
 .c-blogroll__list {
   padding: rem(20px) 0;
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--vr);

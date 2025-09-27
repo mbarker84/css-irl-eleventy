@@ -88,7 +88,7 @@
     background: transparent;
     padding: 0;
     border-radius: 0;
-    color: $white;
+    color: var(--white);
     font-weight: 400;
     font-size: 0.86em;
   }
@@ -140,7 +140,7 @@
   }
 
   aside {
-    font-family: $heading-light;
+    font-family: var(--font-heading);
     padding: var(--vr);
     font-size: 0.9rem;
     background-color: var(--bgTint);
@@ -164,7 +164,7 @@
     &::before {
       position: absolute;
       background-color: var(--primary);
-      color: $black;
+      color: var(--black);
       border-radius: 0.1rem;
       padding: 0 0.5rem;
       font-size: 0.9em;

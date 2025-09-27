@@ -13,7 +13,7 @@
 }
 
 .sidebar__heading {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-size: 0.8em;
   font-weight: normal;
   margin-top: 0;
@@ -27,7 +27,7 @@
 }
 
 .sidebar__link {
-  font-family: $heading;
-  font-weight: $bold;
+  font-family: var(--font-heading);
+  font-weight: 700;
   line-height: 1.25;
 }

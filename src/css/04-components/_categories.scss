@@ -1,5 +1,5 @@
 .c-categories__item {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
 
   a {
     color: var(--text-color);
@@ -14,7 +14,9 @@
       text-decoration-color: transparent;
       opacity: 0;
       transform: translate3d(0, 0, 0);
-      transition: opacity 150ms, transform 150ms;
+      transition:
+        opacity 150ms,
+        transform 150ms;
     }
 
     span:first-child {
@@ -42,7 +44,7 @@
 }
 
 .c-categories__post-count {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-size: max(0.6em, 0.9rem);
   margin-left: 0.3em;
   color: var(--textGrey);

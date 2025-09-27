@@ -10,7 +10,7 @@
 }
 
 .c-hero__desc {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-weight: 400;
   font-size: 1.3rem;
   max-width: 35rem;
