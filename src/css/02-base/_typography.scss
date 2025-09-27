@@ -90,11 +90,11 @@ pre {
 }
 
 blockquote {
-  padding-left: rem(20px);
+  padding-inline-start: 1.25rem;
   border-left: 8px solid var(--primary);
 
   @media (min-width: 50rem) {
-    padding-left: rem(40px);
+    padding-left: 2rem;
   }
 }
 
