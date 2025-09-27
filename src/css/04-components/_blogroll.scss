@@ -5,11 +5,11 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--vr);
 
-  @media (min-width: $sm) {
+  @media (min-width: 42rem) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     grid-template-columns: repeat(3, 1fr);
     gap: calc(var(--vr) * 2);
     margin-top: calc(var(--vr) * 2);
@@ -23,7 +23,7 @@
   border-radius: 0.3rem;
   position: relative;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1rem;
     margin-bottom: 0;
   }

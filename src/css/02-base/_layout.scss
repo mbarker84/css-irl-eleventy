@@ -14,11 +14,11 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: 0 2rem;
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     padding: 0 4rem;
   }
 
@@ -33,11 +33,11 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: 0 2rem;
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     padding: 0 4rem;
   }
 }
@@ -46,7 +46,7 @@ body {
   padding: 0 0 2rem 0;
   flex-grow: 1;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: 0 0 6rem 0;
   }
 }
@@ -54,17 +54,17 @@ body {
 .page-content--page {
   padding: 0 0 2rem 0;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: 3rem 0 6rem 0;
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     padding: 8rem 0 6rem 0;
   }
 }
 
 .post-grid {
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     display: grid;
     gap: calc(2 * var(--vr));
     grid-template-columns:
@@ -76,19 +76,19 @@ body {
 .post-grid__header {
   grid-column: 1 / -1;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     margin-top: 6rem;
   }
 }
 
 .post-grid__main {
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     grid-column: main;
   }
 }
 
 .post-grid__prev-next {
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     grid-column: 1 / -1;
   }
 }
@@ -96,7 +96,7 @@ body {
 /* Home */
 
 .grid {
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: var(--vr) rem(40px);
@@ -104,7 +104,7 @@ body {
 }
 
 .grid__tags {
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     grid-column: 1 / 4;
   }
 }
@@ -112,11 +112,11 @@ body {
 .grid__featured-post {
   margin-top: 1rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     margin-top: 2rem;
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     grid-column: 4 / -1;
     margin-top: calc(var(--vr) * -6);
   }
@@ -131,7 +131,7 @@ body {
   gap: var(--vr);
   position: relative;
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     grid-template-columns: minmax(20rem, 1fr) 2fr;
     gap: 3rem;
     padding-top: calc(var(--vr) * 2);
@@ -141,7 +141,7 @@ body {
 .home-layout__tags-wrapper {
   max-width: 40rem;
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     position: sticky;
     top: 5rem;
   }
@@ -165,7 +165,7 @@ body {
 }
 
 .home-layout--no-hero {
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding-top: 6rem;
   }
 }

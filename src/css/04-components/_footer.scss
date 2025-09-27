@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   gap: 1rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: 1rem 2rem;
 
     & > :nth-child(2) {

@@ -1,5 +1,5 @@
 .c-all-tags__list {
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     columns: 20rem;
     column-gap: 2rem;
   }
@@ -19,7 +19,7 @@
   color: var(--primary);
   font-size: 0.9rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1rem;
   }
 }

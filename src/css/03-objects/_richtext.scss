@@ -74,7 +74,7 @@
     color: inherit;
     font-size: inherit;
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       font-size: 0.75em;
     }
   }
@@ -176,7 +176,7 @@
       left: 1rem;
     }
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       font-size: rem(18px);
     }
   }
@@ -188,17 +188,17 @@
       position: relative;
       padding-left: 1rem;
 
-      @media (min-width: $md) {
+      @media (min-width: 50rem) {
         padding-left: 1.5rem;
       }
     }
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       padding-left: rem(40px);
     }
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     padding-top: 0;
   }
 

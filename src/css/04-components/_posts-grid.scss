@@ -2,7 +2,7 @@
   list-style: none;
   max-width: rem(800px);
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     margin: 0 auto;
   }
 }
@@ -70,7 +70,7 @@
   font-size: 0.8rem;
   font-family: var(--font-heading);
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: rem(15px);
     margin: rem(10px) 0 rem(20px);
   }
@@ -78,7 +78,7 @@
 
 .c-posts-grid__excerpt,
 .c-posts-grid__read-more {
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: rem(20px);
     margin-bottom: 0;
   }
@@ -90,7 +90,7 @@
   margin-top: var(--vr);
   transition: color 200ms;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: rem(16px);
   }
 

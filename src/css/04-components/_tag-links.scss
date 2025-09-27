@@ -13,7 +13,7 @@
     display: block;
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1rem;
   }
 }
@@ -33,7 +33,7 @@
   text-decoration: none;
   border-radius: 0.2rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1rem;
   }
 }
@@ -51,7 +51,7 @@
 }
 
 .c-tag-links--home {
-  @media (max-width: $md) {
+  @media (max-width: 50rem) {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     text-align: center;

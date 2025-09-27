@@ -1,9 +1,3 @@
-// Breakpoints
-$sm: 42em;
-$md: 50em;
-$lg: 68em;
-$xl: 80em;
-
 /* Colors */
 :root {
   --black: #0e0f0f;
@@ -27,7 +21,7 @@ $xl: 80em;
   --font-body: 'Jost', sans-serif;
   --font-heading: 'Urbanist', serif;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     --vr: 1.5rem;
   }
 

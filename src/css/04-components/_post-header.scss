@@ -5,16 +5,16 @@
   > * + * {
     margin: rem(5px) 0 0;
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       margin: rem(10px) 0 0;
     }
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     margin-bottom: var(--vr);
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     @supports (display: grid) {
       margin-bottom: 0;
     }
@@ -27,7 +27,7 @@
   font-family: var(--font-heading);
   font-size: 0.9rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1rem;
   }
 }
@@ -38,7 +38,7 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: rem(24px);
   }
 }
@@ -48,7 +48,7 @@
   max-width: 25ch;
   letter-spacing: -0.01em;
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     margin-bottom: var(--vr);
   }
 }
@@ -62,7 +62,7 @@
 
 .page-content--about {
   .c-post-header__title {
-    @media (min-width: $lg) {
+    @media (min-width: 68rem) {
       margin-bottom: 0;
     }
   }
