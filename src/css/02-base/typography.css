@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Urbanist';
-  src: url('../fonts/urbanist.woff2') format('woff2-variations');
+  src: url('/src/fonts/urbanist.woff2') format('woff2-variations');
   font-display: swap;
   font-weight: 100 800;
 }
 
 @font-face {
   font-family: 'Jost';
-  src: url('../fonts/jost.woff2') format('woff2-variations');
+  src: url('/src/fonts/jost.woff2') format('woff2-variations');
   font-display: swap;
   font-weight: 100 800;
 }
