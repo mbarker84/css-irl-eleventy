@@ -7,7 +7,7 @@ The official Github repository for front end blog [CSS { In Real Life }](https:/
 ## How to run
 
 1. Install dependencies: `npm install`.
-2. Run `npm start` to start the Eleventy server. In a new terminal window run `npm run watch:parcel` to watch for CSS and JS changes.
+2. Run `npm start` to start the Eleventy server and watch for changes.
 
 ## Building for production
 

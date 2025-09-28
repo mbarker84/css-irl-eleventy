@@ -8,7 +8,8 @@
     "src/js/service-worker.js"
   ],
   "scripts": {
-    "start": "run-s start:remove build:images watch:eleventy",
+    "start": "run-p start:server watch:parcel",
+    "start:server": "run-s start:remove build:images watch:eleventy",
     "start:remove": "node onStart.mjs",
     "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
     "watch:parcel": "parcel watch --no-cache",
