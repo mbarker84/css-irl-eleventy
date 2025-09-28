@@ -41,6 +41,8 @@
     "os-browserify": "^0.3.0",
     "parcel": "^2.16.0",
     "path-browserify": "^1.0.1",
+    "postcss-import": "^16.1.1",
+    "postcss-nested": "^7.0.2",
     "prettier": "^3.6.2",
     "process": "^0.11.10",
     "stylelint": "^16.24.0",
@@ -51,5 +53,11 @@
     "body-scroll-lock": "^4.0.0-beta.0",
     "dotenv": "^17.2.2",
     "focus-trap": "^7.6.5"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true,
+      "customMedia": true
+    }
   }
 }
