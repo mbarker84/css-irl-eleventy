@@ -6,6 +6,8 @@ tags: ['post', 'workflow', 'javascript', 'data viz']
 
 Recently I’ve been working with map data to create interactive visualisations. When working with maps it’s common to receive data as [GeoJSON](https://geojson.org/), a JSON format for encoding geographic features, which specifies the type of geometry and co-ordinates for the features we want to display on a map. Javascript mapping libraries such as [Mapbox GL](https://docs.mapbox.com/mapbox-gl-js/api/) are designed to consume GeoJSON to render features on a canvas. I’m fairly accustomed to using GeoJSON in this way — for example, rendering geographic areas as different coloured polygons overlaid on a map to show varying values for different areas.
 
+<!--excerpt-->
+
 But for a recent project I decided to take a different approach. Mapbox GL is a great library that provides a lot of useful features out of the box, like zooming and panning. It’s also pretty hefty as far as libraries go, weighing in at [1.4MB un-minified](https://bundlephobia.com/package/mapbox-gl@3.9.3). This project did not require any advanced map functionality, however, and only required the map display to be centred on a particular area, with interactive features on hover.
 
 In the interests of minimising the JS payload for users, it made sense to render the map as a static SVG, with only minimal JS needed for interactivity. That meant I needed to convert the GeoJSON data I had been provided with to a static SVG file. In case you find yourself in a similar position, I’m going to show you how to do this using [D3.js](https://d3js.org). There’s a pre-prepared [example on Codepen](https://codepen.io/michellebarker/pen/pvzKVzK), in case you want to skip straight to the code.
