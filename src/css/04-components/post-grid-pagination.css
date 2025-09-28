@@ -1,13 +1,13 @@
 .c-post-grid-pagination__items {
   display: flex;
   list-style: none;
-  margin: rem(20px) 0;
-  font-family: $heading;
-  padding: rem(20px) 0 0;
+  margin: 1.25rem 0;
+  font-family: var(--font-heading);
+  padding: 1.25rem 0 0;
   border-top: 0.1rem solid var(--textColor);
 
-  @media (min-width: $lg) {
-    margin-top: rem(60px);
+  @media (min-width: 68rem) {
+    margin-top: 3.75rem;
   }
 
   a {

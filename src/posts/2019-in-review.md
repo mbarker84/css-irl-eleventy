@@ -10,6 +10,8 @@ tags: ['post', 'workflow', 'inspiration', 'careers', 'review']
 
 I’m going to try to keep this 2019 retrospective brief, but like many people, I find it cathartic to look back at the year’s triumphs and disappointments (not dwelling for too long on the latter), and ready for myself for the year ahead.
 
+<!--excerpt-->
+
 I prefer to avoid setting myself unrealistic or unattainable goals for the year ahead. But I do like to set myself small, achievable ambitions and milestones, which won’t bring the world crashing down if I pivot from the goal, or if life gets in the way, but will bring a bit of satisfaction to have something to check of the list by this time next year. So, please excuse me while I take a (slightly self-indulgent) look at the year just gone.
 
 ## This blog

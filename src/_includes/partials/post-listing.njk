@@ -65,7 +65,15 @@
     {% endif %}
   </h3>
   <time class="c-posts-grid__date" datetime="{{ post.date }}">{{ post.date.toDateString() }}</time>
-  <p class="c-posts-grid__excerpt truncate-3">{% excerpt post %}</p>
+  {% if post.page.excerpt %}
+    {% set excerpt = post.page.excerpt %}
+  {% elseif post.data.excerpt %}
+    {% set excerpt = post.data.excerpt %}
+  {% endif %}
+
+  {% if excerpt %}
+    <p class="c-posts-grid__excerpt truncate-3">{{ excerpt|trimmedExcerpt|safe }}</p>
+  {% endif %}
 
   {% if post.data.source %}
     <p class="c-posts-grid__read-more" aria-hidden>Read it on {{ post.data.source }}</p>

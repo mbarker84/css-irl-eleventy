@@ -6,6 +6,8 @@ tags: ['post', 'web sustainability']
 
 I’m pretty proud that I managed to keep my iPhone 8 going for over five years (with one battery replacement in that time). But recently it’s been increasingly unreliable, switching itself off at random times, and spontaneously draining the battery after doing anything remotely taxing. This combined with the fact that software updates are no longer available for this model led me to the conclusion that buying a new phone was probably a good idea at this point.
 
+<!--excerpt-->
+
 ## Choosing a new phone
 
 I’m not a person who needs the latest and greatest tech. It just needs to function, and let me complete the tasks I need to quickly and easily. Low friction is what I need.

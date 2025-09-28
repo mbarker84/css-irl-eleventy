@@ -4,7 +4,11 @@ date: '2022-02-22'
 tags: ['post', 'opinion', 'inspiration']
 ---
 
-Someone in a Slack group I’m a member of shared recently shared a link to a post by [Cory Doctorow](https://twitter.com/doctorow) titled _[The Memex Method](https://doctorow.medium.com/the-memex-method-238c71f2fb46)_. In the post he shares his opinions on blogging as a way to order your thoughts and ideas, somewhere between a sketchbook full of notes and a fully-formed essay. He writes:
+Someone in a Slack group I’m a member of shared recently shared a link to a post by [Cory Doctorow](https://twitter.com/doctorow) titled _[The Memex Method](https://doctorow.medium.com/the-memex-method-238c71f2fb46)_. In the post he shares his opinions on blogging as a way to order your thoughts and ideas, somewhere between a sketchbook full of notes and a fully-formed essay.
+
+<!--excerpt-->
+
+He writes:
 
 > The very act of recording your actions and impressions is itself powerfully mnemonic, fixing the moment more durably in your memory so that it’s easier to recall in future, even if you never consult your notes.
 

@@ -1,41 +1,21 @@
 .c-header {
-  --bg-headerLink: var(--black);
-  --headerBg: var(--white);
+  --bg-headerLink: currentColor;
+  --headerBg: var(--bg);
   display: flex;
   align-items: center;
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  color: $black;
   background-color: var(--headerBg);
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     position: fixed;
     padding: 0 1rem 0 1.5rem;
     background-color: rgb(0 0 0 / 0);
-    height: rem(70px);
-  }
-
-  .th-light & {
-    --bg-headerLink: var(--black);
-  }
-
-  .th-dark & {
-    --bg-headerLink: var(--white);
-    --headerBg: #1d1d26;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    --bg-headerLink: var(--white);
-    --headerBg: #1d1d26;
-
-    .th-light & {
-      --bg-headerLink: var(--black);
-      --headerBg: var(--white);
-    }
+    height: 4.375rem;
   }
 }
 
@@ -45,6 +25,7 @@
   appearance: none;
   border: none;
   background-color: transparent;
+  color: inherit;
   text-decoration-style: none;
   font-family: inherit;
   padding: 0.5rem 1rem;
@@ -57,7 +38,6 @@
   transition:
     text-underline-offset 200ms,
     text-decoration-color 200ms;
-  color: var(--bg-headerLink);
 
   @supports (text-decoration-color: transparent) {
     text-decoration: underline;
@@ -79,7 +59,7 @@
     text-decoration-color: var(--primary);
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1.1rem;
     margin-left: 2rem;
   }
@@ -92,8 +72,8 @@
 .c-header__menu-icon {
   display: block;
   position: relative;
-  width: rem(32px);
-  height: rem(24px);
+  width: 2rem;
+  height: 1.5rem;
   margin-left: 1rem;
 
   > span,
@@ -106,7 +86,7 @@
     left: 0;
     transition: opacity 95ms;
     transform-origin: center;
-    background-color: var(--bg-headerLink, var(--black));
+    background-color: currentColor;
   }
 
   &::before,
@@ -159,7 +139,7 @@
   flex-wrap: wrap;
   margin-left: -1rem;
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     justify-content: flex-end;
     flex-wrap: nowrap;
   }
@@ -167,7 +147,6 @@
 
 .c-header__link {
   padding: 0.5rem 1rem;
-  color: var(--bg-headerLink);
   display: flex;
   gap: 0.25em;
   align-items: center;
@@ -197,11 +176,11 @@
     text-decoration-color: var(--primary);
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1rem;
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     font-size: 1.1rem;
   }
 }
@@ -213,12 +192,12 @@
   .c-header__item:first-child & {
     display: none;
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       display: flex;
     }
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     margin: 0 1rem;
   }
 
@@ -242,13 +221,13 @@
 
   &:hover,
   &:focus {
-    color: $accent;
+    color: var(--primary);
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 2rem;
     margin-bottom: 0;
-    width: rem(280px);
+    width: 17.5rem;
     height: auto;
     transform: translate3d(0, -100%, 0);
     transition: transform 250ms;
@@ -274,12 +253,12 @@
     height: 100vh;
     padding: 5rem 1rem 2rem 1rem;
     overflow-y: scroll;
-    background-color: $alt;
+    background-color: var(--headerBg);
     transform: translate3d(100%, 0, 0);
     transition: transform 250ms;
     box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.25);
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       padding: 5rem 2rem 2rem 2rem;
 
       .c-header__link {
@@ -302,8 +281,8 @@
 
 .c-header__logo-sm {
   display: none;
-  width: rem(35px);
-  height: rem(35px);
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 .c-header--bg {
@@ -312,13 +291,13 @@
   .c-header__title {
     visibility: visible;
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       transform: translate3d(0, 0, 0);
     }
   }
 
   .c-header__logo {
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       display: block;
     }
   }
@@ -326,7 +305,7 @@
   .c-header__logo-sm {
     display: block;
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       display: none;
     }
   }
@@ -337,7 +316,7 @@
     position: static;
     background-color: var(--headerBg);
 
-    @media (min-width: $lg) {
+    @media (min-width: 68rem) {
       position: fixed;
     }
   }
@@ -349,7 +328,7 @@
   .c-header__right-content {
     align-items: flex-start;
 
-    @media (min-width: $lg) {
+    @media (min-width: 68rem) {
       align-items: center;
     }
   }
@@ -361,8 +340,4 @@
   .c-header__list {
     justify-content: flex-end;
   }
-}
-
-.c-header__list {
-  --bg-headerLink: var(--white);
 }

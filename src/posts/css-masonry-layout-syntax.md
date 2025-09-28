@@ -6,6 +6,8 @@ tags: ['post', 'note', 'css', 'layout']
 
 Ahmad Shadeed has published a great article digging into the proposed [CSS masonry layout syntax](https://ishadeed.com/article/css-grid-masonry/). In case you’re unaware, the term “masonry” for layout is used to describe the kind of grid layout where instead of items of various heights being aligned in neat horizontal rows, they are shifted to fill the leftover space, effectively creating a brickwork effect. It was popularised by the website Pinterest some years ago, and became a widespread UI design trend for a while.
 
+<!--excerpt-->
+
 <figure>
   <img src="/masonry-syntax_1400.webp" alt="Screenshot of photo grid with masonry layout" width="1600" height="900" srcset="/masonry-syntax_1400.webp 1400w, /masonry-syntax_900.webp 900w" sizes="(min-width: 1086px) 75vw, (min-width: 1264px) 930px, 90vw">
   <figcaption>Masonry example from the Webkit blog</figcaption>

@@ -1,5 +1,5 @@
 .c-footer {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-size: 0.9rem;
   padding: 1rem;
   background-color: var(--bgGrey);
@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   gap: 1rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: 1rem 2rem;
 
     & > :nth-child(2) {

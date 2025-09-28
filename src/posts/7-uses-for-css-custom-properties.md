@@ -1,10 +1,12 @@
 ---
-title: "7 Uses for CSS Custom Properties"
-date: "2019-12-09"
-tags: ["post", "css", "custom properties"]
+title: '7 Uses for CSS Custom Properties'
+date: '2019-12-09'
+tags: ['post', 'css', 'custom properties']
 ---
 
 [Custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) (also known as CSS variables) allow us to store property values for re-use in our stylesheets. If you’re relatively new to them, you might wonder when you might use them over and above preprocessor variables (if indeed you use a preprocessor). I’m using custom properties a lot in my workflow these days, and thought I would collate some of the use cases here.
+
+<!--excerpt-->
 
 This isn’t an in-depth guide to how custom properties work, so if you need a primer I recommend the following resources:
 

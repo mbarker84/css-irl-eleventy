@@ -4,7 +4,7 @@
   margin-top: calc(var(--vr) * 2);
 
   p {
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       font-size: 1.2rem;
     }
   }
@@ -17,26 +17,26 @@
     margin-top: var(--vr);
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     display: flex;
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: calc(var(--vr) * 2);
   }
 }
 
 .c-author-info__image {
   margin: 0 auto var(--vr) auto;
-  max-width: rem(100px);
+  max-width: 6.25rem;
   border-radius: 50%;
   overflow: hidden;
   filter: grayscale(100%);
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     margin: 0 var(--vr) var(--vr) auto;
     align-self: flex-start;
-    max-width: rem(150px);
+    max-width: 9.375rem;
   }
 }
 

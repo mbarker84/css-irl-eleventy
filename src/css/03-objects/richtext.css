@@ -74,7 +74,7 @@
     color: inherit;
     font-size: inherit;
 
-    @media (min-width: $md) {
+    @media (min-width: 50rem) {
       font-size: 0.75em;
     }
   }
@@ -88,7 +88,7 @@
     background: transparent;
     padding: 0;
     border-radius: 0;
-    color: $white;
+    color: var(--white);
     font-weight: 400;
     font-size: 0.86em;
   }
@@ -140,7 +140,7 @@
   }
 
   aside {
-    font-family: $heading-light;
+    font-family: var(--font-heading);
     padding: var(--vr);
     font-size: 0.9rem;
     background-color: var(--bgTint);
@@ -164,7 +164,7 @@
     &::before {
       position: absolute;
       background-color: var(--primary);
-      color: $black;
+      color: var(--black);
       border-radius: 0.1rem;
       padding: 0 0.5rem;
       font-size: 0.9em;
@@ -176,29 +176,29 @@
       left: 1rem;
     }
 
-    @media (min-width: $md) {
-      font-size: rem(18px);
+    @media (min-width: 50rem) {
+      font-size: 1.125rem;
     }
   }
 
   ul {
-    padding-left: rem(20px);
+    padding-left: 1.25rem;
 
     li {
       position: relative;
       padding-left: 1rem;
 
-      @media (min-width: $md) {
+      @media (min-width: 50rem) {
         padding-left: 1.5rem;
       }
     }
 
-    @media (min-width: $md) {
-      padding-left: rem(40px);
+    @media (min-width: 50rem) {
+      padding-left: 2.5rem;
     }
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     padding-top: 0;
   }
 

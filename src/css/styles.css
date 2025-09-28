@@ -1,10 +1,9 @@
-@import '01-config/functions';
 @import '01-config/variables';
 
 @import '02-base/reset';
 @import '02-base/typography';
 @import '02-base/layout';
-@import '02-base/prism'; // syntax highlighting
+@import '02-base/prism';
 
 @import '03-objects/richtext';
 @import '03-objects/hotlink';

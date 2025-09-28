@@ -9,4 +9,6 @@ tags: ['post', 'css']
 
 There’s more to color on the web than meets the eye, and it’s about to get a lot more interesting! In this article, we’ll take a look at the best ways to use colors in a design system, and what we can expect from our colors in the not-too-distant future.
 
+<!--excerpt-->
+
 [Read the article](https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/#comments-guide-modern-css-colors)

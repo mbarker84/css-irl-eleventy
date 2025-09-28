@@ -6,6 +6,8 @@ tags: ['post', 'AI', 'opinion']
 
 A recently published post by the science fiction writer Robin Sloan (_[Is It Okay?](https://www.robinsloan.com/lab/is-it-okay/)_, published 11th February 2025) ignited some examination and debate among my little corner of the web. The post asks the question of whether it’s ethical, from an individual moral standpoint to use an LLM ([Large Language Model](https://en.wikipedia.org/wiki/Large_language_model), such as Claude or GPT-4). Robin raises some important points about the trade-offs that come with LLMs, depending on their application.
 
+<!--excerpt-->
+
 > If their primary application is to produce writing and other media that crowds out human composition, human production: no, it’s not okay.
 
 He also offers an alternative view, where it could be supposed that LLMs will pave the way for “super science”, a common claim of AI advocates.

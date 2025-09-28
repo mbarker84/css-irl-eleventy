@@ -6,6 +6,8 @@ tags: ['post', 'html', 'accessibility']
 
 True to form, Heydon Pickering has written another blistering account of one of the most ubiquitous HTML elements, [the `<blockquote>`](https://heydonworks.com/article/the-blockquote-element/). You’ve probably used a `<blockquote>` when writing HTML. I know I’ve used literally hundreds of them. What I didn’t know is that I’ve been using them wrong all these years.
 
+<!--excerpt-->
+
 To pilfer a few choice quotes from said article:
 
 > In HTML5, `<blockquote>` content “must be quoted from another source”. So that’s pull quotes completely out of the window, then.

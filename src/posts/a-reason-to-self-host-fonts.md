@@ -6,6 +6,8 @@ tags: ['post', 'tooling', 'css', 'typography', 'performance']
 
 The other day I noticed a strange thing had happened with the title font on my personal site. Where once the glyphs were clearly defined by glowing outlines, suddenly the outlines were all over the place, bisecting the glyphs in odd ways.
 
+<!--excerpt-->
+
 <figure>
   <img src="/a-reason-to-self-host-fonts-01.jpg" alt="Screenshot of title font with weird outlines">
   <figcaption>After: Font rendering after the change</figcaption>

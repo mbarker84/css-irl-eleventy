@@ -4,18 +4,18 @@
   align-items: center;
   position: relative;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     padding: 6rem 0 var(--vr);
   }
 }
 
 .c-hero__desc {
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-weight: 400;
   font-size: 1.3rem;
   max-width: 35rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1.8rem;
   }
 }

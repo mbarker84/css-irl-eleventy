@@ -3,9 +3,18 @@ title: Reflections From Green IO 2025
 date: '2025-09-25'
 lastEdited: '2025-09-26'
 tags: ['post', 'web sustainability', 'events']
+related:
+  [
+    {
+      title: 'Notes From Green IO Conference (2024)',
+      url: '/notes-from-green-io-conference',
+    },
+  ]
 ---
 
 Yesterday I attended [Green IO](https://greenio.tech/conference/15/london-2025-september) conference in London for the second year running, this time bringing along one of my Ada Mode colleagues. I only managed to attend Day 2, (the main conference day) and not the preceding day’s workshops, but there was plenty to take away and be inspired by from the talks. I’m not one for taking a lot of notes at conferences, so you’ll have to excuse me for the lack of precise detail in my recollections, but I wanted to jot a few things down to capture the general vibe and running themes of the day.
+
+<!--excerpt-->
 
 Green IO started out as a podcast by Gaël Duez, later branching out into conferences all over the world, with the aim of bringing together “responsible technologists”. As you might guess from the name, the focus is ostensibly on ”green” technology, but I would hazard a guess that most (maybe all) members of this community care about social issues beyond environmentalism, and are pretty clued into how all of these issues are interconnected. To paraphrase Gaël in his opening address, this is a community that cares about people _and_ the planet. This is the third year the conference has run in London, and it was heartening to reflect on how much the attendance has grown, this year moving to a much bigger room at the venue. I loved Gaël’s emphasis (echoing that of a few other people involved in the green tech movement) that we should ”start from where we are, not where we should be”, and that there is no perfect plan that guarantees we are all beyond reproach. An inclusive mindset it vital to bringing more people into the community and taking action.
 

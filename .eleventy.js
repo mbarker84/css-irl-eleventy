@@ -3,6 +3,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const embedYouTube = require('eleventy-plugin-youtube-embed')
 const Webmentions = require('eleventy-plugin-webmentions')
 const dotenv = require('dotenv')
+const markdownIt = require('markdown-it')
 
 const getPostCount = (tag, posts) => {
   return posts.filter((post) => post.data.tags.includes(tag)).length
@@ -29,6 +30,7 @@ const getTags = (item) => {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setFreezeReservedData(false)
   eleventyConfig.addWatchTarget('./src/css/')
   eleventyConfig.addWatchTarget('./src/js/')
 
@@ -124,12 +126,16 @@ module.exports = function (eleventyConfig) {
     return arr.slice(0, 15)
   })
 
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+    // Optional, default is "---"
+    excerpt_separator: '<!--excerpt-->',
+  })
+
   /* Shortcodes */
   eleventyConfig.addShortcode('hotlink', (url, title, target = '_blank') => {
     return `<a class="o-hotlink" href="${url}" target=${target}>${title}</a>`
   })
-
-  eleventyConfig.addShortcode('excerpt', (article) => extractExcerpt(article))
 
   eleventyConfig.addShortcode('lastEdited', (lastEdited) => {
     if (!lastEdited) return 'No date last edited'
@@ -139,8 +145,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
-  eleventyConfig.addPairedShortcode('element', (content, el, className) => {
-    return `<${el} class="${className}">${content}</${el}>`
+  eleventyConfig.addPairedShortcode('element', (slotContent, el, className) => {
+    return `<${el} class="${className}">${slotContent}</${el}>`
   })
 
   eleventyConfig.addPlugin(pluginRss)
@@ -165,6 +171,15 @@ module.exports = function (eleventyConfig) {
     'src/_includes/partials/sprite.svg': '/sprite.svg',
   })
 
+  eleventyConfig.addFilter('trimmedExcerpt', (content = '') => {
+    const md = markdownIt({ html: true })
+    const trimmedContent = content.split(' ').slice(0, 50)
+    const lastWord = trimmedContent[trimmedContent.length - 1]
+    trimmedContent[trimmedContent.length - 1] = lastWord + '...'
+
+    return md.render(trimmedContent.join(' '))
+  })
+
   return {
     dir: {
       input: 'src',
@@ -173,40 +188,4 @@ module.exports = function (eleventyConfig) {
     templateFormats: ['html', 'md', 'njk'],
     passthroughFileCopy: true,
   }
-}
-
-/*
-  Extract excerpt from post:
-  https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
-*/
-function extractExcerpt(article) {
-  if (!article.hasOwnProperty('templateContent')) {
-    console.warn(
-      'Failed to extract excerpt: Document has no property "templateContent".'
-    )
-    return null
-  }
-
-  let excerpt = null
-  const content = article.templateContent
-
-  // The start and end separators to try and match to extract the excerpt
-  const separatorsList = [
-    { start: '<!-- Excerpt Start -->', end: '<!-- Excerpt End -->' },
-    { start: '<p>', end: '</p>' },
-  ]
-
-  separatorsList.some((separators) => {
-    const startPosition = content.indexOf(separators.start)
-    const endPosition = content.indexOf(separators.end)
-
-    if (startPosition !== -1 && endPosition !== -1) {
-      excerpt = content
-        .substring(startPosition + separators.start.length, endPosition)
-        .trim()
-      return true // Exit out of array loop on first match
-    }
-  })
-
-  return excerpt || ''
 }

@@ -6,6 +6,8 @@ tags: ['post', 'web sustainability']
 
 The Green Web Foundation have published a thorough and insightful [report into the sustainability of AI](https://www.thegreenwebfoundation.org/publications/report-ai-environmental-impact/), and the results are pretty damning. Over the couple of years I’ve been talking about web sustainability I haven’t really touched upon AI a whole lot, partly as there wasn’t a lot of publicly available hard data about its environmental impact. Now, however, it’s become an issue that’s too big to ignore. We can’t _not_ talk about it.
 
+<!--excerpt-->
+
 Previously I was under the impression that the majority of AI’s energy use happens during the training stage. Although the vast amounts of energy and water resources used for model training is bad enough, recent evidence appears to show that a large proportion happens in the **inference** stage — that’s the actual use of AI models, via tools like ChatGPT and AI-powered search engines.
 
 One example from the report highlights that a typical Google search with AI could use between 4 and 30 times more energy than a traditional search:

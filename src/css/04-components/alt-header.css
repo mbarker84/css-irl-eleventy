@@ -30,7 +30,7 @@
     color: var(--black);
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     margin-bottom: calc(var(--vr) * 2);
   }
 }

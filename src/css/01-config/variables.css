@@ -1,31 +1,9 @@
-// Breakpoints
-$sm: 42em;
-$md: 50em;
-$lg: 68em;
-$xl: 80em;
-
-// Layout
-$wrapper-sm: rem(1024px);
-$wrapper: rem(1400px);
-$wrapper-large: rem(1600px);
-
 /* Colors */
-$white: #f7f7f7;
-$lightGrey: #cdced1;
-
-$accent: deeppink;
-$bg-dark: #1d1d26;
-$alt: darken($bg-dark, 5%);
-$primary: deepPink;
-$black: #0e0f0f;
-$bg-light: #e1f1f2;
-$white: #fcfdff;
-$light-grey: #e8eaed;
-
 :root {
   --black: #0e0f0f;
   --primary: deepPink;
-  --headerBg: #1d1d26;
+  --bgDark: #1d1d26;
+  --headerBg: var(--bgDark);
   --textColor: #0e0f0f;
   --textColorInverse: #fcfdff;
   --bg: #fbfbfb;
@@ -37,8 +15,13 @@ $light-grey: #e8eaed;
   --textGrey: #737373;
 
   --vr: 1rem;
+  --wrapper: 90rem;
 
-  @media (min-width: $md) {
+  /* Fonts */
+  --font-body: 'Jost', sans-serif;
+  --font-heading: 'Urbanist', serif;
+
+  @media (min-width: 50rem) {
     --vr: 1.5rem;
   }
 
@@ -79,12 +62,3 @@ $light-grey: #e8eaed;
     --textGrey: #737373;
   }
 }
-
-// Typography
-$body: 'Jost', sans-serif;
-$heading: 'Urbanist', serif;
-$heading-light: 'Urbanist', serif;
-
-// Font weights
-$std: 400;
-$bold: 700;

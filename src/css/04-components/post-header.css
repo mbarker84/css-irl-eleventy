@@ -3,18 +3,18 @@
   margin-bottom: calc(var(--vr) * 2);
 
   > * + * {
-    margin: rem(5px) 0 0;
+    margin: 0.313rem 0 0;
 
-    @media (min-width: $md) {
-      margin: rem(10px) 0 0;
+    @media (min-width: 50rem) {
+      margin: 0.625rem 0 0;
     }
   }
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     margin-bottom: var(--vr);
   }
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     @supports (display: grid) {
       margin-bottom: 0;
     }
@@ -24,22 +24,21 @@
 .c-post-header__date,
 .c-post-header__source {
   display: block;
-  font-family: $heading-light;
+  font-family: var(--font-heading);
   font-size: 0.9rem;
 
-  @media (min-width: $md) {
+  @media (min-width: 50rem) {
     font-size: 1rem;
   }
 }
 
 .c-post-header__series {
   display: block;
-  font-size: rem(16px);
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  font-size: 1rem;
+  margin-block: 1rem;
 
-  @media (min-width: $md) {
-    font-size: rem(24px);
+  @media (min-width: 50rem) {
+    font-size: 1.5rem;
   }
 }
 
@@ -48,7 +47,7 @@
   max-width: 25ch;
   letter-spacing: -0.01em;
 
-  @media (min-width: $lg) {
+  @media (min-width: 68rem) {
     margin-bottom: var(--vr);
   }
 }
@@ -62,7 +61,7 @@
 
 .page-content--about {
   .c-post-header__title {
-    @media (min-width: $lg) {
+    @media (min-width: 68rem) {
       margin-bottom: 0;
     }
   }
