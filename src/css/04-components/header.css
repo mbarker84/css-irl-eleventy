@@ -9,7 +9,6 @@
   left: 0;
   width: 100%;
   z-index: 3;
-  color: var(--black);
   background-color: var(--headerBg);
 
   @media (min-width: 50rem) {
@@ -45,6 +44,7 @@
   appearance: none;
   border: none;
   background-color: transparent;
+  color: inherit;
   text-decoration-style: none;
   font-family: inherit;
   padding: 0.5rem 1rem;
@@ -359,8 +359,4 @@
   .c-header__list {
     justify-content: flex-end;
   }
-}
-
-.c-header__list {
-  --bg-headerLink: var(--white);
 }
