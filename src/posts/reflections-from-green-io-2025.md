@@ -3,6 +3,13 @@ title: Reflections From Green IO 2025
 date: '2025-09-25'
 lastEdited: '2025-09-26'
 tags: ['post', 'web sustainability', 'events']
+related:
+  [
+    {
+      title: 'Notes From Green IO Conference (2024)',
+      url: '/notes-from-green-io-conference',
+    },
+  ]
 ---
 
 Yesterday I attended [Green IO](https://greenio.tech/conference/15/london-2025-september) conference in London for the second year running, this time bringing along one of my Ada Mode colleagues. I only managed to attend Day 2, (the main conference day) and not the preceding day’s workshops, but there was plenty to take away and be inspired by from the talks. I’m not one for taking a lot of notes at conferences, so you’ll have to excuse me for the lack of precise detail in my recollections, but I wanted to jot a few things down to capture the general vibe and running themes of the day.
