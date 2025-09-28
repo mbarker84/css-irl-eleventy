@@ -16,7 +16,7 @@
     position: fixed;
     padding: 0 1rem 0 1.5rem;
     background-color: rgb(0 0 0 / 0);
-    height: rem(70px);
+    height: 4.375rem;
   }
 
   .th-light & {
@@ -91,8 +91,8 @@
 .c-header__menu-icon {
   display: block;
   position: relative;
-  width: rem(32px);
-  height: rem(24px);
+  width: 2rem;
+  height: 1.5rem;
   margin-left: 1rem;
 
   > span,
@@ -246,7 +246,7 @@
   @media (min-width: 50rem) {
     font-size: 2rem;
     margin-bottom: 0;
-    width: rem(280px);
+    width: 17.5rem;
     height: auto;
     transform: translate3d(0, -100%, 0);
     transition: transform 250ms;
@@ -300,8 +300,8 @@
 
 .c-header__logo-sm {
   display: none;
-  width: rem(35px);
-  height: rem(35px);
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 .c-header--bg {

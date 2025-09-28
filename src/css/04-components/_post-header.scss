@@ -3,10 +3,10 @@
   margin-bottom: calc(var(--vr) * 2);
 
   > * + * {
-    margin: rem(5px) 0 0;
+    margin: 0.313rem 0 0;
 
     @media (min-width: 50rem) {
-      margin: rem(10px) 0 0;
+      margin: 0.625rem 0 0;
     }
   }
 
@@ -34,12 +34,11 @@
 
 .c-post-header__series {
   display: block;
-  font-size: rem(16px);
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  font-size: 1rem;
+  margin-block: 1rem;
 
   @media (min-width: 50rem) {
-    font-size: rem(24px);
+    font-size: 1.5rem;
   }
 }
 

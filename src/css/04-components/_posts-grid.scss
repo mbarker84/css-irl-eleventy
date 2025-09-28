@@ -1,6 +1,6 @@
 .c-posts-grid {
   list-style: none;
-  max-width: rem(800px);
+  max-width: 50rem;
 
   @media (min-width: 68rem) {
     margin: 0 auto;
@@ -65,21 +65,21 @@
 }
 
 .c-posts-grid__date {
-  margin: rem(5px) 0;
+  margin: 0.313rem 0;
   display: block;
   font-size: 0.8rem;
   font-family: var(--font-heading);
 
   @media (min-width: 50rem) {
-    font-size: rem(15px);
-    margin: rem(10px) 0 rem(20px);
+    font-size: 0.95rem;
+    margin: 0.625rem 0 1.25rem;
   }
 }
 
 .c-posts-grid__excerpt,
 .c-posts-grid__read-more {
   @media (min-width: 50rem) {
-    font-size: rem(20px);
+    font-size: 1.25rem;
     margin-bottom: 0;
   }
 }

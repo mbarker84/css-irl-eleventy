@@ -23,7 +23,7 @@ body {
   }
 
   @media (min-width: 90em) {
-    max-width: rem(1600px);
+    max-width: 100rem;
   }
 }
 
@@ -69,7 +69,7 @@ body {
     gap: calc(2 * var(--vr));
     grid-template-columns:
       [main-start] minmax(0, 58rem)
-      [main-end] minmax(rem(250px), 1fr);
+      [main-end] minmax(15.625rem, 1fr);
   }
 }
 
@@ -99,7 +99,7 @@ body {
   @media (min-width: 68rem) {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: var(--vr) rem(40px);
+    gap: var(--vr) 2.5rem;
   }
 }
 

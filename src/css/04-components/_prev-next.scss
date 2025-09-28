@@ -1,7 +1,7 @@
 .c-prev-next {
   font-family: var(--font-heading);
-  margin-top: rem(20px);
-  padding-top: rem(20px);
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
   border-top: 0.1rem solid var(--textColor);
 
   @media (min-width: 400px) {
@@ -19,17 +19,17 @@
   line-height: 1.5;
 
   &:first-child {
-    margin-bottom: rem(20px);
+    margin-bottom: 1.25rem;
   }
 
   @media (min-width: 400px) {
     &:first-child {
-      padding-right: rem(20px);
+      padding-right: 1.25rem;
       margin-bottom: 0;
     }
 
     &:nth-child(2) {
-      padding-left: rem(20px);
+      padding-left: 1.25rem;
       text-align: right;
     }
   }
@@ -39,7 +39,7 @@
   font-size: 0.9rem;
   display: block;
   text-decoration-style: none;
-  margin-bottom: rem(10px);
+  margin-bottom: 0.625rem;
 
   @media (min-width: 42rem) {
     font-size: 1rem;

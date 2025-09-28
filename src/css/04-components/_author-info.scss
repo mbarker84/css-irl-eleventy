@@ -28,7 +28,7 @@
 
 .c-author-info__image {
   margin: 0 auto var(--vr) auto;
-  max-width: rem(100px);
+  max-width: 6.25rem;
   border-radius: 50%;
   overflow: hidden;
   filter: grayscale(100%);
@@ -36,7 +36,7 @@
   @media (min-width: 50rem) {
     margin: 0 var(--vr) var(--vr) auto;
     align-self: flex-start;
-    max-width: rem(150px);
+    max-width: 9.375rem;
   }
 }
 
