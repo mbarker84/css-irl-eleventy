@@ -1,6 +1,6 @@
 .c-header {
-  --bg-headerLink: var(--black);
-  --headerBg: var(--white);
+  --bg-headerLink: currentColor;
+  --headerBg: var(--bg);
   display: flex;
   align-items: center;
   font-family: var(--font-heading);
@@ -16,25 +16,6 @@
     padding: 0 1rem 0 1.5rem;
     background-color: rgb(0 0 0 / 0);
     height: 4.375rem;
-  }
-
-  .th-light & {
-    --bg-headerLink: var(--black);
-  }
-
-  .th-dark & {
-    --bg-headerLink: var(--white);
-    --headerBg: #1d1d26;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    --bg-headerLink: var(--white);
-    --headerBg: #1d1d26;
-
-    .th-light & {
-      --bg-headerLink: var(--black);
-      --headerBg: var(--white);
-    }
   }
 }
 
